@@ -57,6 +57,10 @@ def _normalize(raw: dict, competition: str, season: int | None) -> dict:
         "away_team_id": away.get("id"),
         "home_team": home.get("name") or home.get("shortName") or "?",
         "away_team": away.get("name") or away.get("shortName") or "?",
+        "home_crest": home.get("crest"),
+        "away_crest": away.get("crest"),
+        "home_short": home.get("shortName"),
+        "away_short": away.get("shortName"),
         "home_goals": ft.get("home"),
         "away_goals": ft.get("away"),
         "updated_at": db.utcnow(),
@@ -84,9 +88,11 @@ def fetch_all(db_path: str, api_key: str, competitions: list[str], seasons: list
                 for raw in matches:
                     m = _normalize(raw, code, season)
                     if m["home_team_id"]:
-                        db.upsert_team(conn, m["home_team_id"], m["home_team"], code)
+                        db.upsert_team(conn, m["home_team_id"], m["home_team"], code,
+                                       m.get("home_crest"), m.get("home_short"))
                     if m["away_team_id"]:
-                        db.upsert_team(conn, m["away_team_id"], m["away_team"], code)
+                        db.upsert_team(conn, m["away_team_id"], m["away_team"], code,
+                                       m.get("away_crest"), m.get("away_short"))
                     db.upsert_match(conn, m)
                 counts[f"{code}-{season}"] = len(matches)
                 log(f"    {len(matches)} partidos.")

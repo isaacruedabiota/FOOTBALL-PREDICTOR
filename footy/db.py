@@ -17,7 +17,9 @@ SCHEMA = """
 CREATE TABLE IF NOT EXISTS teams (
     id          INTEGER PRIMARY KEY,
     name        TEXT NOT NULL,
-    competition TEXT
+    competition TEXT,
+    crest       TEXT,
+    short_name  TEXT
 );
 
 CREATE TABLE IF NOT EXISTS matches (
@@ -97,15 +99,24 @@ def connect(db_path: str) -> Iterator[sqlite3.Connection]:
 def init_db(db_path: str) -> None:
     with connect(db_path) as conn:
         conn.executescript(SCHEMA)
+        # Migración: añadir columnas nuevas a 'teams' si no existen.
+        cols = [r[1] for r in conn.execute("PRAGMA table_info(teams)")]
+        if "crest" not in cols:
+            conn.execute("ALTER TABLE teams ADD COLUMN crest TEXT")
+        if "short_name" not in cols:
+            conn.execute("ALTER TABLE teams ADD COLUMN short_name TEXT")
 
 
 # --- Escritura de partidos / equipos --------------------------------------
 
-def upsert_team(conn: sqlite3.Connection, team_id: int, name: str, competition: str) -> None:
+def upsert_team(conn: sqlite3.Connection, team_id: int, name: str, competition: str,
+                crest: str | None = None, short_name: str | None = None) -> None:
     conn.execute(
-        "INSERT INTO teams(id, name, competition) VALUES(?,?,?) "
-        "ON CONFLICT(id) DO UPDATE SET name=excluded.name, competition=excluded.competition",
-        (team_id, name, competition),
+        "INSERT INTO teams(id, name, competition, crest, short_name) VALUES(?,?,?,?,?) "
+        "ON CONFLICT(id) DO UPDATE SET name=excluded.name, competition=excluded.competition, "
+        "crest=COALESCE(excluded.crest, teams.crest), "
+        "short_name=COALESCE(excluded.short_name, teams.short_name)",
+        (team_id, name, competition, crest, short_name),
     )
 
 

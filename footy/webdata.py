@@ -52,28 +52,38 @@ _TIMELINE = """
 """
 
 _UPCOMING = """
-    SELECT m.utc_date, m.competition, m.home_team, m.away_team,
+    SELECT m.utc_date, m.competition,
+           COALESCE(th.short_name, m.home_team) AS home_team,
+           COALESCE(ta.short_name, m.away_team) AS away_team,
+           th.crest AS home_crest, ta.crest AS away_crest,
            p.p_home, p.p_draw, p.p_away, p.pick_1x2,
            p.p_over25, p.pred_home_goals, p.pred_away_goals
     FROM predictions p
     JOIN matches m ON m.id = p.match_id
+    LEFT JOIN teams th ON th.id = m.home_team_id
+    LEFT JOIN teams ta ON ta.id = m.away_team_id
     WHERE p.model_version = ?
       AND m.status IN ('SCHEDULED','TIMED')
     ORDER BY m.utc_date
-    LIMIT 40
+    LIMIT 120
 """
 
 _RECENT = """
-    SELECT m.utc_date, m.competition, m.home_team, m.away_team,
+    SELECT m.utc_date, m.competition,
+           COALESCE(th.short_name, m.home_team) AS home_team,
+           COALESCE(ta.short_name, m.away_team) AS away_team,
+           th.crest AS home_crest, ta.crest AS away_crest,
            p.p_home, p.p_draw, p.p_away, p.pick_1x2,
            e.actual_1x2, e.correct_1x2, e.correct_ou, e.correct_score,
            m.home_goals, m.away_goals, e.rps_1x2
     FROM evaluations e
     JOIN predictions p ON p.id = e.prediction_id
     JOIN matches m     ON m.id = e.match_id
+    LEFT JOIN teams th ON th.id = m.home_team_id
+    LEFT JOIN teams ta ON ta.id = m.away_team_id
     WHERE p.model_version = ?
     ORDER BY m.utc_date DESC
-    LIMIT 30
+    LIMIT 50
 """
 
 

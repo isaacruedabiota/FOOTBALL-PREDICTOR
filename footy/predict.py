@@ -61,8 +61,8 @@ def predict_competition(conn, competition: str, cfg: dict, log=print) -> int:
 
     for row in upcoming:
         home, away = row["home_team"], row["away_team"]
-        if not (fitted.has_team(home) and fitted.has_team(away)):
-            continue  # equipo sin histórico (recién ascendido); esperamos a tener datos
+        # Los equipos sin histórico (recién ascendidos) se tratan como "equipo medio"
+        # (fuerza 0) en vez de omitirlos, para no dejar huecos en el calendario.
         lam, mu = fitted.expected_goals(home, away)
         mat = model_mod.score_matrix(lam, mu, fitted.rho, mcfg["max_goals"])
         markets = markets_from_matrix(mat)

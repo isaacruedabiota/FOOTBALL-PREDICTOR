@@ -34,6 +34,13 @@ function fdatetime(iso) {
 function team(n) {
   return n && n.length > 20 ? n.slice(0, 19) + "…" : n;
 }
+function fmatchdate(iso) {
+  if (!iso) return "";
+  return new Date(iso).toLocaleString("es-ES", {
+    day: "2-digit", month: "short", hour: "2-digit", minute: "2-digit",
+  });
+}
+const hideImg = (e) => { e.currentTarget.style.display = "none"; };
 
 function Delta({ value, goodWhenNegative, unit }) {
   if (value == null || Number.isNaN(value)) return null;
@@ -288,22 +295,38 @@ function CompareTable({ sMain, sBase, labels, main, base }) {
   );
 }
 
+function TeamCol({ name, crest }) {
+  return (
+    <div className="teamcol">
+      {crest ? (
+        <img className="crest" src={crest} alt="" loading="lazy" onError={hideImg} />
+      ) : (
+        <div className="crest crest-ph" aria-hidden="true" />
+      )}
+      <span className="tname">{name}</span>
+    </div>
+  );
+}
+
 function UpcomingMatch({ m }) {
   const H = (m.p_home * 100).toFixed(0);
   const D = (m.p_draw * 100).toFixed(0);
   const A = (m.p_away * 100).toFixed(0);
   return (
     <div className="match">
-      <div className="row1">
-        <span className="teams">{team(m.home_team)} <span style={{ color: "var(--muted)" }}>vs</span> {team(m.away_team)}</span>
-        <span className="date">
-          <span className="comp-badge">
-            {LEAGUES[m.competition]?.logo && (
-              <img className="league-mini" src={LEAGUES[m.competition].logo} alt="" />
-            )}
-            {m.competition}
-          </span> {fdate(m.utc_date)}
+      <div className="mhead">
+        <span className="comp-badge">
+          {LEAGUES[m.competition]?.logo && (
+            <img className="league-mini" src={LEAGUES[m.competition].logo} alt="" />
+          )}
+          {LEAGUES[m.competition]?.name || m.competition}
         </span>
+        <span className="date">{fmatchdate(m.utc_date)}</span>
+      </div>
+      <div className="teamsrow">
+        <TeamCol name={m.home_team} crest={m.home_crest} />
+        <span className="vs">vs</span>
+        <TeamCol name={m.away_team} crest={m.away_crest} />
       </div>
       <div className="probbar">
         <span className="h" style={{ width: `${H}%` }} />
@@ -336,10 +359,15 @@ function RecentTable({ rows }) {
             <tr key={i}>
               <td className="date">{fdate(r.utc_date)}</td>
               <td>
-                {LEAGUES[r.competition]?.logo && (
-                  <img className="league-mini" src={LEAGUES[r.competition].logo} alt="" />
-                )}
-                {team(r.home_team)} – {team(r.away_team)}
+                <span className="rteam">
+                  {r.home_crest && <img className="crest-sm" src={r.home_crest} alt="" onError={hideImg} />}
+                  {team(r.home_team)}
+                </span>
+                <span className="rdash"> – </span>
+                <span className="rteam">
+                  {r.away_crest && <img className="crest-sm" src={r.away_crest} alt="" onError={hideImg} />}
+                  {team(r.away_team)}
+                </span>
               </td>
               <td><span className={`pick ${r.pick_1x2}`}>{PICK_LABEL[r.pick_1x2]}</span></td>
               <td>{r.home_goals}-{r.away_goals}</td>
