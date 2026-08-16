@@ -3,6 +3,16 @@ import { useEffect, useState } from "react";
 import TimelineChart from "./TimelineChart";
 
 const PICK_LABEL = { H: "1", D: "X", A: "2" };
+
+// Las 5 grandes ligas, con su logo (bundleado en /public/leagues).
+const LEAGUES = {
+  PD: { name: "LaLiga", logo: "/leagues/PD.png" },
+  PL: { name: "Premier League", logo: "/leagues/PL.png" },
+  SA: { name: "Serie A", logo: "/leagues/SA.png" },
+  BL1: { name: "Bundesliga", logo: "/leagues/BL1.png" },
+  FL1: { name: "Ligue 1", logo: "/leagues/FL1.png" },
+};
+
 const THEMES = ["system", "light", "dark"];
 const THEME_ICON = { system: "🖥️", light: "☀️", dark: "🌙" };
 
@@ -117,6 +127,13 @@ function Dashboard({ data, metric, setMetric }) {
   const sBase = data.summary?.[base] || null;
   const counts = data.counts || { predictions: 0, evaluated: 0, pending: 0 };
 
+  const [comp, setComp] = useState("ALL");
+  const byComp = (arr) =>
+    comp === "ALL" ? arr || [] : (arr || []).filter((m) => m.competition === comp);
+  const upFiltered = byComp(data.upcoming);
+  const recFiltered = byComp(data.recent);
+  const compName = comp === "ALL" ? "" : ` · ${LEAGUES[comp]?.name || comp}`;
+
   return (
     <>
       {sMain ? (
@@ -186,28 +203,53 @@ function Dashboard({ data, metric, setMetric }) {
         </section>
       )}
 
-      <div className="section grid2">
+      <section className="section">
+        <FilterBar comp={comp} setComp={setComp} />
+      </section>
+
+      <div className="grid2" style={{ marginTop: 16 }}>
         <section className="card">
           <h2>Próximos partidos</h2>
-          <p className="sub">{data.upcoming?.length || 0} predicciones registradas sin jugar.</p>
-          {data.upcoming?.length ? (
+          <p className="sub">{upFiltered.length} sin jugar{compName}.</p>
+          {upFiltered.length ? (
             <div className="scrolllist">
-              {data.upcoming.map((m, i) => <UpcomingMatch key={i} m={m} />)}
+              {upFiltered.map((m, i) => <UpcomingMatch key={i} m={m} />)}
             </div>
           ) : (
-            <p className="empty">No hay próximos partidos predichos por ahora.</p>
+            <p className="empty">No hay próximos partidos{comp !== "ALL" ? " en esta liga" : ""} por ahora.</p>
           )}
         </section>
 
         <section className="card">
           <h2>Resultados recientes</h2>
-          <p className="sub">Últimas predicciones ya evaluadas.</p>
-          {data.recent?.length ? <RecentTable rows={data.recent} /> : (
-            <p className="empty">Aún no hay resultados evaluados.</p>
+          <p className="sub">Últimas predicciones ya evaluadas{compName}.</p>
+          {recFiltered.length ? <RecentTable rows={recFiltered} /> : (
+            <p className="empty">Aún no hay resultados evaluados{comp !== "ALL" ? " en esta liga" : ""}.</p>
           )}
         </section>
       </div>
     </>
+  );
+}
+
+function FilterBar({ comp, setComp }) {
+  const Btn = ({ code, label, logo }) => (
+    <button
+      className={`fbtn ${comp === code ? "active" : ""}`}
+      onClick={() => setComp(code)}
+      aria-pressed={comp === code}
+    >
+      {logo ? <img src={logo} alt="" /> : <span className="fall">Todas</span>}
+      {logo && <span>{label}</span>}
+    </button>
+  );
+  return (
+    <div className="filterbar" role="group" aria-label="Filtrar por liga">
+      <Btn code="ALL" label="Todas" logo={null} />
+      {Object.entries(LEAGUES).map(([code, m]) => (
+        <Btn key={code} code={code} label={m.name} logo={m.logo} />
+      ))}
+    </div>
   );
 }
 
@@ -254,7 +296,14 @@ function UpcomingMatch({ m }) {
     <div className="match">
       <div className="row1">
         <span className="teams">{team(m.home_team)} <span style={{ color: "var(--muted)" }}>vs</span> {team(m.away_team)}</span>
-        <span className="date"><span className="comp-badge">{m.competition}</span> {fdate(m.utc_date)}</span>
+        <span className="date">
+          <span className="comp-badge">
+            {LEAGUES[m.competition]?.logo && (
+              <img className="league-mini" src={LEAGUES[m.competition].logo} alt="" />
+            )}
+            {m.competition}
+          </span> {fdate(m.utc_date)}
+        </span>
       </div>
       <div className="probbar">
         <span className="h" style={{ width: `${H}%` }} />
@@ -286,7 +335,12 @@ function RecentTable({ rows }) {
           {rows.map((r, i) => (
             <tr key={i}>
               <td className="date">{fdate(r.utc_date)}</td>
-              <td>{team(r.home_team)} – {team(r.away_team)}</td>
+              <td>
+                {LEAGUES[r.competition]?.logo && (
+                  <img className="league-mini" src={LEAGUES[r.competition].logo} alt="" />
+                )}
+                {team(r.home_team)} – {team(r.away_team)}
+              </td>
               <td><span className={`pick ${r.pick_1x2}`}>{PICK_LABEL[r.pick_1x2]}</span></td>
               <td>{r.home_goals}-{r.away_goals}</td>
               <td>

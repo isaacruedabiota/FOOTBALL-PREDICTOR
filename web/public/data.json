@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T14:48:47.671942+00:00",
+  "generated_at": "2026-08-16T15:53:09.147605+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -44,6 +44,19 @@
       "p_over25": 0.4402,
       "pred_home_goals": 1,
       "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-08-21T18:45:00Z",
+      "competition": "FL1",
+      "home_team": "Olympique de Marseille",
+      "away_team": "RC Strasbourg Alsace",
+      "p_home": 0.4678,
+      "p_draw": 0.231,
+      "p_away": 0.3012,
+      "pick_1x2": "H",
+      "p_over25": 0.6898,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
     },
     {
       "utc_date": "2026-08-21T19:00:00Z",
@@ -98,6 +111,19 @@
       "pred_away_goals": 1
     },
     {
+      "utc_date": "2026-08-22T15:15:00Z",
+      "competition": "FL1",
+      "home_team": "Racing Club de Lens",
+      "away_team": "AJ Auxerre",
+      "p_home": 0.6258,
+      "p_draw": 0.2318,
+      "p_away": 0.1425,
+      "pick_1x2": "H",
+      "p_over25": 0.5077,
+      "pred_home_goals": 2,
+      "pred_away_goals": 0
+    },
+    {
       "utc_date": "2026-08-22T16:30:00Z",
       "competition": "SA",
       "home_team": "Udinese Calcio",
@@ -133,6 +159,32 @@
       "p_away": 0.3142,
       "pick_1x2": "H",
       "p_over25": 0.4915,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-08-22T18:45:00Z",
+      "competition": "FL1",
+      "home_team": "OGC Nice",
+      "away_team": "FC Lorient",
+      "p_home": 0.2668,
+      "p_draw": 0.2696,
+      "p_away": 0.4636,
+      "pick_1x2": "A",
+      "p_over25": 0.5122,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-08-22T18:45:00Z",
+      "competition": "FL1",
+      "home_team": "Toulouse FC",
+      "away_team": "Olympique Lyonnais",
+      "p_home": 0.3483,
+      "p_draw": 0.2776,
+      "p_away": 0.3741,
+      "pick_1x2": "A",
+      "p_over25": 0.5091,
       "pred_home_goals": 1,
       "pred_away_goals": 1
     },
@@ -177,6 +229,19 @@
     },
     {
       "utc_date": "2026-08-23T13:00:00Z",
+      "competition": "FL1",
+      "home_team": "Angers SCO",
+      "away_team": "Lille OSC",
+      "p_home": 0.1744,
+      "p_draw": 0.3116,
+      "p_away": 0.514,
+      "pick_1x2": "A",
+      "p_over25": 0.3047,
+      "pred_home_goals": 0,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-08-23T13:00:00Z",
       "competition": "PL",
       "home_team": "Manchester City FC",
       "away_team": "AFC Bournemouth",
@@ -215,6 +280,19 @@
       "pred_away_goals": 1
     },
     {
+      "utc_date": "2026-08-23T15:15:00Z",
+      "competition": "FL1",
+      "home_team": "Le Havre AC",
+      "away_team": "AS Monaco FC",
+      "p_home": 0.306,
+      "p_draw": 0.2759,
+      "p_away": 0.4181,
+      "pick_1x2": "A",
+      "p_over25": 0.5067,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
       "utc_date": "2026-08-23T15:30:00Z",
       "competition": "PL",
       "home_team": "Newcastle United FC",
@@ -225,6 +303,19 @@
       "pick_1x2": "H",
       "p_over25": 0.634,
       "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-08-23T18:45:00Z",
+      "competition": "FL1",
+      "home_team": "Paris Saint-Germain FC",
+      "away_team": "Stade Rennais FC 1901",
+      "p_home": 0.6865,
+      "p_draw": 0.184,
+      "p_away": 0.1295,
+      "pick_1x2": "H",
+      "p_over25": 0.6756,
+      "pred_home_goals": 2,
       "pred_away_goals": 1
     },
     {
@@ -334,8 +425,8 @@
   ],
   "recent": [],
   "counts": {
-    "predictions": 24,
+    "predictions": 31,
     "evaluated": 0,
-    "pending": 24
+    "pending": 31
   }
 }
