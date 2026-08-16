@@ -1,0 +1,21 @@
+# Secrets
+.env
+
+# Datos y base de datos (el histórico de predicciones NO se sube por defecto;
+# quítalo de aquí si quieres versionar tu track record)
+data/
+*.db
+*.sqlite
+
+# Logs de ejecución de la tarea programada
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+build/
+dist/

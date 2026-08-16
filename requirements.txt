@@ -1,0 +1,7 @@
+requests>=2.31
+numpy>=1.26
+scipy>=1.11
+PyYAML>=6.0
+python-dotenv>=1.0
+tabulate>=0.9
+pytest>=8.0

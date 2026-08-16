@@ -1,0 +1,43 @@
+# --- Configuración del proyecto de predicción de fútbol ---
+
+# Ruta de la base de datos SQLite (relativa a la raíz del proyecto).
+database: data/footy.db
+
+# Competiciones a seguir. Códigos de football-data.org (plan gratuito):
+#   PD  = LaLiga (España)        PL  = Premier League (Inglaterra)
+#   SA  = Serie A (Italia)       BL1 = Bundesliga (Alemania)
+#   FL1 = Ligue 1 (Francia)      DED = Eredivisie (Países Bajos)
+#   PPL = Primeira Liga (Port.)  ELC = Championship (Ing.)
+#   CL  = Champions League       PD, etc.
+competitions:
+  - PD
+  - PL
+  - SA
+
+# Temporada = año de INICIO. Para 2026/27 -> 2026.
+# (Los partidos futuros van apareciendo a medida que se acerca la temporada.)
+season: 2026
+
+# Nº de temporadas ANTERIORES que se descargan además de la actual, para tener
+# datos de entrenamiento desde la jornada 1 (la ponderación temporal les da menos
+# peso a medida que envejecen). 1 = temporada actual + la anterior.
+history_seasons: 1
+
+# --- Parámetros del modelo Dixon-Coles ---
+model:
+  # Máximo de goles por equipo al construir la matriz de marcadores.
+  max_goals: 10
+  # Vida media (en días) del peso temporal: los partidos de hace `half_life_days`
+  # cuentan la mitad que uno de hoy. Más bajo = el modelo "olvida" antes.
+  half_life_days: 180
+  # Nº mínimo de partidos jugados para poder entrenar.
+  min_matches: 30
+  # Solo se predicen los partidos que se juegan dentro de estos días. Evita
+  # "congelar" toda la temporada de golpe: cada semana se predice la jornada
+  # inminente con los datos más recientes. 10 días cubre la próxima jornada.
+  predict_horizon_days: 10
+
+# --- Ingesta ---
+ingest:
+  # Segundos de espera entre llamadas a la API (plan gratis: 10 peticiones/min).
+  request_delay_seconds: 6.5
