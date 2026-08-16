@@ -295,14 +295,23 @@ function CompareTable({ sMain, sBase, labels, main, base }) {
   );
 }
 
-function TeamCol({ name, crest }) {
+// Resultado para un equipo según el pronóstico: gana (verde), pierde (rojo) o empata (gris).
+function outcomeFor(side, pick) {
+  if (pick === "D") return "draw";
+  if (side === "home") return pick === "H" ? "win" : "loss";
+  return pick === "A" ? "win" : "loss";
+}
+
+function TeamCol({ name, crest, outcome }) {
   return (
     <div className="teamcol">
-      {crest ? (
-        <img className="crest" src={crest} alt="" loading="lazy" onError={hideImg} />
-      ) : (
-        <div className="crest crest-ph" aria-hidden="true" />
-      )}
+      <div className={`crestwrap ${outcome}`}>
+        {crest ? (
+          <img className="crest" src={crest} alt="" loading="lazy" onError={hideImg} />
+        ) : (
+          <div className="crest crest-ph" aria-hidden="true" />
+        )}
+      </div>
       <span className="tname">{name}</span>
     </div>
   );
@@ -324,9 +333,11 @@ function UpcomingMatch({ m }) {
         <span className="date">{fmatchdate(m.utc_date)}</span>
       </div>
       <div className="teamsrow">
-        <TeamCol name={m.home_team} crest={m.home_crest} />
-        <span className="vs">vs</span>
-        <TeamCol name={m.away_team} crest={m.away_crest} />
+        <TeamCol name={m.home_team} crest={m.home_crest} outcome={outcomeFor("home", m.pick_1x2)} />
+        <span className="mscore">
+          {m.pred_home_goals}<span className="dash">-</span>{m.pred_away_goals}
+        </span>
+        <TeamCol name={m.away_team} crest={m.away_crest} outcome={outcomeFor("away", m.pick_1x2)} />
       </div>
       <div className="probbar">
         <span className="h" style={{ width: `${H}%` }} />
@@ -341,7 +352,6 @@ function UpcomingMatch({ m }) {
       <div className="extra">
         <span>Pronóstico: <span className={`pick ${m.pick_1x2}`}>{PICK_LABEL[m.pick_1x2]}</span></span>
         <span>+2.5 goles: {(m.p_over25 * 100).toFixed(0)}%</span>
-        <span>Marcador: {m.pred_home_goals}-{m.pred_away_goals}</span>
       </div>
     </div>
   );

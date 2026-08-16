@@ -184,13 +184,28 @@ td.winner { font-weight: 700; }
 .mhead { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 12px; }
 .mhead .date { font-size: 12px; }
 
-/* Equipos: escudo arriba, nombre debajo en gris */
+/* Equipos: escudo (con sombra cuadrada del pronóstico) arriba, nombre debajo en gris */
 .teamsrow { display: flex; align-items: flex-start; justify-content: space-between; gap: 8px; margin-bottom: 12px; }
-.teamcol { flex: 1; min-width: 0; display: flex; flex-direction: column; align-items: center; gap: 7px; text-align: center; }
-.crest { width: 42px; height: 42px; object-fit: contain; }
-.crest-ph { width: 42px; height: 42px; border-radius: 50%; background: var(--surface-2); }
+.teamcol { flex: 1; min-width: 0; display: flex; flex-direction: column; align-items: center; gap: 8px; text-align: center; }
+.crestwrap {
+  width: 56px; height: 56px; border-radius: 12px;
+  display: flex; align-items: center; justify-content: center;
+  background: var(--surface-2);
+}
+.crestwrap.win  { background: color-mix(in srgb, var(--good) 16%, var(--surface));
+  box-shadow: 0 0 0 1px color-mix(in srgb, var(--good) 45%, transparent), 0 4px 14px color-mix(in srgb, var(--good) 45%, transparent); }
+.crestwrap.loss { background: color-mix(in srgb, var(--bad) 16%, var(--surface));
+  box-shadow: 0 0 0 1px color-mix(in srgb, var(--bad) 45%, transparent), 0 4px 14px color-mix(in srgb, var(--bad) 45%, transparent); }
+.crestwrap.draw { background: color-mix(in srgb, var(--muted) 20%, var(--surface));
+  box-shadow: 0 0 0 1px color-mix(in srgb, var(--muted) 45%, transparent), 0 4px 14px color-mix(in srgb, var(--muted) 40%, transparent); }
+.crest { width: 40px; height: 40px; object-fit: contain; }
+.crest-ph { width: 40px; height: 40px; border-radius: 50%; background: var(--surface); }
 .tname { font-size: 12px; color: var(--text-2); line-height: 1.25; }
-.vs { align-self: center; color: var(--muted); font-size: 12px; font-weight: 600; padding-top: 14px; }
+.mscore {
+  align-self: center; padding-top: 16px; white-space: nowrap;
+  font-size: 24px; font-weight: 800; letter-spacing: 1px; font-variant-numeric: tabular-nums;
+}
+.mscore .dash { color: var(--muted); margin: 0 4px; font-weight: 600; }
 
 /* Escudos pequeños (tabla de recientes) */
 .crest-sm { width: 18px; height: 18px; object-fit: contain; vertical-align: -4px; margin-right: 5px; }
@@ -199,9 +214,9 @@ td.winner { font-weight: 700; }
 
 .probbar { display: flex; height: 8px; border-radius: 4px; overflow: hidden; margin: 8px 0 6px; background: var(--surface-2); }
 .probbar > span { display: block; }
-.probbar .h { background: var(--home); }
-.probbar .d { background: var(--draw); }
-.probbar .a { background: var(--away); }
+.probbar .h { background: var(--good); }  /* 1 = victoria local = verde */
+.probbar .d { background: var(--draw); }   /* X = empate = gris */
+.probbar .a { background: var(--bad); }    /* 2 = derrota local = rojo */
 .problabels { display: flex; justify-content: space-between; font-size: 11px; color: var(--muted); font-variant-numeric: tabular-nums; }
 
 .pick {
