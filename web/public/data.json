@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T19:01:21.016144+00:00",
+  "generated_at": "2026-08-19T20:01:20.801116+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -85,21 +85,6 @@
     ]
   },
   "upcoming": [
-    {
-      "utc_date": "2026-08-19T19:00:00Z",
-      "competition": "PD",
-      "home_team": "Atleti",
-      "away_team": "Málaga",
-      "home_crest": "https://crests.football-data.org/78.png",
-      "away_crest": "https://crests.football-data.org/84.png",
-      "p_home": 0.5491,
-      "p_draw": 0.2322,
-      "p_away": 0.2187,
-      "pick_1x2": "H",
-      "p_over25": 0.5175,
-      "pred_home_goals": 1,
-      "pred_away_goals": 0
-    },
     {
       "utc_date": "2026-08-20T19:00:00Z",
       "competition": "PD",
@@ -1149,6 +1134,21 @@
       "p_over25": 0.5085,
       "pred_home_goals": 1,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-08-29T19:30:00Z",
+      "competition": "PD",
+      "home_team": "Sevilla FC",
+      "away_team": "Atleti",
+      "home_crest": "https://crests.football-data.org/559.png",
+      "away_crest": "https://crests.football-data.org/78.png",
+      "p_home": 0.3464,
+      "p_draw": 0.2528,
+      "p_away": 0.4008,
+      "pick_1x2": "A",
+      "p_over25": 0.5256,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
     }
   ],
   "recent": [
@@ -1192,8 +1192,8 @@
     }
   ],
   "counts": {
-    "predictions": 73,
+    "predictions": 74,
     "evaluated": 2,
-    "pending": 71
+    "pending": 72
   }
 }
