@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T11:01:21.843168+00:00",
+  "generated_at": "2026-08-19T12:01:21.973153+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -834,6 +834,21 @@
       "p_over25": 0.6319,
       "pred_home_goals": 1,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-08-29T11:30:00Z",
+      "competition": "PL",
+      "home_team": "Liverpool",
+      "away_team": "Nottingham",
+      "home_crest": "https://crests.football-data.org/64.png",
+      "away_crest": "https://crests.football-data.org/351.png",
+      "p_home": 0.4597,
+      "p_draw": 0.2722,
+      "p_away": 0.268,
+      "pick_1x2": "H",
+      "p_over25": 0.579,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
     }
   ],
   "recent": [
@@ -877,8 +892,8 @@
     }
   ],
   "counts": {
-    "predictions": 52,
+    "predictions": 53,
     "evaluated": 2,
-    "pending": 50
+    "pending": 51
   }
 }
