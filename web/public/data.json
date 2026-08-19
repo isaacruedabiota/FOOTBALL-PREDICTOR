@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T16:01:22.089035+00:00",
+  "generated_at": "2026-08-19T17:01:18.936668+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -984,6 +984,96 @@
       "p_over25": 0.6648,
       "pred_home_goals": 1,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-08-29T16:30:00Z",
+      "competition": "SA",
+      "home_team": "Sassuolo",
+      "away_team": "Torino",
+      "home_crest": "https://crests.football-data.org/471.png",
+      "away_crest": "https://crests.football-data.org/586.png",
+      "p_home": 0.484,
+      "p_draw": 0.2306,
+      "p_away": 0.2853,
+      "pick_1x2": "H",
+      "p_over25": 0.5762,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-08-29T16:30:00Z",
+      "competition": "SA",
+      "home_team": "Monza",
+      "away_team": "Udinese",
+      "home_crest": "https://crests.football-data.org/5911.png",
+      "away_crest": "https://crests.football-data.org/115.png",
+      "p_home": 0.3876,
+      "p_draw": 0.2823,
+      "p_away": 0.3301,
+      "pick_1x2": "H",
+      "p_over25": 0.3822,
+      "pred_home_goals": 1,
+      "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-08-29T16:30:00Z",
+      "competition": "SA",
+      "home_team": "Fiorentina",
+      "away_team": "Frosinone",
+      "home_crest": "https://crests.football-data.org/99.png",
+      "away_crest": "https://crests.football-data.org/470.png",
+      "p_home": 0.338,
+      "p_draw": 0.2889,
+      "p_away": 0.3731,
+      "pick_1x2": "A",
+      "p_over25": 0.361,
+      "pred_home_goals": 0,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-08-29T16:30:00Z",
+      "competition": "PL",
+      "home_team": "Tottenham",
+      "away_team": "Newcastle",
+      "home_crest": "https://crests.football-data.org/73.png",
+      "away_crest": "https://crests.football-data.org/67.png",
+      "p_home": 0.3588,
+      "p_draw": 0.2891,
+      "p_away": 0.3521,
+      "pick_1x2": "H",
+      "p_over25": 0.5415,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-08-29T16:30:00Z",
+      "competition": "BL1",
+      "home_team": "Dortmund",
+      "away_team": "HSV",
+      "home_crest": "https://crests.football-data.org/4.png",
+      "away_crest": "https://crests.football-data.org/7.png",
+      "p_home": 0.7139,
+      "p_draw": 0.1824,
+      "p_away": 0.1037,
+      "pick_1x2": "H",
+      "p_over25": 0.5547,
+      "pred_home_goals": 2,
+      "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-08-29T17:00:00Z",
+      "competition": "PD",
+      "home_team": "Real Sociedad",
+      "away_team": "Espanyol",
+      "home_crest": "https://crests.football-data.org/92.png",
+      "away_crest": "https://crests.football-data.org/80.png",
+      "p_home": 0.5616,
+      "p_draw": 0.215,
+      "p_away": 0.2233,
+      "pick_1x2": "H",
+      "p_over25": 0.6174,
+      "pred_home_goals": 2,
+      "pred_away_goals": 1
     }
   ],
   "recent": [
@@ -1027,8 +1117,8 @@
     }
   ],
   "counts": {
-    "predictions": 62,
+    "predictions": 68,
     "evaluated": 2,
-    "pending": 60
+    "pending": 66
   }
 }
