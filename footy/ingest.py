@@ -30,16 +30,26 @@ class FootballDataClient:
         if season is not None:
             params["season"] = season
         url = f"{BASE_URL}/competitions/{code}/matches"
-        resp = self.session.get(url, params=params, timeout=30)
-        if resp.status_code == 429:
-            raise RuntimeError("Límite de peticiones alcanzado (429). Sube request_delay_seconds.")
-        if resp.status_code == 403:
-            raise RuntimeError(
-                f"Acceso denegado a '{code}' (403). Puede no estar en el plan gratuito "
-                "o la temporada no estar disponible."
-            )
-        resp.raise_for_status()
-        return resp.json().get("matches", [])
+        # Reintentos ante errores de conexión/SSL transitorios (la API a veces
+        # corta la conexión: "UNEXPECTED_EOF_WHILE_READING").
+        last_exc = None
+        for attempt in range(4):
+            try:
+                resp = self.session.get(url, params=params, timeout=30)
+                if resp.status_code == 429:
+                    raise RuntimeError("Límite de peticiones (429). Sube request_delay_seconds.")
+                if resp.status_code == 403:
+                    raise RuntimeError(
+                        f"Acceso denegado a '{code}' (403). Puede no estar en el plan gratuito "
+                        "o la temporada no estar disponible."
+                    )
+                resp.raise_for_status()
+                return resp.json().get("matches", [])
+            except (requests.exceptions.ConnectionError, requests.exceptions.Timeout,
+                    requests.exceptions.ChunkedEncodingError) as exc:
+                last_exc = exc
+                time.sleep(3 * (attempt + 1))  # espera creciente entre reintentos
+        raise RuntimeError(f"No se pudo descargar '{code}' tras varios intentos: {last_exc}")
 
 
 def _normalize(raw: dict, competition: str, season: int | None) -> dict:
@@ -84,7 +94,13 @@ def fetch_all(db_path: str, api_key: str, competitions: list[str], seasons: list
                     time.sleep(request_delay)  # respetar el rate limit del plan gratis
                 first = False
                 log(f"  Descargando {code} (temporada {season})...")
-                matches = client.competition_matches(code, season)
+                try:
+                    matches = client.competition_matches(code, season)
+                except Exception as exc:
+                    # Si una liga falla, se omite y se sigue con las demás (no aborta el ciclo).
+                    log(f"    ⚠ Fallo en {code}-{season}: {exc}. Se omite.")
+                    counts[f"{code}-{season}"] = 0
+                    continue
                 for raw in matches:
                     m = _normalize(raw, code, season)
                     if m["home_team_id"]:
@@ -94,6 +110,7 @@ def fetch_all(db_path: str, api_key: str, competitions: list[str], seasons: list
                         db.upsert_team(conn, m["away_team_id"], m["away_team"], code,
                                        m.get("away_crest"), m.get("away_short"))
                     db.upsert_match(conn, m)
+                conn.commit()  # persistir lo descargado de esta liga antes de seguir
                 counts[f"{code}-{season}"] = len(matches)
                 log(f"    {len(matches)} partidos.")
     return counts
