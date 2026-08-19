@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T14:01:19.559409+00:00",
+  "generated_at": "2026-08-19T15:01:21.539477+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -954,6 +954,21 @@
       "p_over25": 0.3867,
       "pred_home_goals": 1,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-08-29T15:00:00Z",
+      "competition": "PD",
+      "home_team": "Levante",
+      "away_team": "Real Betis",
+      "home_crest": "https://crests.football-data.org/88.png",
+      "away_crest": "https://crests.football-data.org/90.png",
+      "p_home": 0.3461,
+      "p_draw": 0.2475,
+      "p_away": 0.4064,
+      "pick_1x2": "A",
+      "p_over25": 0.5494,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
     }
   ],
   "recent": [
@@ -997,8 +1012,8 @@
     }
   ],
   "counts": {
-    "predictions": 60,
+    "predictions": 61,
     "evaluated": 2,
-    "pending": 58
+    "pending": 59
   }
 }
