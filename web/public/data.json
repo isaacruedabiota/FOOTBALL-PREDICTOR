@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T18:01:24.669673+00:00",
+  "generated_at": "2026-08-19T19:01:21.016144+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -1074,6 +1074,81 @@
       "p_over25": 0.6174,
       "pred_home_goals": 2,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-08-29T18:45:00Z",
+      "competition": "SA",
+      "home_team": "Juventus",
+      "away_team": "Parma",
+      "home_crest": "https://crests.football-data.org/109.png",
+      "away_crest": "https://crests.football-data.org/112.png",
+      "p_home": 0.6278,
+      "p_draw": 0.2436,
+      "p_away": 0.1286,
+      "pick_1x2": "H",
+      "p_over25": 0.3515,
+      "pred_home_goals": 1,
+      "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-08-29T18:45:00Z",
+      "competition": "FL1",
+      "home_team": "Lorient",
+      "away_team": "Troyes",
+      "home_crest": "https://crests.football-data.org/525.png",
+      "away_crest": "https://crests.football-data.org/531.png",
+      "p_home": 0.3734,
+      "p_draw": 0.2884,
+      "p_away": 0.3383,
+      "pick_1x2": "H",
+      "p_over25": 0.4662,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-08-29T18:45:00Z",
+      "competition": "FL1",
+      "home_team": "Olympique Lyon",
+      "away_team": "Le Havre",
+      "home_crest": "https://crests.football-data.org/523.png",
+      "away_crest": "https://crests.football-data.org/533.png",
+      "p_home": 0.5523,
+      "p_draw": 0.2711,
+      "p_away": 0.1766,
+      "pick_1x2": "H",
+      "p_over25": 0.4227,
+      "pred_home_goals": 1,
+      "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-08-29T18:45:00Z",
+      "competition": "FL1",
+      "home_team": "Auxerre",
+      "away_team": "Angers SCO",
+      "home_crest": "https://crests.football-data.org/519.png",
+      "away_crest": "https://crests.football-data.org/532.png",
+      "p_home": 0.4968,
+      "p_draw": 0.3173,
+      "p_away": 0.1859,
+      "pick_1x2": "H",
+      "p_over25": 0.3005,
+      "pred_home_goals": 1,
+      "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-08-29T18:45:00Z",
+      "competition": "FL1",
+      "home_team": "Brest",
+      "away_team": "Toulouse",
+      "home_crest": "https://crests.football-data.org/512.png",
+      "away_crest": "https://crests.football-data.org/511.png",
+      "p_home": 0.3444,
+      "p_draw": 0.2777,
+      "p_away": 0.378,
+      "pick_1x2": "A",
+      "p_over25": 0.5085,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
     }
   ],
   "recent": [
@@ -1117,8 +1192,8 @@
     }
   ],
   "counts": {
-    "predictions": 68,
+    "predictions": 73,
     "evaluated": 2,
-    "pending": 66
+    "pending": 71
   }
 }
