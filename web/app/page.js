@@ -63,6 +63,7 @@ export default function Page() {
   const [status, setStatus] = useState("loading");
   const [metric, setMetric] = useState("rps");
   const [theme, setTheme] = useState("system");
+  const [refreshing, setRefreshing] = useState(false);
 
   useEffect(() => {
     const stored = localStorage.getItem("theme");
@@ -72,12 +73,25 @@ export default function Page() {
     }
   }, []);
 
-  useEffect(() => {
-    fetch("/data.json", { cache: "no-store" })
-      .then((r) => r.json())
-      .then((d) => { setData(d); setStatus("ok"); })
-      .catch(() => setStatus("error"));
-  }, []);
+  async function loadData() {
+    // El parámetro ?t evita la caché: siempre trae el data.json más reciente publicado.
+    const r = await fetch(`/data.json?t=${Date.now()}`, { cache: "no-store" });
+    const d = await r.json();
+    setData(d);
+    setStatus("ok");
+  }
+
+  useEffect(() => { loadData().catch(() => setStatus("error")); }, []);
+
+  async function refresh() {
+    setRefreshing(true);
+    try {
+      await loadData();
+    } catch {
+      /* si falla, mantenemos los datos actuales */
+    }
+    setRefreshing(false);
+  }
 
   function cycleTheme() {
     const next = THEMES[(THEMES.indexOf(theme) + 1) % THEMES.length];
@@ -102,6 +116,10 @@ export default function Page() {
           {data?.generated_at && (
             <div className="meta">Actualizado<br />{fdatetime(data.generated_at)}</div>
           )}
+          <button className="btn" onClick={refresh} disabled={refreshing}
+                  title="Actualizar datos" aria-label="Actualizar datos">
+            <span className={"refresh-ic" + (refreshing ? " spin" : "")}>↻</span>
+          </button>
           <button className="btn" onClick={cycleTheme} title="Tema" aria-label="Cambiar tema">
             {THEME_ICON[theme]}
           </button>
