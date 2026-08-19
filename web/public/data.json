@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T15:01:21.539477+00:00",
+  "generated_at": "2026-08-19T16:01:22.089035+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -969,6 +969,21 @@
       "p_over25": 0.5494,
       "pred_home_goals": 1,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-08-29T15:15:00Z",
+      "competition": "FL1",
+      "home_team": "Strasbourg",
+      "away_team": "RC Lens",
+      "home_crest": "https://crests.football-data.org/576.png",
+      "away_crest": "https://crests.football-data.org/546.png",
+      "p_home": 0.3092,
+      "p_draw": 0.2378,
+      "p_away": 0.453,
+      "pick_1x2": "A",
+      "p_over25": 0.6648,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
     }
   ],
   "recent": [
@@ -1012,8 +1027,8 @@
     }
   ],
   "counts": {
-    "predictions": 61,
+    "predictions": 62,
     "evaluated": 2,
-    "pending": 59
+    "pending": 60
   }
 }
