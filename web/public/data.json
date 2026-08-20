@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T15:01:23.611858+00:00",
+  "generated_at": "2026-08-20T16:01:22.536308+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -1251,6 +1251,51 @@
       "p_over25": 0.4514,
       "pred_home_goals": 2,
       "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-08-30T15:15:00Z",
+      "competition": "FL1",
+      "home_team": "Stade Rennais",
+      "away_team": "Le Mans",
+      "home_crest": "https://crests.football-data.org/529.png",
+      "away_crest": "https://upload.wikimedia.org/wikipedia/en/5/57/Le_Mans_FC_logo.svg",
+      "p_home": 0.4398,
+      "p_draw": 0.2614,
+      "p_away": 0.2988,
+      "pick_1x2": "H",
+      "p_over25": 0.5619,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-08-30T15:30:00Z",
+      "competition": "PL",
+      "home_team": "Man United",
+      "away_team": "Ipswich Town",
+      "home_crest": "https://crests.football-data.org/66.png",
+      "away_crest": "https://crests.football-data.org/349.png",
+      "p_home": 0.496,
+      "p_draw": 0.2776,
+      "p_away": 0.2264,
+      "pick_1x2": "H",
+      "p_over25": 0.5297,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-08-30T15:30:00Z",
+      "competition": "BL1",
+      "home_team": "Augsburg",
+      "away_team": "Schalke",
+      "home_crest": "https://crests.football-data.org/16.png",
+      "away_crest": "https://crests.football-data.org/6.png",
+      "p_home": 0.2741,
+      "p_draw": 0.2627,
+      "p_away": 0.4632,
+      "pick_1x2": "A",
+      "p_over25": 0.4789,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
     }
   ],
   "recent": [
@@ -1313,8 +1358,8 @@
     }
   ],
   "counts": {
-    "predictions": 80,
+    "predictions": 83,
     "evaluated": 3,
-    "pending": 77
+    "pending": 80
   }
 }
