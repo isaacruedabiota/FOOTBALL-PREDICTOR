@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T18:01:24.209863+00:00",
+  "generated_at": "2026-08-20T19:01:22.005701+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -1326,6 +1326,51 @@
       "p_over25": 0.2948,
       "pred_home_goals": 0,
       "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-08-30T18:45:00Z",
+      "competition": "SA",
+      "home_team": "Lazio",
+      "away_team": "Genoa",
+      "home_crest": "https://crests.football-data.org/110.png",
+      "away_crest": "https://crests.football-data.org/107.png",
+      "p_home": 0.4241,
+      "p_draw": 0.2876,
+      "p_away": 0.2883,
+      "pick_1x2": "H",
+      "p_over25": 0.3549,
+      "pred_home_goals": 1,
+      "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-08-30T18:45:00Z",
+      "competition": "SA",
+      "home_team": "Cagliari",
+      "away_team": "Inter",
+      "home_crest": "https://crests.football-data.org/104.png",
+      "away_crest": "https://crests.football-data.org/108.png",
+      "p_home": 0.116,
+      "p_draw": 0.1568,
+      "p_away": 0.7272,
+      "pick_1x2": "A",
+      "p_over25": 0.6697,
+      "pred_home_goals": 0,
+      "pred_away_goals": 2
+    },
+    {
+      "utc_date": "2026-08-30T18:45:00Z",
+      "competition": "FL1",
+      "home_team": "Monaco",
+      "away_team": "Marseille",
+      "home_crest": "https://crests.football-data.org/548.png",
+      "away_crest": "https://crests.football-data.org/516.png",
+      "p_home": 0.4286,
+      "p_draw": 0.2277,
+      "p_away": 0.3437,
+      "pick_1x2": "H",
+      "p_over25": 0.7196,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
     }
   ],
   "recent": [
@@ -1388,8 +1433,8 @@
     }
   ],
   "counts": {
-    "predictions": 85,
+    "predictions": 88,
     "evaluated": 3,
-    "pending": 82
+    "pending": 85
   }
 }
