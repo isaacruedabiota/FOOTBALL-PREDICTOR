@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T13:01:24.155113+00:00",
+  "generated_at": "2026-08-20T14:01:20.429492+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -1221,6 +1221,21 @@
       "p_over25": 0.5188,
       "pred_home_goals": 1,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-08-30T13:30:00Z",
+      "competition": "BL1",
+      "home_team": "Freiburg",
+      "away_team": "Bremen",
+      "home_crest": "https://crests.football-data.org/17.png",
+      "away_crest": "https://crests.football-data.org/12.png",
+      "p_home": 0.5525,
+      "p_draw": 0.2402,
+      "p_away": 0.2073,
+      "pick_1x2": "H",
+      "p_over25": 0.5098,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
     }
   ],
   "recent": [
@@ -1283,8 +1298,8 @@
     }
   ],
   "counts": {
-    "predictions": 78,
+    "predictions": 79,
     "evaluated": 3,
-    "pending": 75
+    "pending": 76
   }
 }
