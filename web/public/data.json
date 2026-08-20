@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T21:01:22.507768+00:00",
+  "generated_at": "2026-08-20T22:01:22.757746+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -8,43 +8,43 @@
   },
   "summary": {
     "dc-v1": {
-      "n": 3,
-      "acc_1x2": 66.6667,
-      "acc_ou": 0.0,
-      "acc_score": 0.0,
-      "brier": 0.5652,
-      "logloss": 0.951,
-      "rps": 0.1643
-    },
-    "elo-v1": {
       "n": 4,
       "acc_1x2": 50.0,
-      "acc_ou": 50.0,
-      "acc_score": 25.0,
-      "brier": 0.6564,
-      "logloss": 1.117,
-      "rps": 0.1628
+      "acc_ou": 25.0,
+      "acc_score": 0.0,
+      "brier": 0.6373,
+      "logloss": 1.0513,
+      "rps": 0.1612
+    },
+    "elo-v1": {
+      "n": 5,
+      "acc_1x2": 40.0,
+      "acc_ou": 40.0,
+      "acc_score": 40.0,
+      "brier": 0.7321,
+      "logloss": 1.2341,
+      "rps": 0.1668
     }
   },
   "by_competition": {
     "dc-v1": [
       {
         "competition": "PD",
-        "n": 3,
-        "acc_1x2": 66.6667,
-        "acc_ou": 0.0,
+        "n": 4,
+        "acc_1x2": 50.0,
+        "acc_ou": 25.0,
         "acc_score": 0.0,
-        "rps": 0.1643
+        "rps": 0.1612
       }
     ],
     "elo-v1": [
       {
         "competition": "PD",
-        "n": 4,
-        "acc_1x2": 50.0,
-        "acc_ou": 50.0,
-        "acc_score": 25.0,
-        "rps": 0.1628
+        "n": 5,
+        "acc_1x2": 40.0,
+        "acc_ou": 40.0,
+        "acc_score": 40.0,
+        "rps": 0.1668
       }
     ]
   },
@@ -67,6 +67,12 @@
         "n": 3,
         "acc_1x2": 66.6667,
         "rps": 0.1643
+      },
+      {
+        "date": "2026-08-20",
+        "n": 4,
+        "acc_1x2": 50.0,
+        "rps": 0.1612
       }
     ],
     "elo-v1": [
@@ -93,6 +99,12 @@
         "n": 4,
         "acc_1x2": 50.0,
         "rps": 0.1628
+      },
+      {
+        "date": "2026-08-20",
+        "n": 5,
+        "acc_1x2": 40.0,
+        "rps": 0.1668
       }
     ]
   },
@@ -1105,6 +1117,25 @@
   ],
   "recent": [
     {
+      "utc_date": "2026-08-20T19:00:00Z",
+      "competition": "PD",
+      "home_team": "Rayo Vallecano",
+      "away_team": "Alavés",
+      "home_crest": "https://crests.football-data.org/87.png",
+      "away_crest": "https://crests.football-data.org/263.png",
+      "p_home": 0.492,
+      "p_draw": 0.2587,
+      "p_away": 0.2493,
+      "pick_1x2": "H",
+      "actual_1x2": "D",
+      "correct_1x2": 0,
+      "correct_ou": 1,
+      "correct_score": 0,
+      "home_goals": 1,
+      "away_goals": 1,
+      "rps_1x2": 0.1521
+    },
+    {
       "utc_date": "2026-08-19T19:00:00Z",
       "competition": "PD",
       "home_team": "Atleti",
@@ -1164,7 +1195,7 @@
   ],
   "counts": {
     "predictions": 89,
-    "evaluated": 3,
-    "pending": 86
+    "evaluated": 4,
+    "pending": 85
   }
 }
