@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T17:01:21.046413+00:00",
+  "generated_at": "2026-08-20T18:01:24.209863+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -1311,6 +1311,21 @@
       "p_over25": 0.4147,
       "pred_home_goals": 0,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-08-30T17:30:00Z",
+      "competition": "PD",
+      "home_team": "Deportivo",
+      "away_team": "Valencia",
+      "home_crest": "https://crests.football-data.org/560.png",
+      "away_crest": "https://crests.football-data.org/95.png",
+      "p_home": 0.3187,
+      "p_draw": 0.3177,
+      "p_away": 0.3635,
+      "pick_1x2": "A",
+      "p_over25": 0.2948,
+      "pred_home_goals": 0,
+      "pred_away_goals": 0
     }
   ],
   "recent": [
@@ -1373,8 +1388,8 @@
     }
   ],
   "counts": {
-    "predictions": 84,
+    "predictions": 85,
     "evaluated": 3,
-    "pending": 81
+    "pending": 82
   }
 }
