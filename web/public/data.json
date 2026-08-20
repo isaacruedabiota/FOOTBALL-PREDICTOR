@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T14:01:20.429492+00:00",
+  "generated_at": "2026-08-20T15:01:23.611858+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -1236,6 +1236,21 @@
       "p_over25": 0.5098,
       "pred_home_goals": 1,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-08-30T15:00:00Z",
+      "competition": "PD",
+      "home_team": "Real Madrid",
+      "away_team": "Málaga",
+      "home_crest": "https://crests.football-data.org/86.png",
+      "away_crest": "https://crests.football-data.org/84.png",
+      "p_home": 0.9068,
+      "p_draw": 0.0903,
+      "p_away": 0.0029,
+      "pick_1x2": "H",
+      "p_over25": 0.4514,
+      "pred_home_goals": 2,
+      "pred_away_goals": 0
     }
   ],
   "recent": [
@@ -1298,8 +1313,8 @@
     }
   ],
   "counts": {
-    "predictions": 79,
+    "predictions": 80,
     "evaluated": 3,
-    "pending": 76
+    "pending": 77
   }
 }
