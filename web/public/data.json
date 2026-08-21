@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T17:01:23.754875+00:00",
+  "generated_at": "2026-08-21T18:01:28.729376+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -1398,6 +1398,21 @@
       "p_over25": 0.393,
       "pred_home_goals": 0,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-08-31T17:30:00Z",
+      "competition": "PD",
+      "home_team": "Osasuna",
+      "away_team": "Getafe",
+      "home_crest": "https://crests.football-data.org/79.png",
+      "away_crest": "https://crests.football-data.org/82.png",
+      "p_home": 0.4439,
+      "p_draw": 0.3337,
+      "p_away": 0.2224,
+      "pick_1x2": "H",
+      "p_over25": 0.241,
+      "pred_home_goals": 1,
+      "pred_away_goals": 0
     }
   ],
   "recent": [
@@ -1479,8 +1494,8 @@
     }
   ],
   "counts": {
-    "predictions": 90,
+    "predictions": 91,
     "evaluated": 4,
-    "pending": 86
+    "pending": 87
   }
 }
