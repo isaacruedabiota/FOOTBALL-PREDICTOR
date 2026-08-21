@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T19:01:22.318771+00:00",
+  "generated_at": "2026-08-21T20:01:25.754186+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -109,36 +109,6 @@
     ]
   },
   "upcoming": [
-    {
-      "utc_date": "2026-08-21T19:00:00Z",
-      "competition": "PL",
-      "home_team": "Arsenal",
-      "away_team": "Coventry City",
-      "home_crest": "https://crests.football-data.org/57.png",
-      "away_crest": "https://crests.football-data.org/1076.png",
-      "p_home": 0.6018,
-      "p_draw": 0.2755,
-      "p_away": 0.1227,
-      "pick_1x2": "H",
-      "p_over25": 0.3982,
-      "pred_home_goals": 1,
-      "pred_away_goals": 0
-    },
-    {
-      "utc_date": "2026-08-21T19:00:00Z",
-      "competition": "PD",
-      "home_team": "Real Betis",
-      "away_team": "Real Sociedad",
-      "home_crest": "https://crests.football-data.org/90.png",
-      "away_crest": "https://crests.football-data.org/92.png",
-      "p_home": 0.6022,
-      "p_draw": 0.192,
-      "p_away": 0.2058,
-      "pick_1x2": "H",
-      "p_over25": 0.6918,
-      "pred_home_goals": 2,
-      "pred_away_goals": 1
-    },
     {
       "utc_date": "2026-08-22T11:30:00Z",
       "competition": "PL",
@@ -1428,6 +1398,21 @@
       "p_over25": 0.4504,
       "pred_home_goals": 1,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-08-31T19:30:00Z",
+      "competition": "PD",
+      "home_team": "Barça",
+      "away_team": "Rayo Vallecano",
+      "home_crest": "https://crests.football-data.org/81.png",
+      "away_crest": "https://crests.football-data.org/87.png",
+      "p_home": 0.7683,
+      "p_draw": 0.1544,
+      "p_away": 0.0773,
+      "pick_1x2": "H",
+      "p_over25": 0.5862,
+      "pred_home_goals": 2,
+      "pred_away_goals": 0
     }
   ],
   "recent": [
@@ -1509,8 +1494,8 @@
     }
   ],
   "counts": {
-    "predictions": 93,
+    "predictions": 94,
     "evaluated": 4,
-    "pending": 89
+    "pending": 90
   }
 }
