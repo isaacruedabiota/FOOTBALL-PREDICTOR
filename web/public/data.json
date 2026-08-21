@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T18:01:28.729376+00:00",
+  "generated_at": "2026-08-21T19:01:22.318771+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -109,21 +109,6 @@
     ]
   },
   "upcoming": [
-    {
-      "utc_date": "2026-08-21T18:45:00Z",
-      "competition": "FL1",
-      "home_team": "Marseille",
-      "away_team": "Strasbourg",
-      "home_crest": "https://crests.football-data.org/516.png",
-      "away_crest": "https://crests.football-data.org/576.png",
-      "p_home": 0.4678,
-      "p_draw": 0.231,
-      "p_away": 0.3012,
-      "pick_1x2": "H",
-      "p_over25": 0.6898,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
     {
       "utc_date": "2026-08-21T19:00:00Z",
       "competition": "PL",
@@ -1413,6 +1398,36 @@
       "p_over25": 0.241,
       "pred_home_goals": 1,
       "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-08-31T18:45:00Z",
+      "competition": "SA",
+      "home_team": "Atalanta",
+      "away_team": "Bologna",
+      "home_crest": "https://crests.football-data.org/102.png",
+      "away_crest": "https://crests.football-data.org/103.png",
+      "p_home": 0.488,
+      "p_draw": 0.2611,
+      "p_away": 0.2509,
+      "pick_1x2": "H",
+      "p_over25": 0.4245,
+      "pred_home_goals": 1,
+      "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-08-31T19:00:00Z",
+      "competition": "PL",
+      "home_team": "Aston Villa",
+      "away_team": "Arsenal",
+      "home_crest": "https://crests.football-data.org/58.png",
+      "away_crest": "https://crests.football-data.org/57.png",
+      "p_home": 0.1897,
+      "p_draw": 0.2901,
+      "p_away": 0.5202,
+      "pick_1x2": "A",
+      "p_over25": 0.4504,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
     }
   ],
   "recent": [
@@ -1494,8 +1509,8 @@
     }
   ],
   "counts": {
-    "predictions": 91,
+    "predictions": 93,
     "evaluated": 4,
-    "pending": 87
+    "pending": 89
   }
 }
