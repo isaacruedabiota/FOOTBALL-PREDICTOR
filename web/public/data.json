@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T11:01:20.441241+00:00",
+  "generated_at": "2026-08-22T12:01:25.161771+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -177,21 +177,6 @@
     ]
   },
   "upcoming": [
-    {
-      "utc_date": "2026-08-22T11:30:00Z",
-      "competition": "PL",
-      "home_team": "Hull City",
-      "away_team": "Man United",
-      "home_crest": "https://crests.football-data.org/322.png",
-      "away_crest": "https://crests.football-data.org/66.png",
-      "p_home": 0.3468,
-      "p_draw": 0.2964,
-      "p_away": 0.3568,
-      "pick_1x2": "A",
-      "p_over25": 0.5139,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
     {
       "utc_date": "2026-08-22T14:00:00Z",
       "competition": "PL",
