@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T16:01:30.828969+00:00",
+  "generated_at": "2026-08-23T17:01:28.689900+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -433,36 +433,6 @@
     ]
   },
   "upcoming": [
-    {
-      "utc_date": "2026-08-23T16:30:00Z",
-      "competition": "SA",
-      "home_team": "Frosinone",
-      "away_team": "Juventus",
-      "home_crest": "https://crests.football-data.org/470.png",
-      "away_crest": "https://crests.football-data.org/109.png",
-      "p_home": 0.2555,
-      "p_draw": 0.2711,
-      "p_away": 0.4734,
-      "pick_1x2": "A",
-      "p_over25": 0.3927,
-      "pred_home_goals": 0,
-      "pred_away_goals": 1
-    },
-    {
-      "utc_date": "2026-08-23T16:30:00Z",
-      "competition": "SA",
-      "home_team": "Venezia FC",
-      "away_team": "Lecce",
-      "home_crest": "https://crests.football-data.org/454.png",
-      "away_crest": "https://crests.football-data.org/5890.png",
-      "p_home": 0.5084,
-      "p_draw": 0.2901,
-      "p_away": 0.2014,
-      "pick_1x2": "H",
-      "p_over25": 0.3034,
-      "pred_home_goals": 1,
-      "pred_away_goals": 0
-    },
     {
       "utc_date": "2026-08-23T17:30:00Z",
       "competition": "PD",
@@ -1449,7 +1419,7 @@
       "correct_ou": 0,
       "correct_score": 0,
       "home_goals": 0,
-      "away_goals": 3,
+      "away_goals": 2,
       "rps_1x2": 0.1333
     },
     {
