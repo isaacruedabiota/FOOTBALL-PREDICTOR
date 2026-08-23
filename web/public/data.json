@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T22:01:29.964319+00:00",
+  "generated_at": "2026-08-23T23:01:28.154747+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -1654,7 +1654,7 @@
       "correct_ou": 0,
       "correct_score": 0,
       "home_goals": 0,
-      "away_goals": 3,
+      "away_goals": 2,
       "rps_1x2": 0.1333
     },
     {
