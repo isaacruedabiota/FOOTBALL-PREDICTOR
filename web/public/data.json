@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T13:01:23.791663+00:00",
+  "generated_at": "2026-08-23T14:01:27.671423+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -397,51 +397,6 @@
     ]
   },
   "upcoming": [
-    {
-      "utc_date": "2026-08-23T13:00:00Z",
-      "competition": "FL1",
-      "home_team": "Angers SCO",
-      "away_team": "Lille",
-      "home_crest": "https://crests.football-data.org/532.png",
-      "away_crest": "https://crests.football-data.org/521.png",
-      "p_home": 0.1744,
-      "p_draw": 0.3116,
-      "p_away": 0.514,
-      "pick_1x2": "A",
-      "p_over25": 0.3047,
-      "pred_home_goals": 0,
-      "pred_away_goals": 1
-    },
-    {
-      "utc_date": "2026-08-23T13:00:00Z",
-      "competition": "PL",
-      "home_team": "Man City",
-      "away_team": "Bournemouth",
-      "home_crest": "https://crests.football-data.org/65.png",
-      "away_crest": "https://crests.football-data.org/bournemouth.png",
-      "p_home": 0.6264,
-      "p_draw": 0.2303,
-      "p_away": 0.1433,
-      "pick_1x2": "H",
-      "p_over25": 0.59,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
-    {
-      "utc_date": "2026-08-23T13:00:00Z",
-      "competition": "PL",
-      "home_team": "Brighton Hove",
-      "away_team": "Aston Villa",
-      "home_crest": "https://crests.football-data.org/397.png",
-      "away_crest": "https://crests.football-data.org/58.png",
-      "p_home": 0.4118,
-      "p_draw": 0.3008,
-      "p_away": 0.2875,
-      "pick_1x2": "H",
-      "p_over25": 0.4862,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
     {
       "utc_date": "2026-08-23T15:00:00Z",
       "competition": "PD",
