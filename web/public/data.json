@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T16:01:28.188811+00:00",
+  "generated_at": "2026-08-24T17:01:26.324871+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -553,21 +553,6 @@
     ]
   },
   "upcoming": [
-    {
-      "utc_date": "2026-08-24T16:30:00Z",
-      "competition": "SA",
-      "home_team": "Bologna",
-      "away_team": "Lazio",
-      "home_crest": "https://crests.football-data.org/103.png",
-      "away_crest": "https://crests.football-data.org/110.png",
-      "p_home": 0.4031,
-      "p_draw": 0.2778,
-      "p_away": 0.3191,
-      "pick_1x2": "H",
-      "p_over25": 0.3953,
-      "pred_home_goals": 1,
-      "pred_away_goals": 0
-    },
     {
       "utc_date": "2026-08-24T17:30:00Z",
       "competition": "PD",
