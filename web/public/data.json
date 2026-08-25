@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T16:01:25.074996+00:00",
+  "generated_at": "2026-08-25T17:01:26.377331+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -1422,6 +1422,21 @@
       "p_over25": 0.5664,
       "pred_home_goals": 1,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-09-04T17:00:00Z",
+      "competition": "FL1",
+      "home_team": "Olympique Lyon",
+      "away_team": "Auxerre",
+      "home_crest": "https://crests.football-data.org/523.png",
+      "away_crest": "https://crests.football-data.org/519.png",
+      "p_home": 0.5734,
+      "p_draw": 0.2492,
+      "p_away": 0.1774,
+      "pick_1x2": "H",
+      "p_over25": 0.5094,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
     }
   ],
   "recent": [
@@ -2225,8 +2240,8 @@
     }
   ],
   "counts": {
-    "predictions": 96,
+    "predictions": 97,
     "evaluated": 42,
-    "pending": 54
+    "pending": 55
   }
 }
