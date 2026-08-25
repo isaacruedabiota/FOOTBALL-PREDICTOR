@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T19:01:25.576886+00:00",
+  "generated_at": "2026-08-25T20:01:27.133274+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -613,21 +613,6 @@
     ]
   },
   "upcoming": [
-    {
-      "utc_date": "2026-08-25T19:00:00Z",
-      "competition": "PD",
-      "home_team": "Valencia",
-      "away_team": "Real Betis",
-      "home_crest": "https://crests.football-data.org/95.png",
-      "away_crest": "https://crests.football-data.org/90.png",
-      "p_home": 0.4105,
-      "p_draw": 0.2495,
-      "p_away": 0.34,
-      "pick_1x2": "H",
-      "p_over25": 0.5222,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
     {
       "utc_date": "2026-08-26T19:00:00Z",
       "competition": "PD",
@@ -1497,6 +1482,21 @@
       "p_over25": 0.5057,
       "pred_home_goals": 1,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-09-04T19:05:00Z",
+      "competition": "FL1",
+      "home_team": "PSG",
+      "away_team": "Monaco",
+      "home_crest": "https://crests.football-data.org/524.png",
+      "away_crest": "https://crests.football-data.org/548.png",
+      "p_home": 0.6787,
+      "p_draw": 0.1862,
+      "p_away": 0.135,
+      "pick_1x2": "H",
+      "p_over25": 0.6861,
+      "pred_home_goals": 2,
+      "pred_away_goals": 1
     }
   ],
   "recent": [
@@ -2300,8 +2300,8 @@
     }
   ],
   "counts": {
-    "predictions": 101,
+    "predictions": 102,
     "evaluated": 42,
-    "pending": 59
+    "pending": 60
   }
 }
