@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T16:01:26.629691+00:00",
+  "generated_at": "2026-08-26T17:01:26.878511+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -1734,6 +1734,51 @@
       "p_over25": 0.5958,
       "pred_home_goals": 1,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-09-05T16:30:00Z",
+      "competition": "PL",
+      "home_team": "Hull City",
+      "away_team": "Aston Villa",
+      "home_crest": "https://crests.football-data.org/322.png",
+      "away_crest": "https://crests.football-data.org/58.png",
+      "p_home": 0.8877,
+      "p_draw": 0.108,
+      "p_away": 0.0043,
+      "pick_1x2": "H",
+      "p_over25": 0.4291,
+      "pred_home_goals": 2,
+      "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-09-05T16:30:00Z",
+      "competition": "PD",
+      "home_team": "Rayo Vallecano",
+      "away_team": "Santander",
+      "home_crest": "https://crests.football-data.org/87.png",
+      "away_crest": "https://crests.football-data.org/5335.png",
+      "p_home": 0.5528,
+      "p_draw": 0.2593,
+      "p_away": 0.1879,
+      "pick_1x2": "H",
+      "p_over25": 0.4162,
+      "pred_home_goals": 1,
+      "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-09-05T16:30:00Z",
+      "competition": "BL1",
+      "home_team": "Schalke",
+      "away_team": "Bayern",
+      "home_crest": "https://crests.football-data.org/6.png",
+      "away_crest": "https://crests.football-data.org/5.png",
+      "p_home": 0.2114,
+      "p_draw": 0.2018,
+      "p_away": 0.5868,
+      "pick_1x2": "A",
+      "p_over25": 0.6864,
+      "pred_home_goals": 1,
+      "pred_away_goals": 2
     }
   ],
   "recent": [
@@ -2556,8 +2601,8 @@
     }
   ],
   "counts": {
-    "predictions": 117,
+    "predictions": 120,
     "evaluated": 43,
-    "pending": 74
+    "pending": 77
   }
 }
