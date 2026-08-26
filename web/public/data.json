@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T19:01:27.708791+00:00",
+  "generated_at": "2026-08-26T20:01:26.748045+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -625,21 +625,6 @@
     ]
   },
   "upcoming": [
-    {
-      "utc_date": "2026-08-26T19:00:00Z",
-      "competition": "PD",
-      "home_team": "Real Madrid",
-      "away_team": "Real Sociedad",
-      "home_crest": "https://crests.football-data.org/86.png",
-      "away_crest": "https://crests.football-data.org/92.png",
-      "p_home": 0.771,
-      "p_draw": 0.1355,
-      "p_away": 0.0935,
-      "pick_1x2": "H",
-      "p_over25": 0.7337,
-      "pred_home_goals": 2,
-      "pred_away_goals": 0
-    },
     {
       "utc_date": "2026-08-27T18:30:00Z",
       "competition": "PD",
