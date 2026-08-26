@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T15:01:26.275517+00:00",
+  "generated_at": "2026-08-26T16:01:26.629691+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -1704,6 +1704,36 @@
       "p_over25": 0.5627,
       "pred_home_goals": 1,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-09-05T15:15:00Z",
+      "competition": "FL1",
+      "home_team": "RC Lens",
+      "away_team": "Lorient",
+      "home_crest": "https://crests.football-data.org/546.png",
+      "away_crest": "https://crests.football-data.org/525.png",
+      "p_home": 0.6411,
+      "p_draw": 0.2048,
+      "p_away": 0.1541,
+      "pick_1x2": "H",
+      "p_over25": 0.6464,
+      "pred_home_goals": 2,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-09-05T16:00:00Z",
+      "competition": "SA",
+      "home_team": "Inter",
+      "away_team": "Napoli",
+      "home_crest": "https://crests.football-data.org/108.png",
+      "away_crest": "https://crests.football-data.org/113.png",
+      "p_home": 0.5359,
+      "p_draw": 0.2165,
+      "p_away": 0.2476,
+      "pick_1x2": "H",
+      "p_over25": 0.5958,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
     }
   ],
   "recent": [
@@ -2526,8 +2556,8 @@
     }
   ],
   "counts": {
-    "predictions": 115,
+    "predictions": 117,
     "evaluated": 43,
-    "pending": 72
+    "pending": 74
   }
 }
