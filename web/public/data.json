@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T18:01:26.090244+00:00",
+  "generated_at": "2026-08-26T19:01:27.708791+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -1779,6 +1779,66 @@
       "p_over25": 0.6864,
       "pred_home_goals": 1,
       "pred_away_goals": 2
+    },
+    {
+      "utc_date": "2026-09-05T18:45:00Z",
+      "competition": "SA",
+      "home_team": "Roma",
+      "away_team": "Atalanta",
+      "home_crest": "https://crests.football-data.org/100.png",
+      "away_crest": "https://crests.football-data.org/102.png",
+      "p_home": 0.511,
+      "p_draw": 0.2537,
+      "p_away": 0.2353,
+      "pick_1x2": "H",
+      "p_over25": 0.4284,
+      "pred_home_goals": 1,
+      "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-09-05T18:45:00Z",
+      "competition": "FL1",
+      "home_team": "Le Havre",
+      "away_team": "Brest",
+      "home_crest": "https://crests.football-data.org/533.png",
+      "away_crest": "https://crests.football-data.org/512.png",
+      "p_home": 0.3709,
+      "p_draw": 0.3191,
+      "p_away": 0.31,
+      "pick_1x2": "H",
+      "p_over25": 0.3565,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-09-05T18:45:00Z",
+      "competition": "FL1",
+      "home_team": "Nice",
+      "away_team": "Le Mans",
+      "home_crest": "https://crests.football-data.org/522.png",
+      "away_crest": "https://upload.wikimedia.org/wikipedia/en/5/57/Le_Mans_FC_logo.svg",
+      "p_home": 0.4379,
+      "p_draw": 0.2324,
+      "p_away": 0.3297,
+      "pick_1x2": "H",
+      "p_over25": 0.6955,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-09-05T19:00:00Z",
+      "competition": "PD",
+      "home_team": "Villarreal",
+      "away_team": "Deportivo",
+      "home_crest": "https://crests.football-data.org/94.png",
+      "away_crest": "https://crests.football-data.org/560.png",
+      "p_home": 0.8302,
+      "p_draw": 0.1138,
+      "p_away": 0.056,
+      "pick_1x2": "H",
+      "p_over25": 0.7076,
+      "pred_home_goals": 2,
+      "pred_away_goals": 0
     }
   ],
   "recent": [
@@ -2601,8 +2661,8 @@
     }
   ],
   "counts": {
-    "predictions": 120,
+    "predictions": 124,
     "evaluated": 43,
-    "pending": 77
+    "pending": 81
   }
 }
