@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T14:01:24.041794+00:00",
+  "generated_at": "2026-08-27T15:01:24.168142+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -1911,6 +1911,21 @@
       "p_over25": 0.4488,
       "pred_home_goals": 1,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-09-06T14:15:00Z",
+      "competition": "PD",
+      "home_team": "Valencia",
+      "away_team": "Barça",
+      "home_crest": "https://crests.football-data.org/95.png",
+      "away_crest": "https://crests.football-data.org/81.png",
+      "p_home": 0.1579,
+      "p_draw": 0.2101,
+      "p_away": 0.632,
+      "pick_1x2": "A",
+      "p_over25": 0.5595,
+      "pred_home_goals": 0,
+      "pred_away_goals": 2
     }
   ],
   "recent": [
@@ -2752,8 +2767,8 @@
     }
   ],
   "counts": {
-    "predictions": 129,
+    "predictions": 130,
     "evaluated": 44,
-    "pending": 85
+    "pending": 86
   }
 }
