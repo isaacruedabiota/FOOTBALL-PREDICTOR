@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T16:01:22.526070+00:00",
+  "generated_at": "2026-08-27T17:01:25.700481+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -1986,6 +1986,36 @@
       "p_over25": 0.4815,
       "pred_home_goals": 1,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-09-06T16:30:00Z",
+      "competition": "PD",
+      "home_team": "Alavés",
+      "away_team": "Osasuna",
+      "home_crest": "https://crests.football-data.org/263.png",
+      "away_crest": "https://crests.football-data.org/79.png",
+      "p_home": 0.5081,
+      "p_draw": 0.2568,
+      "p_away": 0.2351,
+      "pick_1x2": "H",
+      "p_over25": 0.4722,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-09-06T16:30:00Z",
+      "competition": "PD",
+      "home_team": "Málaga",
+      "away_team": "Levante",
+      "home_crest": "https://crests.football-data.org/84.png",
+      "away_crest": "https://crests.football-data.org/88.png",
+      "p_home": 0.1876,
+      "p_draw": 0.3232,
+      "p_away": 0.4892,
+      "pick_1x2": "A",
+      "p_over25": 0.2484,
+      "pred_home_goals": 0,
+      "pred_away_goals": 1
     }
   ],
   "recent": [
@@ -2827,8 +2857,8 @@
     }
   ],
   "counts": {
-    "predictions": 134,
+    "predictions": 136,
     "evaluated": 44,
-    "pending": 90
+    "pending": 92
   }
 }
