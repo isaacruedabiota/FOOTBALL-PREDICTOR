@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T13:01:26.599203+00:00",
+  "generated_at": "2026-08-27T14:01:24.041794+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -1896,6 +1896,21 @@
       "p_over25": 0.5504,
       "pred_home_goals": 1,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-09-06T13:30:00Z",
+      "competition": "BL1",
+      "home_team": "HSV",
+      "away_team": "Mainz",
+      "home_crest": "https://crests.football-data.org/7.png",
+      "away_crest": "https://crests.football-data.org/15.png",
+      "p_home": 0.3779,
+      "p_draw": 0.2766,
+      "p_away": 0.3455,
+      "pick_1x2": "H",
+      "p_over25": 0.4488,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
     }
   ],
   "recent": [
@@ -2737,8 +2752,8 @@
     }
   ],
   "counts": {
-    "predictions": 128,
+    "predictions": 129,
     "evaluated": 44,
-    "pending": 84
+    "pending": 85
   }
 }
