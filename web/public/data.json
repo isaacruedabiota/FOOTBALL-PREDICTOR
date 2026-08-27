@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T18:01:27.645342+00:00",
+  "generated_at": "2026-08-27T19:01:27.960131+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -637,21 +637,6 @@
     ]
   },
   "upcoming": [
-    {
-      "utc_date": "2026-08-27T18:30:00Z",
-      "competition": "PD",
-      "home_team": "Celta",
-      "away_team": "Osasuna",
-      "home_crest": "https://crests.football-data.org/558.png",
-      "away_crest": "https://crests.football-data.org/79.png",
-      "p_home": 0.5644,
-      "p_draw": 0.2381,
-      "p_away": 0.1975,
-      "pick_1x2": "H",
-      "p_over25": 0.4843,
-      "pred_home_goals": 1,
-      "pred_away_goals": 0
-    },
     {
       "utc_date": "2026-08-27T19:00:00Z",
       "competition": "PD",
@@ -2016,6 +2001,51 @@
       "p_over25": 0.2484,
       "pred_home_goals": 0,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-09-06T18:45:00Z",
+      "competition": "SA",
+      "home_team": "Juventus",
+      "away_team": "Milan",
+      "home_crest": "https://crests.football-data.org/109.png",
+      "away_crest": "https://crests.football-data.org/98.png",
+      "p_home": 0.4651,
+      "p_draw": 0.2665,
+      "p_away": 0.2684,
+      "pick_1x2": "H",
+      "p_over25": 0.4019,
+      "pred_home_goals": 1,
+      "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-09-06T18:45:00Z",
+      "competition": "FL1",
+      "home_team": "Marseille",
+      "away_team": "Paris FC",
+      "home_crest": "https://crests.football-data.org/516.png",
+      "away_crest": "https://crests.football-data.org/1045.png",
+      "p_home": 0.5275,
+      "p_draw": 0.2416,
+      "p_away": 0.2309,
+      "pick_1x2": "H",
+      "p_over25": 0.6046,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-09-06T19:00:00Z",
+      "competition": "PD",
+      "home_team": "Espanyol",
+      "away_team": "Sevilla FC",
+      "home_crest": "https://crests.football-data.org/80.png",
+      "away_crest": "https://crests.football-data.org/559.png",
+      "p_home": 0.4655,
+      "p_draw": 0.2582,
+      "p_away": 0.2763,
+      "pick_1x2": "H",
+      "p_over25": 0.4969,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
     }
   ],
   "recent": [
@@ -2857,8 +2887,8 @@
     }
   ],
   "counts": {
-    "predictions": 136,
+    "predictions": 139,
     "evaluated": 44,
-    "pending": 92
+    "pending": 95
   }
 }
