@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T19:01:27.960131+00:00",
+  "generated_at": "2026-08-27T20:01:29.344515+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -637,21 +637,6 @@
     ]
   },
   "upcoming": [
-    {
-      "utc_date": "2026-08-27T19:00:00Z",
-      "competition": "PD",
-      "home_team": "Barça",
-      "away_team": "Athletic",
-      "home_crest": "https://crests.football-data.org/81.png",
-      "away_crest": "https://crests.football-data.org/77.png",
-      "p_home": 0.8619,
-      "p_draw": 0.0928,
-      "p_away": 0.0453,
-      "pick_1x2": "H",
-      "p_over25": 0.7531,
-      "pred_home_goals": 3,
-      "pred_away_goals": 0
-    },
     {
       "utc_date": "2026-08-28T17:00:00Z",
       "competition": "PD",
