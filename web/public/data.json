@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T17:01:26.567111+00:00",
+  "generated_at": "2026-08-28T18:01:27.080309+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -661,21 +661,6 @@
     ]
   },
   "upcoming": [
-    {
-      "utc_date": "2026-08-28T17:00:00Z",
-      "competition": "PD",
-      "home_team": "Santander",
-      "away_team": "Elche",
-      "home_crest": "https://crests.football-data.org/5335.png",
-      "away_crest": "https://crests.football-data.org/285.png",
-      "p_home": 0.5906,
-      "p_draw": 0.1923,
-      "p_away": 0.2171,
-      "pick_1x2": "H",
-      "p_over25": 0.7213,
-      "pred_home_goals": 2,
-      "pred_away_goals": 1
-    },
     {
       "utc_date": "2026-08-28T18:30:00Z",
       "competition": "BL1",
