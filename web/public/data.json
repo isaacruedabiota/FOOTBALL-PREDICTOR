@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T20:01:26.139287+00:00",
+  "generated_at": "2026-08-28T21:01:33.107123+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -8,33 +8,41 @@
   },
   "summary": {
     "dc-v1": {
-      "n": 47,
-      "acc_1x2": 57.4468,
-      "acc_ou": 57.4468,
-      "acc_score": 4.2553,
-      "brier": 0.5587,
-      "logloss": 0.9452,
-      "rps": 0.1826
+      "n": 50,
+      "acc_1x2": 58.0,
+      "acc_ou": 56.0,
+      "acc_score": 4.0,
+      "brier": 0.547,
+      "logloss": 0.9285,
+      "rps": 0.1768
     },
     "elo-v1": {
-      "n": 48,
-      "acc_1x2": 52.0833,
-      "acc_ou": 56.25,
-      "acc_score": 6.25,
-      "brier": 0.5889,
-      "logloss": 0.998,
-      "rps": 0.1955
+      "n": 51,
+      "acc_1x2": 52.9412,
+      "acc_ou": 58.8235,
+      "acc_score": 5.8824,
+      "brier": 0.5825,
+      "logloss": 0.9896,
+      "rps": 0.1916
     }
   },
   "by_competition": {
     "dc-v1": [
       {
-        "competition": "FL1",
-        "n": 9,
-        "acc_1x2": 55.5556,
-        "acc_ou": 44.4444,
+        "competition": "BL1",
+        "n": 1,
+        "acc_1x2": 100.0,
+        "acc_ou": 100.0,
         "acc_score": 0.0,
-        "rps": 0.174
+        "rps": 0.0397
+      },
+      {
+        "competition": "FL1",
+        "n": 10,
+        "acc_1x2": 50.0,
+        "acc_ou": 40.0,
+        "acc_score": 0.0,
+        "rps": 0.1696
       },
       {
         "competition": "PD",
@@ -46,11 +54,11 @@
       },
       {
         "competition": "PL",
-        "n": 10,
-        "acc_1x2": 60.0,
-        "acc_ou": 50.0,
+        "n": 11,
+        "acc_1x2": 63.6364,
+        "acc_ou": 45.4545,
         "acc_score": 0.0,
-        "rps": 0.1965
+        "rps": 0.1868
       },
       {
         "competition": "SA",
@@ -63,12 +71,20 @@
     ],
     "elo-v1": [
       {
-        "competition": "FL1",
-        "n": 9,
-        "acc_1x2": 44.4444,
-        "acc_ou": 55.5556,
+        "competition": "BL1",
+        "n": 1,
+        "acc_1x2": 100.0,
+        "acc_ou": 100.0,
         "acc_score": 0.0,
-        "rps": 0.1863
+        "rps": 0.0794
+      },
+      {
+        "competition": "FL1",
+        "n": 10,
+        "acc_1x2": 40.0,
+        "acc_ou": 60.0,
+        "acc_score": 0.0,
+        "rps": 0.1826
       },
       {
         "competition": "PD",
@@ -80,11 +96,11 @@
       },
       {
         "competition": "PL",
-        "n": 10,
-        "acc_1x2": 60.0,
-        "acc_ou": 70.0,
+        "n": 11,
+        "acc_1x2": 63.6364,
+        "acc_ou": 72.7273,
         "acc_score": 0.0,
-        "rps": 0.2041
+        "rps": 0.2003
       },
       {
         "competition": "SA",
@@ -379,6 +395,24 @@
         "n": 47,
         "acc_1x2": 57.4468,
         "rps": 0.1826
+      },
+      {
+        "date": "2026-08-28",
+        "n": 48,
+        "acc_1x2": 58.3333,
+        "rps": 0.1796
+      },
+      {
+        "date": "2026-08-28",
+        "n": 49,
+        "acc_1x2": 57.1429,
+        "rps": 0.1786
+      },
+      {
+        "date": "2026-08-28",
+        "n": 50,
+        "acc_1x2": 58.0,
+        "rps": 0.1768
       }
     ],
     "elo-v1": [
@@ -669,10 +703,58 @@
         "n": 48,
         "acc_1x2": 52.0833,
         "rps": 0.1955
+      },
+      {
+        "date": "2026-08-28",
+        "n": 49,
+        "acc_1x2": 53.0612,
+        "rps": 0.1931
+      },
+      {
+        "date": "2026-08-28",
+        "n": 50,
+        "acc_1x2": 52.0,
+        "rps": 0.1922
+      },
+      {
+        "date": "2026-08-28",
+        "n": 51,
+        "acc_1x2": 52.9412,
+        "rps": 0.1916
       }
     ]
   },
   "upcoming": [
+    {
+      "utc_date": "2026-08-28T17:00:00Z",
+      "competition": "PD",
+      "home_team": "Santander",
+      "away_team": "Elche",
+      "home_crest": "https://crests.football-data.org/5335.png",
+      "away_crest": "https://crests.football-data.org/285.png",
+      "p_home": 0.5906,
+      "p_draw": 0.1923,
+      "p_away": 0.2171,
+      "pick_1x2": "H",
+      "p_over25": 0.7213,
+      "pred_home_goals": 2,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-08-28T18:45:00Z",
+      "competition": "SA",
+      "home_team": "Milan",
+      "away_team": "Venezia FC",
+      "home_crest": "https://crests.football-data.org/98.png",
+      "away_crest": "https://crests.football-data.org/454.png",
+      "p_home": 0.4466,
+      "p_draw": 0.2819,
+      "p_away": 0.2715,
+      "pick_1x2": "H",
+      "p_over25": 0.366,
+      "pred_home_goals": 1,
+      "pred_away_goals": 0
+    },
     {
       "utc_date": "2026-08-29T11:30:00Z",
       "competition": "PL",
@@ -2041,6 +2123,63 @@
   ],
   "recent": [
     {
+      "utc_date": "2026-08-28T19:00:00Z",
+      "competition": "PL",
+      "home_team": "Crystal Palace",
+      "away_team": "Man City",
+      "home_crest": "https://crests.football-data.org/354.png",
+      "away_crest": "https://crests.football-data.org/65.png",
+      "p_home": 0.1428,
+      "p_draw": 0.2557,
+      "p_away": 0.6016,
+      "pick_1x2": "A",
+      "actual_1x2": "A",
+      "correct_1x2": 1,
+      "correct_ou": 0,
+      "correct_score": 0,
+      "home_goals": 1,
+      "away_goals": 4,
+      "rps_1x2": 0.0896
+    },
+    {
+      "utc_date": "2026-08-28T18:45:00Z",
+      "competition": "FL1",
+      "home_team": "Lille",
+      "away_team": "PSG",
+      "home_crest": "https://crests.football-data.org/521.png",
+      "away_crest": "https://crests.football-data.org/524.png",
+      "p_home": 0.2589,
+      "p_draw": 0.3008,
+      "p_away": 0.4403,
+      "pick_1x2": "A",
+      "actual_1x2": "D",
+      "correct_1x2": 0,
+      "correct_ou": 0,
+      "correct_score": 0,
+      "home_goals": 2,
+      "away_goals": 2,
+      "rps_1x2": 0.1305
+    },
+    {
+      "utc_date": "2026-08-28T18:30:00Z",
+      "competition": "BL1",
+      "home_team": "Bayern",
+      "away_team": "Stuttgart",
+      "home_crest": "https://crests.football-data.org/5.png",
+      "away_crest": "https://crests.football-data.org/10.png",
+      "p_home": 0.747,
+      "p_draw": 0.129,
+      "p_away": 0.124,
+      "pick_1x2": "H",
+      "actual_1x2": "H",
+      "correct_1x2": 1,
+      "correct_ou": 1,
+      "correct_score": 0,
+      "home_goals": 5,
+      "away_goals": 1,
+      "rps_1x2": 0.0397
+    },
+    {
       "utc_date": "2026-08-28T17:00:00Z",
       "competition": "PD",
       "home_team": "Santander",
@@ -2055,8 +2194,8 @@
       "correct_1x2": 1,
       "correct_ou": 1,
       "correct_score": 0,
-      "home_goals": 3,
-      "away_goals": 2,
+      "home_goals": null,
+      "away_goals": null,
       "rps_1x2": 0.1074
     },
     {
@@ -2936,7 +3075,7 @@
   ],
   "counts": {
     "predictions": 143,
-    "evaluated": 47,
-    "pending": 96
+    "evaluated": 50,
+    "pending": 93
   }
 }
