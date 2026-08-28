@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T15:01:25.370981+00:00",
+  "generated_at": "2026-08-28T16:01:25.949071+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -2055,6 +2055,21 @@
       "p_over25": 0.4969,
       "pred_home_goals": 1,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-09-07T16:00:00Z",
+      "competition": "SA",
+      "home_team": "Cagliari",
+      "away_team": "Lecce",
+      "home_crest": "https://crests.football-data.org/104.png",
+      "away_crest": "https://crests.football-data.org/5890.png",
+      "p_home": 0.4429,
+      "p_draw": 0.2952,
+      "p_away": 0.2619,
+      "pick_1x2": "H",
+      "p_over25": 0.312,
+      "pred_home_goals": 1,
+      "pred_away_goals": 0
     }
   ],
   "recent": [
@@ -2934,8 +2949,8 @@
     }
   ],
   "counts": {
-    "predictions": 139,
+    "predictions": 140,
     "evaluated": 46,
-    "pending": 93
+    "pending": 94
   }
 }
