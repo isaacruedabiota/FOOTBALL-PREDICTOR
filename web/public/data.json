@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T14:01:26.204691+00:00",
+  "generated_at": "2026-08-29T15:01:11.924282+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -761,36 +761,6 @@
     ]
   },
   "upcoming": [
-    {
-      "utc_date": "2026-08-29T14:00:00Z",
-      "competition": "PL",
-      "home_team": "Bournemouth",
-      "away_team": "Everton",
-      "home_crest": "https://crests.football-data.org/bournemouth.png",
-      "away_crest": "https://crests.football-data.org/62.png",
-      "p_home": 0.5001,
-      "p_draw": 0.2756,
-      "p_away": 0.2243,
-      "pick_1x2": "H",
-      "p_over25": 0.535,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
-    {
-      "utc_date": "2026-08-29T14:00:00Z",
-      "competition": "PL",
-      "home_team": "Coventry City",
-      "away_team": "Hull City",
-      "home_crest": "https://crests.football-data.org/1076.png",
-      "away_crest": "https://crests.football-data.org/322.png",
-      "p_home": 0.3939,
-      "p_draw": 0.3294,
-      "p_away": 0.2767,
-      "pick_1x2": "H",
-      "p_over25": 0.3867,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
     {
       "utc_date": "2026-08-29T15:00:00Z",
       "competition": "PD",
