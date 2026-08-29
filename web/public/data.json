@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T23:01:22.659735+00:00",
+  "generated_at": "2026-08-29T00:01:25.353471+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -750,19 +750,19 @@
   },
   "upcoming": [
     {
-      "utc_date": "2026-08-28T18:45:00Z",
-      "competition": "SA",
-      "home_team": "Milan",
-      "away_team": "Venezia FC",
-      "home_crest": "https://crests.football-data.org/98.png",
-      "away_crest": "https://crests.football-data.org/454.png",
-      "p_home": 0.4466,
-      "p_draw": 0.2819,
-      "p_away": 0.2715,
+      "utc_date": "2026-08-28T17:00:00Z",
+      "competition": "PD",
+      "home_team": "Santander",
+      "away_team": "Elche",
+      "home_crest": "https://crests.football-data.org/5335.png",
+      "away_crest": "https://crests.football-data.org/285.png",
+      "p_home": 0.5906,
+      "p_draw": 0.1923,
+      "p_away": 0.2171,
       "pick_1x2": "H",
-      "p_over25": 0.366,
-      "pred_home_goals": 1,
-      "pred_away_goals": 0
+      "p_over25": 0.7213,
+      "pred_home_goals": 2,
+      "pred_away_goals": 1
     },
     {
       "utc_date": "2026-08-29T11:30:00Z",
@@ -2184,8 +2184,8 @@
       "correct_1x2": 1,
       "correct_ou": 1,
       "correct_score": 0,
-      "home_goals": null,
-      "away_goals": null,
+      "home_goals": 2,
+      "away_goals": 0,
       "rps_1x2": 0.19
     },
     {
@@ -2241,8 +2241,8 @@
       "correct_1x2": 1,
       "correct_ou": 1,
       "correct_score": 0,
-      "home_goals": 3,
-      "away_goals": 2,
+      "home_goals": null,
+      "away_goals": null,
       "rps_1x2": 0.1074
     },
     {
