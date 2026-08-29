@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T09:01:26.662854+00:00",
+  "generated_at": "2026-08-29T10:01:26.337490+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -749,6 +749,21 @@
     ]
   },
   "upcoming": [
+    {
+      "utc_date": "2026-08-28T19:00:00Z",
+      "competition": "PL",
+      "home_team": "Crystal Palace",
+      "away_team": "Man City",
+      "home_crest": "https://crests.football-data.org/354.png",
+      "away_crest": "https://crests.football-data.org/65.png",
+      "p_home": 0.1428,
+      "p_draw": 0.2557,
+      "p_away": 0.6016,
+      "pick_1x2": "A",
+      "p_over25": 0.4988,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
     {
       "utc_date": "2026-08-29T11:30:00Z",
       "competition": "PL",
@@ -2150,8 +2165,8 @@
       "correct_1x2": 1,
       "correct_ou": 0,
       "correct_score": 0,
-      "home_goals": 1,
-      "away_goals": 4,
+      "home_goals": null,
+      "away_goals": null,
       "rps_1x2": 0.0896
     },
     {
