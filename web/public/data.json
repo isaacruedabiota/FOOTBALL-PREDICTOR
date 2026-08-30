@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T16:01:11.464262+00:00",
+  "generated_at": "2026-08-30T17:01:11.902532+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -1401,21 +1401,6 @@
       "pick_1x2": "A",
       "p_over25": 0.5256,
       "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
-    {
-      "utc_date": "2026-08-30T16:30:00Z",
-      "competition": "SA",
-      "home_team": "Napoli",
-      "away_team": "Como 1907",
-      "home_crest": "https://crests.football-data.org/113.png",
-      "away_crest": "https://crests.football-data.org/7397.png",
-      "p_home": 0.2924,
-      "p_draw": 0.27,
-      "p_away": 0.4377,
-      "pick_1x2": "A",
-      "p_over25": 0.4147,
-      "pred_home_goals": 0,
       "pred_away_goals": 1
     },
     {
