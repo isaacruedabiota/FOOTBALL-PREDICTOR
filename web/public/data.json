@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T16:01:11.269252+00:00",
+  "generated_at": "2026-08-31T17:01:11.438456+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -1207,21 +1207,6 @@
       "p_over25": 0.5466,
       "pred_home_goals": 1,
       "pred_away_goals": 0
-    },
-    {
-      "utc_date": "2026-08-31T16:30:00Z",
-      "competition": "SA",
-      "home_team": "Lecce",
-      "away_team": "Roma",
-      "home_crest": "https://crests.football-data.org/5890.png",
-      "away_crest": "https://crests.football-data.org/100.png",
-      "p_home": 0.132,
-      "p_draw": 0.2311,
-      "p_away": 0.6368,
-      "pick_1x2": "A",
-      "p_over25": 0.393,
-      "pred_home_goals": 0,
-      "pred_away_goals": 1
     },
     {
       "utc_date": "2026-08-31T17:30:00Z",
