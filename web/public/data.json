@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T19:01:11.219464+00:00",
+  "generated_at": "2026-08-31T20:01:11.349596+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -8,22 +8,22 @@
   },
   "summary": {
     "dc-v1": {
-      "n": 90,
-      "acc_1x2": 55.5556,
-      "acc_ou": 55.5556,
-      "acc_score": 7.7778,
-      "brier": 0.5556,
-      "logloss": 0.9406,
-      "rps": 0.1914
+      "n": 91,
+      "acc_1x2": 56.044,
+      "acc_ou": 56.044,
+      "acc_score": 8.7912,
+      "brier": 0.5547,
+      "logloss": 0.9392,
+      "rps": 0.1912
     },
     "elo-v1": {
-      "n": 91,
-      "acc_1x2": 53.8462,
-      "acc_ou": 59.3407,
-      "acc_score": 6.5934,
-      "brier": 0.5746,
-      "logloss": 0.9741,
-      "rps": 0.1996
+      "n": 92,
+      "acc_1x2": 54.3478,
+      "acc_ou": 58.6957,
+      "acc_score": 6.5217,
+      "brier": 0.5739,
+      "logloss": 0.9728,
+      "rps": 0.1999
     }
   },
   "by_competition": {
@@ -46,11 +46,11 @@
       },
       {
         "competition": "PD",
-        "n": 25,
-        "acc_1x2": 48.0,
-        "acc_ou": 52.0,
-        "acc_score": 4.0,
-        "rps": 0.1963
+        "n": 26,
+        "acc_1x2": 50.0,
+        "acc_ou": 53.8462,
+        "acc_score": 7.6923,
+        "rps": 0.1957
       },
       {
         "competition": "PL",
@@ -88,11 +88,11 @@
       },
       {
         "competition": "PD",
-        "n": 26,
-        "acc_1x2": 50.0,
-        "acc_ou": 53.8462,
-        "acc_score": 11.5385,
-        "rps": 0.1949
+        "n": 27,
+        "acc_1x2": 51.8519,
+        "acc_ou": 51.8519,
+        "acc_score": 11.1111,
+        "rps": 0.1961
       },
       {
         "competition": "PL",
@@ -653,6 +653,12 @@
         "n": 90,
         "acc_1x2": 55.5556,
         "rps": 0.1914
+      },
+      {
+        "date": "2026-08-31",
+        "n": 91,
+        "acc_1x2": 56.044,
+        "rps": 0.1912
       }
     ],
     "elo-v1": [
@@ -1201,6 +1207,12 @@
         "n": 91,
         "acc_1x2": 53.8462,
         "rps": 0.1996
+      },
+      {
+        "date": "2026-08-31",
+        "n": 92,
+        "acc_1x2": 54.3478,
+        "rps": 0.1999
       }
     ]
   },
@@ -1218,36 +1230,6 @@
       "pick_1x2": "H",
       "p_over25": 0.5466,
       "pred_home_goals": 1,
-      "pred_away_goals": 0
-    },
-    {
-      "utc_date": "2026-08-31T19:00:00Z",
-      "competition": "PL",
-      "home_team": "Aston Villa",
-      "away_team": "Arsenal",
-      "home_crest": "https://crests.football-data.org/58.png",
-      "away_crest": "https://crests.football-data.org/57.png",
-      "p_home": 0.1897,
-      "p_draw": 0.2901,
-      "p_away": 0.5202,
-      "pick_1x2": "A",
-      "p_over25": 0.4504,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
-    {
-      "utc_date": "2026-08-31T19:30:00Z",
-      "competition": "PD",
-      "home_team": "Barça",
-      "away_team": "Rayo Vallecano",
-      "home_crest": "https://crests.football-data.org/81.png",
-      "away_crest": "https://crests.football-data.org/87.png",
-      "p_home": 0.7683,
-      "p_draw": 0.1544,
-      "p_away": 0.0773,
-      "pick_1x2": "H",
-      "p_over25": 0.5862,
-      "pred_home_goals": 2,
       "pred_away_goals": 0
     },
     {
@@ -1987,6 +1969,25 @@
     }
   ],
   "recent": [
+    {
+      "utc_date": "2026-08-31T17:30:00Z",
+      "competition": "PD",
+      "home_team": "Osasuna",
+      "away_team": "Getafe",
+      "home_crest": "https://crests.football-data.org/79.png",
+      "away_crest": "https://crests.football-data.org/82.png",
+      "p_home": 0.4439,
+      "p_draw": 0.3337,
+      "p_away": 0.2224,
+      "pick_1x2": "H",
+      "actual_1x2": "H",
+      "correct_1x2": 1,
+      "correct_ou": 1,
+      "correct_score": 1,
+      "home_goals": 1,
+      "away_goals": 0,
+      "rps_1x2": 0.1794
+    },
     {
       "utc_date": "2026-08-31T16:30:00Z",
       "competition": "SA",
@@ -2917,30 +2918,11 @@
       "home_goals": 1,
       "away_goals": 1,
       "rps_1x2": 0.1474
-    },
-    {
-      "utc_date": "2026-08-24T19:00:00Z",
-      "competition": "PL",
-      "home_team": "Fulham",
-      "away_team": "Chelsea",
-      "home_crest": "https://crests.football-data.org/63.png",
-      "away_crest": "https://crests.football-data.org/61.png",
-      "p_home": 0.3949,
-      "p_draw": 0.3072,
-      "p_away": 0.2979,
-      "pick_1x2": "H",
-      "actual_1x2": "A",
-      "correct_1x2": 0,
-      "correct_ou": 0,
-      "correct_score": 0,
-      "home_goals": 2,
-      "away_goals": 3,
-      "rps_1x2": 0.3245
     }
   ],
   "counts": {
     "predictions": 143,
-    "evaluated": 90,
-    "pending": 53
+    "evaluated": 91,
+    "pending": 52
   }
 }
