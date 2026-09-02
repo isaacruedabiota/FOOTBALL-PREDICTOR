@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T07:01:11.455198+00:00",
+  "generated_at": "2026-09-02T08:01:10.379255+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -2030,21 +2030,6 @@
       "p_away": 0.3272,
       "pick_1x2": "H",
       "p_over25": 0.6833,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
-    {
-      "utc_date": "2026-09-11T19:00:00Z",
-      "competition": "PD",
-      "home_team": "Sevilla FC",
-      "away_team": "Valencia",
-      "home_crest": "https://crests.football-data.org/559.png",
-      "away_crest": "https://crests.football-data.org/95.png",
-      "p_home": 0.4794,
-      "p_draw": 0.2529,
-      "p_away": 0.2676,
-      "pick_1x2": "H",
-      "p_over25": 0.4873,
       "pred_home_goals": 1,
       "pred_away_goals": 1
     }
