@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T18:01:11.528976+00:00",
+  "generated_at": "2026-09-02T19:01:11.660715+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -1987,6 +1987,96 @@
       "p_over25": 0.4363,
       "pred_home_goals": 1,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-09-12T18:45:00Z",
+      "competition": "SA",
+      "home_team": "Atalanta",
+      "away_team": "Cagliari",
+      "home_crest": "https://crests.football-data.org/102.png",
+      "away_crest": "https://crests.football-data.org/104.png",
+      "p_home": 0.5547,
+      "p_draw": 0.2466,
+      "p_away": 0.1987,
+      "pick_1x2": "H",
+      "p_over25": 0.3732,
+      "pred_home_goals": 1,
+      "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-09-12T18:45:00Z",
+      "competition": "FL1",
+      "home_team": "Lorient",
+      "away_team": "Toulouse",
+      "home_crest": "https://crests.football-data.org/525.png",
+      "away_crest": "https://crests.football-data.org/511.png",
+      "p_home": 0.4415,
+      "p_draw": 0.2779,
+      "p_away": 0.2806,
+      "pick_1x2": "H",
+      "p_over25": 0.5146,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-09-12T18:45:00Z",
+      "competition": "FL1",
+      "home_team": "Auxerre",
+      "away_team": "Nice",
+      "home_crest": "https://crests.football-data.org/519.png",
+      "away_crest": "https://crests.football-data.org/522.png",
+      "p_home": 0.5046,
+      "p_draw": 0.284,
+      "p_away": 0.2114,
+      "pick_1x2": "H",
+      "p_over25": 0.4426,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-09-12T18:45:00Z",
+      "competition": "FL1",
+      "home_team": "Le Havre",
+      "away_team": "Angers SCO",
+      "home_crest": "https://crests.football-data.org/533.png",
+      "away_crest": "https://crests.football-data.org/532.png",
+      "p_home": 0.4094,
+      "p_draw": 0.3564,
+      "p_away": 0.2342,
+      "pick_1x2": "H",
+      "p_over25": 0.256,
+      "pred_home_goals": 0,
+      "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-09-12T18:45:00Z",
+      "competition": "FL1",
+      "home_team": "Paris FC",
+      "away_team": "Olympique Lyon",
+      "home_crest": "https://crests.football-data.org/1045.png",
+      "away_crest": "https://crests.football-data.org/523.png",
+      "p_home": 0.3858,
+      "p_draw": 0.2887,
+      "p_away": 0.3255,
+      "pick_1x2": "H",
+      "p_over25": 0.4891,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-09-12T19:00:00Z",
+      "competition": "PL",
+      "home_team": "Sunderland",
+      "away_team": "Arsenal",
+      "home_crest": "https://crests.football-data.org/71.png",
+      "away_crest": "https://crests.football-data.org/57.png",
+      "p_home": 0.1354,
+      "p_draw": 0.3043,
+      "p_away": 0.5602,
+      "pick_1x2": "A",
+      "p_over25": 0.3174,
+      "pred_home_goals": 0,
+      "pred_away_goals": 1
     }
   ],
   "recent": [
@@ -2942,8 +3032,8 @@
     }
   ],
   "counts": {
-    "predictions": 155,
+    "predictions": 161,
     "evaluated": 94,
-    "pending": 61
+    "pending": 67
   }
 }
