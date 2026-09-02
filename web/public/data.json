@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T12:01:11.647296+00:00",
+  "generated_at": "2026-09-02T13:01:10.726210+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -1867,6 +1867,21 @@
       "p_over25": 0.6833,
       "pred_home_goals": 1,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-09-12T13:00:00Z",
+      "competition": "SA",
+      "home_team": "Genoa",
+      "away_team": "Frosinone",
+      "home_crest": "https://crests.football-data.org/107.png",
+      "away_crest": "https://crests.football-data.org/470.png",
+      "p_home": 0.0516,
+      "p_draw": 0.1803,
+      "p_away": 0.768,
+      "pick_1x2": "A",
+      "p_over25": 0.3468,
+      "pred_home_goals": 0,
+      "pred_away_goals": 1
     }
   ],
   "recent": [
@@ -2822,8 +2837,8 @@
     }
   ],
   "counts": {
-    "predictions": 147,
+    "predictions": 148,
     "evaluated": 94,
-    "pending": 53
+    "pending": 54
   }
 }
