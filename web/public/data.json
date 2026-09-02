@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T13:01:10.726210+00:00",
+  "generated_at": "2026-09-02T14:01:11.493376+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -1882,6 +1882,81 @@
       "p_over25": 0.3468,
       "pred_home_goals": 0,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-09-12T14:00:00Z",
+      "competition": "PL",
+      "home_team": "Crystal Palace",
+      "away_team": "Ipswich Town",
+      "home_crest": "https://crests.football-data.org/354.png",
+      "away_crest": "https://crests.football-data.org/349.png",
+      "p_home": 0.4155,
+      "p_draw": 0.2086,
+      "p_away": 0.3758,
+      "pick_1x2": "H",
+      "p_over25": 0.8289,
+      "pred_home_goals": 2,
+      "pred_away_goals": 2
+    },
+    {
+      "utc_date": "2026-09-12T14:00:00Z",
+      "competition": "PL",
+      "home_team": "Liverpool",
+      "away_team": "Fulham",
+      "home_crest": "https://crests.football-data.org/64.png",
+      "away_crest": "https://crests.football-data.org/63.png",
+      "p_home": 0.5402,
+      "p_draw": 0.2551,
+      "p_away": 0.2046,
+      "pick_1x2": "H",
+      "p_over25": 0.5638,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-09-12T14:00:00Z",
+      "competition": "PL",
+      "home_team": "Aston Villa",
+      "away_team": "Nottingham",
+      "home_crest": "https://crests.football-data.org/58.png",
+      "away_crest": "https://crests.football-data.org/351.png",
+      "p_home": 0.4009,
+      "p_draw": 0.291,
+      "p_away": 0.3081,
+      "pick_1x2": "H",
+      "p_over25": 0.5025,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-09-12T14:00:00Z",
+      "competition": "PL",
+      "home_team": "Bournemouth",
+      "away_team": "Brentford",
+      "home_crest": "https://crests.football-data.org/bournemouth.png",
+      "away_crest": "https://crests.football-data.org/402.png",
+      "p_home": 0.4329,
+      "p_draw": 0.2797,
+      "p_away": 0.2874,
+      "pick_1x2": "H",
+      "p_over25": 0.5365,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-09-12T14:00:00Z",
+      "competition": "PL",
+      "home_team": "Chelsea",
+      "away_team": "Hull City",
+      "home_crest": "https://crests.football-data.org/61.png",
+      "away_crest": "https://crests.football-data.org/322.png",
+      "p_home": 0.0174,
+      "p_draw": 0.2545,
+      "p_away": 0.7281,
+      "pick_1x2": "A",
+      "p_over25": 0.1959,
+      "pred_home_goals": 0,
+      "pred_away_goals": 1
     }
   ],
   "recent": [
@@ -2837,8 +2912,8 @@
     }
   ],
   "counts": {
-    "predictions": 148,
+    "predictions": 153,
     "evaluated": 94,
-    "pending": 54
+    "pending": 59
   }
 }
