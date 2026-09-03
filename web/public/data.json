@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T16:01:11.697517+00:00",
+  "generated_at": "2026-09-03T17:01:11.441194+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -2542,6 +2542,21 @@
       "p_over25": 0.4565,
       "pred_home_goals": 1,
       "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-09-13T16:30:00Z",
+      "competition": "PD",
+      "home_team": "Getafe",
+      "away_team": "Deportivo",
+      "home_crest": "https://crests.football-data.org/82.png",
+      "away_crest": "https://crests.football-data.org/560.png",
+      "p_home": 0.418,
+      "p_draw": 0.3132,
+      "p_away": 0.2688,
+      "pick_1x2": "H",
+      "p_over25": 0.2935,
+      "pred_home_goals": 1,
+      "pred_away_goals": 0
     }
   ],
   "recent": [
@@ -3497,8 +3512,8 @@
     }
   ],
   "counts": {
-    "predictions": 182,
+    "predictions": 183,
     "evaluated": 94,
-    "pending": 88
+    "pending": 89
   }
 }
