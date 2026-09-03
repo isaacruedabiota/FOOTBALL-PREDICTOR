@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T14:01:10.624440+00:00",
+  "generated_at": "2026-09-03T15:01:11.774985+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -2467,6 +2467,21 @@
       "p_over25": 0.5835,
       "pred_home_goals": 2,
       "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-09-13T14:15:00Z",
+      "competition": "PD",
+      "home_team": "Levante",
+      "away_team": "Barça",
+      "home_crest": "https://crests.football-data.org/88.png",
+      "away_crest": "https://crests.football-data.org/81.png",
+      "p_home": 0.1533,
+      "p_draw": 0.1754,
+      "p_away": 0.6713,
+      "pick_1x2": "A",
+      "p_over25": 0.69,
+      "pred_home_goals": 1,
+      "pred_away_goals": 2
     }
   ],
   "recent": [
@@ -3422,8 +3437,8 @@
     }
   ],
   "counts": {
-    "predictions": 177,
+    "predictions": 178,
     "evaluated": 94,
-    "pending": 83
+    "pending": 84
   }
 }
