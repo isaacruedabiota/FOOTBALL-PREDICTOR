@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T11:01:10.693031+00:00",
+  "generated_at": "2026-09-03T12:01:10.890754+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -2392,6 +2392,21 @@
       "p_over25": 0.5769,
       "pred_home_goals": 2,
       "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-09-13T12:00:00Z",
+      "competition": "PD",
+      "home_team": "Celta",
+      "away_team": "Málaga",
+      "home_crest": "https://crests.football-data.org/558.png",
+      "away_crest": "https://crests.football-data.org/84.png",
+      "p_home": 0.7629,
+      "p_draw": 0.1876,
+      "p_away": 0.0495,
+      "pick_1x2": "H",
+      "p_over25": 0.3609,
+      "pred_home_goals": 1,
+      "pred_away_goals": 0
     }
   ],
   "recent": [
@@ -3347,8 +3362,8 @@
     }
   ],
   "counts": {
-    "predictions": 172,
+    "predictions": 173,
     "evaluated": 94,
-    "pending": 78
+    "pending": 79
   }
 }
