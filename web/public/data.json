@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T19:01:11.153494+00:00",
+  "generated_at": "2026-09-03T20:01:10.670557+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -1253,21 +1253,6 @@
     ]
   },
   "upcoming": [
-    {
-      "utc_date": "2026-09-03T19:00:00Z",
-      "competition": "PD",
-      "home_team": "Real Sociedad",
-      "away_team": "Celta",
-      "home_crest": "https://crests.football-data.org/92.png",
-      "away_crest": "https://crests.football-data.org/558.png",
-      "p_home": 0.4417,
-      "p_draw": 0.2439,
-      "p_away": 0.3143,
-      "pick_1x2": "H",
-      "p_over25": 0.5664,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
     {
       "utc_date": "2026-09-04T17:00:00Z",
       "competition": "FL1",
