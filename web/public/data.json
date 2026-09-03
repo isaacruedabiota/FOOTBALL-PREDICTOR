@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T03:01:11.060950+00:00",
+  "generated_at": "2026-09-03T04:01:10.697437+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -1929,21 +1929,6 @@
       "pred_away_goals": 1
     },
     {
-      "utc_date": "2026-09-07T16:30:00Z",
-      "competition": "SA",
-      "home_team": "Cagliari",
-      "away_team": "Lecce",
-      "home_crest": "https://crests.football-data.org/104.png",
-      "away_crest": "https://crests.football-data.org/5890.png",
-      "p_home": 0.4429,
-      "p_draw": 0.2952,
-      "p_away": 0.2619,
-      "pick_1x2": "H",
-      "p_over25": 0.312,
-      "pred_home_goals": 1,
-      "pred_away_goals": 0
-    },
-    {
       "utc_date": "2026-09-07T17:00:00Z",
       "competition": "PD",
       "home_team": "Getafe",
@@ -2256,21 +2241,6 @@
       "pick_1x2": "H",
       "p_over25": 0.6999,
       "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
-    {
-      "utc_date": "2026-09-12T16:00:00Z",
-      "competition": "SA",
-      "home_team": "Lazio",
-      "away_team": "Milan",
-      "home_crest": "https://crests.football-data.org/110.png",
-      "away_crest": "https://crests.football-data.org/98.png",
-      "p_home": 0.3219,
-      "p_draw": 0.2868,
-      "p_away": 0.3913,
-      "pick_1x2": "A",
-      "p_over25": 0.3142,
-      "pred_home_goals": 0,
       "pred_away_goals": 1
     },
     {
