@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T12:01:10.890754+00:00",
+  "generated_at": "2026-09-03T13:01:12.173081+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -2407,6 +2407,51 @@
       "p_over25": 0.3609,
       "pred_home_goals": 1,
       "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-09-13T13:00:00Z",
+      "competition": "SA",
+      "home_team": "Lecce",
+      "away_team": "Monza",
+      "home_crest": "https://crests.football-data.org/5890.png",
+      "away_crest": "https://crests.football-data.org/5911.png",
+      "p_home": 0.338,
+      "p_draw": 0.2048,
+      "p_away": 0.4572,
+      "pick_1x2": "A",
+      "p_over25": 0.6749,
+      "pred_home_goals": 1,
+      "pred_away_goals": 2
+    },
+    {
+      "utc_date": "2026-09-13T13:00:00Z",
+      "competition": "FL1",
+      "home_team": "Lille",
+      "away_team": "Troyes",
+      "home_crest": "https://crests.football-data.org/521.png",
+      "away_crest": "https://crests.football-data.org/531.png",
+      "p_home": 0.2627,
+      "p_draw": 0.4231,
+      "p_away": 0.3142,
+      "pick_1x2": "D",
+      "p_over25": 0.1454,
+      "pred_home_goals": 0,
+      "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-09-13T13:00:00Z",
+      "competition": "PL",
+      "home_team": "Coventry City",
+      "away_team": "Brighton Hove",
+      "home_crest": "https://crests.football-data.org/1076.png",
+      "away_crest": "https://crests.football-data.org/397.png",
+      "p_home": 0.009,
+      "p_draw": 0.196,
+      "p_away": 0.795,
+      "pick_1x2": "A",
+      "p_over25": 0.2577,
+      "pred_home_goals": 0,
+      "pred_away_goals": 1
     }
   ],
   "recent": [
@@ -3362,8 +3407,8 @@
     }
   ],
   "counts": {
-    "predictions": 173,
+    "predictions": 176,
     "evaluated": 94,
-    "pending": 79
+    "pending": 82
   }
 }
