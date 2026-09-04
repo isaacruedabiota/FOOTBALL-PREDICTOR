@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T10:01:11.258688+00:00",
+  "generated_at": "2026-09-04T11:01:10.562156+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -1323,21 +1323,6 @@
       "pred_away_goals": 1
     },
     {
-      "utc_date": "2026-09-04T19:00:00Z",
-      "competition": "PL",
-      "home_team": "Ipswich Town",
-      "away_team": "Liverpool",
-      "home_crest": "https://crests.football-data.org/349.png",
-      "away_crest": "https://crests.football-data.org/64.png",
-      "p_home": 0.5227,
-      "p_draw": 0.2276,
-      "p_away": 0.2497,
-      "pick_1x2": "H",
-      "p_over25": 0.7116,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
-    {
       "utc_date": "2026-09-04T19:05:00Z",
       "competition": "FL1",
       "home_team": "PSG",
@@ -1350,21 +1335,6 @@
       "pick_1x2": "H",
       "p_over25": 0.6861,
       "pred_home_goals": 2,
-      "pred_away_goals": 1
-    },
-    {
-      "utc_date": "2026-09-05T11:30:00Z",
-      "competition": "PL",
-      "home_team": "Newcastle",
-      "away_team": "Bournemouth",
-      "home_crest": "https://crests.football-data.org/67.png",
-      "away_crest": "https://crests.football-data.org/bournemouth.png",
-      "p_home": 0.373,
-      "p_draw": 0.27,
-      "p_away": 0.357,
-      "pick_1x2": "H",
-      "p_over25": 0.5919,
-      "pred_home_goals": 1,
       "pred_away_goals": 1
     },
     {
@@ -1458,81 +1428,6 @@
       "pred_away_goals": 1
     },
     {
-      "utc_date": "2026-09-05T14:00:00Z",
-      "competition": "PL",
-      "home_team": "Nottingham",
-      "away_team": "Tottenham",
-      "home_crest": "https://crests.football-data.org/351.png",
-      "away_crest": "https://crests.football-data.org/73.png",
-      "p_home": 0.5279,
-      "p_draw": 0.2772,
-      "p_away": 0.195,
-      "pick_1x2": "H",
-      "p_over25": 0.4752,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
-    {
-      "utc_date": "2026-09-05T14:00:00Z",
-      "competition": "PL",
-      "home_team": "Man City",
-      "away_team": "Coventry City",
-      "home_crest": "https://crests.football-data.org/65.png",
-      "away_crest": "https://crests.football-data.org/1076.png",
-      "p_home": 0.9586,
-      "p_draw": 0.0406,
-      "p_away": 0.0008,
-      "pick_1x2": "H",
-      "p_over25": 0.6503,
-      "pred_home_goals": 3,
-      "pred_away_goals": 0
-    },
-    {
-      "utc_date": "2026-09-05T14:00:00Z",
-      "competition": "PL",
-      "home_team": "Brighton Hove",
-      "away_team": "Leeds United",
-      "home_crest": "https://crests.football-data.org/397.png",
-      "away_crest": "https://crests.football-data.org/341.png",
-      "p_home": 0.4879,
-      "p_draw": 0.2932,
-      "p_away": 0.2189,
-      "pick_1x2": "H",
-      "p_over25": 0.445,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
-    {
-      "utc_date": "2026-09-05T14:00:00Z",
-      "competition": "PL",
-      "home_team": "Brentford",
-      "away_team": "Sunderland",
-      "home_crest": "https://crests.football-data.org/402.png",
-      "away_crest": "https://crests.football-data.org/71.png",
-      "p_home": 0.5114,
-      "p_draw": 0.2823,
-      "p_away": 0.2063,
-      "pick_1x2": "H",
-      "p_over25": 0.4698,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
-    {
-      "utc_date": "2026-09-05T14:00:00Z",
-      "competition": "PL",
-      "home_team": "Fulham",
-      "away_team": "Crystal Palace",
-      "home_crest": "https://crests.football-data.org/63.png",
-      "away_crest": "https://crests.football-data.org/354.png",
-      "p_home": 0.471,
-      "p_draw": 0.305,
-      "p_away": 0.2241,
-      "pick_1x2": "H",
-      "p_over25": 0.411,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
-    {
       "utc_date": "2026-09-05T14:15:00Z",
       "competition": "PD",
       "home_team": "Athletic",
@@ -1576,21 +1471,6 @@
       "p_over25": 0.5958,
       "pred_home_goals": 1,
       "pred_away_goals": 1
-    },
-    {
-      "utc_date": "2026-09-05T16:30:00Z",
-      "competition": "PL",
-      "home_team": "Hull City",
-      "away_team": "Aston Villa",
-      "home_crest": "https://crests.football-data.org/322.png",
-      "away_crest": "https://crests.football-data.org/58.png",
-      "p_home": 0.8877,
-      "p_draw": 0.108,
-      "p_away": 0.0043,
-      "pick_1x2": "H",
-      "p_over25": 0.4291,
-      "pred_home_goals": 2,
-      "pred_away_goals": 0
     },
     {
       "utc_date": "2026-09-05T16:30:00Z",
@@ -1728,21 +1608,6 @@
       "pred_away_goals": 0
     },
     {
-      "utc_date": "2026-09-06T13:00:00Z",
-      "competition": "PL",
-      "home_team": "Everton",
-      "away_team": "Man United",
-      "home_crest": "https://crests.football-data.org/62.png",
-      "away_crest": "https://crests.football-data.org/66.png",
-      "p_home": 0.3041,
-      "p_draw": 0.2782,
-      "p_away": 0.4178,
-      "pick_1x2": "A",
-      "p_over25": 0.5504,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
-    {
       "utc_date": "2026-09-06T13:30:00Z",
       "competition": "BL1",
       "home_team": "HSV",
@@ -1786,21 +1651,6 @@
       "p_over25": 0.5037,
       "pred_home_goals": 1,
       "pred_away_goals": 1
-    },
-    {
-      "utc_date": "2026-09-06T15:30:00Z",
-      "competition": "PL",
-      "home_team": "Arsenal",
-      "away_team": "Chelsea",
-      "home_crest": "https://crests.football-data.org/57.png",
-      "away_crest": "https://crests.football-data.org/61.png",
-      "p_home": 0.6972,
-      "p_draw": 0.2061,
-      "p_away": 0.0967,
-      "pick_1x2": "H",
-      "p_over25": 0.5502,
-      "pred_home_goals": 2,
-      "pred_away_goals": 0
     },
     {
       "utc_date": "2026-09-06T15:30:00Z",
@@ -2133,81 +1983,6 @@
       "pred_away_goals": 1
     },
     {
-      "utc_date": "2026-09-12T14:00:00Z",
-      "competition": "PL",
-      "home_team": "Crystal Palace",
-      "away_team": "Ipswich Town",
-      "home_crest": "https://crests.football-data.org/354.png",
-      "away_crest": "https://crests.football-data.org/349.png",
-      "p_home": 0.4155,
-      "p_draw": 0.2086,
-      "p_away": 0.3758,
-      "pick_1x2": "H",
-      "p_over25": 0.8289,
-      "pred_home_goals": 2,
-      "pred_away_goals": 2
-    },
-    {
-      "utc_date": "2026-09-12T14:00:00Z",
-      "competition": "PL",
-      "home_team": "Liverpool",
-      "away_team": "Fulham",
-      "home_crest": "https://crests.football-data.org/64.png",
-      "away_crest": "https://crests.football-data.org/63.png",
-      "p_home": 0.5402,
-      "p_draw": 0.2551,
-      "p_away": 0.2046,
-      "pick_1x2": "H",
-      "p_over25": 0.5638,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
-    {
-      "utc_date": "2026-09-12T14:00:00Z",
-      "competition": "PL",
-      "home_team": "Aston Villa",
-      "away_team": "Nottingham",
-      "home_crest": "https://crests.football-data.org/58.png",
-      "away_crest": "https://crests.football-data.org/351.png",
-      "p_home": 0.4009,
-      "p_draw": 0.291,
-      "p_away": 0.3081,
-      "pick_1x2": "H",
-      "p_over25": 0.5025,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
-    {
-      "utc_date": "2026-09-12T14:00:00Z",
-      "competition": "PL",
-      "home_team": "Bournemouth",
-      "away_team": "Brentford",
-      "home_crest": "https://crests.football-data.org/bournemouth.png",
-      "away_crest": "https://crests.football-data.org/402.png",
-      "p_home": 0.4329,
-      "p_draw": 0.2797,
-      "p_away": 0.2874,
-      "pick_1x2": "H",
-      "p_over25": 0.5365,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
-    {
-      "utc_date": "2026-09-12T14:00:00Z",
-      "competition": "PL",
-      "home_team": "Chelsea",
-      "away_team": "Hull City",
-      "home_crest": "https://crests.football-data.org/61.png",
-      "away_crest": "https://crests.football-data.org/322.png",
-      "p_home": 0.0174,
-      "p_draw": 0.2545,
-      "p_away": 0.7281,
-      "pick_1x2": "A",
-      "p_over25": 0.1959,
-      "pred_home_goals": 0,
-      "pred_away_goals": 1
-    },
-    {
       "utc_date": "2026-09-12T14:15:00Z",
       "competition": "PD",
       "home_team": "Osasuna",
@@ -2250,21 +2025,6 @@
       "pick_1x2": "A",
       "p_over25": 0.3142,
       "pred_home_goals": 0,
-      "pred_away_goals": 1
-    },
-    {
-      "utc_date": "2026-09-12T16:30:00Z",
-      "competition": "PL",
-      "home_team": "Tottenham",
-      "away_team": "Everton",
-      "home_crest": "https://crests.football-data.org/73.png",
-      "away_crest": "https://crests.football-data.org/62.png",
-      "p_home": 0.2931,
-      "p_draw": 0.3082,
-      "p_away": 0.3988,
-      "pick_1x2": "A",
-      "p_over25": 0.4363,
-      "pred_home_goals": 1,
       "pred_away_goals": 1
     },
     {
@@ -2374,21 +2134,6 @@
     },
     {
       "utc_date": "2026-09-12T19:00:00Z",
-      "competition": "PL",
-      "home_team": "Sunderland",
-      "away_team": "Arsenal",
-      "home_crest": "https://crests.football-data.org/71.png",
-      "away_crest": "https://crests.football-data.org/57.png",
-      "p_home": 0.1354,
-      "p_draw": 0.3043,
-      "p_away": 0.5602,
-      "pick_1x2": "A",
-      "p_over25": 0.3174,
-      "pred_home_goals": 0,
-      "pred_away_goals": 1
-    },
-    {
-      "utc_date": "2026-09-12T19:00:00Z",
       "competition": "PD",
       "home_team": "Real Madrid",
       "away_team": "Rayo Vallecano",
@@ -2448,21 +2193,6 @@
       "pred_away_goals": 0
     },
     {
-      "utc_date": "2026-09-13T13:00:00Z",
-      "competition": "PL",
-      "home_team": "Coventry City",
-      "away_team": "Brighton Hove",
-      "home_crest": "https://crests.football-data.org/1076.png",
-      "away_crest": "https://crests.football-data.org/397.png",
-      "p_home": 0.009,
-      "p_draw": 0.196,
-      "p_away": 0.795,
-      "pick_1x2": "A",
-      "p_over25": 0.2577,
-      "pred_home_goals": 0,
-      "pred_away_goals": 1
-    },
-    {
       "utc_date": "2026-09-13T13:30:00Z",
       "competition": "BL1",
       "home_team": "RB Leipzig",
@@ -2506,21 +2236,6 @@
       "p_over25": 0.8406,
       "pred_home_goals": 1,
       "pred_away_goals": 2
-    },
-    {
-      "utc_date": "2026-09-13T15:30:00Z",
-      "competition": "PL",
-      "home_team": "Man United",
-      "away_team": "Man City",
-      "home_crest": "https://crests.football-data.org/66.png",
-      "away_crest": "https://crests.football-data.org/65.png",
-      "p_home": 0.3097,
-      "p_draw": 0.2613,
-      "p_away": 0.429,
-      "pick_1x2": "A",
-      "p_over25": 0.6158,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
     },
     {
       "utc_date": "2026-09-13T15:30:00Z",
