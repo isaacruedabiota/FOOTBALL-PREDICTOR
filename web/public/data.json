@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T17:01:11.500766+00:00",
+  "generated_at": "2026-09-04T18:01:10.960718+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -1308,6 +1308,21 @@
       "pred_away_goals": 1
     },
     {
+      "utc_date": "2026-09-04T19:05:00Z",
+      "competition": "FL1",
+      "home_team": "PSG",
+      "away_team": "Monaco",
+      "home_crest": "https://crests.football-data.org/524.png",
+      "away_crest": "https://crests.football-data.org/548.png",
+      "p_home": 0.6787,
+      "p_draw": 0.1862,
+      "p_away": 0.135,
+      "pick_1x2": "H",
+      "p_over25": 0.6861,
+      "pred_home_goals": 2,
+      "pred_away_goals": 1
+    },
+    {
       "utc_date": "2026-09-05T11:30:00Z",
       "competition": "PL",
       "home_team": "Newcastle",
@@ -1488,6 +1503,21 @@
       "pred_away_goals": 1
     },
     {
+      "utc_date": "2026-09-05T15:15:00Z",
+      "competition": "FL1",
+      "home_team": "RC Lens",
+      "away_team": "Lorient",
+      "home_crest": "https://crests.football-data.org/546.png",
+      "away_crest": "https://crests.football-data.org/525.png",
+      "p_home": 0.6411,
+      "p_draw": 0.2048,
+      "p_away": 0.1541,
+      "pick_1x2": "H",
+      "p_over25": 0.6464,
+      "pred_home_goals": 2,
+      "pred_away_goals": 1
+    },
+    {
       "utc_date": "2026-09-05T16:30:00Z",
       "competition": "PL",
       "home_team": "Hull City",
@@ -1533,6 +1563,36 @@
       "pred_away_goals": 2
     },
     {
+      "utc_date": "2026-09-05T18:45:00Z",
+      "competition": "FL1",
+      "home_team": "Le Havre",
+      "away_team": "Brest",
+      "home_crest": "https://crests.football-data.org/533.png",
+      "away_crest": "https://crests.football-data.org/512.png",
+      "p_home": 0.3709,
+      "p_draw": 0.3191,
+      "p_away": 0.31,
+      "pick_1x2": "H",
+      "p_over25": 0.3565,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-09-05T18:45:00Z",
+      "competition": "FL1",
+      "home_team": "Nice",
+      "away_team": "Le Mans",
+      "home_crest": "https://crests.football-data.org/522.png",
+      "away_crest": "https://upload.wikimedia.org/wikipedia/en/5/57/Le_Mans_FC_logo.svg",
+      "p_home": 0.4379,
+      "p_draw": 0.2324,
+      "p_away": 0.3297,
+      "pick_1x2": "H",
+      "p_over25": 0.6955,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
       "utc_date": "2026-09-05T19:00:00Z",
       "competition": "PD",
       "home_team": "Villarreal",
@@ -1545,6 +1605,21 @@
       "pick_1x2": "H",
       "p_over25": 0.7076,
       "pred_home_goals": 2,
+      "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-09-06T13:00:00Z",
+      "competition": "FL1",
+      "home_team": "Troyes",
+      "away_team": "Strasbourg",
+      "home_crest": "https://crests.football-data.org/531.png",
+      "away_crest": "https://crests.football-data.org/576.png",
+      "p_home": 0.065,
+      "p_draw": 0.8709,
+      "p_away": 0.0641,
+      "pick_1x2": "D",
+      "p_over25": 0.0005,
+      "pred_home_goals": 0,
       "pred_away_goals": 0
     },
     {
@@ -1591,6 +1666,21 @@
       "p_over25": 0.5595,
       "pred_home_goals": 0,
       "pred_away_goals": 2
+    },
+    {
+      "utc_date": "2026-09-06T15:15:00Z",
+      "competition": "FL1",
+      "home_team": "Angers SCO",
+      "away_team": "Stade Rennais",
+      "home_crest": "https://crests.football-data.org/532.png",
+      "away_crest": "https://crests.football-data.org/529.png",
+      "p_home": 0.1819,
+      "p_draw": 0.2524,
+      "p_away": 0.5657,
+      "pick_1x2": "A",
+      "p_over25": 0.5037,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
     },
     {
       "utc_date": "2026-09-06T15:30:00Z",
@@ -1653,6 +1743,21 @@
       "pred_away_goals": 1
     },
     {
+      "utc_date": "2026-09-06T18:45:00Z",
+      "competition": "FL1",
+      "home_team": "Marseille",
+      "away_team": "Paris FC",
+      "home_crest": "https://crests.football-data.org/516.png",
+      "away_crest": "https://crests.football-data.org/1045.png",
+      "p_home": 0.5275,
+      "p_draw": 0.2416,
+      "p_away": 0.2309,
+      "pick_1x2": "H",
+      "p_over25": 0.6046,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
       "utc_date": "2026-09-06T19:00:00Z",
       "competition": "PD",
       "home_team": "Espanyol",
@@ -1711,6 +1816,21 @@
       "p_over25": 0.5806,
       "pred_home_goals": 2,
       "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-09-11T18:45:00Z",
+      "competition": "FL1",
+      "home_team": "Stade Rennais",
+      "away_team": "Marseille",
+      "home_crest": "https://crests.football-data.org/529.png",
+      "away_crest": "https://crests.football-data.org/516.png",
+      "p_home": 0.4326,
+      "p_draw": 0.2402,
+      "p_away": 0.3272,
+      "pick_1x2": "H",
+      "p_over25": 0.6833,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
     },
     {
       "utc_date": "2026-09-11T19:00:00Z",
@@ -1908,6 +2028,21 @@
       "pred_away_goals": 0
     },
     {
+      "utc_date": "2026-09-12T15:15:00Z",
+      "competition": "FL1",
+      "home_team": "Strasbourg",
+      "away_team": "Monaco",
+      "home_crest": "https://crests.football-data.org/576.png",
+      "away_crest": "https://crests.football-data.org/548.png",
+      "p_home": 0.4045,
+      "p_draw": 0.2378,
+      "p_away": 0.3577,
+      "pick_1x2": "H",
+      "p_over25": 0.6999,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
       "utc_date": "2026-09-12T16:30:00Z",
       "competition": "PL",
       "home_team": "Tottenham",
@@ -1949,6 +2084,66 @@
       "p_away": 0.2175,
       "pick_1x2": "H",
       "p_over25": 0.5697,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-09-12T18:45:00Z",
+      "competition": "FL1",
+      "home_team": "Lorient",
+      "away_team": "Toulouse",
+      "home_crest": "https://crests.football-data.org/525.png",
+      "away_crest": "https://crests.football-data.org/511.png",
+      "p_home": 0.4415,
+      "p_draw": 0.2779,
+      "p_away": 0.2806,
+      "pick_1x2": "H",
+      "p_over25": 0.5146,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-09-12T18:45:00Z",
+      "competition": "FL1",
+      "home_team": "Auxerre",
+      "away_team": "Nice",
+      "home_crest": "https://crests.football-data.org/519.png",
+      "away_crest": "https://crests.football-data.org/522.png",
+      "p_home": 0.5046,
+      "p_draw": 0.284,
+      "p_away": 0.2114,
+      "pick_1x2": "H",
+      "p_over25": 0.4426,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-09-12T18:45:00Z",
+      "competition": "FL1",
+      "home_team": "Le Havre",
+      "away_team": "Angers SCO",
+      "home_crest": "https://crests.football-data.org/533.png",
+      "away_crest": "https://crests.football-data.org/532.png",
+      "p_home": 0.4094,
+      "p_draw": 0.3564,
+      "p_away": 0.2342,
+      "pick_1x2": "H",
+      "p_over25": 0.256,
+      "pred_home_goals": 0,
+      "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-09-12T18:45:00Z",
+      "competition": "FL1",
+      "home_team": "Paris FC",
+      "away_team": "Olympique Lyon",
+      "home_crest": "https://crests.football-data.org/1045.png",
+      "away_crest": "https://crests.football-data.org/523.png",
+      "p_home": 0.3858,
+      "p_draw": 0.2887,
+      "p_away": 0.3255,
+      "pick_1x2": "H",
+      "p_over25": 0.4891,
       "pred_home_goals": 1,
       "pred_away_goals": 1
     },
@@ -1999,6 +2194,21 @@
     },
     {
       "utc_date": "2026-09-13T13:00:00Z",
+      "competition": "FL1",
+      "home_team": "Lille",
+      "away_team": "Troyes",
+      "home_crest": "https://crests.football-data.org/521.png",
+      "away_crest": "https://crests.football-data.org/531.png",
+      "p_home": 0.2627,
+      "p_draw": 0.4231,
+      "p_away": 0.3142,
+      "pick_1x2": "D",
+      "p_over25": 0.1454,
+      "pred_home_goals": 0,
+      "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-09-13T13:00:00Z",
       "competition": "PL",
       "home_team": "Coventry City",
       "away_team": "Brighton Hove",
@@ -2039,6 +2249,21 @@
       "p_away": 0.6713,
       "pick_1x2": "A",
       "p_over25": 0.69,
+      "pred_home_goals": 1,
+      "pred_away_goals": 2
+    },
+    {
+      "utc_date": "2026-09-13T15:15:00Z",
+      "competition": "FL1",
+      "home_team": "Le Mans",
+      "away_team": "RC Lens",
+      "home_crest": "https://upload.wikimedia.org/wikipedia/en/5/57/Le_Mans_FC_logo.svg",
+      "away_crest": "https://crests.football-data.org/546.png",
+      "p_home": 0.2052,
+      "p_draw": 0.1774,
+      "p_away": 0.6174,
+      "pick_1x2": "A",
+      "p_over25": 0.8406,
       "pred_home_goals": 1,
       "pred_away_goals": 2
     },
@@ -2086,6 +2311,21 @@
       "p_over25": 0.2935,
       "pred_home_goals": 1,
       "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-09-13T18:45:00Z",
+      "competition": "FL1",
+      "home_team": "Brest",
+      "away_team": "PSG",
+      "home_crest": "https://crests.football-data.org/512.png",
+      "away_crest": "https://crests.football-data.org/524.png",
+      "p_home": 0.1461,
+      "p_draw": 0.2109,
+      "p_away": 0.6431,
+      "pick_1x2": "A",
+      "p_over25": 0.6216,
+      "pred_home_goals": 0,
+      "pred_away_goals": 2
     },
     {
       "utc_date": "2026-09-13T19:00:00Z",
