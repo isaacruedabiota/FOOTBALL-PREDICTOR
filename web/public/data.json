@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T07:01:10.863187+00:00",
+  "generated_at": "2026-09-04T08:01:10.202205+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -1334,21 +1334,6 @@
       "p_away": 0.2497,
       "pick_1x2": "H",
       "p_over25": 0.7116,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
-    {
-      "utc_date": "2026-09-04T19:00:00Z",
-      "competition": "PD",
-      "home_team": "Real Betis",
-      "away_team": "Real Madrid",
-      "home_crest": "https://crests.football-data.org/90.png",
-      "away_crest": "https://crests.football-data.org/86.png",
-      "p_home": 0.3163,
-      "p_draw": 0.2645,
-      "p_away": 0.4192,
-      "pick_1x2": "A",
-      "p_over25": 0.5057,
       "pred_home_goals": 1,
       "pred_away_goals": 1
     },
