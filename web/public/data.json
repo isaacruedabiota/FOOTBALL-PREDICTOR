@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T19:01:11.530035+00:00",
+  "generated_at": "2026-09-05T20:01:10.299921+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -1566,36 +1566,6 @@
   },
   "upcoming": [
     {
-      "utc_date": "2026-09-05T11:30:00Z",
-      "competition": "PL",
-      "home_team": "Newcastle",
-      "away_team": "Bournemouth",
-      "home_crest": "https://crests.football-data.org/67.png",
-      "away_crest": "https://crests.football-data.org/bournemouth.png",
-      "p_home": 0.373,
-      "p_draw": 0.27,
-      "p_away": 0.357,
-      "pick_1x2": "H",
-      "p_over25": 0.5919,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
-    {
-      "utc_date": "2026-09-05T19:00:00Z",
-      "competition": "PD",
-      "home_team": "Villarreal",
-      "away_team": "Deportivo",
-      "home_crest": "https://crests.football-data.org/94.png",
-      "away_crest": "https://crests.football-data.org/560.png",
-      "p_home": 0.8302,
-      "p_draw": 0.1138,
-      "p_away": 0.056,
-      "pick_1x2": "H",
-      "p_over25": 0.7076,
-      "pred_home_goals": 2,
-      "pred_away_goals": 0
-    },
-    {
       "utc_date": "2026-09-06T13:00:00Z",
       "competition": "SA",
       "home_team": "Parma",
@@ -2629,6 +2599,21 @@
       "p_over25": 0.4799,
       "pred_home_goals": 1,
       "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-09-15T19:30:00Z",
+      "competition": "PD",
+      "home_team": "Elche",
+      "away_team": "Real Madrid",
+      "home_crest": "https://crests.football-data.org/285.png",
+      "away_crest": "https://crests.football-data.org/86.png",
+      "p_home": 0.1908,
+      "p_draw": 0.2132,
+      "p_away": 0.596,
+      "pick_1x2": "A",
+      "p_over25": 0.5842,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
     }
   ],
   "recent": [
@@ -2970,8 +2955,8 @@
       "correct_1x2": 0,
       "correct_ou": 1,
       "correct_score": 0,
-      "home_goals": null,
-      "away_goals": null,
+      "home_goals": 2,
+      "away_goals": 2,
       "rps_1x2": 0.1333
     },
     {
@@ -3584,8 +3569,8 @@
     }
   ],
   "counts": {
-    "predictions": 193,
+    "predictions": 194,
     "evaluated": 120,
-    "pending": 73
+    "pending": 74
   }
 }
