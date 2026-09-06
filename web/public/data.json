@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T19:01:09.260231+00:00",
+  "generated_at": "2026-09-06T20:01:09.061667+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -1758,21 +1758,6 @@
   },
   "upcoming": [
     {
-      "utc_date": "2026-09-06T19:00:00Z",
-      "competition": "PD",
-      "home_team": "Espanyol",
-      "away_team": "Sevilla FC",
-      "home_crest": "https://crests.football-data.org/80.png",
-      "away_crest": "https://crests.football-data.org/559.png",
-      "p_home": 0.4655,
-      "p_draw": 0.2582,
-      "p_away": 0.2763,
-      "pick_1x2": "H",
-      "p_over25": 0.4969,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
-    {
       "utc_date": "2026-09-07T16:30:00Z",
       "competition": "SA",
       "home_team": "Cagliari",
@@ -2625,6 +2610,36 @@
       "pick_1x2": "H",
       "p_over25": 0.5047,
       "pred_home_goals": 1,
+      "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-09-16T19:30:00Z",
+      "competition": "PD",
+      "home_team": "Levante",
+      "away_team": "Athletic",
+      "home_crest": "https://crests.football-data.org/88.png",
+      "away_crest": "https://crests.football-data.org/77.png",
+      "p_home": 0.4717,
+      "p_draw": 0.2464,
+      "p_away": 0.2819,
+      "pick_1x2": "H",
+      "p_over25": 0.5316,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-09-16T19:30:00Z",
+      "competition": "PD",
+      "home_team": "Barça",
+      "away_team": "Santander",
+      "home_crest": "https://crests.football-data.org/81.png",
+      "away_crest": "https://crests.football-data.org/5335.png",
+      "p_home": 0.9491,
+      "p_draw": 0.0336,
+      "p_away": 0.0173,
+      "pick_1x2": "H",
+      "p_over25": 0.9496,
+      "pred_home_goals": 5,
       "pred_away_goals": 0
     }
   ],
@@ -3581,8 +3596,8 @@
     }
   ],
   "counts": {
-    "predictions": 196,
+    "predictions": 198,
     "evaluated": 136,
-    "pending": 60
+    "pending": 62
   }
 }
