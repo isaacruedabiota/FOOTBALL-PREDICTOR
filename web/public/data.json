@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T14:01:10.987307+00:00",
+  "generated_at": "2026-09-06T15:01:11.795664+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -1613,21 +1613,6 @@
     ]
   },
   "upcoming": [
-    {
-      "utc_date": "2026-09-06T14:15:00Z",
-      "competition": "PD",
-      "home_team": "Valencia",
-      "away_team": "Barça",
-      "home_crest": "https://crests.football-data.org/95.png",
-      "away_crest": "https://crests.football-data.org/81.png",
-      "p_home": 0.1579,
-      "p_draw": 0.2101,
-      "p_away": 0.632,
-      "pick_1x2": "A",
-      "p_over25": 0.5595,
-      "pred_home_goals": 0,
-      "pred_away_goals": 2
-    },
     {
       "utc_date": "2026-09-06T15:15:00Z",
       "competition": "FL1",
