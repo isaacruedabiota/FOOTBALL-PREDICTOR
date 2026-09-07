@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T19:01:10.246926+00:00",
+  "generated_at": "2026-09-07T20:01:11.261961+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -8,22 +8,22 @@
   },
   "summary": {
     "dc-v1": {
-      "n": 140,
-      "acc_1x2": 50.0,
-      "acc_ou": 57.8571,
-      "acc_score": 10.7143,
-      "brier": 0.6041,
-      "logloss": 1.0124,
-      "rps": 0.2061
+      "n": 141,
+      "acc_1x2": 50.3546,
+      "acc_ou": 58.156,
+      "acc_score": 10.6383,
+      "brier": 0.6043,
+      "logloss": 1.0127,
+      "rps": 0.2054
     },
     "elo-v1": {
-      "n": 141,
-      "acc_1x2": 48.227,
-      "acc_ou": 55.3191,
-      "acc_score": 7.8014,
-      "brier": 0.6004,
-      "logloss": 1.0077,
-      "rps": 0.2083
+      "n": 142,
+      "acc_1x2": 47.8873,
+      "acc_ou": 54.9296,
+      "acc_score": 8.4507,
+      "brier": 0.6028,
+      "logloss": 1.0116,
+      "rps": 0.208
     }
   },
   "by_competition": {
@@ -46,11 +46,11 @@
       },
       {
         "competition": "PD",
-        "n": 36,
-        "acc_1x2": 47.2222,
-        "acc_ou": 55.5556,
-        "acc_score": 8.3333,
-        "rps": 0.2042
+        "n": 37,
+        "acc_1x2": 48.6486,
+        "acc_ou": 56.7568,
+        "acc_score": 8.1081,
+        "rps": 0.2015
       },
       {
         "competition": "PL",
@@ -88,11 +88,11 @@
       },
       {
         "competition": "PD",
-        "n": 37,
-        "acc_1x2": 48.6486,
-        "acc_ou": 45.9459,
-        "acc_score": 10.8108,
-        "rps": 0.1987
+        "n": 38,
+        "acc_1x2": 47.3684,
+        "acc_ou": 44.7368,
+        "acc_score": 13.1579,
+        "rps": 0.1977
       },
       {
         "competition": "PL",
@@ -953,6 +953,12 @@
         "n": 140,
         "acc_1x2": 50.0,
         "rps": 0.2061
+      },
+      {
+        "date": "2026-09-07",
+        "n": 141,
+        "acc_1x2": 50.3546,
+        "rps": 0.2054
       }
     ],
     "elo-v1": [
@@ -1801,25 +1807,16 @@
         "n": 141,
         "acc_1x2": 48.227,
         "rps": 0.2083
+      },
+      {
+        "date": "2026-09-07",
+        "n": 142,
+        "acc_1x2": 47.8873,
+        "rps": 0.208
       }
     ]
   },
   "upcoming": [
-    {
-      "utc_date": "2026-09-07T19:30:00Z",
-      "competition": "PD",
-      "home_team": "Elche",
-      "away_team": "Real Sociedad",
-      "home_crest": "https://crests.football-data.org/285.png",
-      "away_crest": "https://crests.football-data.org/92.png",
-      "p_home": 0.4297,
-      "p_draw": 0.2229,
-      "p_away": 0.3474,
-      "pick_1x2": "H",
-      "p_over25": 0.6876,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
     {
       "utc_date": "2026-09-11T18:30:00Z",
       "competition": "BL1",
@@ -2659,9 +2656,43 @@
       "p_over25": 0.2624,
       "pred_home_goals": 1,
       "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-09-17T19:30:00Z",
+      "competition": "PD",
+      "home_team": "Málaga",
+      "away_team": "Villarreal",
+      "home_crest": "https://crests.football-data.org/84.png",
+      "away_crest": "https://crests.football-data.org/94.png",
+      "p_home": 0.066,
+      "p_draw": 0.2535,
+      "p_away": 0.6806,
+      "pick_1x2": "A",
+      "p_over25": 0.2601,
+      "pred_home_goals": 0,
+      "pred_away_goals": 1
     }
   ],
   "recent": [
+    {
+      "utc_date": "2026-09-07T17:00:00Z",
+      "competition": "PD",
+      "home_team": "Getafe",
+      "away_team": "Celta",
+      "home_crest": "https://crests.football-data.org/82.png",
+      "away_crest": "https://crests.football-data.org/558.png",
+      "p_home": 0.3378,
+      "p_draw": 0.3509,
+      "p_away": 0.3113,
+      "pick_1x2": "D",
+      "actual_1x2": "D",
+      "correct_1x2": 1,
+      "correct_ou": 1,
+      "correct_score": 0,
+      "home_goals": 1,
+      "away_goals": 1,
+      "rps_1x2": 0.1055
+    },
     {
       "utc_date": "2026-09-07T16:30:00Z",
       "competition": "SA",
@@ -3592,30 +3623,11 @@
       "home_goals": 1,
       "away_goals": 0,
       "rps_1x2": 0.1626
-    },
-    {
-      "utc_date": "2026-08-31T17:30:00Z",
-      "competition": "PD",
-      "home_team": "Osasuna",
-      "away_team": "Getafe",
-      "home_crest": "https://crests.football-data.org/79.png",
-      "away_crest": "https://crests.football-data.org/82.png",
-      "p_home": 0.4439,
-      "p_draw": 0.3337,
-      "p_away": 0.2224,
-      "pick_1x2": "H",
-      "actual_1x2": "H",
-      "correct_1x2": 1,
-      "correct_ou": 1,
-      "correct_score": 1,
-      "home_goals": 1,
-      "away_goals": 0,
-      "rps_1x2": 0.1794
     }
   ],
   "counts": {
-    "predictions": 199,
-    "evaluated": 140,
+    "predictions": 200,
+    "evaluated": 141,
     "pending": 59
   }
 }
