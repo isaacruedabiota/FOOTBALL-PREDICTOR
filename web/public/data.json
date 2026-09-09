@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T14:01:10.751025+00:00",
+  "generated_at": "2026-09-09T15:01:09.964764+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -2935,6 +2935,21 @@
       "p_over25": 0.0786,
       "pred_home_goals": 0,
       "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-09-19T14:15:00Z",
+      "competition": "PD",
+      "home_team": "Athletic",
+      "away_team": "Alavés",
+      "home_crest": "https://crests.football-data.org/77.png",
+      "away_crest": "https://crests.football-data.org/263.png",
+      "p_home": 0.4323,
+      "p_draw": 0.2514,
+      "p_away": 0.3164,
+      "pick_1x2": "H",
+      "p_over25": 0.5483,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
     }
   ],
   "recent": [
@@ -3890,8 +3905,8 @@
     }
   ],
   "counts": {
-    "predictions": 216,
+    "predictions": 217,
     "evaluated": 143,
-    "pending": 73
+    "pending": 74
   }
 }
