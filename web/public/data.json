@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T11:01:11.369579+00:00",
+  "generated_at": "2026-09-09T12:01:09.075894+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -2770,6 +2770,36 @@
       "p_over25": 0.5182,
       "pred_home_goals": 1,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-09-19T11:30:00Z",
+      "competition": "PL",
+      "home_team": "Tottenham",
+      "away_team": "Aston Villa",
+      "home_crest": "https://crests.football-data.org/73.png",
+      "away_crest": "https://crests.football-data.org/58.png",
+      "p_home": 0.2854,
+      "p_draw": 0.3108,
+      "p_away": 0.4039,
+      "pick_1x2": "A",
+      "p_over25": 0.4576,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-09-19T12:00:00Z",
+      "competition": "PD",
+      "home_team": "Osasuna",
+      "away_team": "Rayo Vallecano",
+      "home_crest": "https://crests.football-data.org/79.png",
+      "away_crest": "https://crests.football-data.org/87.png",
+      "p_home": 0.4355,
+      "p_draw": 0.2757,
+      "p_away": 0.2888,
+      "pick_1x2": "H",
+      "p_over25": 0.4385,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
     }
   ],
   "recent": [
@@ -3725,8 +3755,8 @@
     }
   ],
   "counts": {
-    "predictions": 205,
+    "predictions": 207,
     "evaluated": 143,
-    "pending": 62
+    "pending": 64
   }
 }
