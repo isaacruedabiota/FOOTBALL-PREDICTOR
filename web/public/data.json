@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T11:01:10.791190+00:00",
+  "generated_at": "2026-09-10T12:01:10.155275+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -3130,6 +3130,21 @@
       "p_over25": 0.4832,
       "pred_home_goals": 0,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-09-20T12:00:00Z",
+      "competition": "PD",
+      "home_team": "Getafe",
+      "away_team": "Málaga",
+      "home_crest": "https://crests.football-data.org/82.png",
+      "away_crest": "https://crests.football-data.org/84.png",
+      "p_home": 0.5298,
+      "p_draw": 0.4122,
+      "p_away": 0.0581,
+      "pick_1x2": "H",
+      "p_over25": 0.0823,
+      "pred_home_goals": 0,
+      "pred_away_goals": 0
     }
   ],
   "recent": [
@@ -4085,8 +4100,8 @@
     }
   ],
   "counts": {
-    "predictions": 229,
+    "predictions": 230,
     "evaluated": 143,
-    "pending": 86
+    "pending": 87
   }
 }
