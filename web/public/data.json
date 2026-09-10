@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T13:01:10.492529+00:00",
+  "generated_at": "2026-09-10T14:01:10.462115+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -1843,21 +1843,6 @@
   "upcoming": [
     {
       "utc_date": "2026-09-11T18:45:00Z",
-      "competition": "SA",
-      "home_team": "Venezia FC",
-      "away_team": "Fiorentina",
-      "home_crest": "https://crests.football-data.org/454.png",
-      "away_crest": "https://crests.football-data.org/99.png",
-      "p_home": 0.0111,
-      "p_draw": 0.1596,
-      "p_away": 0.8292,
-      "pick_1x2": "A",
-      "p_over25": 0.3037,
-      "pred_home_goals": 0,
-      "pred_away_goals": 1
-    },
-    {
-      "utc_date": "2026-09-11T18:45:00Z",
       "competition": "FL1",
       "home_team": "Stade Rennais",
       "away_team": "Marseille",
@@ -1899,21 +1884,6 @@
       "pick_1x2": "H",
       "p_over25": 0.6864,
       "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
-    {
-      "utc_date": "2026-09-12T13:00:00Z",
-      "competition": "SA",
-      "home_team": "Genoa",
-      "away_team": "Frosinone",
-      "home_crest": "https://crests.football-data.org/107.png",
-      "away_crest": "https://crests.football-data.org/470.png",
-      "p_home": 0.0516,
-      "p_draw": 0.1803,
-      "p_away": 0.768,
-      "pick_1x2": "A",
-      "p_over25": 0.3468,
-      "pred_home_goals": 0,
       "pred_away_goals": 1
     },
     {
@@ -2022,21 +1992,6 @@
       "pred_away_goals": 1
     },
     {
-      "utc_date": "2026-09-12T16:00:00Z",
-      "competition": "SA",
-      "home_team": "Lazio",
-      "away_team": "Milan",
-      "home_crest": "https://crests.football-data.org/110.png",
-      "away_crest": "https://crests.football-data.org/98.png",
-      "p_home": 0.3219,
-      "p_draw": 0.2868,
-      "p_away": 0.3913,
-      "pick_1x2": "A",
-      "p_over25": 0.3142,
-      "pred_home_goals": 0,
-      "pred_away_goals": 1
-    },
-    {
       "utc_date": "2026-09-12T16:30:00Z",
       "competition": "PL",
       "home_team": "Tottenham",
@@ -2065,21 +2020,6 @@
       "p_over25": 0.5462,
       "pred_home_goals": 1,
       "pred_away_goals": 1
-    },
-    {
-      "utc_date": "2026-09-12T18:45:00Z",
-      "competition": "SA",
-      "home_team": "Atalanta",
-      "away_team": "Cagliari",
-      "home_crest": "https://crests.football-data.org/102.png",
-      "away_crest": "https://crests.football-data.org/104.png",
-      "p_home": 0.5547,
-      "p_draw": 0.2466,
-      "p_away": 0.1987,
-      "pick_1x2": "H",
-      "p_over25": 0.3732,
-      "pred_home_goals": 1,
-      "pred_away_goals": 0
     },
     {
       "utc_date": "2026-09-12T18:45:00Z",
@@ -2188,21 +2128,6 @@
     },
     {
       "utc_date": "2026-09-13T13:00:00Z",
-      "competition": "SA",
-      "home_team": "Lecce",
-      "away_team": "Monza",
-      "home_crest": "https://crests.football-data.org/5890.png",
-      "away_crest": "https://crests.football-data.org/5911.png",
-      "p_home": 0.338,
-      "p_draw": 0.2048,
-      "p_away": 0.4572,
-      "pick_1x2": "A",
-      "p_over25": 0.6749,
-      "pred_home_goals": 1,
-      "pred_away_goals": 2
-    },
-    {
-      "utc_date": "2026-09-13T13:00:00Z",
       "competition": "FL1",
       "home_team": "Lille",
       "away_team": "Troyes",
@@ -2277,21 +2202,6 @@
       "pred_away_goals": 1
     },
     {
-      "utc_date": "2026-09-13T16:00:00Z",
-      "competition": "SA",
-      "home_team": "Napoli",
-      "away_team": "Bologna",
-      "home_crest": "https://crests.football-data.org/113.png",
-      "away_crest": "https://crests.football-data.org/103.png",
-      "p_home": 0.5467,
-      "p_draw": 0.2296,
-      "p_away": 0.2237,
-      "pick_1x2": "H",
-      "p_over25": 0.4565,
-      "pred_home_goals": 1,
-      "pred_away_goals": 0
-    },
-    {
       "utc_date": "2026-09-13T16:30:00Z",
       "competition": "PD",
       "home_team": "Getafe",
@@ -2305,21 +2215,6 @@
       "p_over25": 0.2935,
       "pred_home_goals": 1,
       "pred_away_goals": 0
-    },
-    {
-      "utc_date": "2026-09-13T18:45:00Z",
-      "competition": "SA",
-      "home_team": "Sassuolo",
-      "away_team": "Juventus",
-      "home_crest": "https://crests.football-data.org/471.png",
-      "away_crest": "https://crests.football-data.org/109.png",
-      "p_home": 0.1997,
-      "p_draw": 0.2186,
-      "p_away": 0.5817,
-      "pick_1x2": "A",
-      "p_over25": 0.4745,
-      "pred_home_goals": 0,
-      "pred_away_goals": 1
     },
     {
       "utc_date": "2026-09-13T18:45:00Z",
@@ -2350,51 +2245,6 @@
       "p_over25": 0.6636,
       "pred_home_goals": 1,
       "pred_away_goals": 1
-    },
-    {
-      "utc_date": "2026-09-14T16:30:00Z",
-      "competition": "SA",
-      "home_team": "Como 1907",
-      "away_team": "Parma",
-      "home_crest": "https://crests.football-data.org/7397.png",
-      "away_crest": "https://crests.football-data.org/112.png",
-      "p_home": 0.7106,
-      "p_draw": 0.1984,
-      "p_away": 0.091,
-      "pick_1x2": "H",
-      "p_over25": 0.3755,
-      "pred_home_goals": 1,
-      "pred_away_goals": 0
-    },
-    {
-      "utc_date": "2026-09-14T16:30:00Z",
-      "competition": "SA",
-      "home_team": "Torino",
-      "away_team": "Roma",
-      "home_crest": "https://crests.football-data.org/586.png",
-      "away_crest": "https://crests.football-data.org/100.png",
-      "p_home": 0.1096,
-      "p_draw": 0.1427,
-      "p_away": 0.7478,
-      "pick_1x2": "A",
-      "p_over25": 0.6625,
-      "pred_home_goals": 0,
-      "pred_away_goals": 2
-    },
-    {
-      "utc_date": "2026-09-14T18:45:00Z",
-      "competition": "SA",
-      "home_team": "Inter",
-      "away_team": "Udinese",
-      "home_crest": "https://crests.football-data.org/108.png",
-      "away_crest": "https://crests.football-data.org/115.png",
-      "p_home": 0.6711,
-      "p_draw": 0.1732,
-      "p_away": 0.1557,
-      "pick_1x2": "H",
-      "p_over25": 0.6171,
-      "pred_home_goals": 2,
-      "pred_away_goals": 0
     },
     {
       "utc_date": "2026-09-14T19:00:00Z",
@@ -2563,21 +2413,6 @@
     },
     {
       "utc_date": "2026-09-18T18:45:00Z",
-      "competition": "SA",
-      "home_team": "Monza",
-      "away_team": "Sassuolo",
-      "home_crest": "https://crests.football-data.org/5911.png",
-      "away_crest": "https://crests.football-data.org/471.png",
-      "p_home": 0.2848,
-      "p_draw": 0.1887,
-      "p_away": 0.5265,
-      "pick_1x2": "A",
-      "p_over25": 0.7618,
-      "pred_home_goals": 1,
-      "pred_away_goals": 2
-    },
-    {
-      "utc_date": "2026-09-18T18:45:00Z",
       "competition": "FL1",
       "home_team": "Monaco",
       "away_team": "RC Lens",
@@ -2648,36 +2483,6 @@
       "p_away": 0.2888,
       "pick_1x2": "H",
       "p_over25": 0.4385,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
-    {
-      "utc_date": "2026-09-19T13:00:00Z",
-      "competition": "SA",
-      "home_team": "Udinese",
-      "away_team": "Cagliari",
-      "home_crest": "https://crests.football-data.org/115.png",
-      "away_crest": "https://crests.football-data.org/104.png",
-      "p_home": 0.4506,
-      "p_draw": 0.2628,
-      "p_away": 0.2866,
-      "pick_1x2": "H",
-      "p_over25": 0.3988,
-      "pred_home_goals": 1,
-      "pred_away_goals": 0
-    },
-    {
-      "utc_date": "2026-09-19T13:00:00Z",
-      "competition": "SA",
-      "home_team": "Bologna",
-      "away_team": "Torino",
-      "home_crest": "https://crests.football-data.org/103.png",
-      "away_crest": "https://crests.football-data.org/586.png",
-      "p_home": 0.4842,
-      "p_draw": 0.2258,
-      "p_away": 0.29,
-      "pick_1x2": "H",
-      "p_over25": 0.5566,
       "pred_home_goals": 1,
       "pred_away_goals": 1
     },
@@ -2757,21 +2562,6 @@
       "pred_away_goals": 1
     },
     {
-      "utc_date": "2026-09-19T16:00:00Z",
-      "competition": "SA",
-      "home_team": "Roma",
-      "away_team": "Inter",
-      "home_crest": "https://crests.football-data.org/100.png",
-      "away_crest": "https://crests.football-data.org/108.png",
-      "p_home": 0.405,
-      "p_draw": 0.2211,
-      "p_away": 0.3738,
-      "pick_1x2": "H",
-      "p_over25": 0.6154,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
-    {
       "utc_date": "2026-09-19T16:30:00Z",
       "competition": "PL",
       "home_team": "Nottingham",
@@ -2799,21 +2589,6 @@
       "pick_1x2": "H",
       "p_over25": 0.7049,
       "pred_home_goals": 2,
-      "pred_away_goals": 1
-    },
-    {
-      "utc_date": "2026-09-19T18:45:00Z",
-      "competition": "SA",
-      "home_team": "Venezia FC",
-      "away_team": "Lazio",
-      "home_crest": "https://crests.football-data.org/454.png",
-      "away_crest": "https://crests.football-data.org/110.png",
-      "p_home": 0.1099,
-      "p_draw": 0.1814,
-      "p_away": 0.7086,
-      "pick_1x2": "A",
-      "p_over25": 0.4921,
-      "pred_home_goals": 0,
       "pred_away_goals": 1
     },
     {
@@ -2892,21 +2667,6 @@
       "pred_away_goals": 2
     },
     {
-      "utc_date": "2026-09-20T10:30:00Z",
-      "competition": "SA",
-      "home_team": "Fiorentina",
-      "away_team": "Napoli",
-      "home_crest": "https://crests.football-data.org/99.png",
-      "away_crest": "https://crests.football-data.org/113.png",
-      "p_home": 0.1793,
-      "p_draw": 0.2156,
-      "p_away": 0.6051,
-      "pick_1x2": "A",
-      "p_over25": 0.4832,
-      "pred_home_goals": 0,
-      "pred_away_goals": 1
-    },
-    {
       "utc_date": "2026-09-20T12:00:00Z",
       "competition": "PD",
       "home_team": "Getafe",
@@ -2920,36 +2680,6 @@
       "p_over25": 0.0823,
       "pred_home_goals": 0,
       "pred_away_goals": 0
-    },
-    {
-      "utc_date": "2026-09-20T13:00:00Z",
-      "competition": "SA",
-      "home_team": "Parma",
-      "away_team": "Genoa",
-      "home_crest": "https://crests.football-data.org/112.png",
-      "away_crest": "https://crests.football-data.org/107.png",
-      "p_home": 0.3019,
-      "p_draw": 0.3215,
-      "p_away": 0.3766,
-      "pick_1x2": "A",
-      "p_over25": 0.2438,
-      "pred_home_goals": 0,
-      "pred_away_goals": 1
-    },
-    {
-      "utc_date": "2026-09-20T13:00:00Z",
-      "competition": "SA",
-      "home_team": "Frosinone",
-      "away_team": "Como 1907",
-      "home_crest": "https://crests.football-data.org/470.png",
-      "away_crest": "https://crests.football-data.org/7397.png",
-      "p_home": 0.2543,
-      "p_draw": 0.2256,
-      "p_away": 0.5201,
-      "pick_1x2": "A",
-      "p_over25": 0.5288,
-      "pred_home_goals": 0,
-      "pred_away_goals": 1
     },
     {
       "utc_date": "2026-09-20T13:00:00Z",
