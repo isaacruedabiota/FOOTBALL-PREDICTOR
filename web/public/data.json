@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T10:01:10.447485+00:00",
+  "generated_at": "2026-09-10T11:01:10.791190+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -3115,6 +3115,21 @@
       "p_over25": 0.6757,
       "pred_home_goals": 0,
       "pred_away_goals": 2
+    },
+    {
+      "utc_date": "2026-09-20T10:30:00Z",
+      "competition": "SA",
+      "home_team": "Fiorentina",
+      "away_team": "Napoli",
+      "home_crest": "https://crests.football-data.org/99.png",
+      "away_crest": "https://crests.football-data.org/113.png",
+      "p_home": 0.1793,
+      "p_draw": 0.2156,
+      "p_away": 0.6051,
+      "pick_1x2": "A",
+      "p_over25": 0.4832,
+      "pred_home_goals": 0,
+      "pred_away_goals": 1
     }
   ],
   "recent": [
@@ -4070,8 +4085,8 @@
     }
   ],
   "counts": {
-    "predictions": 228,
+    "predictions": 229,
     "evaluated": 143,
-    "pending": 85
+    "pending": 86
   }
 }
