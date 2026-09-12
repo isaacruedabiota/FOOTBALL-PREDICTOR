@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T12:01:10.154070+00:00",
+  "generated_at": "2026-09-12T13:01:09.621909+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -1889,21 +1889,6 @@
     ]
   },
   "upcoming": [
-    {
-      "utc_date": "2026-09-12T12:00:00Z",
-      "competition": "PD",
-      "home_team": "Santander",
-      "away_team": "Alavés",
-      "home_crest": "https://crests.football-data.org/5335.png",
-      "away_crest": "https://crests.football-data.org/263.png",
-      "p_home": 0.4522,
-      "p_draw": 0.2179,
-      "p_away": 0.3298,
-      "pick_1x2": "H",
-      "p_over25": 0.6864,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
     {
       "utc_date": "2026-09-12T13:00:00Z",
       "competition": "SA",
