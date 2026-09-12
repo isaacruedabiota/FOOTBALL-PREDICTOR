@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T19:01:09.654566+00:00",
+  "generated_at": "2026-09-12T20:01:08.711086+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -2105,36 +2105,6 @@
     ]
   },
   "upcoming": [
-    {
-      "utc_date": "2026-09-12T19:00:00Z",
-      "competition": "PL",
-      "home_team": "Sunderland",
-      "away_team": "Arsenal",
-      "home_crest": "https://crests.football-data.org/71.png",
-      "away_crest": "https://crests.football-data.org/57.png",
-      "p_home": 0.1354,
-      "p_draw": 0.3043,
-      "p_away": 0.5602,
-      "pick_1x2": "A",
-      "p_over25": 0.3174,
-      "pred_home_goals": 0,
-      "pred_away_goals": 1
-    },
-    {
-      "utc_date": "2026-09-12T19:00:00Z",
-      "competition": "PD",
-      "home_team": "Real Madrid",
-      "away_team": "Rayo Vallecano",
-      "home_crest": "https://crests.football-data.org/86.png",
-      "away_crest": "https://crests.football-data.org/87.png",
-      "p_home": 0.7407,
-      "p_draw": 0.1654,
-      "p_away": 0.094,
-      "pick_1x2": "H",
-      "p_over25": 0.5769,
-      "pred_home_goals": 2,
-      "pred_away_goals": 0
-    },
     {
       "utc_date": "2026-09-13T12:00:00Z",
       "competition": "PD",
