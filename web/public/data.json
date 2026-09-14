@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T19:01:08.435024+00:00",
+  "generated_at": "2026-09-14T20:01:07.884394+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -2381,36 +2381,6 @@
     ]
   },
   "upcoming": [
-    {
-      "utc_date": "2026-09-14T19:00:00Z",
-      "competition": "PL",
-      "home_team": "Leeds United",
-      "away_team": "Newcastle",
-      "home_crest": "https://crests.football-data.org/341.png",
-      "away_crest": "https://crests.football-data.org/67.png",
-      "p_home": 0.4152,
-      "p_draw": 0.2897,
-      "p_away": 0.295,
-      "pick_1x2": "H",
-      "p_over25": 0.5005,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
-    {
-      "utc_date": "2026-09-14T19:00:00Z",
-      "competition": "PD",
-      "home_team": "Villarreal",
-      "away_team": "Real Betis",
-      "home_crest": "https://crests.football-data.org/94.png",
-      "away_crest": "https://crests.football-data.org/90.png",
-      "p_home": 0.5874,
-      "p_draw": 0.2055,
-      "p_away": 0.2071,
-      "pick_1x2": "H",
-      "p_over25": 0.6376,
-      "pred_home_goals": 2,
-      "pred_away_goals": 1
-    },
     {
       "utc_date": "2026-09-15T17:00:00Z",
       "competition": "PD",
