@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T17:01:10.548001+00:00",
+  "generated_at": "2026-09-17T18:01:08.107545+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -2489,21 +2489,6 @@
     ]
   },
   "upcoming": [
-    {
-      "utc_date": "2026-09-17T17:00:00Z",
-      "competition": "PD",
-      "home_team": "Real Betis",
-      "away_team": "Getafe",
-      "home_crest": "https://crests.football-data.org/90.png",
-      "away_crest": "https://crests.football-data.org/82.png",
-      "p_home": 0.5285,
-      "p_draw": 0.3069,
-      "p_away": 0.1646,
-      "pick_1x2": "H",
-      "p_over25": 0.2624,
-      "pred_home_goals": 1,
-      "pred_away_goals": 0
-    },
     {
       "utc_date": "2026-09-17T19:30:00Z",
       "competition": "PD",
