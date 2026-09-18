@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T19:01:08.809627+00:00",
+  "generated_at": "2026-09-18T20:01:09.148205+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -2513,36 +2513,6 @@
     ]
   },
   "upcoming": [
-    {
-      "utc_date": "2026-09-18T19:00:00Z",
-      "competition": "PL",
-      "home_team": "Brentford",
-      "away_team": "Chelsea",
-      "home_crest": "https://crests.football-data.org/402.png",
-      "away_crest": "https://crests.football-data.org/61.png",
-      "p_home": 0.4642,
-      "p_draw": 0.2595,
-      "p_away": 0.2763,
-      "pick_1x2": "H",
-      "p_over25": 0.6346,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
-    {
-      "utc_date": "2026-09-18T19:00:00Z",
-      "competition": "PD",
-      "home_team": "Espanyol",
-      "away_team": "Elche",
-      "home_crest": "https://crests.football-data.org/80.png",
-      "away_crest": "https://crests.football-data.org/285.png",
-      "p_home": 0.5075,
-      "p_draw": 0.248,
-      "p_away": 0.2445,
-      "pick_1x2": "H",
-      "p_over25": 0.5182,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
     {
       "utc_date": "2026-09-19T11:30:00Z",
       "competition": "PL",
