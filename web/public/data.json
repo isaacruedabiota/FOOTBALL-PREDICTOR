@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T13:01:13.681648+00:00",
+  "generated_at": "2026-09-18T14:01:08.877760+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -3230,6 +3230,21 @@
       "p_away": 0.3455,
       "pick_1x2": "H",
       "p_over25": 0.5683,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-10-21T18:00:00Z",
+      "competition": "PD",
+      "home_team": "Levante",
+      "away_team": "Athletic",
+      "home_crest": "https://crests.football-data.org/88.png",
+      "away_crest": "https://crests.football-data.org/77.png",
+      "p_home": 0.4717,
+      "p_draw": 0.2464,
+      "p_away": 0.2819,
+      "pick_1x2": "H",
+      "p_over25": 0.5316,
       "pred_home_goals": 1,
       "pred_away_goals": 1
     }
