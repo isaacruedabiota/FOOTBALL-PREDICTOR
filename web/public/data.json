@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T11:01:08.665060+00:00",
+  "generated_at": "2026-09-19T12:01:10.392900+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -2573,21 +2573,6 @@
     ]
   },
   "upcoming": [
-    {
-      "utc_date": "2026-09-19T11:30:00Z",
-      "competition": "PL",
-      "home_team": "Tottenham",
-      "away_team": "Aston Villa",
-      "home_crest": "https://crests.football-data.org/73.png",
-      "away_crest": "https://crests.football-data.org/58.png",
-      "p_home": 0.2854,
-      "p_draw": 0.3108,
-      "p_away": 0.4039,
-      "pick_1x2": "A",
-      "p_over25": 0.4576,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
     {
       "utc_date": "2026-09-19T12:00:00Z",
       "competition": "PD",
