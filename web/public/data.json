@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T00:01:10.085681+00:00",
+  "generated_at": "2026-09-22T01:01:08.762231+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -3510,7 +3510,7 @@
       "competition": "FL1",
       "home_team": "Le Mans",
       "away_team": "Lorient",
-      "home_crest": "https://upload.wikimedia.org/wikipedia/en/5/57/Le_Mans_FC_logo.svg",
+      "home_crest": "https://crests.football-data.org/535.png",
       "away_crest": "https://crests.football-data.org/525.png",
       "p_home": 0.3262,
       "p_draw": 0.2588,
