@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T18:01:09.056803+00:00",
+  "generated_at": "2026-09-29T19:01:08.368014+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -3090,6 +3090,51 @@
   },
   "upcoming": [
     {
+      "utc_date": "2026-10-09T18:30:00Z",
+      "competition": "BL1",
+      "home_team": "Dortmund",
+      "away_team": "Bremen",
+      "home_crest": "https://crests.football-data.org/4.png",
+      "away_crest": "https://crests.football-data.org/12.png",
+      "p_home": 0.7848,
+      "p_draw": 0.1487,
+      "p_away": 0.0665,
+      "pick_1x2": "H",
+      "p_over25": 0.5904,
+      "pred_home_goals": 2,
+      "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-10-09T18:45:00Z",
+      "competition": "FL1",
+      "home_team": "RC Lens",
+      "away_team": "Olympique Lyon",
+      "home_crest": "https://crests.football-data.org/546.png",
+      "away_crest": "https://crests.football-data.org/523.png",
+      "p_home": 0.4215,
+      "p_draw": 0.2622,
+      "p_away": 0.3163,
+      "pick_1x2": "H",
+      "p_over25": 0.5598,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-10-09T19:00:00Z",
+      "competition": "PD",
+      "home_team": "Málaga",
+      "away_team": "Espanyol",
+      "home_crest": "https://crests.football-data.org/84.png",
+      "away_crest": "https://crests.football-data.org/80.png",
+      "p_home": 0.1864,
+      "p_draw": 0.3362,
+      "p_away": 0.4774,
+      "pick_1x2": "A",
+      "p_over25": 0.2391,
+      "pred_home_goals": 0,
+      "pred_away_goals": 1
+    },
+    {
       "utc_date": "2026-10-21T18:00:00Z",
       "competition": "PD",
       "home_team": "Levante",
@@ -4058,8 +4103,8 @@
     }
   ],
   "counts": {
-    "predictions": 248,
+    "predictions": 251,
     "evaluated": 247,
-    "pending": 1
+    "pending": 4
   }
 }
