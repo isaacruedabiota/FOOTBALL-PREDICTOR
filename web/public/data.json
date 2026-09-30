@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T11:01:28.249900+00:00",
+  "generated_at": "2026-09-30T12:01:08.879558+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -3135,6 +3135,36 @@
       "pred_away_goals": 1
     },
     {
+      "utc_date": "2026-10-10T11:30:00Z",
+      "competition": "PL",
+      "home_team": "Arsenal",
+      "away_team": "Leeds United",
+      "home_crest": "https://crests.football-data.org/57.png",
+      "away_crest": "https://crests.football-data.org/341.png",
+      "p_home": 0.5901,
+      "p_draw": 0.2779,
+      "p_away": 0.132,
+      "pick_1x2": "H",
+      "p_over25": 0.3895,
+      "pred_home_goals": 1,
+      "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-10-10T12:00:00Z",
+      "competition": "PD",
+      "home_team": "Rayo Vallecano",
+      "away_team": "Athletic",
+      "home_crest": "https://crests.football-data.org/87.png",
+      "away_crest": "https://crests.football-data.org/77.png",
+      "p_home": 0.4661,
+      "p_draw": 0.2802,
+      "p_away": 0.2536,
+      "pick_1x2": "H",
+      "p_over25": 0.4316,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
       "utc_date": "2026-10-21T18:00:00Z",
       "competition": "PD",
       "home_team": "Levante",
@@ -4103,8 +4133,8 @@
     }
   ],
   "counts": {
-    "predictions": 251,
+    "predictions": 253,
     "evaluated": 247,
-    "pending": 4
+    "pending": 6
   }
 }
