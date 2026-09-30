@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T14:01:18.407056+00:00",
+  "generated_at": "2026-09-30T15:01:23.973602+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -3315,6 +3315,21 @@
       "pred_away_goals": 1
     },
     {
+      "utc_date": "2026-10-10T14:15:00Z",
+      "competition": "PD",
+      "home_team": "Alavés",
+      "away_team": "Atleti",
+      "home_crest": "https://crests.football-data.org/263.png",
+      "away_crest": "https://crests.football-data.org/78.png",
+      "p_home": 0.3278,
+      "p_draw": 0.265,
+      "p_away": 0.4072,
+      "pick_1x2": "A",
+      "p_over25": 0.5235,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
       "utc_date": "2026-10-21T18:00:00Z",
       "competition": "PD",
       "home_team": "Levante",
@@ -4283,8 +4298,8 @@
     }
   ],
   "counts": {
-    "predictions": 263,
+    "predictions": 264,
     "evaluated": 247,
-    "pending": 16
+    "pending": 17
   }
 }
