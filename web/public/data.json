@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T16:01:24.639624+00:00",
+  "generated_at": "2026-09-30T17:01:20.212596+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -3360,6 +3360,51 @@
       "pred_away_goals": 0
     },
     {
+      "utc_date": "2026-10-10T16:30:00Z",
+      "competition": "PL",
+      "home_team": "Man United",
+      "away_team": "Tottenham",
+      "home_crest": "https://crests.football-data.org/66.png",
+      "away_crest": "https://crests.football-data.org/73.png",
+      "p_home": 0.6621,
+      "p_draw": 0.2132,
+      "p_away": 0.1247,
+      "pick_1x2": "H",
+      "p_over25": 0.5976,
+      "pred_home_goals": 2,
+      "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-10-10T16:30:00Z",
+      "competition": "PD",
+      "home_team": "Barça",
+      "away_team": "Getafe",
+      "home_crest": "https://crests.football-data.org/81.png",
+      "away_crest": "https://crests.football-data.org/82.png",
+      "p_home": 0.7955,
+      "p_draw": 0.1544,
+      "p_away": 0.0502,
+      "pick_1x2": "H",
+      "p_over25": 0.5092,
+      "pred_home_goals": 2,
+      "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-10-10T16:30:00Z",
+      "competition": "BL1",
+      "home_team": "RB Leipzig",
+      "away_team": "Frankfurt",
+      "home_crest": "https://crests.football-data.org/721.png",
+      "away_crest": "https://crests.football-data.org/19.png",
+      "p_home": 0.6571,
+      "p_draw": 0.1731,
+      "p_away": 0.1698,
+      "pick_1x2": "H",
+      "p_over25": 0.7677,
+      "pred_home_goals": 2,
+      "pred_away_goals": 1
+    },
+    {
       "utc_date": "2026-10-21T18:00:00Z",
       "competition": "PD",
       "home_team": "Levante",
@@ -4328,8 +4373,8 @@
     }
   ],
   "counts": {
-    "predictions": 266,
+    "predictions": 269,
     "evaluated": 247,
-    "pending": 19
+    "pending": 22
   }
 }
