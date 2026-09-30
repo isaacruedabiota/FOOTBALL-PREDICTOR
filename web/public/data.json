@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T15:01:23.973602+00:00",
+  "generated_at": "2026-09-30T16:01:24.639624+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -3330,6 +3330,36 @@
       "pred_away_goals": 1
     },
     {
+      "utc_date": "2026-10-10T15:15:00Z",
+      "competition": "FL1",
+      "home_team": "Lille",
+      "away_team": "Le Havre",
+      "home_crest": "https://crests.football-data.org/521.png",
+      "away_crest": "https://crests.football-data.org/533.png",
+      "p_home": 0.5815,
+      "p_draw": 0.2815,
+      "p_away": 0.137,
+      "pick_1x2": "H",
+      "p_over25": 0.3354,
+      "pred_home_goals": 1,
+      "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-10-10T16:00:00Z",
+      "competition": "SA",
+      "home_team": "Inter",
+      "away_team": "Parma",
+      "home_crest": "https://crests.football-data.org/108.png",
+      "away_crest": "https://crests.football-data.org/112.png",
+      "p_home": 0.7743,
+      "p_draw": 0.1434,
+      "p_away": 0.0823,
+      "pick_1x2": "H",
+      "p_over25": 0.6029,
+      "pred_home_goals": 2,
+      "pred_away_goals": 0
+    },
+    {
       "utc_date": "2026-10-21T18:00:00Z",
       "competition": "PD",
       "home_team": "Levante",
@@ -4298,8 +4328,8 @@
     }
   ],
   "counts": {
-    "predictions": 264,
+    "predictions": 266,
     "evaluated": 247,
-    "pending": 17
+    "pending": 19
   }
 }
