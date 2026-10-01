@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T11:01:10.303178+00:00",
+  "generated_at": "2026-10-01T12:01:20.566041+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -3510,6 +3510,21 @@
       "pred_away_goals": 1
     },
     {
+      "utc_date": "2026-10-11T12:00:00Z",
+      "competition": "PD",
+      "home_team": "Elche",
+      "away_team": "Celta",
+      "home_crest": "https://crests.football-data.org/285.png",
+      "away_crest": "https://crests.football-data.org/558.png",
+      "p_home": 0.3941,
+      "p_draw": 0.2672,
+      "p_away": 0.3386,
+      "pick_1x2": "H",
+      "p_over25": 0.5164,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
       "utc_date": "2026-10-21T18:00:00Z",
       "competition": "PD",
       "home_team": "Levante",
@@ -4478,8 +4493,8 @@
     }
   ],
   "counts": {
-    "predictions": 276,
+    "predictions": 277,
     "evaluated": 247,
-    "pending": 29
+    "pending": 30
   }
 }
