@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T18:01:21.342473+00:00",
+  "generated_at": "2026-10-01T19:01:19.237458+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -3705,6 +3705,51 @@
       "pred_away_goals": 0
     },
     {
+      "utc_date": "2026-10-11T18:45:00Z",
+      "competition": "SA",
+      "home_team": "Cagliari",
+      "away_team": "Juventus",
+      "home_crest": "https://crests.football-data.org/104.png",
+      "away_crest": "https://crests.football-data.org/109.png",
+      "p_home": 0.2142,
+      "p_draw": 0.2615,
+      "p_away": 0.5242,
+      "pick_1x2": "A",
+      "p_over25": 0.3754,
+      "pred_home_goals": 0,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-10-11T18:45:00Z",
+      "competition": "FL1",
+      "home_team": "Troyes",
+      "away_team": "Marseille",
+      "home_crest": "https://crests.football-data.org/531.png",
+      "away_crest": "https://crests.football-data.org/516.png",
+      "p_home": 0.129,
+      "p_draw": 0.1878,
+      "p_away": 0.6832,
+      "pick_1x2": "A",
+      "p_over25": 0.6528,
+      "pred_home_goals": 0,
+      "pred_away_goals": 2
+    },
+    {
+      "utc_date": "2026-10-11T19:00:00Z",
+      "competition": "PD",
+      "home_team": "Santander",
+      "away_team": "Valencia",
+      "home_crest": "https://crests.football-data.org/5335.png",
+      "away_crest": "https://crests.football-data.org/95.png",
+      "p_home": 0.448,
+      "p_draw": 0.216,
+      "p_away": 0.336,
+      "pick_1x2": "H",
+      "p_over25": 0.7446,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
       "utc_date": "2026-10-21T18:00:00Z",
       "competition": "PD",
       "home_team": "Levante",
@@ -4673,8 +4718,8 @@
     }
   ],
   "counts": {
-    "predictions": 289,
+    "predictions": 292,
     "evaluated": 247,
-    "pending": 42
+    "pending": 45
   }
 }
