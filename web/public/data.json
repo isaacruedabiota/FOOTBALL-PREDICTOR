@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T18:01:08.441612+00:00",
+  "generated_at": "2026-10-02T19:01:09.171280+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -3765,6 +3765,51 @@
       "pred_away_goals": 0
     },
     {
+      "utc_date": "2026-10-12T18:45:00Z",
+      "competition": "SA",
+      "home_team": "Torino",
+      "away_team": "Udinese",
+      "home_crest": "https://crests.football-data.org/586.png",
+      "away_crest": "https://crests.football-data.org/115.png",
+      "p_home": 0.3221,
+      "p_draw": 0.2327,
+      "p_away": 0.4452,
+      "pick_1x2": "A",
+      "p_over25": 0.562,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-10-12T19:00:00Z",
+      "competition": "PL",
+      "home_team": "Coventry City",
+      "away_team": "Newcastle",
+      "home_crest": "https://crests.football-data.org/1076.png",
+      "away_crest": "https://crests.football-data.org/67.png",
+      "p_home": 0.0613,
+      "p_draw": 0.243,
+      "p_away": 0.6957,
+      "pick_1x2": "A",
+      "p_over25": 0.332,
+      "pred_home_goals": 0,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-10-12T19:00:00Z",
+      "competition": "PD",
+      "home_team": "Levante",
+      "away_team": "Sevilla FC",
+      "home_crest": "https://crests.football-data.org/88.png",
+      "away_crest": "https://crests.football-data.org/559.png",
+      "p_home": 0.4529,
+      "p_draw": 0.2568,
+      "p_away": 0.2902,
+      "pick_1x2": "H",
+      "p_over25": 0.543,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
       "utc_date": "2026-10-21T18:00:00Z",
       "competition": "PD",
       "home_team": "Levante",
@@ -4733,8 +4778,8 @@
     }
   ],
   "counts": {
-    "predictions": 293,
+    "predictions": 296,
     "evaluated": 247,
-    "pending": 46
+    "pending": 49
   }
 }
