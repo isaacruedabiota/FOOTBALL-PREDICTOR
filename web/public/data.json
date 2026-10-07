@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T18:01:08.095829+00:00",
+  "generated_at": "2026-10-07T19:01:08.481185+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -4125,6 +4125,66 @@
       "pred_away_goals": 1
     },
     {
+      "utc_date": "2026-10-17T18:45:00Z",
+      "competition": "SA",
+      "home_team": "Roma",
+      "away_team": "Genoa",
+      "home_crest": "https://crests.football-data.org/100.png",
+      "away_crest": "https://crests.football-data.org/107.png",
+      "p_home": 0.751,
+      "p_draw": 0.1585,
+      "p_away": 0.0905,
+      "pick_1x2": "H",
+      "p_over25": 0.557,
+      "pred_home_goals": 2,
+      "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-10-17T18:45:00Z",
+      "competition": "FL1",
+      "home_team": "Troyes",
+      "away_team": "RC Lens",
+      "home_crest": "https://crests.football-data.org/531.png",
+      "away_crest": "https://crests.football-data.org/546.png",
+      "p_home": 0.0872,
+      "p_draw": 0.1495,
+      "p_away": 0.7633,
+      "pick_1x2": "A",
+      "p_over25": 0.707,
+      "pred_home_goals": 0,
+      "pred_away_goals": 2
+    },
+    {
+      "utc_date": "2026-10-17T18:45:00Z",
+      "competition": "FL1",
+      "home_team": "Lille",
+      "away_team": "Brest",
+      "home_crest": "https://crests.football-data.org/521.png",
+      "away_crest": "https://crests.football-data.org/512.png",
+      "p_home": 0.6001,
+      "p_draw": 0.2456,
+      "p_away": 0.1542,
+      "pick_1x2": "H",
+      "p_over25": 0.4723,
+      "pred_home_goals": 1,
+      "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-10-17T19:00:00Z",
+      "competition": "PD",
+      "home_team": "Valencia",
+      "away_team": "Athletic",
+      "home_crest": "https://crests.football-data.org/95.png",
+      "away_crest": "https://crests.football-data.org/77.png",
+      "p_home": 0.4036,
+      "p_draw": 0.294,
+      "p_away": 0.3025,
+      "pick_1x2": "H",
+      "p_over25": 0.4064,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
       "utc_date": "2026-10-21T18:00:00Z",
       "competition": "PD",
       "home_team": "Levante",
@@ -5093,8 +5153,8 @@
     }
   ],
   "counts": {
-    "predictions": 317,
+    "predictions": 321,
     "evaluated": 247,
-    "pending": 70
+    "pending": 74
   }
 }
