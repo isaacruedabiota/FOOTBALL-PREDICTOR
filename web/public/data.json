@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T14:01:14.469492+00:00",
+  "generated_at": "2026-10-07T15:01:10.950517+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -4035,6 +4035,21 @@
       "pred_away_goals": 1
     },
     {
+      "utc_date": "2026-10-17T14:15:00Z",
+      "competition": "PD",
+      "home_team": "Villarreal",
+      "away_team": "Elche",
+      "home_crest": "https://crests.football-data.org/94.png",
+      "away_crest": "https://crests.football-data.org/285.png",
+      "p_home": 0.6763,
+      "p_draw": 0.1737,
+      "p_away": 0.15,
+      "pick_1x2": "H",
+      "p_over25": 0.7391,
+      "pred_home_goals": 2,
+      "pred_away_goals": 1
+    },
+    {
       "utc_date": "2026-10-21T18:00:00Z",
       "competition": "PD",
       "home_team": "Levante",
@@ -5003,8 +5018,8 @@
     }
   ],
   "counts": {
-    "predictions": 311,
+    "predictions": 312,
     "evaluated": 247,
-    "pending": 64
+    "pending": 65
   }
 }
