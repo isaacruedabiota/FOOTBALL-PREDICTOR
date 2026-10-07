@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T12:01:10.064533+00:00",
+  "generated_at": "2026-10-07T13:01:10.364564+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -3900,6 +3900,21 @@
       "pred_away_goals": 1
     },
     {
+      "utc_date": "2026-10-17T13:00:00Z",
+      "competition": "SA",
+      "home_team": "Venezia FC",
+      "away_team": "Napoli",
+      "home_crest": "https://crests.football-data.org/454.png",
+      "away_crest": "https://crests.football-data.org/113.png",
+      "p_home": 0.0563,
+      "p_draw": 0.0992,
+      "p_away": 0.8444,
+      "pick_1x2": "A",
+      "p_over25": 0.7403,
+      "pred_home_goals": 0,
+      "pred_away_goals": 3
+    },
+    {
       "utc_date": "2026-10-21T18:00:00Z",
       "competition": "PD",
       "home_team": "Levante",
@@ -4868,8 +4883,8 @@
     }
   ],
   "counts": {
-    "predictions": 302,
+    "predictions": 303,
     "evaluated": 247,
-    "pending": 55
+    "pending": 56
   }
 }
