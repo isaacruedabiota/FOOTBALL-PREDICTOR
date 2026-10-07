@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T15:01:10.950517+00:00",
+  "generated_at": "2026-10-07T16:01:12.530540+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -4050,6 +4050,36 @@
       "pred_away_goals": 1
     },
     {
+      "utc_date": "2026-10-17T15:15:00Z",
+      "competition": "FL1",
+      "home_team": "Strasbourg",
+      "away_team": "PSG",
+      "home_crest": "https://crests.football-data.org/576.png",
+      "away_crest": "https://crests.football-data.org/524.png",
+      "p_home": 0.2516,
+      "p_draw": 0.2268,
+      "p_away": 0.5216,
+      "pick_1x2": "A",
+      "p_over25": 0.6697,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-10-17T16:00:00Z",
+      "competition": "SA",
+      "home_team": "Bologna",
+      "away_team": "Inter",
+      "home_crest": "https://crests.football-data.org/103.png",
+      "away_crest": "https://crests.football-data.org/108.png",
+      "p_home": 0.1594,
+      "p_draw": 0.1759,
+      "p_away": 0.6647,
+      "pick_1x2": "A",
+      "p_over25": 0.6586,
+      "pred_home_goals": 1,
+      "pred_away_goals": 2
+    },
+    {
       "utc_date": "2026-10-21T18:00:00Z",
       "competition": "PD",
       "home_team": "Levante",
@@ -5018,8 +5048,8 @@
     }
   ],
   "counts": {
-    "predictions": 312,
+    "predictions": 314,
     "evaluated": 247,
-    "pending": 65
+    "pending": 67
   }
 }
