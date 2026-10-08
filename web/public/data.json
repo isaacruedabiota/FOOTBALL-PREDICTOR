@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T15:01:09.770745+00:00",
+  "generated_at": "2026-10-08T16:01:10.887370+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -4320,6 +4320,96 @@
       "pred_away_goals": 1
     },
     {
+      "utc_date": "2026-10-18T15:15:00Z",
+      "competition": "FL1",
+      "home_team": "Lorient",
+      "away_team": "Monaco",
+      "home_crest": "https://crests.football-data.org/525.png",
+      "away_crest": "https://crests.football-data.org/548.png",
+      "p_home": 0.308,
+      "p_draw": 0.2678,
+      "p_away": 0.4242,
+      "pick_1x2": "A",
+      "p_over25": 0.5338,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-10-18T15:15:00Z",
+      "competition": "FL1",
+      "home_team": "Paris FC",
+      "away_team": "Stade Rennais",
+      "home_crest": "https://crests.football-data.org/1045.png",
+      "away_crest": "https://crests.football-data.org/529.png",
+      "p_home": 0.4567,
+      "p_draw": 0.2515,
+      "p_away": 0.2917,
+      "pick_1x2": "H",
+      "p_over25": 0.5934,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-10-18T15:15:00Z",
+      "competition": "FL1",
+      "home_team": "Le Havre",
+      "away_team": "Auxerre",
+      "home_crest": "https://crests.football-data.org/533.png",
+      "away_crest": "https://crests.football-data.org/519.png",
+      "p_home": 0.3748,
+      "p_draw": 0.3146,
+      "p_away": 0.3105,
+      "pick_1x2": "H",
+      "p_over25": 0.3656,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-10-18T15:30:00Z",
+      "competition": "PL",
+      "home_team": "Nottingham",
+      "away_team": "Arsenal",
+      "home_crest": "https://crests.football-data.org/351.png",
+      "away_crest": "https://crests.football-data.org/57.png",
+      "p_home": 0.1721,
+      "p_draw": 0.3082,
+      "p_away": 0.5197,
+      "pick_1x2": "A",
+      "p_over25": 0.3566,
+      "pred_home_goals": 0,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-10-18T15:30:00Z",
+      "competition": "BL1",
+      "home_team": "M'gladbach",
+      "away_team": "Hoffenheim",
+      "home_crest": "https://crests.football-data.org/18.png",
+      "away_crest": "https://crests.football-data.org/2.png",
+      "p_home": 0.347,
+      "p_draw": 0.2237,
+      "p_away": 0.4293,
+      "pick_1x2": "A",
+      "p_over25": 0.6985,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-10-18T16:00:00Z",
+      "competition": "SA",
+      "home_team": "Milan",
+      "away_team": "Atalanta",
+      "home_crest": "https://crests.football-data.org/98.png",
+      "away_crest": "https://crests.football-data.org/102.png",
+      "p_home": 0.4217,
+      "p_draw": 0.2773,
+      "p_away": 0.3009,
+      "pick_1x2": "H",
+      "p_over25": 0.3726,
+      "pred_home_goals": 1,
+      "pred_away_goals": 0
+    },
+    {
       "utc_date": "2026-10-21T18:00:00Z",
       "competition": "PD",
       "home_team": "Levante",
@@ -5288,8 +5378,8 @@
     }
   ],
   "counts": {
-    "predictions": 330,
+    "predictions": 336,
     "evaluated": 247,
-    "pending": 83
+    "pending": 89
   }
 }
