@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T11:01:09.051538+00:00",
+  "generated_at": "2026-10-08T12:01:10.771041+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -4200,6 +4200,21 @@
       "pred_away_goals": 0
     },
     {
+      "utc_date": "2026-10-18T12:00:00Z",
+      "competition": "PD",
+      "home_team": "Osasuna",
+      "away_team": "Santander",
+      "home_crest": "https://crests.football-data.org/79.png",
+      "away_crest": "https://crests.football-data.org/5335.png",
+      "p_home": 0.5726,
+      "p_draw": 0.1931,
+      "p_away": 0.2343,
+      "pick_1x2": "H",
+      "p_over25": 0.778,
+      "pred_home_goals": 2,
+      "pred_away_goals": 1
+    },
+    {
       "utc_date": "2026-10-21T18:00:00Z",
       "competition": "PD",
       "home_team": "Levante",
@@ -5168,8 +5183,8 @@
     }
   ],
   "counts": {
-    "predictions": 322,
+    "predictions": 323,
     "evaluated": 247,
-    "pending": 75
+    "pending": 76
   }
 }
