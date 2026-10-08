@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T18:01:10.173252+00:00",
+  "generated_at": "2026-10-08T19:01:09.278746+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -4425,6 +4425,51 @@
       "pred_away_goals": 1
     },
     {
+      "utc_date": "2026-10-18T18:45:00Z",
+      "competition": "SA",
+      "home_team": "Juventus",
+      "away_team": "Lazio",
+      "home_crest": "https://crests.football-data.org/109.png",
+      "away_crest": "https://crests.football-data.org/110.png",
+      "p_home": 0.5136,
+      "p_draw": 0.2667,
+      "p_away": 0.2198,
+      "pick_1x2": "H",
+      "p_over25": 0.3641,
+      "pred_home_goals": 1,
+      "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-10-18T18:45:00Z",
+      "competition": "FL1",
+      "home_team": "Olympique Lyon",
+      "away_team": "Nice",
+      "home_crest": "https://crests.football-data.org/523.png",
+      "away_crest": "https://crests.football-data.org/522.png",
+      "p_home": 0.7086,
+      "p_draw": 0.1991,
+      "p_away": 0.0923,
+      "pick_1x2": "H",
+      "p_over25": 0.5084,
+      "pred_home_goals": 2,
+      "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-10-18T19:00:00Z",
+      "competition": "PD",
+      "home_team": "Real Madrid",
+      "away_team": "Sevilla FC",
+      "home_crest": "https://crests.football-data.org/86.png",
+      "away_crest": "https://crests.football-data.org/559.png",
+      "p_home": 0.7551,
+      "p_draw": 0.1576,
+      "p_away": 0.0872,
+      "pick_1x2": "H",
+      "p_over25": 0.6442,
+      "pred_home_goals": 2,
+      "pred_away_goals": 0
+    },
+    {
       "utc_date": "2026-10-21T18:00:00Z",
       "competition": "PD",
       "home_team": "Levante",
@@ -5393,8 +5438,8 @@
     }
   ],
   "counts": {
-    "predictions": 337,
+    "predictions": 340,
     "evaluated": 247,
-    "pending": 90
+    "pending": 93
   }
 }
