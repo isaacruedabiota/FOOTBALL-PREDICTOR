@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T12:01:10.771041+00:00",
+  "generated_at": "2026-10-08T13:01:09.130246+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -4215,6 +4215,81 @@
       "pred_away_goals": 1
     },
     {
+      "utc_date": "2026-10-18T13:00:00Z",
+      "competition": "SA",
+      "home_team": "Fiorentina",
+      "away_team": "Como 1907",
+      "home_crest": "https://crests.football-data.org/99.png",
+      "away_crest": "https://crests.football-data.org/7397.png",
+      "p_home": 0.1463,
+      "p_draw": 0.1953,
+      "p_away": 0.6584,
+      "pick_1x2": "A",
+      "p_over25": 0.5329,
+      "pred_home_goals": 0,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-10-18T13:00:00Z",
+      "competition": "FL1",
+      "home_team": "Angers SCO",
+      "away_team": "Marseille",
+      "home_crest": "https://crests.football-data.org/532.png",
+      "away_crest": "https://crests.football-data.org/516.png",
+      "p_home": 0.2452,
+      "p_draw": 0.2854,
+      "p_away": 0.4694,
+      "pick_1x2": "A",
+      "p_over25": 0.4347,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-10-18T13:00:00Z",
+      "competition": "PL",
+      "home_team": "Bournemouth",
+      "away_team": "Sunderland",
+      "home_crest": "https://crests.football-data.org/bournemouth.png",
+      "away_crest": "https://crests.football-data.org/71.png",
+      "p_home": 0.503,
+      "p_draw": 0.276,
+      "p_away": 0.221,
+      "pick_1x2": "H",
+      "p_over25": 0.5108,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-10-18T13:00:00Z",
+      "competition": "PL",
+      "home_team": "Leeds United",
+      "away_team": "Man United",
+      "home_crest": "https://crests.football-data.org/341.png",
+      "away_crest": "https://crests.football-data.org/66.png",
+      "p_home": 0.3526,
+      "p_draw": 0.2876,
+      "p_away": 0.3598,
+      "pick_1x2": "A",
+      "p_over25": 0.5276,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-10-18T13:00:00Z",
+      "competition": "PL",
+      "home_team": "Brighton Hove",
+      "away_team": "Crystal Palace",
+      "home_crest": "https://crests.football-data.org/397.png",
+      "away_crest": "https://crests.football-data.org/354.png",
+      "p_home": 0.6724,
+      "p_draw": 0.2077,
+      "p_away": 0.1199,
+      "pick_1x2": "H",
+      "p_over25": 0.608,
+      "pred_home_goals": 2,
+      "pred_away_goals": 0
+    },
+    {
       "utc_date": "2026-10-21T18:00:00Z",
       "competition": "PD",
       "home_team": "Levante",
@@ -5183,8 +5258,8 @@
     }
   ],
   "counts": {
-    "predictions": 323,
+    "predictions": 328,
     "evaluated": 247,
-    "pending": 76
+    "pending": 81
   }
 }
