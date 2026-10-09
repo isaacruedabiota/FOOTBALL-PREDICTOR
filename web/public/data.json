@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T19:01:09.174525+00:00",
+  "generated_at": "2026-10-09T20:01:10.137295+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -3089,21 +3089,6 @@
     ]
   },
   "upcoming": [
-    {
-      "utc_date": "2026-10-09T19:00:00Z",
-      "competition": "PD",
-      "home_team": "Málaga",
-      "away_team": "Espanyol",
-      "home_crest": "https://crests.football-data.org/84.png",
-      "away_crest": "https://crests.football-data.org/80.png",
-      "p_home": 0.1864,
-      "p_draw": 0.3362,
-      "p_away": 0.4774,
-      "pick_1x2": "A",
-      "p_over25": 0.2391,
-      "pred_home_goals": 0,
-      "pred_away_goals": 1
-    },
     {
       "utc_date": "2026-10-10T11:30:00Z",
       "competition": "PL",
