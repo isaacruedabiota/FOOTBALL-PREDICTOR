@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T12:01:18.432001+00:00",
+  "generated_at": "2026-10-10T13:01:13.110924+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -3125,21 +3125,6 @@
     ]
   },
   "upcoming": [
-    {
-      "utc_date": "2026-10-10T12:00:00Z",
-      "competition": "PD",
-      "home_team": "Rayo Vallecano",
-      "away_team": "Athletic",
-      "home_crest": "https://crests.football-data.org/87.png",
-      "away_crest": "https://crests.football-data.org/77.png",
-      "p_home": 0.4661,
-      "p_draw": 0.2802,
-      "p_away": 0.2536,
-      "pick_1x2": "H",
-      "p_over25": 0.4316,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
     {
       "utc_date": "2026-10-10T13:00:00Z",
       "competition": "SA",
