@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T14:01:12.724332+00:00",
+  "generated_at": "2026-10-10T15:01:13.578417+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -3137,81 +3137,6 @@
     ]
   },
   "upcoming": [
-    {
-      "utc_date": "2026-10-10T14:00:00Z",
-      "competition": "PL",
-      "home_team": "Sunderland",
-      "away_team": "Brighton Hove",
-      "home_crest": "https://crests.football-data.org/71.png",
-      "away_crest": "https://crests.football-data.org/397.png",
-      "p_home": 0.2386,
-      "p_draw": 0.2765,
-      "p_away": 0.4849,
-      "pick_1x2": "A",
-      "p_over25": 0.5238,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
-    {
-      "utc_date": "2026-10-10T14:00:00Z",
-      "competition": "PL",
-      "home_team": "Chelsea",
-      "away_team": "Bournemouth",
-      "home_crest": "https://crests.football-data.org/61.png",
-      "away_crest": "https://crests.football-data.org/bournemouth.png",
-      "p_home": 0.4035,
-      "p_draw": 0.2537,
-      "p_away": 0.3428,
-      "pick_1x2": "H",
-      "p_over25": 0.6588,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
-    {
-      "utc_date": "2026-10-10T14:00:00Z",
-      "competition": "PL",
-      "home_team": "Ipswich Town",
-      "away_team": "Fulham",
-      "home_crest": "https://crests.football-data.org/349.png",
-      "away_crest": "https://crests.football-data.org/63.png",
-      "p_home": 0.3453,
-      "p_draw": 0.2726,
-      "p_away": 0.3821,
-      "pick_1x2": "A",
-      "p_over25": 0.5851,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
-    {
-      "utc_date": "2026-10-10T14:00:00Z",
-      "competition": "PL",
-      "home_team": "Aston Villa",
-      "away_team": "Brentford",
-      "home_crest": "https://crests.football-data.org/58.png",
-      "away_crest": "https://crests.football-data.org/402.png",
-      "p_home": 0.3408,
-      "p_draw": 0.2802,
-      "p_away": 0.379,
-      "pick_1x2": "A",
-      "p_over25": 0.5551,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
-    {
-      "utc_date": "2026-10-10T14:15:00Z",
-      "competition": "PD",
-      "home_team": "Alavés",
-      "away_team": "Atleti",
-      "home_crest": "https://crests.football-data.org/263.png",
-      "away_crest": "https://crests.football-data.org/78.png",
-      "p_home": 0.3278,
-      "p_draw": 0.265,
-      "p_away": 0.4072,
-      "pick_1x2": "A",
-      "p_over25": 0.5235,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
     {
       "utc_date": "2026-10-10T15:15:00Z",
       "competition": "FL1",
