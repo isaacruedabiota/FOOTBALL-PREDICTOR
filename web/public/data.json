@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T10:01:11.292634+00:00",
+  "generated_at": "2026-10-11T11:01:14.202280+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -3401,21 +3401,6 @@
     ]
   },
   "upcoming": [
-    {
-      "utc_date": "2026-10-11T10:30:00Z",
-      "competition": "SA",
-      "home_team": "Como 1907",
-      "away_team": "Roma",
-      "home_crest": "https://crests.football-data.org/7397.png",
-      "away_crest": "https://crests.football-data.org/100.png",
-      "p_home": 0.3535,
-      "p_draw": 0.2562,
-      "p_away": 0.3903,
-      "pick_1x2": "A",
-      "p_over25": 0.462,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
     {
       "utc_date": "2026-10-11T12:00:00Z",
       "competition": "PD",
