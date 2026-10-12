@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T18:01:11.105885+00:00",
+  "generated_at": "2026-10-12T19:01:11.428954+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -8,22 +8,22 @@
   },
   "summary": {
     "dc-v1": {
-      "n": 290,
-      "acc_1x2": 48.9655,
-      "acc_ou": 61.0345,
-      "acc_score": 9.6552,
-      "brier": 0.6194,
-      "logloss": 1.053,
-      "rps": 0.2125
-    },
-    "elo-v1": {
       "n": 291,
       "acc_1x2": 49.1409,
-      "acc_ou": 57.3883,
-      "acc_score": 8.9347,
-      "brier": 0.5954,
-      "logloss": 1.0022,
-      "rps": 0.2048
+      "acc_ou": 61.1684,
+      "acc_score": 9.622,
+      "brier": 0.6174,
+      "logloss": 1.05,
+      "rps": 0.2118
+    },
+    "elo-v1": {
+      "n": 292,
+      "acc_1x2": 49.3151,
+      "acc_ou": 57.1918,
+      "acc_score": 8.9041,
+      "brier": 0.5942,
+      "logloss": 1.0004,
+      "rps": 0.2045
     }
   },
   "by_competition": {
@@ -62,11 +62,11 @@
       },
       {
         "competition": "SA",
-        "n": 58,
-        "acc_1x2": 55.1724,
-        "acc_ou": 56.8966,
-        "acc_score": 15.5172,
-        "rps": 0.1944
+        "n": 59,
+        "acc_1x2": 55.9322,
+        "acc_ou": 57.6271,
+        "acc_score": 15.2542,
+        "rps": 0.1914
       }
     ],
     "elo-v1": [
@@ -104,11 +104,11 @@
       },
       {
         "competition": "SA",
-        "n": 58,
-        "acc_1x2": 55.1724,
-        "acc_ou": 44.8276,
-        "acc_score": 6.8966,
-        "rps": 0.199
+        "n": 59,
+        "acc_1x2": 55.9322,
+        "acc_ou": 44.0678,
+        "acc_score": 6.7797,
+        "rps": 0.1974
       }
     ]
   },
@@ -1853,6 +1853,12 @@
         "n": 290,
         "acc_1x2": 48.9655,
         "rps": 0.2125
+      },
+      {
+        "date": "2026-10-12",
+        "n": 291,
+        "acc_1x2": 49.1409,
+        "rps": 0.2118
       }
     ],
     "elo-v1": [
@@ -3601,25 +3607,16 @@
         "n": 291,
         "acc_1x2": 49.1409,
         "rps": 0.2048
+      },
+      {
+        "date": "2026-10-12",
+        "n": 292,
+        "acc_1x2": 49.3151,
+        "rps": 0.2045
       }
     ]
   },
   "upcoming": [
-    {
-      "utc_date": "2026-10-12T18:45:00Z",
-      "competition": "SA",
-      "home_team": "Torino",
-      "away_team": "Udinese",
-      "home_crest": "https://crests.football-data.org/586.png",
-      "away_crest": "https://crests.football-data.org/115.png",
-      "p_home": 0.3221,
-      "p_draw": 0.2327,
-      "p_away": 0.4452,
-      "pick_1x2": "A",
-      "p_over25": 0.562,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
     {
       "utc_date": "2026-10-12T19:00:00Z",
       "competition": "PL",
@@ -4387,6 +4384,25 @@
     }
   ],
   "recent": [
+    {
+      "utc_date": "2026-10-12T16:30:00Z",
+      "competition": "SA",
+      "home_team": "Atalanta",
+      "away_team": "Venezia FC",
+      "home_crest": "https://crests.football-data.org/102.png",
+      "away_crest": "https://crests.football-data.org/454.png",
+      "p_home": 0.8292,
+      "p_draw": 0.1092,
+      "p_away": 0.0617,
+      "pick_1x2": "H",
+      "actual_1x2": "H",
+      "correct_1x2": 1,
+      "correct_ou": 1,
+      "correct_score": 0,
+      "home_goals": 3,
+      "away_goals": 1,
+      "rps_1x2": 0.0165
+    },
     {
       "utc_date": "2026-10-11T19:00:00Z",
       "competition": "PD",
@@ -5317,30 +5333,11 @@
       "home_goals": 3,
       "away_goals": 1,
       "rps_1x2": 0.0668
-    },
-    {
-      "utc_date": "2026-09-20T16:00:00Z",
-      "competition": "SA",
-      "home_team": "Juventus",
-      "away_team": "Atalanta",
-      "home_crest": "https://crests.football-data.org/109.png",
-      "away_crest": "https://crests.football-data.org/102.png",
-      "p_home": 0.4427,
-      "p_draw": 0.2776,
-      "p_away": 0.2797,
-      "pick_1x2": "H",
-      "actual_1x2": "H",
-      "correct_1x2": 1,
-      "correct_ou": 1,
-      "correct_score": 0,
-      "home_goals": 2,
-      "away_goals": 0,
-      "rps_1x2": 0.1944
     }
   ],
   "counts": {
     "predictions": 344,
-    "evaluated": 290,
-    "pending": 54
+    "evaluated": 291,
+    "pending": 53
   }
 }
