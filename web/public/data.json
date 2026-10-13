@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T01:01:08.630090+00:00",
+  "generated_at": "2026-10-13T02:01:08.464931+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -3654,81 +3654,6 @@
   },
   "upcoming": [
     {
-      "utc_date": "2026-10-11T12:00:00Z",
-      "competition": "PD",
-      "home_team": "Elche",
-      "away_team": "Celta",
-      "home_crest": "https://crests.football-data.org/285.png",
-      "away_crest": "https://crests.football-data.org/558.png",
-      "p_home": 0.3941,
-      "p_draw": 0.2672,
-      "p_away": 0.3386,
-      "pick_1x2": "H",
-      "p_over25": 0.5164,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
-    {
-      "utc_date": "2026-10-11T14:15:00Z",
-      "competition": "PD",
-      "home_team": "Real Sociedad",
-      "away_team": "Deportivo",
-      "home_crest": "https://crests.football-data.org/92.png",
-      "away_crest": "https://crests.football-data.org/560.png",
-      "p_home": 0.4764,
-      "p_draw": 0.2359,
-      "p_away": 0.2876,
-      "pick_1x2": "H",
-      "p_over25": 0.6318,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
-    {
-      "utc_date": "2026-10-11T16:30:00Z",
-      "competition": "PD",
-      "home_team": "Real Betis",
-      "away_team": "Osasuna",
-      "home_crest": "https://crests.football-data.org/90.png",
-      "away_crest": "https://crests.football-data.org/79.png",
-      "p_home": 0.6523,
-      "p_draw": 0.2149,
-      "p_away": 0.1328,
-      "pick_1x2": "H",
-      "p_over25": 0.5209,
-      "pred_home_goals": 2,
-      "pred_away_goals": 0
-    },
-    {
-      "utc_date": "2026-10-11T19:00:00Z",
-      "competition": "PD",
-      "home_team": "Santander",
-      "away_team": "Valencia",
-      "home_crest": "https://crests.football-data.org/5335.png",
-      "away_crest": "https://crests.football-data.org/95.png",
-      "p_home": 0.448,
-      "p_draw": 0.216,
-      "p_away": 0.336,
-      "pick_1x2": "H",
-      "p_over25": 0.7446,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
-    {
-      "utc_date": "2026-10-12T19:00:00Z",
-      "competition": "PD",
-      "home_team": "Levante",
-      "away_team": "Sevilla FC",
-      "home_crest": "https://crests.football-data.org/88.png",
-      "away_crest": "https://crests.football-data.org/559.png",
-      "p_home": 0.4529,
-      "p_draw": 0.2568,
-      "p_away": 0.2902,
-      "pick_1x2": "H",
-      "p_over25": 0.543,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
-    {
       "utc_date": "2026-10-16T18:30:00Z",
       "competition": "BL1",
       "home_team": "Frankfurt",
@@ -4480,8 +4405,8 @@
       "correct_1x2": 0,
       "correct_ou": 1,
       "correct_score": 0,
-      "home_goals": null,
-      "away_goals": null,
+      "home_goals": 3,
+      "away_goals": 3,
       "rps_1x2": 0.1447
     },
     {
@@ -4556,8 +4481,8 @@
       "correct_1x2": 0,
       "correct_ou": 1,
       "correct_score": 0,
-      "home_goals": null,
-      "away_goals": null,
+      "home_goals": 2,
+      "away_goals": 2,
       "rps_1x2": 0.1568
     },
     {
@@ -4613,8 +4538,8 @@
       "correct_1x2": 1,
       "correct_ou": 1,
       "correct_score": 0,
-      "home_goals": null,
-      "away_goals": null,
+      "home_goals": 5,
+      "away_goals": 2,
       "rps_1x2": 0.0693
     },
     {
@@ -4708,8 +4633,8 @@
       "correct_1x2": 1,
       "correct_ou": 1,
       "correct_score": 0,
-      "home_goals": null,
-      "away_goals": null,
+      "home_goals": 3,
+      "away_goals": 2,
       "rps_1x2": 0.1784
     },
     {
@@ -4841,8 +4766,8 @@
       "correct_1x2": 0,
       "correct_ou": 0,
       "correct_score": 0,
-      "home_goals": null,
-      "away_goals": null,
+      "home_goals": 0,
+      "away_goals": 0,
       "rps_1x2": 0.135
     },
     {
