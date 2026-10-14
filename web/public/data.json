@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T11:01:08.240869+00:00",
+  "generated_at": "2026-10-14T12:01:08.631833+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -4462,6 +4462,36 @@
       "p_over25": 0.3625,
       "pred_home_goals": 1,
       "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-10-24T11:30:00Z",
+      "competition": "PL",
+      "home_team": "Aston Villa",
+      "away_team": "Man City",
+      "home_crest": "https://crests.football-data.org/58.png",
+      "away_crest": "https://crests.football-data.org/65.png",
+      "p_home": 0.1698,
+      "p_draw": 0.2355,
+      "p_away": 0.5947,
+      "pick_1x2": "A",
+      "p_over25": 0.5972,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-10-24T12:00:00Z",
+      "competition": "PD",
+      "home_team": "Rayo Vallecano",
+      "away_team": "Elche",
+      "home_crest": "https://crests.football-data.org/87.png",
+      "away_crest": "https://crests.football-data.org/285.png",
+      "p_home": 0.5076,
+      "p_draw": 0.2538,
+      "p_away": 0.2386,
+      "pick_1x2": "H",
+      "p_over25": 0.5329,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
     }
   ],
   "recent": [
@@ -5417,8 +5447,8 @@
     }
   ],
   "counts": {
-    "predictions": 349,
+    "predictions": 351,
     "evaluated": 294,
-    "pending": 55
+    "pending": 57
   }
 }
