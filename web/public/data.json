@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T12:01:08.631833+00:00",
+  "generated_at": "2026-10-14T13:01:09.150594+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -4492,6 +4492,36 @@
       "p_over25": 0.5329,
       "pred_home_goals": 1,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-10-24T13:00:00Z",
+      "competition": "SA",
+      "home_team": "Cagliari",
+      "away_team": "Bologna",
+      "home_crest": "https://crests.football-data.org/104.png",
+      "away_crest": "https://crests.football-data.org/103.png",
+      "p_home": 0.38,
+      "p_draw": 0.3006,
+      "p_away": 0.3194,
+      "pick_1x2": "H",
+      "p_over25": 0.3449,
+      "pred_home_goals": 1,
+      "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-10-24T13:00:00Z",
+      "competition": "SA",
+      "home_team": "Como 1907",
+      "away_team": "Sassuolo",
+      "home_crest": "https://crests.football-data.org/7397.png",
+      "away_crest": "https://crests.football-data.org/471.png",
+      "p_home": 0.655,
+      "p_draw": 0.2023,
+      "p_away": 0.1427,
+      "pick_1x2": "H",
+      "p_over25": 0.5445,
+      "pred_home_goals": 2,
+      "pred_away_goals": 0
     }
   ],
   "recent": [
@@ -5447,8 +5477,8 @@
     }
   ],
   "counts": {
-    "predictions": 351,
+    "predictions": 353,
     "evaluated": 294,
-    "pending": 57
+    "pending": 59
   }
 }
