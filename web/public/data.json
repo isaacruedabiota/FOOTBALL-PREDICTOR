@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T16:01:10.217362+00:00",
+  "generated_at": "2026-10-14T17:01:09.512166+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -3654,51 +3654,6 @@
   },
   "upcoming": [
     {
-      "utc_date": "2026-10-11T13:00:00Z",
-      "competition": "FL1",
-      "home_team": "Nice",
-      "away_team": "Strasbourg",
-      "home_crest": "https://crests.football-data.org/522.png",
-      "away_crest": "https://crests.football-data.org/576.png",
-      "p_home": 0.2294,
-      "p_draw": 0.2445,
-      "p_away": 0.5261,
-      "pick_1x2": "A",
-      "p_over25": 0.5751,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
-    {
-      "utc_date": "2026-10-11T15:15:00Z",
-      "competition": "FL1",
-      "home_team": "Stade Rennais",
-      "away_team": "Auxerre",
-      "home_crest": "https://crests.football-data.org/529.png",
-      "away_crest": "https://crests.football-data.org/519.png",
-      "p_home": 0.5963,
-      "p_draw": 0.2145,
-      "p_away": 0.1891,
-      "pick_1x2": "H",
-      "p_over25": 0.65,
-      "pred_home_goals": 2,
-      "pred_away_goals": 1
-    },
-    {
-      "utc_date": "2026-10-11T18:45:00Z",
-      "competition": "FL1",
-      "home_team": "Troyes",
-      "away_team": "Marseille",
-      "home_crest": "https://crests.football-data.org/531.png",
-      "away_crest": "https://crests.football-data.org/516.png",
-      "p_home": 0.129,
-      "p_draw": 0.1878,
-      "p_away": 0.6832,
-      "pick_1x2": "A",
-      "p_over25": 0.6528,
-      "pred_home_goals": 0,
-      "pred_away_goals": 2
-    },
-    {
       "utc_date": "2026-10-16T18:30:00Z",
       "competition": "BL1",
       "home_team": "Frankfurt",
@@ -4717,6 +4672,51 @@
       "p_over25": 0.4029,
       "pred_home_goals": 1,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-10-24T16:30:00Z",
+      "competition": "PL",
+      "home_team": "Chelsea",
+      "away_team": "Tottenham",
+      "home_crest": "https://crests.football-data.org/61.png",
+      "away_crest": "https://crests.football-data.org/73.png",
+      "p_home": 0.6039,
+      "p_draw": 0.228,
+      "p_away": 0.1681,
+      "pick_1x2": "H",
+      "p_over25": 0.6227,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-10-24T16:30:00Z",
+      "competition": "PD",
+      "home_team": "Valencia",
+      "away_team": "Villarreal",
+      "home_crest": "https://crests.football-data.org/95.png",
+      "away_crest": "https://crests.football-data.org/94.png",
+      "p_home": 0.2962,
+      "p_draw": 0.2642,
+      "p_away": 0.4396,
+      "pick_1x2": "A",
+      "p_over25": 0.5295,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-10-24T16:30:00Z",
+      "competition": "BL1",
+      "home_team": "Dortmund",
+      "away_team": "Frankfurt",
+      "home_crest": "https://crests.football-data.org/4.png",
+      "away_crest": "https://crests.football-data.org/19.png",
+      "p_home": 0.8002,
+      "p_draw": 0.1226,
+      "p_away": 0.0772,
+      "pick_1x2": "H",
+      "p_over25": 0.7496,
+      "pred_home_goals": 3,
+      "pred_away_goals": 0
     }
   ],
   "recent": [
@@ -4849,8 +4849,8 @@
       "correct_1x2": 1,
       "correct_ou": 0,
       "correct_score": 1,
-      "home_goals": null,
-      "away_goals": null,
+      "home_goals": 0,
+      "away_goals": 2,
       "rps_1x2": 0.0585
     },
     {
@@ -4944,8 +4944,8 @@
       "correct_1x2": 1,
       "correct_ou": 1,
       "correct_score": 0,
-      "home_goals": null,
-      "away_goals": null,
+      "home_goals": 4,
+      "away_goals": 1,
       "rps_1x2": 0.0994
     },
     {
@@ -5077,8 +5077,8 @@
       "correct_1x2": 0,
       "correct_ou": 1,
       "correct_score": 0,
-      "home_goals": null,
-      "away_goals": null,
+      "home_goals": 2,
+      "away_goals": 1,
       "rps_1x2": 0.4353
     },
     {
@@ -5672,8 +5672,8 @@
     }
   ],
   "counts": {
-    "predictions": 363,
+    "predictions": 366,
     "evaluated": 294,
-    "pending": 69
+    "pending": 72
   }
 }
