@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T17:01:10.384074+00:00",
+  "generated_at": "2026-10-15T18:01:12.153788+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -5032,6 +5032,21 @@
       "p_over25": 0.4171,
       "pred_home_goals": 0,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-10-25T17:30:00Z",
+      "competition": "PD",
+      "home_team": "Real Sociedad",
+      "away_team": "Levante",
+      "home_crest": "https://crests.football-data.org/92.png",
+      "away_crest": "https://crests.football-data.org/88.png",
+      "p_home": 0.5705,
+      "p_draw": 0.2025,
+      "p_away": 0.227,
+      "pick_1x2": "H",
+      "p_over25": 0.7383,
+      "pred_home_goals": 2,
+      "pred_away_goals": 1
     }
   ],
   "recent": [
@@ -5987,8 +6002,8 @@
     }
   ],
   "counts": {
-    "predictions": 387,
+    "predictions": 388,
     "evaluated": 294,
-    "pending": 93
+    "pending": 94
   }
 }
