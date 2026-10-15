@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T15:01:10.682364+00:00",
+  "generated_at": "2026-10-15T16:01:08.587917+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -4912,6 +4912,21 @@
       "p_over25": 0.7692,
       "pred_home_goals": 1,
       "pred_away_goals": 2
+    },
+    {
+      "utc_date": "2026-10-25T15:15:00Z",
+      "competition": "PD",
+      "home_team": "Celta",
+      "away_team": "Real Betis",
+      "home_crest": "https://crests.football-data.org/558.png",
+      "away_crest": "https://crests.football-data.org/90.png",
+      "p_home": 0.3784,
+      "p_draw": 0.2952,
+      "p_away": 0.3264,
+      "pick_1x2": "H",
+      "p_over25": 0.4202,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
     }
   ],
   "recent": [
@@ -5867,8 +5882,8 @@
     }
   ],
   "counts": {
-    "predictions": 379,
+    "predictions": 380,
     "evaluated": 294,
-    "pending": 85
+    "pending": 86
   }
 }
