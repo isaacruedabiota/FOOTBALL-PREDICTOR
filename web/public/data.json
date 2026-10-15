@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T19:01:08.844490+00:00",
+  "generated_at": "2026-10-15T20:01:10.485705+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -5047,6 +5047,51 @@
       "p_over25": 0.7383,
       "pred_home_goals": 2,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-10-25T19:45:00Z",
+      "competition": "SA",
+      "home_team": "Udinese",
+      "away_team": "Milan",
+      "home_crest": "https://crests.football-data.org/115.png",
+      "away_crest": "https://crests.football-data.org/98.png",
+      "p_home": 0.278,
+      "p_draw": 0.2657,
+      "p_away": 0.4564,
+      "pick_1x2": "A",
+      "p_over25": 0.4501,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-10-25T19:45:00Z",
+      "competition": "FL1",
+      "home_team": "PSG",
+      "away_team": "Olympique Lyon",
+      "home_crest": "https://crests.football-data.org/524.png",
+      "away_crest": "https://crests.football-data.org/523.png",
+      "p_home": 0.5446,
+      "p_draw": 0.2465,
+      "p_away": 0.2088,
+      "pick_1x2": "H",
+      "p_over25": 0.5166,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-10-25T20:00:00Z",
+      "competition": "PD",
+      "home_team": "Barça",
+      "away_team": "Real Madrid",
+      "home_crest": "https://crests.football-data.org/81.png",
+      "away_crest": "https://crests.football-data.org/86.png",
+      "p_home": 0.615,
+      "p_draw": 0.2024,
+      "p_away": 0.1826,
+      "pick_1x2": "H",
+      "p_over25": 0.6801,
+      "pred_home_goals": 2,
+      "pred_away_goals": 1
     }
   ],
   "recent": [
@@ -6002,8 +6047,8 @@
     }
   ],
   "counts": {
-    "predictions": 388,
+    "predictions": 391,
     "evaluated": 294,
-    "pending": 94
+    "pending": 97
   }
 }
