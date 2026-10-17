@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T00:01:10.522882+00:00",
+  "generated_at": "2026-10-17T01:01:09.292238+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -3747,6 +3747,21 @@
       "pred_away_goals": 2
     },
     {
+      "utc_date": "2026-10-16T18:45:00Z",
+      "competition": "FL1",
+      "home_team": "Le Mans",
+      "away_team": "Toulouse",
+      "home_crest": "https://crests.football-data.org/535.png",
+      "away_crest": "https://crests.football-data.org/511.png",
+      "p_home": 0.4696,
+      "p_draw": 0.2259,
+      "p_away": 0.3045,
+      "pick_1x2": "H",
+      "p_over25": 0.7089,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
       "utc_date": "2026-10-17T11:30:00Z",
       "competition": "PL",
       "home_team": "Everton",
@@ -5196,8 +5211,8 @@
       "correct_1x2": 0,
       "correct_ou": 1,
       "correct_score": 0,
-      "home_goals": 0,
-      "away_goals": 3,
+      "home_goals": null,
+      "away_goals": null,
       "rps_1x2": 0.3522
     },
     {
