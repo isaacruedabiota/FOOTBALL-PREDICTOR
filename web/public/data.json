@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T19:01:09.746736+00:00",
+  "generated_at": "2026-10-17T20:01:09.718513+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -3906,21 +3906,6 @@
   },
   "upcoming": [
     {
-      "utc_date": "2026-10-17T19:00:00Z",
-      "competition": "PD",
-      "home_team": "Valencia",
-      "away_team": "Athletic",
-      "home_crest": "https://crests.football-data.org/95.png",
-      "away_crest": "https://crests.football-data.org/77.png",
-      "p_home": 0.4036,
-      "p_draw": 0.294,
-      "p_away": 0.3025,
-      "pick_1x2": "H",
-      "p_over25": 0.4064,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
-    {
       "utc_date": "2026-10-18T10:30:00Z",
       "competition": "SA",
       "home_team": "Udinese",
@@ -5014,6 +4999,36 @@
       "p_over25": 0.4277,
       "pred_home_goals": 0,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-10-27T19:45:00Z",
+      "competition": "SA",
+      "home_team": "Roma",
+      "away_team": "Cagliari",
+      "home_crest": "https://crests.football-data.org/100.png",
+      "away_crest": "https://crests.football-data.org/104.png",
+      "p_home": 0.6587,
+      "p_draw": 0.2172,
+      "p_away": 0.1241,
+      "pick_1x2": "H",
+      "p_over25": 0.4174,
+      "pred_home_goals": 1,
+      "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-10-27T19:45:00Z",
+      "competition": "SA",
+      "home_team": "Torino",
+      "away_team": "Como 1907",
+      "home_crest": "https://crests.football-data.org/586.png",
+      "away_crest": "https://crests.football-data.org/7397.png",
+      "p_home": 0.1535,
+      "p_draw": 0.1996,
+      "p_away": 0.6468,
+      "pick_1x2": "A",
+      "p_over25": 0.5419,
+      "pred_home_goals": 0,
+      "pred_away_goals": 1
     }
   ],
   "recent": [
@@ -5969,8 +5984,8 @@
     }
   ],
   "counts": {
-    "predictions": 393,
+    "predictions": 395,
     "evaluated": 315,
-    "pending": 78
+    "pending": 80
   }
 }
