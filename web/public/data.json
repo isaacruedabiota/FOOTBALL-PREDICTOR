@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T19:01:08.462820+00:00",
+  "generated_at": "2026-10-18T20:01:08.306737+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -4146,6 +4146,21 @@
   },
   "upcoming": [
     {
+      "utc_date": "2026-10-18T16:30:00Z",
+      "competition": "PD",
+      "home_team": "Málaga",
+      "away_team": "Real Sociedad",
+      "home_crest": "https://crests.football-data.org/84.png",
+      "away_crest": "https://crests.football-data.org/92.png",
+      "p_home": 0.1632,
+      "p_draw": 0.2731,
+      "p_away": 0.5636,
+      "pick_1x2": "A",
+      "p_over25": 0.3708,
+      "pred_home_goals": 0,
+      "pred_away_goals": 1
+    },
+    {
       "utc_date": "2026-10-18T19:00:00Z",
       "competition": "PD",
       "home_team": "Real Madrid",
@@ -5044,6 +5059,36 @@
       "p_over25": 0.3271,
       "pred_home_goals": 0,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-10-28T19:45:00Z",
+      "competition": "SA",
+      "home_team": "Genoa",
+      "away_team": "Juventus",
+      "home_crest": "https://crests.football-data.org/107.png",
+      "away_crest": "https://crests.football-data.org/109.png",
+      "p_home": 0.1719,
+      "p_draw": 0.2369,
+      "p_away": 0.5912,
+      "pick_1x2": "A",
+      "p_over25": 0.4266,
+      "pred_home_goals": 0,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-10-28T19:45:00Z",
+      "competition": "SA",
+      "home_team": "Monza",
+      "away_team": "Napoli",
+      "home_crest": "https://crests.football-data.org/5911.png",
+      "away_crest": "https://crests.football-data.org/113.png",
+      "p_home": 0.1592,
+      "p_draw": 0.1684,
+      "p_away": 0.6724,
+      "pick_1x2": "A",
+      "p_over25": 0.7154,
+      "pred_home_goals": 1,
+      "pred_away_goals": 2
     }
   ],
   "recent": [
@@ -5062,8 +5107,8 @@
       "correct_1x2": 1,
       "correct_ou": 0,
       "correct_score": 0,
-      "home_goals": 2,
-      "away_goals": 5,
+      "home_goals": null,
+      "away_goals": null,
       "rps_1x2": 0.1085
     },
     {
@@ -5195,8 +5240,8 @@
       "correct_1x2": 1,
       "correct_ou": 0,
       "correct_score": 0,
-      "home_goals": 2,
-      "away_goals": 1,
+      "home_goals": 1,
+      "away_goals": 0,
       "rps_1x2": 0.1627
     },
     {
@@ -5999,8 +6044,8 @@
     }
   ],
   "counts": {
-    "predictions": 398,
+    "predictions": 400,
     "evaluated": 335,
-    "pending": 63
+    "pending": 65
   }
 }
