@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T19:01:09.264077+00:00",
+  "generated_at": "2026-10-19T20:01:08.710316+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -4194,36 +4194,6 @@
   },
   "upcoming": [
     {
-      "utc_date": "2026-10-19T19:00:00Z",
-      "competition": "PL",
-      "home_team": "Tottenham",
-      "away_team": "Coventry City",
-      "home_crest": "https://crests.football-data.org/73.png",
-      "away_crest": "https://crests.football-data.org/1076.png",
-      "p_home": 0.6303,
-      "p_draw": 0.3031,
-      "p_away": 0.0666,
-      "pick_1x2": "H",
-      "p_over25": 0.2196,
-      "pred_home_goals": 1,
-      "pred_away_goals": 0
-    },
-    {
-      "utc_date": "2026-10-19T19:00:00Z",
-      "competition": "PD",
-      "home_team": "Getafe",
-      "away_team": "Rayo Vallecano",
-      "home_crest": "https://crests.football-data.org/82.png",
-      "away_crest": "https://crests.football-data.org/87.png",
-      "p_home": 0.3411,
-      "p_draw": 0.3738,
-      "p_away": 0.2851,
-      "pick_1x2": "D",
-      "p_over25": 0.2005,
-      "pred_home_goals": 0,
-      "pred_away_goals": 0
-    },
-    {
       "utc_date": "2026-10-21T18:00:00Z",
       "competition": "PD",
       "home_team": "Levante",
@@ -5092,6 +5062,21 @@
       "p_over25": 0.5656,
       "pred_home_goals": 1,
       "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-10-29T19:45:00Z",
+      "competition": "SA",
+      "home_team": "Fiorentina",
+      "away_team": "Atalanta",
+      "home_crest": "https://crests.football-data.org/99.png",
+      "away_crest": "https://crests.football-data.org/102.png",
+      "p_home": 0.2601,
+      "p_draw": 0.2426,
+      "p_away": 0.4973,
+      "pick_1x2": "A",
+      "p_over25": 0.4935,
+      "pred_home_goals": 0,
+      "pred_away_goals": 1
     }
   ],
   "recent": [
@@ -6047,8 +6032,8 @@
     }
   ],
   "counts": {
-    "predictions": 401,
+    "predictions": 402,
     "evaluated": 339,
-    "pending": 62
+    "pending": 63
   }
 }
