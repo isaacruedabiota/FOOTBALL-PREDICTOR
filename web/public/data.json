@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T20:01:08.710316+00:00",
+  "generated_at": "2026-10-19T21:01:07.764123+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -8,22 +8,22 @@
   },
   "summary": {
     "dc-v1": {
-      "n": 339,
-      "acc_1x2": 49.5575,
-      "acc_ou": 59.587,
-      "acc_score": 9.7345,
-      "brier": 0.6106,
-      "logloss": 1.0398,
-      "rps": 0.2121
+      "n": 340,
+      "acc_1x2": 49.7059,
+      "acc_ou": 59.4118,
+      "acc_score": 9.7059,
+      "brier": 0.6105,
+      "logloss": 1.0396,
+      "rps": 0.2122
     },
     "elo-v1": {
-      "n": 340,
-      "acc_1x2": 50.2941,
-      "acc_ou": 55.8824,
-      "acc_score": 8.8235,
-      "brier": 0.5903,
-      "logloss": 0.9946,
-      "rps": 0.2054
+      "n": 341,
+      "acc_1x2": 50.1466,
+      "acc_ou": 55.7185,
+      "acc_score": 8.7977,
+      "brier": 0.5909,
+      "logloss": 0.9953,
+      "rps": 0.2059
     }
   },
   "by_competition": {
@@ -62,11 +62,11 @@
       },
       {
         "competition": "SA",
-        "n": 69,
-        "acc_1x2": 55.0725,
-        "acc_ou": 55.0725,
-        "acc_score": 14.4928,
-        "rps": 0.2049
+        "n": 70,
+        "acc_1x2": 55.7143,
+        "acc_ou": 54.2857,
+        "acc_score": 14.2857,
+        "rps": 0.2056
       }
     ],
     "elo-v1": [
@@ -104,11 +104,11 @@
       },
       {
         "competition": "SA",
-        "n": 69,
-        "acc_1x2": 57.971,
-        "acc_ou": 40.5797,
-        "acc_score": 7.2464,
-        "rps": 0.2002
+        "n": 70,
+        "acc_1x2": 57.1429,
+        "acc_ou": 40.0,
+        "acc_score": 7.1429,
+        "rps": 0.2027
       }
     ]
   },
@@ -2147,6 +2147,12 @@
         "n": 339,
         "acc_1x2": 49.5575,
         "rps": 0.2121
+      },
+      {
+        "date": "2026-10-19",
+        "n": 340,
+        "acc_1x2": 49.7059,
+        "rps": 0.2122
       }
     ],
     "elo-v1": [
@@ -4189,6 +4195,12 @@
         "n": 340,
         "acc_1x2": 50.2941,
         "rps": 0.2054
+      },
+      {
+        "date": "2026-10-19",
+        "n": 341,
+        "acc_1x2": 50.1466,
+        "rps": 0.2059
       }
     ]
   },
@@ -5080,6 +5092,25 @@
     }
   ],
   "recent": [
+    {
+      "utc_date": "2026-10-19T18:45:00Z",
+      "competition": "SA",
+      "home_team": "Parma",
+      "away_team": "Torino",
+      "home_crest": "https://crests.football-data.org/112.png",
+      "away_crest": "https://crests.football-data.org/586.png",
+      "p_home": 0.3392,
+      "p_draw": 0.2874,
+      "p_away": 0.3734,
+      "pick_1x2": "A",
+      "actual_1x2": "A",
+      "correct_1x2": 1,
+      "correct_ou": 0,
+      "correct_score": 0,
+      "home_goals": 1,
+      "away_goals": 3,
+      "rps_1x2": 0.2538
+    },
     {
       "utc_date": "2026-10-19T16:30:00Z",
       "competition": "SA",
@@ -6010,30 +6041,11 @@
       "home_goals": 3,
       "away_goals": 1,
       "rps_1x2": 0.0165
-    },
-    {
-      "utc_date": "2026-10-11T19:00:00Z",
-      "competition": "PD",
-      "home_team": "Santander",
-      "away_team": "Valencia",
-      "home_crest": "https://crests.football-data.org/5335.png",
-      "away_crest": "https://crests.football-data.org/95.png",
-      "p_home": 0.448,
-      "p_draw": 0.216,
-      "p_away": 0.336,
-      "pick_1x2": "H",
-      "actual_1x2": "D",
-      "correct_1x2": 0,
-      "correct_ou": 1,
-      "correct_score": 0,
-      "home_goals": 2,
-      "away_goals": 2,
-      "rps_1x2": 0.1568
     }
   ],
   "counts": {
     "predictions": 402,
-    "evaluated": 339,
-    "pending": 63
+    "evaluated": 340,
+    "pending": 62
   }
 }
