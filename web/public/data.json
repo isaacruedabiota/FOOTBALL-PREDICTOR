@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T18:01:09.821046+00:00",
+  "generated_at": "2026-10-19T19:01:09.264077+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -8,21 +8,21 @@
   },
   "summary": {
     "dc-v1": {
-      "n": 338,
-      "acc_1x2": 49.7041,
-      "acc_ou": 59.4675,
-      "acc_score": 9.7633,
-      "brier": 0.6103,
-      "logloss": 1.0395,
-      "rps": 0.2118
+      "n": 339,
+      "acc_1x2": 49.5575,
+      "acc_ou": 59.587,
+      "acc_score": 9.7345,
+      "brier": 0.6106,
+      "logloss": 1.0398,
+      "rps": 0.2121
     },
     "elo-v1": {
-      "n": 339,
-      "acc_1x2": 50.1475,
-      "acc_ou": 56.0472,
-      "acc_score": 8.8496,
-      "brier": 0.5907,
-      "logloss": 0.9952,
+      "n": 340,
+      "acc_1x2": 50.2941,
+      "acc_ou": 55.8824,
+      "acc_score": 8.8235,
+      "brier": 0.5903,
+      "logloss": 0.9946,
       "rps": 0.2054
     }
   },
@@ -62,11 +62,11 @@
       },
       {
         "competition": "SA",
-        "n": 68,
-        "acc_1x2": 55.8824,
-        "acc_ou": 54.4118,
-        "acc_score": 14.7059,
-        "rps": 0.2031
+        "n": 69,
+        "acc_1x2": 55.0725,
+        "acc_ou": 55.0725,
+        "acc_score": 14.4928,
+        "rps": 0.2049
       }
     ],
     "elo-v1": [
@@ -104,11 +104,11 @@
       },
       {
         "competition": "SA",
-        "n": 68,
-        "acc_1x2": 57.3529,
-        "acc_ou": 41.1765,
-        "acc_score": 7.3529,
-        "rps": 0.2001
+        "n": 69,
+        "acc_1x2": 57.971,
+        "acc_ou": 40.5797,
+        "acc_score": 7.2464,
+        "rps": 0.2002
       }
     ]
   },
@@ -2141,6 +2141,12 @@
         "n": 338,
         "acc_1x2": 49.7041,
         "rps": 0.2118
+      },
+      {
+        "date": "2026-10-19",
+        "n": 339,
+        "acc_1x2": 49.5575,
+        "rps": 0.2121
       }
     ],
     "elo-v1": [
@@ -4177,25 +4183,16 @@
         "n": 339,
         "acc_1x2": 50.1475,
         "rps": 0.2054
+      },
+      {
+        "date": "2026-10-19",
+        "n": 340,
+        "acc_1x2": 50.2941,
+        "rps": 0.2054
       }
     ]
   },
   "upcoming": [
-    {
-      "utc_date": "2026-10-19T18:45:00Z",
-      "competition": "SA",
-      "home_team": "Parma",
-      "away_team": "Torino",
-      "home_crest": "https://crests.football-data.org/112.png",
-      "away_crest": "https://crests.football-data.org/586.png",
-      "p_home": 0.3392,
-      "p_draw": 0.2874,
-      "p_away": 0.3734,
-      "pick_1x2": "A",
-      "p_over25": 0.3477,
-      "pred_home_goals": 0,
-      "pred_away_goals": 1
-    },
     {
       "utc_date": "2026-10-19T19:00:00Z",
       "competition": "PL",
@@ -5098,6 +5095,25 @@
     }
   ],
   "recent": [
+    {
+      "utc_date": "2026-10-19T16:30:00Z",
+      "competition": "SA",
+      "home_team": "Monza",
+      "away_team": "Cagliari",
+      "home_crest": "https://crests.football-data.org/5911.png",
+      "away_crest": "https://crests.football-data.org/104.png",
+      "p_home": 0.3253,
+      "p_draw": 0.219,
+      "p_away": 0.4557,
+      "pick_1x2": "A",
+      "actual_1x2": "H",
+      "correct_1x2": 0,
+      "correct_ou": 1,
+      "correct_score": 0,
+      "home_goals": 4,
+      "away_goals": 0,
+      "rps_1x2": 0.3314
+    },
     {
       "utc_date": "2026-10-18T19:00:00Z",
       "competition": "PD",
@@ -6028,30 +6044,11 @@
       "home_goals": 2,
       "away_goals": 2,
       "rps_1x2": 0.1568
-    },
-    {
-      "utc_date": "2026-10-11T18:45:00Z",
-      "competition": "SA",
-      "home_team": "Cagliari",
-      "away_team": "Juventus",
-      "home_crest": "https://crests.football-data.org/104.png",
-      "away_crest": "https://crests.football-data.org/109.png",
-      "p_home": 0.2142,
-      "p_draw": 0.2615,
-      "p_away": 0.5242,
-      "pick_1x2": "A",
-      "actual_1x2": "D",
-      "correct_1x2": 0,
-      "correct_ou": 1,
-      "correct_score": 0,
-      "home_goals": 1,
-      "away_goals": 1,
-      "rps_1x2": 0.1604
     }
   ],
   "counts": {
     "predictions": 401,
-    "evaluated": 338,
-    "pending": 63
+    "evaluated": 339,
+    "pending": 62
   }
 }
