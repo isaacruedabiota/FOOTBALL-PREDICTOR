@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T16:01:08.372126+00:00",
+  "generated_at": "2026-10-19T17:01:07.891808+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -4181,21 +4181,6 @@
     ]
   },
   "upcoming": [
-    {
-      "utc_date": "2026-10-19T16:30:00Z",
-      "competition": "SA",
-      "home_team": "Monza",
-      "away_team": "Cagliari",
-      "home_crest": "https://crests.football-data.org/5911.png",
-      "away_crest": "https://crests.football-data.org/104.png",
-      "p_home": 0.3253,
-      "p_draw": 0.219,
-      "p_away": 0.4557,
-      "pick_1x2": "A",
-      "p_over25": 0.635,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
     {
       "utc_date": "2026-10-19T18:45:00Z",
       "competition": "SA",
