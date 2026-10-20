@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T17:01:08.274747+00:00",
+  "generated_at": "2026-10-20T18:01:08.219004+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -5113,6 +5113,21 @@
       "p_over25": 0.4935,
       "pred_home_goals": 0,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-10-30T18:00:00Z",
+      "competition": "FL1",
+      "home_team": "Le Havre",
+      "away_team": "PSG",
+      "home_crest": "https://crests.football-data.org/533.png",
+      "away_crest": "https://crests.football-data.org/524.png",
+      "p_home": 0.1241,
+      "p_draw": 0.2293,
+      "p_away": 0.6466,
+      "pick_1x2": "A",
+      "p_over25": 0.445,
+      "pred_home_goals": 0,
+      "pred_away_goals": 1
     }
   ],
   "recent": [
@@ -6068,8 +6083,8 @@
     }
   ],
   "counts": {
-    "predictions": 402,
+    "predictions": 403,
     "evaluated": 342,
-    "pending": 60
+    "pending": 61
   }
 }
