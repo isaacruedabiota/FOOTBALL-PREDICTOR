@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T19:01:09.840124+00:00",
+  "generated_at": "2026-10-20T20:01:09.722977+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -5128,6 +5128,36 @@
       "p_over25": 0.445,
       "pred_home_goals": 0,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-10-30T19:30:00Z",
+      "competition": "BL1",
+      "home_team": "Elversberg",
+      "away_team": "Mainz",
+      "home_crest": "https://crests.football-data.org/719.png",
+      "away_crest": "https://crests.football-data.org/15.png",
+      "p_home": 0.5928,
+      "p_draw": 0.1794,
+      "p_away": 0.2279,
+      "pick_1x2": "H",
+      "p_over25": 0.7819,
+      "pred_home_goals": 2,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-10-30T20:00:00Z",
+      "competition": "PD",
+      "home_team": "Villarreal",
+      "away_team": "Espanyol",
+      "home_crest": "https://crests.football-data.org/94.png",
+      "away_crest": "https://crests.football-data.org/80.png",
+      "p_home": 0.6187,
+      "p_draw": 0.231,
+      "p_away": 0.1502,
+      "pick_1x2": "H",
+      "p_over25": 0.5345,
+      "pred_home_goals": 2,
+      "pred_away_goals": 0
     }
   ],
   "recent": [
@@ -6083,8 +6113,8 @@
     }
   ],
   "counts": {
-    "predictions": 403,
+    "predictions": 405,
     "evaluated": 342,
-    "pending": 61
+    "pending": 63
   }
 }
