@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T12:01:08.610873+00:00",
+  "generated_at": "2026-10-21T13:01:08.689921+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -5173,6 +5173,36 @@
       "p_over25": 0.4453,
       "pred_home_goals": 1,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-10-31T12:30:00Z",
+      "competition": "PL",
+      "home_team": "Chelsea",
+      "away_team": "Man United",
+      "home_crest": "https://crests.football-data.org/61.png",
+      "away_crest": "https://crests.football-data.org/66.png",
+      "p_home": 0.4188,
+      "p_draw": 0.2343,
+      "p_away": 0.3469,
+      "pick_1x2": "H",
+      "p_over25": 0.7119,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-10-31T13:00:00Z",
+      "competition": "PD",
+      "home_team": "Levante",
+      "away_team": "Atleti",
+      "home_crest": "https://crests.football-data.org/88.png",
+      "away_crest": "https://crests.football-data.org/78.png",
+      "p_home": 0.266,
+      "p_draw": 0.2507,
+      "p_away": 0.4833,
+      "pick_1x2": "A",
+      "p_over25": 0.5961,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
     }
   ],
   "recent": [
@@ -6128,8 +6158,8 @@
     }
   ],
   "counts": {
-    "predictions": 406,
+    "predictions": 408,
     "evaluated": 342,
-    "pending": 64
+    "pending": 66
   }
 }
