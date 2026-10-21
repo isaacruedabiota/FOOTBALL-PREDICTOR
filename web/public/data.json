@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T13:01:08.689921+00:00",
+  "generated_at": "2026-10-21T14:01:08.565458+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -4500,21 +4500,6 @@
       "pred_away_goals": 1
     },
     {
-      "utc_date": "2026-10-24T15:15:00Z",
-      "competition": "FL1",
-      "home_team": "Toulouse",
-      "away_team": "Troyes",
-      "home_crest": "https://crests.football-data.org/511.png",
-      "away_crest": "https://crests.football-data.org/531.png",
-      "p_home": 0.7668,
-      "p_draw": 0.1473,
-      "p_away": 0.0859,
-      "pick_1x2": "H",
-      "p_over25": 0.6884,
-      "pred_home_goals": 2,
-      "pred_away_goals": 0
-    },
-    {
       "utc_date": "2026-10-24T16:00:00Z",
       "competition": "SA",
       "home_team": "Napoli",
@@ -4828,6 +4813,21 @@
       "p_over25": 0.3746,
       "pred_home_goals": 1,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-10-25T16:15:00Z",
+      "competition": "FL1",
+      "home_team": "Toulouse",
+      "away_team": "Troyes",
+      "home_crest": "https://crests.football-data.org/511.png",
+      "away_crest": "https://crests.football-data.org/531.png",
+      "p_home": 0.7668,
+      "p_draw": 0.1473,
+      "p_away": 0.0859,
+      "pick_1x2": "H",
+      "p_over25": 0.6884,
+      "pred_home_goals": 2,
+      "pred_away_goals": 0
     },
     {
       "utc_date": "2026-10-25T16:15:00Z",
@@ -5202,6 +5202,21 @@
       "pick_1x2": "A",
       "p_over25": 0.5961,
       "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-10-31T14:00:00Z",
+      "competition": "SA",
+      "home_team": "Bologna",
+      "away_team": "Monza",
+      "home_crest": "https://crests.football-data.org/103.png",
+      "away_crest": "https://crests.football-data.org/5911.png",
+      "p_home": 0.4354,
+      "p_draw": 0.2068,
+      "p_away": 0.3578,
+      "pick_1x2": "H",
+      "p_over25": 0.7288,
+      "pred_home_goals": 2,
       "pred_away_goals": 1
     }
   ],
@@ -6158,8 +6173,8 @@
     }
   ],
   "counts": {
-    "predictions": 408,
+    "predictions": 409,
     "evaluated": 342,
-    "pending": 66
+    "pending": 67
   }
 }
