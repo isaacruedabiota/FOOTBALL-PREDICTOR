@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T16:01:08.494007+00:00",
+  "generated_at": "2026-10-21T17:01:08.635956+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -5383,6 +5383,36 @@
       "p_over25": 0.3911,
       "pred_home_goals": 1,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-10-31T16:15:00Z",
+      "competition": "FL1",
+      "home_team": "Nice",
+      "away_team": "Stade Rennais",
+      "home_crest": "https://crests.football-data.org/522.png",
+      "away_crest": "https://crests.football-data.org/529.png",
+      "p_home": 0.2457,
+      "p_draw": 0.2339,
+      "p_away": 0.5204,
+      "pick_1x2": "A",
+      "p_over25": 0.603,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-10-31T17:00:00Z",
+      "competition": "SA",
+      "home_team": "Udinese",
+      "away_team": "Roma",
+      "home_crest": "https://crests.football-data.org/115.png",
+      "away_crest": "https://crests.football-data.org/100.png",
+      "p_home": 0.1321,
+      "p_draw": 0.1964,
+      "p_away": 0.6715,
+      "pick_1x2": "A",
+      "p_over25": 0.5113,
+      "pred_home_goals": 0,
+      "pred_away_goals": 1
     }
   ],
   "recent": [
@@ -6338,8 +6368,8 @@
     }
   ],
   "counts": {
-    "predictions": 420,
+    "predictions": 422,
     "evaluated": 342,
-    "pending": 78
+    "pending": 80
   }
 }
