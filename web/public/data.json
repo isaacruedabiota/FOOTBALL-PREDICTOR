@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T17:01:08.635956+00:00",
+  "generated_at": "2026-10-21T18:01:09.921585+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -5413,6 +5413,51 @@
       "p_over25": 0.5113,
       "pred_home_goals": 0,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-10-31T17:30:00Z",
+      "competition": "PL",
+      "home_team": "Tottenham",
+      "away_team": "Crystal Palace",
+      "home_crest": "https://crests.football-data.org/73.png",
+      "away_crest": "https://crests.football-data.org/354.png",
+      "p_home": 0.4373,
+      "p_draw": 0.2824,
+      "p_away": 0.2803,
+      "pick_1x2": "H",
+      "p_over25": 0.4974,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-10-31T17:30:00Z",
+      "competition": "PD",
+      "home_team": "Real Betis",
+      "away_team": "Málaga",
+      "home_crest": "https://crests.football-data.org/90.png",
+      "away_crest": "https://crests.football-data.org/84.png",
+      "p_home": 0.8343,
+      "p_draw": 0.1214,
+      "p_away": 0.0443,
+      "pick_1x2": "H",
+      "p_over25": 0.6658,
+      "pred_home_goals": 2,
+      "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-10-31T17:30:00Z",
+      "competition": "BL1",
+      "home_team": "Bayern",
+      "away_team": "Dortmund",
+      "home_crest": "https://crests.football-data.org/5.png",
+      "away_crest": "https://crests.football-data.org/4.png",
+      "p_home": 0.653,
+      "p_draw": 0.1817,
+      "p_away": 0.1653,
+      "pick_1x2": "H",
+      "p_over25": 0.6607,
+      "pred_home_goals": 2,
+      "pred_away_goals": 1
     }
   ],
   "recent": [
@@ -6368,8 +6413,8 @@
     }
   ],
   "counts": {
-    "predictions": 422,
+    "predictions": 425,
     "evaluated": 342,
-    "pending": 80
+    "pending": 83
   }
 }
