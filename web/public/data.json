@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T19:01:08.019835+00:00",
+  "generated_at": "2026-10-22T20:01:08.464744+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -5725,6 +5725,51 @@
       "p_over25": 0.4594,
       "pred_home_goals": 1,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-11-01T19:45:00Z",
+      "competition": "SA",
+      "home_team": "Juventus",
+      "away_team": "Napoli",
+      "home_crest": "https://crests.football-data.org/109.png",
+      "away_crest": "https://crests.football-data.org/113.png",
+      "p_home": 0.3784,
+      "p_draw": 0.2784,
+      "p_away": 0.3432,
+      "pick_1x2": "H",
+      "p_over25": 0.3888,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-11-01T19:45:00Z",
+      "competition": "FL1",
+      "home_team": "Marseille",
+      "away_team": "Toulouse",
+      "home_crest": "https://crests.football-data.org/516.png",
+      "away_crest": "https://crests.football-data.org/511.png",
+      "p_home": 0.5154,
+      "p_draw": 0.2269,
+      "p_away": 0.2577,
+      "pick_1x2": "H",
+      "p_over25": 0.6451,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-11-01T20:00:00Z",
+      "competition": "PD",
+      "home_team": "Athletic",
+      "away_team": "Real Sociedad",
+      "home_crest": "https://crests.football-data.org/77.png",
+      "away_crest": "https://crests.football-data.org/92.png",
+      "p_home": 0.4182,
+      "p_draw": 0.254,
+      "p_away": 0.3278,
+      "pick_1x2": "H",
+      "p_over25": 0.6141,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
     }
   ],
   "recent": [
@@ -6680,8 +6725,8 @@
     }
   ],
   "counts": {
-    "predictions": 443,
+    "predictions": 446,
     "evaluated": 343,
-    "pending": 100
+    "pending": 103
   }
 }
