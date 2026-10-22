@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T13:01:07.887192+00:00",
+  "generated_at": "2026-10-22T14:01:09.202301+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -5575,6 +5575,51 @@
       "p_over25": 0.2332,
       "pred_home_goals": 0,
       "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-11-01T14:00:00Z",
+      "competition": "SA",
+      "home_team": "Frosinone",
+      "away_team": "Torino",
+      "home_crest": "https://crests.football-data.org/470.png",
+      "away_crest": "https://crests.football-data.org/586.png",
+      "p_home": 0.6017,
+      "p_draw": 0.1899,
+      "p_away": 0.2084,
+      "pick_1x2": "H",
+      "p_over25": 0.6897,
+      "pred_home_goals": 2,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-11-01T14:00:00Z",
+      "competition": "SA",
+      "home_team": "Lazio",
+      "away_team": "Cagliari",
+      "home_crest": "https://crests.football-data.org/110.png",
+      "away_crest": "https://crests.football-data.org/104.png",
+      "p_home": 0.5302,
+      "p_draw": 0.2756,
+      "p_away": 0.1942,
+      "pick_1x2": "H",
+      "p_over25": 0.3293,
+      "pred_home_goals": 1,
+      "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-11-01T14:00:00Z",
+      "competition": "FL1",
+      "home_team": "Strasbourg",
+      "away_team": "Auxerre",
+      "home_crest": "https://crests.football-data.org/576.png",
+      "away_crest": "https://crests.football-data.org/519.png",
+      "p_home": 0.5655,
+      "p_draw": 0.2092,
+      "p_away": 0.2253,
+      "pick_1x2": "H",
+      "p_over25": 0.6916,
+      "pred_home_goals": 2,
+      "pred_away_goals": 1
     }
   ],
   "recent": [
@@ -6530,8 +6575,8 @@
     }
   ],
   "counts": {
-    "predictions": 433,
+    "predictions": 436,
     "evaluated": 343,
-    "pending": 90
+    "pending": 93
   }
 }
