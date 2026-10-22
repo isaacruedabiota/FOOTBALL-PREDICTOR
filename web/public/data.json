@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T14:01:09.202301+00:00",
+  "generated_at": "2026-10-22T15:01:08.468610+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -5620,6 +5620,21 @@
       "p_over25": 0.6916,
       "pred_home_goals": 2,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-11-01T14:30:00Z",
+      "competition": "BL1",
+      "home_team": "Union Berlin",
+      "away_team": "1. FC Köln",
+      "home_crest": "https://crests.football-data.org/28.png",
+      "away_crest": "https://crests.football-data.org/1.png",
+      "p_home": 0.4477,
+      "p_draw": 0.2404,
+      "p_away": 0.3119,
+      "pick_1x2": "H",
+      "p_over25": 0.5428,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
     }
   ],
   "recent": [
@@ -6575,8 +6590,8 @@
     }
   ],
   "counts": {
-    "predictions": 436,
+    "predictions": 437,
     "evaluated": 343,
-    "pending": 93
+    "pending": 94
   }
 }
