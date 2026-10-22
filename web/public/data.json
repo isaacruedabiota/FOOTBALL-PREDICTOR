@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T12:01:08.973156+00:00",
+  "generated_at": "2026-10-22T13:01:07.887192+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -5560,6 +5560,21 @@
       "p_over25": 0.7096,
       "pred_home_goals": 3,
       "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-11-01T13:00:00Z",
+      "competition": "PD",
+      "home_team": "Getafe",
+      "away_team": "Sevilla FC",
+      "home_crest": "https://crests.football-data.org/82.png",
+      "away_crest": "https://crests.football-data.org/559.png",
+      "p_home": 0.3346,
+      "p_draw": 0.3695,
+      "p_away": 0.2959,
+      "pick_1x2": "D",
+      "p_over25": 0.2332,
+      "pred_home_goals": 0,
+      "pred_away_goals": 0
     }
   ],
   "recent": [
@@ -6515,8 +6530,8 @@
     }
   ],
   "counts": {
-    "predictions": 432,
+    "predictions": 433,
     "evaluated": 343,
-    "pending": 89
+    "pending": 90
   }
 }
