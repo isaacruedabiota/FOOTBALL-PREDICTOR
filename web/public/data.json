@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T17:01:09.776365+00:00",
+  "generated_at": "2026-10-23T18:01:09.516041+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -5770,6 +5770,21 @@
       "p_over25": 0.6141,
       "pred_home_goals": 1,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-11-02T17:30:00Z",
+      "competition": "SA",
+      "home_team": "Sassuolo",
+      "away_team": "Fiorentina",
+      "home_crest": "https://crests.football-data.org/471.png",
+      "away_crest": "https://crests.football-data.org/99.png",
+      "p_home": 0.5022,
+      "p_draw": 0.2277,
+      "p_away": 0.2701,
+      "pick_1x2": "H",
+      "p_over25": 0.5694,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
     }
   ],
   "recent": [
@@ -6725,8 +6740,8 @@
     }
   ],
   "counts": {
-    "predictions": 446,
+    "predictions": 447,
     "evaluated": 343,
-    "pending": 103
+    "pending": 104
   }
 }
