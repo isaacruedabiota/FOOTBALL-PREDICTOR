@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T20:01:11.192248+00:00",
+  "generated_at": "2026-10-24T21:01:08.754567+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -4591,6 +4591,21 @@
       "p_over25": 0.2571,
       "pred_home_goals": 1,
       "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-10-24T18:45:00Z",
+      "competition": "FL1",
+      "home_team": "RC Lens",
+      "away_team": "Paris FC",
+      "home_crest": "https://crests.football-data.org/546.png",
+      "away_crest": "https://crests.football-data.org/1045.png",
+      "p_home": 0.5387,
+      "p_draw": 0.2431,
+      "p_away": 0.2182,
+      "pick_1x2": "H",
+      "p_over25": 0.5409,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
     },
     {
       "utc_date": "2026-10-24T19:00:00Z",
