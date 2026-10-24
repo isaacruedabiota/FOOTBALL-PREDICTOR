@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T22:01:10.058528+00:00",
+  "generated_at": "2026-10-24T23:01:09.654918+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -4338,36 +4338,6 @@
   },
   "upcoming": [
     {
-      "utc_date": "2026-10-24T11:30:00Z",
-      "competition": "PL",
-      "home_team": "Aston Villa",
-      "away_team": "Man City",
-      "home_crest": "https://crests.football-data.org/58.png",
-      "away_crest": "https://crests.football-data.org/65.png",
-      "p_home": 0.1698,
-      "p_draw": 0.2355,
-      "p_away": 0.5947,
-      "pick_1x2": "A",
-      "p_over25": 0.5972,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
-    {
-      "utc_date": "2026-10-24T12:00:00Z",
-      "competition": "PD",
-      "home_team": "Rayo Vallecano",
-      "away_team": "Elche",
-      "home_crest": "https://crests.football-data.org/87.png",
-      "away_crest": "https://crests.football-data.org/285.png",
-      "p_home": 0.5076,
-      "p_draw": 0.2538,
-      "p_away": 0.2386,
-      "pick_1x2": "H",
-      "p_over25": 0.5329,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
-    {
       "utc_date": "2026-10-24T13:00:00Z",
       "competition": "SA",
       "home_team": "Cagliari",
@@ -4426,21 +4396,6 @@
       "p_over25": 0.2946,
       "pred_home_goals": 0,
       "pred_away_goals": 0
-    },
-    {
-      "utc_date": "2026-10-24T13:30:00Z",
-      "competition": "BL1",
-      "home_team": "RB Leipzig",
-      "away_team": "Elversberg",
-      "home_crest": "https://crests.football-data.org/721.png",
-      "away_crest": "https://crests.football-data.org/719.png",
-      "p_home": 0.5844,
-      "p_draw": 0.2051,
-      "p_away": 0.2105,
-      "pick_1x2": "H",
-      "p_over25": 0.657,
-      "pred_home_goals": 2,
-      "pred_away_goals": 1
     },
     {
       "utc_date": "2026-10-24T13:30:00Z",
@@ -4563,21 +4518,6 @@
       "pred_away_goals": 1
     },
     {
-      "utc_date": "2026-10-24T16:30:00Z",
-      "competition": "BL1",
-      "home_team": "Dortmund",
-      "away_team": "Frankfurt",
-      "home_crest": "https://crests.football-data.org/4.png",
-      "away_crest": "https://crests.football-data.org/19.png",
-      "p_home": 0.8002,
-      "p_draw": 0.1226,
-      "p_away": 0.0772,
-      "pick_1x2": "H",
-      "p_over25": 0.7496,
-      "pred_home_goals": 3,
-      "pred_away_goals": 0
-    },
-    {
       "utc_date": "2026-10-24T18:45:00Z",
       "competition": "SA",
       "home_team": "Lazio",
@@ -4591,21 +4531,6 @@
       "p_over25": 0.2571,
       "pred_home_goals": 1,
       "pred_away_goals": 0
-    },
-    {
-      "utc_date": "2026-10-24T18:45:00Z",
-      "competition": "FL1",
-      "home_team": "RC Lens",
-      "away_team": "Paris FC",
-      "home_crest": "https://crests.football-data.org/546.png",
-      "away_crest": "https://crests.football-data.org/1045.png",
-      "p_home": 0.5387,
-      "p_draw": 0.2431,
-      "p_away": 0.2182,
-      "pick_1x2": "H",
-      "p_over25": 0.5409,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
     },
     {
       "utc_date": "2026-10-24T19:00:00Z",
