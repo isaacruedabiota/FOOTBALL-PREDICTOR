@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T14:01:10.871038+00:00",
+  "generated_at": "2026-10-24T15:01:10.148148+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -4434,36 +4434,6 @@
       "pick_1x2": "H",
       "p_over25": 0.6598,
       "pred_home_goals": 2,
-      "pred_away_goals": 1
-    },
-    {
-      "utc_date": "2026-10-24T14:00:00Z",
-      "competition": "PL",
-      "home_team": "Arsenal",
-      "away_team": "Everton",
-      "home_crest": "https://crests.football-data.org/57.png",
-      "away_crest": "https://crests.football-data.org/62.png",
-      "p_home": 0.6247,
-      "p_draw": 0.2619,
-      "p_away": 0.1134,
-      "pick_1x2": "H",
-      "p_over25": 0.4044,
-      "pred_home_goals": 1,
-      "pred_away_goals": 0
-    },
-    {
-      "utc_date": "2026-10-24T14:00:00Z",
-      "competition": "PL",
-      "home_team": "Coventry City",
-      "away_team": "Fulham",
-      "home_crest": "https://crests.football-data.org/1076.png",
-      "away_crest": "https://crests.football-data.org/63.png",
-      "p_home": 0.3522,
-      "p_draw": 0.331,
-      "p_away": 0.3168,
-      "pick_1x2": "H",
-      "p_over25": 0.3729,
-      "pred_home_goals": 1,
       "pred_away_goals": 1
     },
     {
