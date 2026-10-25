@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T20:01:10.012756+00:00",
+  "generated_at": "2026-10-25T21:01:08.295858+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -4769,21 +4769,6 @@
     ]
   },
   "upcoming": [
-    {
-      "utc_date": "2026-10-25T20:00:00Z",
-      "competition": "PD",
-      "home_team": "Barça",
-      "away_team": "Real Madrid",
-      "home_crest": "https://crests.football-data.org/81.png",
-      "away_crest": "https://crests.football-data.org/86.png",
-      "p_home": 0.615,
-      "p_draw": 0.2024,
-      "p_away": 0.1826,
-      "pick_1x2": "H",
-      "p_over25": 0.6801,
-      "pred_home_goals": 2,
-      "pred_away_goals": 1
-    },
     {
       "utc_date": "2026-10-26T19:30:00Z",
       "competition": "FL1",
