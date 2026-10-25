@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T03:01:10.041093+00:00",
+  "generated_at": "2026-10-25T04:01:07.830585+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -4614,21 +4614,6 @@
       "pred_away_goals": 1
     },
     {
-      "utc_date": "2026-10-24T14:15:00Z",
-      "competition": "PD",
-      "home_team": "Santander",
-      "away_team": "Espanyol",
-      "home_crest": "https://crests.football-data.org/5335.png",
-      "away_crest": "https://crests.football-data.org/80.png",
-      "p_home": 0.4189,
-      "p_draw": 0.2148,
-      "p_away": 0.3663,
-      "pick_1x2": "H",
-      "p_over25": 0.7664,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
-    {
       "utc_date": "2026-10-24T16:00:00Z",
       "competition": "SA",
       "home_team": "Napoli",
@@ -4659,21 +4644,6 @@
       "pred_away_goals": 1
     },
     {
-      "utc_date": "2026-10-24T16:30:00Z",
-      "competition": "PD",
-      "home_team": "Valencia",
-      "away_team": "Villarreal",
-      "home_crest": "https://crests.football-data.org/95.png",
-      "away_crest": "https://crests.football-data.org/94.png",
-      "p_home": 0.2962,
-      "p_draw": 0.2642,
-      "p_away": 0.4396,
-      "pick_1x2": "A",
-      "p_over25": 0.5295,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
-    {
       "utc_date": "2026-10-24T18:45:00Z",
       "competition": "SA",
       "home_team": "Lazio",
@@ -4687,21 +4657,6 @@
       "p_over25": 0.2571,
       "pred_home_goals": 1,
       "pred_away_goals": 0
-    },
-    {
-      "utc_date": "2026-10-24T19:00:00Z",
-      "competition": "PD",
-      "home_team": "Atleti",
-      "away_team": "Deportivo",
-      "home_crest": "https://crests.football-data.org/78.png",
-      "away_crest": "https://crests.football-data.org/560.png",
-      "p_home": 0.6656,
-      "p_draw": 0.1911,
-      "p_away": 0.1432,
-      "pick_1x2": "H",
-      "p_over25": 0.6572,
-      "pred_home_goals": 2,
-      "pred_away_goals": 1
     },
     {
       "utc_date": "2026-10-25T11:30:00Z",
@@ -5950,8 +5905,8 @@
       "correct_1x2": 1,
       "correct_ou": 0,
       "correct_score": 0,
-      "home_goals": null,
-      "away_goals": null,
+      "home_goals": 1,
+      "away_goals": 0,
       "rps_1x2": 0.0662
     },
     {
@@ -5988,8 +5943,8 @@
       "correct_1x2": 1,
       "correct_ou": 1,
       "correct_score": 0,
-      "home_goals": null,
-      "away_goals": null,
+      "home_goals": 1,
+      "away_goals": 2,
       "rps_1x2": 0.2009
     },
     {
@@ -6045,8 +6000,8 @@
       "correct_1x2": 1,
       "correct_ou": 1,
       "correct_score": 0,
-      "home_goals": null,
-      "away_goals": null,
+      "home_goals": 2,
+      "away_goals": 1,
       "rps_1x2": 0.2359
     },
     {
@@ -6216,8 +6171,8 @@
       "correct_1x2": 0,
       "correct_ou": 1,
       "correct_score": 0,
-      "home_goals": null,
-      "away_goals": null,
+      "home_goals": 0,
+      "away_goals": 3,
       "rps_1x2": 0.4187
     },
     {
