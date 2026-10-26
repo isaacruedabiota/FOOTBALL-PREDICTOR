@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T19:01:07.978228+00:00",
+  "generated_at": "2026-10-26T20:01:09.109587+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -4793,21 +4793,6 @@
     ]
   },
   "upcoming": [
-    {
-      "utc_date": "2026-10-26T19:30:00Z",
-      "competition": "FL1",
-      "home_team": "PSG",
-      "away_team": "Olympique Lyon",
-      "home_crest": "https://crests.football-data.org/524.png",
-      "away_crest": "https://crests.football-data.org/523.png",
-      "p_home": 0.5446,
-      "p_draw": 0.2465,
-      "p_away": 0.2088,
-      "pick_1x2": "H",
-      "p_over25": 0.5166,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
     {
       "utc_date": "2026-10-26T20:00:00Z",
       "competition": "PD",
