@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T22:01:09.296929+00:00",
+  "generated_at": "2026-10-26T23:01:10.579911+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -8,22 +8,22 @@
   },
   "summary": {
     "dc-v1": {
-      "n": 390,
-      "acc_1x2": 49.2308,
-      "acc_ou": 60.0,
-      "acc_score": 10.2564,
-      "brier": 0.6108,
-      "logloss": 1.0373,
-      "rps": 0.2121
+      "n": 391,
+      "acc_1x2": 49.3606,
+      "acc_ou": 59.8465,
+      "acc_score": 10.2302,
+      "brier": 0.6099,
+      "logloss": 1.036,
+      "rps": 0.2118
     },
     "elo-v1": {
-      "n": 391,
-      "acc_1x2": 50.1279,
-      "acc_ou": 54.7315,
-      "acc_score": 9.2072,
-      "brier": 0.5946,
-      "logloss": 1.0003,
-      "rps": 0.2066
+      "n": 392,
+      "acc_1x2": 50.2551,
+      "acc_ou": 54.5918,
+      "acc_score": 9.1837,
+      "brier": 0.5938,
+      "logloss": 0.9991,
+      "rps": 0.2064
     }
   },
   "by_competition": {
@@ -46,11 +46,11 @@
       },
       {
         "competition": "PD",
-        "n": 95,
-        "acc_1x2": 52.6316,
-        "acc_ou": 66.3158,
-        "acc_score": 9.4737,
-        "rps": 0.1912
+        "n": 96,
+        "acc_1x2": 53.125,
+        "acc_ou": 65.625,
+        "acc_score": 9.375,
+        "rps": 0.1903
       },
       {
         "competition": "PL",
@@ -88,11 +88,11 @@
       },
       {
         "competition": "PD",
-        "n": 96,
-        "acc_1x2": 50.0,
-        "acc_ou": 53.125,
-        "acc_score": 14.5833,
-        "rps": 0.1964
+        "n": 97,
+        "acc_1x2": 50.5155,
+        "acc_ou": 52.5773,
+        "acc_score": 14.433,
+        "rps": 0.1957
       },
       {
         "competition": "PL",
@@ -2453,6 +2453,12 @@
         "n": 390,
         "acc_1x2": 49.2308,
         "rps": 0.2121
+      },
+      {
+        "date": "2026-10-26",
+        "n": 391,
+        "acc_1x2": 49.3606,
+        "rps": 0.2118
       }
     ],
     "elo-v1": [
@@ -4801,6 +4807,12 @@
         "n": 391,
         "acc_1x2": 50.1279,
         "rps": 0.2066
+      },
+      {
+        "date": "2026-10-26",
+        "n": 392,
+        "acc_1x2": 50.2551,
+        "rps": 0.2064
       }
     ]
   },
@@ -5738,6 +5750,25 @@
   ],
   "recent": [
     {
+      "utc_date": "2026-10-26T20:00:00Z",
+      "competition": "PD",
+      "home_team": "Sevilla FC",
+      "away_team": "Osasuna",
+      "home_crest": "https://crests.football-data.org/559.png",
+      "away_crest": "https://crests.football-data.org/79.png",
+      "p_home": 0.5719,
+      "p_draw": 0.2337,
+      "p_away": 0.1944,
+      "pick_1x2": "H",
+      "actual_1x2": "H",
+      "correct_1x2": 1,
+      "correct_ou": 0,
+      "correct_score": 0,
+      "home_goals": 2,
+      "away_goals": 0,
+      "rps_1x2": 0.1105
+    },
+    {
       "utc_date": "2026-10-26T19:30:00Z",
       "competition": "FL1",
       "home_team": "PSG",
@@ -6667,30 +6698,11 @@
       "home_goals": 1,
       "away_goals": 1,
       "rps_1x2": 0.0988
-    },
-    {
-      "utc_date": "2026-10-19T19:00:00Z",
-      "competition": "PL",
-      "home_team": "Tottenham",
-      "away_team": "Coventry City",
-      "home_crest": "https://crests.football-data.org/73.png",
-      "away_crest": "https://crests.football-data.org/1076.png",
-      "p_home": 0.6303,
-      "p_draw": 0.3031,
-      "p_away": 0.0666,
-      "pick_1x2": "H",
-      "actual_1x2": "H",
-      "correct_1x2": 1,
-      "correct_ou": 0,
-      "correct_score": 0,
-      "home_goals": 3,
-      "away_goals": 1,
-      "rps_1x2": 0.0705
     }
   ],
   "counts": {
     "predictions": 450,
-    "evaluated": 390,
-    "pending": 60
+    "evaluated": 391,
+    "pending": 59
   }
 }
