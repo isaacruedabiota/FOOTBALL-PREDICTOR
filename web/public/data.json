@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T16:01:08.113320+00:00",
+  "generated_at": "2026-10-26T17:01:08.861158+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -4794,6 +4794,36 @@
   },
   "upcoming": [
     {
+      "utc_date": "2026-10-25T14:30:00Z",
+      "competition": "BL1",
+      "home_team": "Hoffenheim",
+      "away_team": "Leverkusen",
+      "home_crest": "https://crests.football-data.org/2.png",
+      "away_crest": "https://crests.football-data.org/3.png",
+      "p_home": 0.3211,
+      "p_draw": 0.2029,
+      "p_away": 0.476,
+      "pick_1x2": "A",
+      "p_over25": 0.7692,
+      "pred_home_goals": 1,
+      "pred_away_goals": 2
+    },
+    {
+      "utc_date": "2026-10-25T16:30:00Z",
+      "competition": "BL1",
+      "home_team": "Freiburg",
+      "away_team": "Bayern",
+      "home_crest": "https://crests.football-data.org/17.png",
+      "away_crest": "https://crests.football-data.org/5.png",
+      "p_home": 0.1743,
+      "p_draw": 0.1675,
+      "p_away": 0.6582,
+      "pick_1x2": "A",
+      "p_over25": 0.7843,
+      "pred_home_goals": 1,
+      "pred_away_goals": 2
+    },
+    {
       "utc_date": "2026-10-26T19:30:00Z",
       "competition": "FL1",
       "home_team": "PSG",
@@ -5805,8 +5835,8 @@
       "correct_1x2": 1,
       "correct_ou": 1,
       "correct_score": 0,
-      "home_goals": 1,
-      "away_goals": 3,
+      "home_goals": null,
+      "away_goals": null,
       "rps_1x2": 0.0736
     },
     {
@@ -5938,8 +5968,8 @@
       "correct_1x2": 0,
       "correct_ou": 1,
       "correct_score": 0,
-      "home_goals": 3,
-      "away_goals": 0,
+      "home_goals": null,
+      "away_goals": null,
       "rps_1x2": 0.3437
     },
     {
