@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T14:01:08.052089+00:00",
+  "generated_at": "2026-10-27T15:01:08.924813+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -4983,6 +4983,21 @@
       "pred_away_goals": 1
     },
     {
+      "utc_date": "2026-10-30T18:00:00Z",
+      "competition": "FL1",
+      "home_team": "Nice",
+      "away_team": "Stade Rennais",
+      "home_crest": "https://crests.football-data.org/522.png",
+      "away_crest": "https://crests.football-data.org/529.png",
+      "p_home": 0.2457,
+      "p_draw": 0.2339,
+      "p_away": 0.5204,
+      "pick_1x2": "A",
+      "p_over25": 0.603,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
       "utc_date": "2026-10-30T19:30:00Z",
       "competition": "BL1",
       "home_team": "Elversberg",
@@ -5238,21 +5253,6 @@
       "pred_away_goals": 1
     },
     {
-      "utc_date": "2026-10-31T16:15:00Z",
-      "competition": "FL1",
-      "home_team": "Nice",
-      "away_team": "Stade Rennais",
-      "home_crest": "https://crests.football-data.org/522.png",
-      "away_crest": "https://crests.football-data.org/529.png",
-      "p_home": 0.2457,
-      "p_draw": 0.2339,
-      "p_away": 0.5204,
-      "pick_1x2": "A",
-      "p_over25": 0.603,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
-    {
       "utc_date": "2026-10-31T17:00:00Z",
       "competition": "SA",
       "home_team": "Udinese",
@@ -5326,36 +5326,6 @@
       "p_over25": 0.6438,
       "pred_home_goals": 1,
       "pred_away_goals": 2
-    },
-    {
-      "utc_date": "2026-10-31T19:45:00Z",
-      "competition": "FL1",
-      "home_team": "Olympique Lyon",
-      "away_team": "Angers SCO",
-      "home_crest": "https://crests.football-data.org/523.png",
-      "away_crest": "https://crests.football-data.org/532.png",
-      "p_home": 0.7316,
-      "p_draw": 0.1782,
-      "p_away": 0.0902,
-      "pick_1x2": "H",
-      "p_over25": 0.5559,
-      "pred_home_goals": 2,
-      "pred_away_goals": 0
-    },
-    {
-      "utc_date": "2026-10-31T19:45:00Z",
-      "competition": "FL1",
-      "home_team": "Lorient",
-      "away_team": "Brest",
-      "home_crest": "https://crests.football-data.org/525.png",
-      "away_crest": "https://crests.football-data.org/512.png",
-      "p_home": 0.4602,
-      "p_draw": 0.2669,
-      "p_away": 0.2729,
-      "pick_1x2": "H",
-      "p_over25": 0.4874,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
     },
     {
       "utc_date": "2026-10-31T19:45:00Z",
@@ -5510,6 +5480,21 @@
     {
       "utc_date": "2026-11-01T16:15:00Z",
       "competition": "FL1",
+      "home_team": "Olympique Lyon",
+      "away_team": "Angers SCO",
+      "home_crest": "https://crests.football-data.org/523.png",
+      "away_crest": "https://crests.football-data.org/532.png",
+      "p_home": 0.7316,
+      "p_draw": 0.1782,
+      "p_away": 0.0902,
+      "pick_1x2": "H",
+      "p_over25": 0.5559,
+      "pred_home_goals": 2,
+      "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-11-01T16:15:00Z",
+      "competition": "FL1",
       "home_team": "Paris FC",
       "away_team": "Monaco",
       "home_crest": "https://crests.football-data.org/1045.png",
@@ -5656,6 +5641,21 @@
       "p_over25": 0.3415,
       "pred_home_goals": 1,
       "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-11-02T19:45:00Z",
+      "competition": "FL1",
+      "home_team": "Lorient",
+      "away_team": "Brest",
+      "home_crest": "https://crests.football-data.org/525.png",
+      "away_crest": "https://crests.football-data.org/512.png",
+      "p_home": 0.4602,
+      "p_draw": 0.2669,
+      "p_away": 0.2729,
+      "pick_1x2": "H",
+      "p_over25": 0.4874,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
     },
     {
       "utc_date": "2026-11-02T20:00:00Z",
