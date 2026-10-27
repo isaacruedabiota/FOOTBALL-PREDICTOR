@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T17:01:08.835994+00:00",
+  "generated_at": "2026-10-27T18:01:09.279986+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -4817,21 +4817,6 @@
     ]
   },
   "upcoming": [
-    {
-      "utc_date": "2026-10-27T17:30:00Z",
-      "competition": "SA",
-      "home_team": "Sassuolo",
-      "away_team": "Lazio",
-      "home_crest": "https://crests.football-data.org/471.png",
-      "away_crest": "https://crests.football-data.org/110.png",
-      "p_home": 0.347,
-      "p_draw": 0.2578,
-      "p_away": 0.3952,
-      "pick_1x2": "A",
-      "p_over25": 0.4277,
-      "pred_home_goals": 0,
-      "pred_away_goals": 1
-    },
     {
       "utc_date": "2026-10-27T19:45:00Z",
       "competition": "SA",
