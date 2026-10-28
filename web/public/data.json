@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T13:01:09.733351+00:00",
+  "generated_at": "2026-10-28T14:01:10.026512+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -5782,6 +5782,36 @@
       "p_over25": 0.667,
       "pred_home_goals": 1,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-11-07T14:00:00Z",
+      "competition": "SA",
+      "home_team": "Torino",
+      "away_team": "Lecce",
+      "home_crest": "https://crests.football-data.org/586.png",
+      "away_crest": "https://crests.football-data.org/5890.png",
+      "p_home": 0.4899,
+      "p_draw": 0.2446,
+      "p_away": 0.2655,
+      "pick_1x2": "H",
+      "p_over25": 0.473,
+      "pred_home_goals": 1,
+      "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-11-07T14:00:00Z",
+      "competition": "SA",
+      "home_team": "Cagliari",
+      "away_team": "Frosinone",
+      "home_crest": "https://crests.football-data.org/104.png",
+      "away_crest": "https://crests.football-data.org/470.png",
+      "p_home": 0.2275,
+      "p_draw": 0.1922,
+      "p_away": 0.5803,
+      "pick_1x2": "A",
+      "p_over25": 0.6904,
+      "pred_home_goals": 1,
+      "pred_away_goals": 2
     }
   ],
   "recent": [
@@ -6737,8 +6767,8 @@
     }
   ],
   "counts": {
-    "predictions": 457,
+    "predictions": 459,
     "evaluated": 394,
-    "pending": 63
+    "pending": 65
   }
 }
