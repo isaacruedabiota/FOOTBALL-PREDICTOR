@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T14:01:10.026512+00:00",
+  "generated_at": "2026-10-28T15:01:08.470763+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -5812,6 +5812,96 @@
       "p_over25": 0.6904,
       "pred_home_goals": 1,
       "pred_away_goals": 2
+    },
+    {
+      "utc_date": "2026-11-07T14:30:00Z",
+      "competition": "BL1",
+      "home_team": "RB Leipzig",
+      "away_team": "Augsburg",
+      "home_crest": "https://crests.football-data.org/721.png",
+      "away_crest": "https://crests.football-data.org/16.png",
+      "p_home": 0.6766,
+      "p_draw": 0.1632,
+      "p_away": 0.1603,
+      "pick_1x2": "H",
+      "p_over25": 0.7529,
+      "pred_home_goals": 2,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-11-07T14:30:00Z",
+      "competition": "BL1",
+      "home_team": "Dortmund",
+      "away_team": "Elversberg",
+      "home_crest": "https://crests.football-data.org/4.png",
+      "away_crest": "https://crests.football-data.org/719.png",
+      "p_home": 0.748,
+      "p_draw": 0.1482,
+      "p_away": 0.1037,
+      "pick_1x2": "H",
+      "p_over25": 0.677,
+      "pred_home_goals": 2,
+      "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-11-07T14:30:00Z",
+      "competition": "BL1",
+      "home_team": "Mainz",
+      "away_team": "Bayern",
+      "home_crest": "https://crests.football-data.org/15.png",
+      "away_crest": "https://crests.football-data.org/5.png",
+      "p_home": 0.1152,
+      "p_draw": 0.1277,
+      "p_away": 0.7571,
+      "pick_1x2": "A",
+      "p_over25": 0.8334,
+      "pred_home_goals": 1,
+      "pred_away_goals": 3
+    },
+    {
+      "utc_date": "2026-11-07T14:30:00Z",
+      "competition": "BL1",
+      "home_team": "SC Paderborn",
+      "away_team": "Frankfurt",
+      "home_crest": "https://crests.football-data.org/29.png",
+      "away_crest": "https://crests.football-data.org/19.png",
+      "p_home": 0.4035,
+      "p_draw": 0.2747,
+      "p_away": 0.3218,
+      "pick_1x2": "H",
+      "p_over25": 0.4072,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-11-07T15:00:00Z",
+      "competition": "PL",
+      "home_team": "Fulham",
+      "away_team": "Newcastle",
+      "home_crest": "https://crests.football-data.org/63.png",
+      "away_crest": "https://crests.football-data.org/67.png",
+      "p_home": 0.4036,
+      "p_draw": 0.2966,
+      "p_away": 0.2999,
+      "pick_1x2": "H",
+      "p_over25": 0.4758,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-11-07T15:00:00Z",
+      "competition": "PL",
+      "home_team": "Arsenal",
+      "away_team": "Hull City",
+      "home_crest": "https://crests.football-data.org/57.png",
+      "away_crest": "https://crests.football-data.org/322.png",
+      "p_home": 0.6004,
+      "p_draw": 0.2917,
+      "p_away": 0.1079,
+      "pick_1x2": "H",
+      "p_over25": 0.3049,
+      "pred_home_goals": 1,
+      "pred_away_goals": 0
     }
   ],
   "recent": [
@@ -6767,8 +6857,8 @@
     }
   ],
   "counts": {
-    "predictions": 459,
+    "predictions": 465,
     "evaluated": 394,
-    "pending": 65
+    "pending": 71
   }
 }
