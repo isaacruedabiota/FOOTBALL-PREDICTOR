@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T12:01:08.832616+00:00",
+  "generated_at": "2026-10-28T13:01:09.733351+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -5752,6 +5752,36 @@
       "p_over25": 0.5207,
       "pred_home_goals": 1,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-11-07T12:30:00Z",
+      "competition": "PL",
+      "home_team": "Leeds United",
+      "away_team": "Tottenham",
+      "home_crest": "https://crests.football-data.org/341.png",
+      "away_crest": "https://crests.football-data.org/73.png",
+      "p_home": 0.4839,
+      "p_draw": 0.3048,
+      "p_away": 0.2114,
+      "pick_1x2": "H",
+      "p_over25": 0.3967,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-11-07T13:00:00Z",
+      "competition": "PD",
+      "home_team": "Málaga",
+      "away_team": "Santander",
+      "home_crest": "https://crests.football-data.org/84.png",
+      "away_crest": "https://crests.football-data.org/5335.png",
+      "p_home": 0.3665,
+      "p_draw": 0.245,
+      "p_away": 0.3885,
+      "pick_1x2": "A",
+      "p_over25": 0.667,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
     }
   ],
   "recent": [
@@ -6707,8 +6737,8 @@
     }
   ],
   "counts": {
-    "predictions": 455,
+    "predictions": 457,
     "evaluated": 394,
-    "pending": 61
+    "pending": 63
   }
 }
