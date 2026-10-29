@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T15:01:09.180765+00:00",
+  "generated_at": "2026-10-29T16:01:08.778829+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -6172,6 +6172,21 @@
       "p_over25": 0.6333,
       "pred_home_goals": 1,
       "pred_away_goals": 2
+    },
+    {
+      "utc_date": "2026-11-08T15:15:00Z",
+      "competition": "PD",
+      "home_team": "Real Sociedad",
+      "away_team": "Rayo Vallecano",
+      "home_crest": "https://crests.football-data.org/92.png",
+      "away_crest": "https://crests.football-data.org/87.png",
+      "p_home": 0.5757,
+      "p_draw": 0.2198,
+      "p_away": 0.2045,
+      "pick_1x2": "H",
+      "p_over25": 0.6727,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
     }
   ],
   "recent": [
@@ -7127,8 +7142,8 @@
     }
   ],
   "counts": {
-    "predictions": 484,
+    "predictions": 485,
     "evaluated": 399,
-    "pending": 85
+    "pending": 86
   }
 }
