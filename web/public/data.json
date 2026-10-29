@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T17:01:08.489331+00:00",
+  "generated_at": "2026-10-29T18:01:09.421287+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -4914,21 +4914,6 @@
   },
   "upcoming": [
     {
-      "utc_date": "2026-10-29T17:30:00Z",
-      "competition": "SA",
-      "home_team": "Frosinone",
-      "away_team": "Lecce",
-      "home_crest": "https://crests.football-data.org/470.png",
-      "away_crest": "https://crests.football-data.org/5890.png",
-      "p_home": 0.6457,
-      "p_draw": 0.1965,
-      "p_away": 0.1577,
-      "pick_1x2": "H",
-      "p_over25": 0.5656,
-      "pred_home_goals": 1,
-      "pred_away_goals": 0
-    },
-    {
       "utc_date": "2026-10-29T19:45:00Z",
       "competition": "SA",
       "home_team": "Fiorentina",
@@ -6292,6 +6277,36 @@
       "p_over25": 0.5562,
       "pred_home_goals": 1,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-11-08T17:30:00Z",
+      "competition": "PD",
+      "home_team": "Celta",
+      "away_team": "Levante",
+      "home_crest": "https://crests.football-data.org/558.png",
+      "away_crest": "https://crests.football-data.org/88.png",
+      "p_home": 0.5223,
+      "p_draw": 0.2699,
+      "p_away": 0.2078,
+      "pick_1x2": "H",
+      "p_over25": 0.4837,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-11-08T17:30:00Z",
+      "competition": "PD",
+      "home_team": "Villarreal",
+      "away_team": "Getafe",
+      "home_crest": "https://crests.football-data.org/94.png",
+      "away_crest": "https://crests.football-data.org/82.png",
+      "p_home": 0.6277,
+      "p_draw": 0.2653,
+      "p_away": 0.1071,
+      "pick_1x2": "H",
+      "p_over25": 0.3516,
+      "pred_home_goals": 1,
+      "pred_away_goals": 0
     }
   ],
   "recent": [
@@ -7247,8 +7262,8 @@
     }
   ],
   "counts": {
-    "predictions": 492,
+    "predictions": 494,
     "evaluated": 399,
-    "pending": 93
+    "pending": 95
   }
 }
