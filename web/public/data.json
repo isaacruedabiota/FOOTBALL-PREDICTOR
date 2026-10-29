@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T13:01:08.127097+00:00",
+  "generated_at": "2026-10-29T14:01:08.570190+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -6052,6 +6052,111 @@
       "p_over25": 0.5715,
       "pred_home_goals": 1,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-11-08T14:00:00Z",
+      "competition": "SA",
+      "home_team": "Genoa",
+      "away_team": "Milan",
+      "home_crest": "https://crests.football-data.org/107.png",
+      "away_crest": "https://crests.football-data.org/98.png",
+      "p_home": 0.2428,
+      "p_draw": 0.254,
+      "p_away": 0.5032,
+      "pick_1x2": "A",
+      "p_over25": 0.4291,
+      "pred_home_goals": 0,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-11-08T14:00:00Z",
+      "competition": "SA",
+      "home_team": "Monza",
+      "away_team": "Atalanta",
+      "home_crest": "https://crests.football-data.org/5911.png",
+      "away_crest": "https://crests.football-data.org/102.png",
+      "p_home": 0.2579,
+      "p_draw": 0.1775,
+      "p_away": 0.5645,
+      "pick_1x2": "A",
+      "p_over25": 0.8183,
+      "pred_home_goals": 1,
+      "pred_away_goals": 2
+    },
+    {
+      "utc_date": "2026-11-08T14:00:00Z",
+      "competition": "FL1",
+      "home_team": "Stade Rennais",
+      "away_team": "Lille",
+      "home_crest": "https://crests.football-data.org/529.png",
+      "away_crest": "https://crests.football-data.org/521.png",
+      "p_home": 0.3806,
+      "p_draw": 0.2795,
+      "p_away": 0.3398,
+      "pick_1x2": "H",
+      "p_over25": 0.5083,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-11-08T14:00:00Z",
+      "competition": "PL",
+      "home_team": "Crystal Palace",
+      "away_team": "Liverpool",
+      "home_crest": "https://crests.football-data.org/354.png",
+      "away_crest": "https://crests.football-data.org/64.png",
+      "p_home": 0.2115,
+      "p_draw": 0.2592,
+      "p_away": 0.5294,
+      "pick_1x2": "A",
+      "p_over25": 0.5529,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-11-08T14:00:00Z",
+      "competition": "PL",
+      "home_team": "Sunderland",
+      "away_team": "Chelsea",
+      "home_crest": "https://crests.football-data.org/71.png",
+      "away_crest": "https://crests.football-data.org/61.png",
+      "p_home": 0.3057,
+      "p_draw": 0.274,
+      "p_away": 0.4203,
+      "pick_1x2": "A",
+      "p_over25": 0.5617,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-11-08T14:00:00Z",
+      "competition": "PL",
+      "home_team": "Ipswich Town",
+      "away_team": "Bournemouth",
+      "home_crest": "https://crests.football-data.org/349.png",
+      "away_crest": "https://crests.football-data.org/bournemouth.png",
+      "p_home": 0.3208,
+      "p_draw": 0.236,
+      "p_away": 0.4431,
+      "pick_1x2": "A",
+      "p_over25": 0.7146,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-11-08T14:00:00Z",
+      "competition": "PL",
+      "home_team": "Brighton Hove",
+      "away_team": "Brentford",
+      "home_crest": "https://crests.football-data.org/397.png",
+      "away_crest": "https://crests.football-data.org/402.png",
+      "p_home": 0.5458,
+      "p_draw": 0.2484,
+      "p_away": 0.2058,
+      "pick_1x2": "H",
+      "p_over25": 0.5866,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
     }
   ],
   "recent": [
@@ -7007,8 +7112,8 @@
     }
   ],
   "counts": {
-    "predictions": 476,
+    "predictions": 483,
     "evaluated": 399,
-    "pending": 77
+    "pending": 84
   }
 }
