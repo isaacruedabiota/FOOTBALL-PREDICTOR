@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T12:01:09.304339+00:00",
+  "generated_at": "2026-10-29T13:01:08.127097+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -6037,6 +6037,21 @@
       "p_over25": 0.453,
       "pred_home_goals": 1,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-11-08T13:00:00Z",
+      "competition": "PD",
+      "home_team": "Elche",
+      "away_team": "Real Betis",
+      "home_crest": "https://crests.football-data.org/285.png",
+      "away_crest": "https://crests.football-data.org/90.png",
+      "p_home": 0.3677,
+      "p_draw": 0.2678,
+      "p_away": 0.3645,
+      "pick_1x2": "H",
+      "p_over25": 0.5715,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
     }
   ],
   "recent": [
@@ -6992,8 +7007,8 @@
     }
   ],
   "counts": {
-    "predictions": 475,
+    "predictions": 476,
     "evaluated": 399,
-    "pending": 76
+    "pending": 77
   }
 }
