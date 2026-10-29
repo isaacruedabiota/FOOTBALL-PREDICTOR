@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T11:01:07.828448+00:00",
+  "generated_at": "2026-10-29T12:01:09.304339+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -6022,6 +6022,21 @@
       "p_over25": 0.497,
       "pred_home_goals": 0,
       "pred_away_goals": 2
+    },
+    {
+      "utc_date": "2026-11-08T11:30:00Z",
+      "competition": "SA",
+      "home_team": "Napoli",
+      "away_team": "Lazio",
+      "home_crest": "https://crests.football-data.org/113.png",
+      "away_crest": "https://crests.football-data.org/110.png",
+      "p_home": 0.4187,
+      "p_draw": 0.2586,
+      "p_away": 0.3227,
+      "pick_1x2": "H",
+      "p_over25": 0.453,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
     }
   ],
   "recent": [
@@ -6977,8 +6992,8 @@
     }
   ],
   "counts": {
-    "predictions": 474,
+    "predictions": 475,
     "evaluated": 399,
-    "pending": 75
+    "pending": 76
   }
 }
