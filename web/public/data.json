@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T14:01:08.570190+00:00",
+  "generated_at": "2026-10-29T15:01:09.180765+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -6157,6 +6157,21 @@
       "p_over25": 0.5866,
       "pred_home_goals": 1,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-11-08T14:30:00Z",
+      "competition": "BL1",
+      "home_team": "1. FC Köln",
+      "away_team": "Leverkusen",
+      "home_crest": "https://crests.football-data.org/1.png",
+      "away_crest": "https://crests.football-data.org/3.png",
+      "p_home": 0.2597,
+      "p_draw": 0.2149,
+      "p_away": 0.5255,
+      "pick_1x2": "A",
+      "p_over25": 0.6333,
+      "pred_home_goals": 1,
+      "pred_away_goals": 2
     }
   ],
   "recent": [
@@ -7112,8 +7127,8 @@
     }
   ],
   "counts": {
-    "predictions": 483,
+    "predictions": 484,
     "evaluated": 399,
-    "pending": 84
+    "pending": 85
   }
 }
