@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T18:01:12.063373+00:00",
+  "generated_at": "2026-10-30T19:01:08.842880+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -4937,36 +4937,6 @@
     ]
   },
   "upcoming": [
-    {
-      "utc_date": "2026-10-30T18:00:00Z",
-      "competition": "FL1",
-      "home_team": "Le Havre",
-      "away_team": "PSG",
-      "home_crest": "https://crests.football-data.org/533.png",
-      "away_crest": "https://crests.football-data.org/524.png",
-      "p_home": 0.1241,
-      "p_draw": 0.2293,
-      "p_away": 0.6466,
-      "pick_1x2": "A",
-      "p_over25": 0.445,
-      "pred_home_goals": 0,
-      "pred_away_goals": 1
-    },
-    {
-      "utc_date": "2026-10-30T18:00:00Z",
-      "competition": "FL1",
-      "home_team": "Nice",
-      "away_team": "Stade Rennais",
-      "home_crest": "https://crests.football-data.org/522.png",
-      "away_crest": "https://crests.football-data.org/529.png",
-      "p_home": 0.2457,
-      "p_draw": 0.2339,
-      "p_away": 0.5204,
-      "pick_1x2": "A",
-      "p_over25": 0.603,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
     {
       "utc_date": "2026-10-30T19:30:00Z",
       "competition": "BL1",
