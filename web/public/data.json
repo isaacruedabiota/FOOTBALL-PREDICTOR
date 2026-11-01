@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T13:01:07.872380+00:00",
+  "generated_at": "2026-11-01T14:01:11.322046+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -8,22 +8,22 @@
   },
   "summary": {
     "dc-v1": {
-      "n": 428,
-      "acc_1x2": 50.0,
-      "acc_ou": 60.0467,
-      "acc_score": 9.8131,
-      "brier": 0.6067,
-      "logloss": 1.0296,
-      "rps": 0.2125
+      "n": 429,
+      "acc_1x2": 50.1166,
+      "acc_ou": 59.9068,
+      "acc_score": 9.7902,
+      "brier": 0.6054,
+      "logloss": 1.0275,
+      "rps": 0.212
     },
     "elo-v1": {
-      "n": 429,
-      "acc_1x2": 51.049,
-      "acc_ou": 53.1469,
-      "acc_score": 8.8578,
-      "brier": 0.5921,
-      "logloss": 0.9959,
-      "rps": 0.2076
+      "n": 430,
+      "acc_1x2": 51.1628,
+      "acc_ou": 53.2558,
+      "acc_score": 9.0698,
+      "brier": 0.591,
+      "logloss": 0.9944,
+      "rps": 0.2072
     }
   },
   "by_competition": {
@@ -62,11 +62,11 @@
       },
       {
         "competition": "SA",
-        "n": 93,
-        "acc_1x2": 58.0645,
-        "acc_ou": 54.8387,
-        "acc_score": 12.9032,
-        "rps": 0.1946
+        "n": 94,
+        "acc_1x2": 58.5106,
+        "acc_ou": 54.2553,
+        "acc_score": 12.766,
+        "rps": 0.1927
       }
     ],
     "elo-v1": [
@@ -104,11 +104,11 @@
       },
       {
         "competition": "SA",
-        "n": 93,
-        "acc_1x2": 59.1398,
-        "acc_ou": 38.7097,
-        "acc_score": 6.4516,
-        "rps": 0.1998
+        "n": 94,
+        "acc_1x2": 59.5745,
+        "acc_ou": 39.3617,
+        "acc_score": 7.4468,
+        "rps": 0.1983
       }
     ]
   },
@@ -2681,6 +2681,12 @@
         "n": 428,
         "acc_1x2": 50.0,
         "rps": 0.2125
+      },
+      {
+        "date": "2026-11-01",
+        "n": 429,
+        "acc_1x2": 50.1166,
+        "rps": 0.212
       }
     ],
     "elo-v1": [
@@ -5257,25 +5263,16 @@
         "n": 429,
         "acc_1x2": 51.049,
         "rps": 0.2076
+      },
+      {
+        "date": "2026-11-01",
+        "n": 430,
+        "acc_1x2": 51.1628,
+        "rps": 0.2072
       }
     ]
   },
   "upcoming": [
-    {
-      "utc_date": "2026-11-01T13:00:00Z",
-      "competition": "PD",
-      "home_team": "Getafe",
-      "away_team": "Sevilla FC",
-      "home_crest": "https://crests.football-data.org/82.png",
-      "away_crest": "https://crests.football-data.org/559.png",
-      "p_home": 0.3346,
-      "p_draw": 0.3695,
-      "p_away": 0.2959,
-      "pick_1x2": "D",
-      "p_over25": 0.2332,
-      "pred_home_goals": 0,
-      "pred_away_goals": 0
-    },
     {
       "utc_date": "2026-11-01T14:00:00Z",
       "competition": "SA",
@@ -6284,6 +6281,25 @@
   ],
   "recent": [
     {
+      "utc_date": "2026-11-01T11:30:00Z",
+      "competition": "SA",
+      "home_team": "Como 1907",
+      "away_team": "Venezia FC",
+      "home_crest": "https://crests.football-data.org/7397.png",
+      "away_crest": "https://crests.football-data.org/454.png",
+      "p_home": 0.8637,
+      "p_draw": 0.0931,
+      "p_away": 0.0433,
+      "pick_1x2": "H",
+      "actual_1x2": "H",
+      "correct_1x2": 1,
+      "correct_ou": 0,
+      "correct_score": 0,
+      "home_goals": 1,
+      "away_goals": 0,
+      "rps_1x2": 0.0102
+    },
+    {
       "utc_date": "2026-10-31T20:00:00Z",
       "competition": "PD",
       "home_team": "Barça",
@@ -7213,30 +7229,11 @@
       "home_goals": 0,
       "away_goals": 0,
       "rps_1x2": 0.1296
-    },
-    {
-      "utc_date": "2026-10-25T16:15:00Z",
-      "competition": "FL1",
-      "home_team": "Auxerre",
-      "away_team": "Le Mans",
-      "home_crest": "https://crests.football-data.org/519.png",
-      "away_crest": "https://crests.football-data.org/535.png",
-      "p_home": 0.3627,
-      "p_draw": 0.2342,
-      "p_away": 0.4031,
-      "pick_1x2": "A",
-      "actual_1x2": "D",
-      "correct_1x2": 0,
-      "correct_ou": 0,
-      "correct_score": 1,
-      "home_goals": 1,
-      "away_goals": 1,
-      "rps_1x2": 0.147
     }
   ],
   "counts": {
     "predictions": 498,
-    "evaluated": 428,
-    "pending": 70
+    "evaluated": 429,
+    "pending": 69
   }
 }
