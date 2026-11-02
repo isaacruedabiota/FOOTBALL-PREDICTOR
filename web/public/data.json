@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T22:01:08.731006+00:00",
+  "generated_at": "2026-11-02T23:01:10.053496+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -8,22 +8,22 @@
   },
   "summary": {
     "dc-v1": {
-      "n": 447,
-      "acc_1x2": 50.5593,
-      "acc_ou": 59.7315,
-      "acc_score": 9.8434,
-      "brier": 0.6025,
-      "logloss": 1.0231,
-      "rps": 0.2124
+      "n": 448,
+      "acc_1x2": 50.6696,
+      "acc_ou": 59.8214,
+      "acc_score": 9.8214,
+      "brier": 0.6019,
+      "logloss": 1.0223,
+      "rps": 0.2122
     },
     "elo-v1": {
-      "n": 448,
-      "acc_1x2": 51.7857,
-      "acc_ou": 52.9018,
-      "acc_score": 8.9286,
-      "brier": 0.5884,
-      "logloss": 0.9901,
-      "rps": 0.208
+      "n": 449,
+      "acc_1x2": 51.8931,
+      "acc_ou": 53.0067,
+      "acc_score": 8.9087,
+      "brier": 0.5877,
+      "logloss": 0.9891,
+      "rps": 0.2078
     }
   },
   "by_competition": {
@@ -46,11 +46,11 @@
       },
       {
         "competition": "PD",
-        "n": 105,
-        "acc_1x2": 54.2857,
-        "acc_ou": 64.7619,
-        "acc_score": 8.5714,
-        "rps": 0.1922
+        "n": 106,
+        "acc_1x2": 54.717,
+        "acc_ou": 65.0943,
+        "acc_score": 8.4906,
+        "rps": 0.1916
       },
       {
         "competition": "PL",
@@ -88,11 +88,11 @@
       },
       {
         "competition": "PD",
-        "n": 106,
-        "acc_1x2": 52.8302,
-        "acc_ou": 53.7736,
-        "acc_score": 13.2075,
-        "rps": 0.1967
+        "n": 107,
+        "acc_1x2": 53.271,
+        "acc_ou": 54.2056,
+        "acc_score": 13.0841,
+        "rps": 0.196
       },
       {
         "competition": "PL",
@@ -2795,6 +2795,12 @@
         "n": 447,
         "acc_1x2": 50.5593,
         "rps": 0.2124
+      },
+      {
+        "date": "2026-11-02",
+        "n": 448,
+        "acc_1x2": 50.6696,
+        "rps": 0.2122
       }
     ],
     "elo-v1": [
@@ -5485,22 +5491,28 @@
         "n": 448,
         "acc_1x2": 51.7857,
         "rps": 0.208
+      },
+      {
+        "date": "2026-11-02",
+        "n": 449,
+        "acc_1x2": 51.8931,
+        "rps": 0.2078
       }
     ]
   },
   "upcoming": [
     {
       "utc_date": "2026-11-02T20:00:00Z",
-      "competition": "PD",
-      "home_team": "Deportivo",
-      "away_team": "Osasuna",
-      "home_crest": "https://crests.football-data.org/560.png",
-      "away_crest": "https://crests.football-data.org/79.png",
-      "p_home": 0.5343,
-      "p_draw": 0.2574,
-      "p_away": 0.2082,
+      "competition": "PL",
+      "home_team": "Newcastle",
+      "away_team": "Everton",
+      "home_crest": "https://crests.football-data.org/67.png",
+      "away_crest": "https://crests.football-data.org/62.png",
+      "p_home": 0.3838,
+      "p_draw": 0.2837,
+      "p_away": 0.3324,
       "pick_1x2": "H",
-      "p_over25": 0.5196,
+      "p_over25": 0.5092,
       "pred_home_goals": 1,
       "pred_away_goals": 1
     },
@@ -6226,6 +6238,25 @@
     }
   ],
   "recent": [
+    {
+      "utc_date": "2026-11-02T20:00:00Z",
+      "competition": "PD",
+      "home_team": "Deportivo",
+      "away_team": "Osasuna",
+      "home_crest": "https://crests.football-data.org/560.png",
+      "away_crest": "https://crests.football-data.org/79.png",
+      "p_home": 0.5343,
+      "p_draw": 0.2574,
+      "p_away": 0.2082,
+      "pick_1x2": "H",
+      "actual_1x2": "H",
+      "correct_1x2": 1,
+      "correct_ou": 1,
+      "correct_score": 0,
+      "home_goals": 2,
+      "away_goals": 1,
+      "rps_1x2": 0.1301
+    },
     {
       "utc_date": "2026-11-02T19:45:00Z",
       "competition": "FL1",
@@ -7156,30 +7187,11 @@
       "home_goals": 2,
       "away_goals": 0,
       "rps_1x2": 0.5177
-    },
-    {
-      "utc_date": "2026-10-28T19:45:00Z",
-      "competition": "SA",
-      "home_team": "Monza",
-      "away_team": "Napoli",
-      "home_crest": "https://crests.football-data.org/5911.png",
-      "away_crest": "https://crests.football-data.org/113.png",
-      "p_home": 0.1592,
-      "p_draw": 0.1684,
-      "p_away": 0.6724,
-      "pick_1x2": "A",
-      "actual_1x2": "A",
-      "correct_1x2": 1,
-      "correct_ou": 1,
-      "correct_score": 0,
-      "home_goals": 1,
-      "away_goals": 4,
-      "rps_1x2": 0.0663
     }
   ],
   "counts": {
     "predictions": 498,
-    "evaluated": 447,
-    "pending": 51
+    "evaluated": 448,
+    "pending": 50
   }
 }
