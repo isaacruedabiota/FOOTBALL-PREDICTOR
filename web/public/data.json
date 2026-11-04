@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T22:01:08.466303+00:00",
+  "generated_at": "2026-11-04T23:01:08.657790+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -5754,21 +5754,6 @@
       "pred_away_goals": 1
     },
     {
-      "utc_date": "2026-11-07T16:15:00Z",
-      "competition": "FL1",
-      "home_team": "Auxerre",
-      "away_team": "Paris FC",
-      "home_crest": "https://crests.football-data.org/519.png",
-      "away_crest": "https://crests.football-data.org/1045.png",
-      "p_home": 0.2942,
-      "p_draw": 0.2749,
-      "p_away": 0.431,
-      "pick_1x2": "A",
-      "p_over25": 0.5142,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
-    {
       "utc_date": "2026-11-07T17:00:00Z",
       "competition": "SA",
       "home_team": "Parma",
@@ -5829,6 +5814,21 @@
       "pred_away_goals": 1
     },
     {
+      "utc_date": "2026-11-07T18:00:00Z",
+      "competition": "FL1",
+      "home_team": "Auxerre",
+      "away_team": "Paris FC",
+      "home_crest": "https://crests.football-data.org/519.png",
+      "away_crest": "https://crests.football-data.org/1045.png",
+      "p_home": 0.2942,
+      "p_draw": 0.2749,
+      "p_away": 0.431,
+      "pick_1x2": "A",
+      "p_over25": 0.5142,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
       "utc_date": "2026-11-07T19:45:00Z",
       "competition": "SA",
       "home_team": "Roma",
@@ -5841,21 +5841,6 @@
       "pick_1x2": "H",
       "p_over25": 0.686,
       "pred_home_goals": 2,
-      "pred_away_goals": 0
-    },
-    {
-      "utc_date": "2026-11-07T19:45:00Z",
-      "competition": "FL1",
-      "home_team": "PSG",
-      "away_team": "Troyes",
-      "home_crest": "https://crests.football-data.org/524.png",
-      "away_crest": "https://crests.football-data.org/531.png",
-      "p_home": 0.8968,
-      "p_draw": 0.0839,
-      "p_away": 0.0192,
-      "pick_1x2": "H",
-      "p_over25": 0.6744,
-      "pred_home_goals": 3,
       "pred_away_goals": 0
     },
     {
@@ -5872,6 +5857,21 @@
       "p_over25": 0.497,
       "pred_home_goals": 0,
       "pred_away_goals": 2
+    },
+    {
+      "utc_date": "2026-11-07T20:05:00Z",
+      "competition": "FL1",
+      "home_team": "PSG",
+      "away_team": "Troyes",
+      "home_crest": "https://crests.football-data.org/524.png",
+      "away_crest": "https://crests.football-data.org/531.png",
+      "p_home": 0.8968,
+      "p_draw": 0.0839,
+      "p_away": 0.0192,
+      "pick_1x2": "H",
+      "p_over25": 0.6744,
+      "pred_home_goals": 3,
+      "pred_away_goals": 0
     },
     {
       "utc_date": "2026-11-08T11:30:00Z",
