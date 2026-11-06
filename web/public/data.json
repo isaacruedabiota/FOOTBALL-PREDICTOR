@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T19:01:10.059821+00:00",
+  "generated_at": "2026-11-06T20:01:10.935983+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -5525,36 +5525,6 @@
       "p_away": 0.308,
       "pick_1x2": "H",
       "p_over25": 0.5186,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
-    {
-      "utc_date": "2026-11-06T19:45:00Z",
-      "competition": "SA",
-      "home_team": "Venezia FC",
-      "away_team": "Udinese",
-      "home_crest": "https://crests.football-data.org/454.png",
-      "away_crest": "https://crests.football-data.org/115.png",
-      "p_home": 0.2073,
-      "p_draw": 0.2301,
-      "p_away": 0.5626,
-      "pick_1x2": "A",
-      "p_over25": 0.4789,
-      "pred_home_goals": 0,
-      "pred_away_goals": 1
-    },
-    {
-      "utc_date": "2026-11-06T19:45:00Z",
-      "competition": "FL1",
-      "home_team": "Toulouse",
-      "away_team": "Strasbourg",
-      "home_crest": "https://crests.football-data.org/511.png",
-      "away_crest": "https://crests.football-data.org/576.png",
-      "p_home": 0.4518,
-      "p_draw": 0.2428,
-      "p_away": 0.3054,
-      "pick_1x2": "H",
-      "p_over25": 0.6489,
       "pred_home_goals": 1,
       "pred_away_goals": 1
     },
