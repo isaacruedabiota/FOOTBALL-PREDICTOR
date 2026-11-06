@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T20:01:10.935983+00:00",
+  "generated_at": "2026-11-06T21:01:08.591869+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -5513,51 +5513,6 @@
     ]
   },
   "upcoming": [
-    {
-      "utc_date": "2026-11-06T19:30:00Z",
-      "competition": "BL1",
-      "home_team": "HSV",
-      "away_team": "M'gladbach",
-      "home_crest": "https://crests.football-data.org/7.png",
-      "away_crest": "https://crests.football-data.org/18.png",
-      "p_home": 0.4461,
-      "p_draw": 0.2459,
-      "p_away": 0.308,
-      "pick_1x2": "H",
-      "p_over25": 0.5186,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
-    {
-      "utc_date": "2026-11-06T20:00:00Z",
-      "competition": "PL",
-      "home_team": "Everton",
-      "away_team": "Coventry City",
-      "home_crest": "https://crests.football-data.org/62.png",
-      "away_crest": "https://crests.football-data.org/1076.png",
-      "p_home": 0.5729,
-      "p_draw": 0.2759,
-      "p_away": 0.1512,
-      "pick_1x2": "H",
-      "p_over25": 0.4175,
-      "pred_home_goals": 1,
-      "pred_away_goals": 0
-    },
-    {
-      "utc_date": "2026-11-06T20:00:00Z",
-      "competition": "PD",
-      "home_team": "Sevilla FC",
-      "away_team": "Alavés",
-      "home_crest": "https://crests.football-data.org/559.png",
-      "away_crest": "https://crests.football-data.org/263.png",
-      "p_home": 0.4791,
-      "p_draw": 0.2702,
-      "p_away": 0.2507,
-      "pick_1x2": "H",
-      "p_over25": 0.5207,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
     {
       "utc_date": "2026-11-07T12:30:00Z",
       "competition": "PL",
