@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T00:01:08.903805+00:00",
+  "generated_at": "2026-11-07T01:01:08.910479+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -5574,6 +5574,21 @@
   },
   "upcoming": [
     {
+      "utc_date": "2026-11-06T20:00:00Z",
+      "competition": "PD",
+      "home_team": "Sevilla FC",
+      "away_team": "Alavés",
+      "home_crest": "https://crests.football-data.org/559.png",
+      "away_crest": "https://crests.football-data.org/263.png",
+      "p_home": 0.4791,
+      "p_draw": 0.2702,
+      "p_away": 0.2507,
+      "pick_1x2": "H",
+      "p_over25": 0.5207,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
       "utc_date": "2026-11-07T12:30:00Z",
       "competition": "PL",
       "home_team": "Leeds United",
@@ -6235,8 +6250,8 @@
       "correct_1x2": 0,
       "correct_ou": 0,
       "correct_score": 0,
-      "home_goals": 0,
-      "away_goals": 0,
+      "home_goals": null,
+      "away_goals": null,
       "rps_1x2": 0.1462
     },
     {
