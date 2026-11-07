@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T13:01:08.836608+00:00",
+  "generated_at": "2026-11-07T14:01:10.485421+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -5573,21 +5573,6 @@
     ]
   },
   "upcoming": [
-    {
-      "utc_date": "2026-11-07T13:00:00Z",
-      "competition": "PD",
-      "home_team": "Málaga",
-      "away_team": "Santander",
-      "home_crest": "https://crests.football-data.org/84.png",
-      "away_crest": "https://crests.football-data.org/5335.png",
-      "p_home": 0.3665,
-      "p_draw": 0.245,
-      "p_away": 0.3885,
-      "pick_1x2": "A",
-      "p_over25": 0.667,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
     {
       "utc_date": "2026-11-07T14:00:00Z",
       "competition": "SA",
