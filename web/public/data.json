@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T13:01:09.036079+00:00",
+  "generated_at": "2026-11-08T14:01:09.047875+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -8,22 +8,22 @@
   },
   "summary": {
     "dc-v1": {
-      "n": 473,
-      "acc_1x2": 51.1628,
-      "acc_ou": 59.408,
-      "acc_score": 9.9366,
-      "brier": 0.5966,
-      "logloss": 1.0139,
-      "rps": 0.2099
+      "n": 474,
+      "acc_1x2": 51.0549,
+      "acc_ou": 59.4937,
+      "acc_score": 10.1266,
+      "brier": 0.5971,
+      "logloss": 1.0147,
+      "rps": 0.2097
     },
     "elo-v1": {
-      "n": 474,
-      "acc_1x2": 52.3207,
-      "acc_ou": 52.7426,
-      "acc_score": 9.2827,
-      "brier": 0.5841,
-      "logloss": 0.9845,
-      "rps": 0.2059
+      "n": 475,
+      "acc_1x2": 52.2105,
+      "acc_ou": 52.8421,
+      "acc_score": 9.2632,
+      "brier": 0.5849,
+      "logloss": 0.9858,
+      "rps": 0.2058
     }
   },
   "by_competition": {
@@ -62,11 +62,11 @@
       },
       {
         "competition": "SA",
-        "n": 105,
-        "acc_1x2": 57.1429,
-        "acc_ou": 52.381,
-        "acc_score": 11.4286,
-        "rps": 0.2009
+        "n": 106,
+        "acc_1x2": 56.6038,
+        "acc_ou": 52.8302,
+        "acc_score": 12.2642,
+        "rps": 0.2003
       }
     ],
     "elo-v1": [
@@ -104,11 +104,11 @@
       },
       {
         "competition": "SA",
-        "n": 105,
-        "acc_1x2": 59.0476,
-        "acc_ou": 39.0476,
-        "acc_score": 7.619,
-        "rps": 0.2023
+        "n": 106,
+        "acc_1x2": 58.4906,
+        "acc_ou": 39.6226,
+        "acc_score": 7.5472,
+        "rps": 0.2019
       }
     ]
   },
@@ -2951,6 +2951,12 @@
         "n": 473,
         "acc_1x2": 51.1628,
         "rps": 0.2099
+      },
+      {
+        "date": "2026-11-08",
+        "n": 474,
+        "acc_1x2": 51.0549,
+        "rps": 0.2097
       }
     ],
     "elo-v1": [
@@ -5797,25 +5803,16 @@
         "n": 474,
         "acc_1x2": 52.3207,
         "rps": 0.2059
+      },
+      {
+        "date": "2026-11-08",
+        "n": 475,
+        "acc_1x2": 52.2105,
+        "rps": 0.2058
       }
     ]
   },
   "upcoming": [
-    {
-      "utc_date": "2026-11-08T13:00:00Z",
-      "competition": "PD",
-      "home_team": "Elche",
-      "away_team": "Real Betis",
-      "home_crest": "https://crests.football-data.org/285.png",
-      "away_crest": "https://crests.football-data.org/90.png",
-      "p_home": 0.3677,
-      "p_draw": 0.2678,
-      "p_away": 0.3645,
-      "pick_1x2": "H",
-      "p_over25": 0.5715,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
     {
       "utc_date": "2026-11-08T14:00:00Z",
       "competition": "SA",
@@ -6148,6 +6145,25 @@
     }
   ],
   "recent": [
+    {
+      "utc_date": "2026-11-08T11:30:00Z",
+      "competition": "SA",
+      "home_team": "Napoli",
+      "away_team": "Lazio",
+      "home_crest": "https://crests.football-data.org/113.png",
+      "away_crest": "https://crests.football-data.org/110.png",
+      "p_home": 0.4187,
+      "p_draw": 0.2586,
+      "p_away": 0.3227,
+      "pick_1x2": "H",
+      "actual_1x2": "D",
+      "correct_1x2": 0,
+      "correct_ou": 1,
+      "correct_score": 1,
+      "home_goals": 1,
+      "away_goals": 1,
+      "rps_1x2": 0.1397
+    },
     {
       "utc_date": "2026-11-07T20:05:00Z",
       "competition": "FL1",
@@ -7078,30 +7094,11 @@
       "home_goals": 2,
       "away_goals": 0,
       "rps_1x2": 0.4976
-    },
-    {
-      "utc_date": "2026-10-31T17:30:00Z",
-      "competition": "PD",
-      "home_team": "Real Betis",
-      "away_team": "Málaga",
-      "home_crest": "https://crests.football-data.org/90.png",
-      "away_crest": "https://crests.football-data.org/84.png",
-      "p_home": 0.8343,
-      "p_draw": 0.1214,
-      "p_away": 0.0443,
-      "pick_1x2": "H",
-      "actual_1x2": "H",
-      "correct_1x2": 1,
-      "correct_ou": 1,
-      "correct_score": 0,
-      "home_goals": 2,
-      "away_goals": 1,
-      "rps_1x2": 0.0147
     }
   ],
   "counts": {
     "predictions": 498,
-    "evaluated": 473,
-    "pending": 25
+    "evaluated": 474,
+    "pending": 24
   }
 }
