@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T11:01:08.247036+00:00",
+  "generated_at": "2026-11-08T12:01:08.655803+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -5801,21 +5801,6 @@
     ]
   },
   "upcoming": [
-    {
-      "utc_date": "2026-11-08T11:30:00Z",
-      "competition": "SA",
-      "home_team": "Napoli",
-      "away_team": "Lazio",
-      "home_crest": "https://crests.football-data.org/113.png",
-      "away_crest": "https://crests.football-data.org/110.png",
-      "p_home": 0.4187,
-      "p_draw": 0.2586,
-      "p_away": 0.3227,
-      "pick_1x2": "H",
-      "p_over25": 0.453,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
     {
       "utc_date": "2026-11-08T13:00:00Z",
       "competition": "PD",
