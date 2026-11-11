@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T15:01:08.939742+00:00",
+  "generated_at": "2026-11-11T16:01:08.369493+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -6343,6 +6343,21 @@
       "p_over25": 0.6049,
       "pred_home_goals": 1,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-11-21T15:15:00Z",
+      "competition": "PD",
+      "home_team": "Rayo Vallecano",
+      "away_team": "Valencia",
+      "home_crest": "https://crests.football-data.org/87.png",
+      "away_crest": "https://crests.football-data.org/95.png",
+      "p_home": 0.4954,
+      "p_draw": 0.2911,
+      "p_away": 0.2135,
+      "pick_1x2": "H",
+      "p_over25": 0.4059,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
     }
   ],
   "recent": [
@@ -7298,8 +7313,8 @@
     }
   ],
   "counts": {
-    "predictions": 515,
+    "predictions": 516,
     "evaluated": 497,
-    "pending": 18
+    "pending": 19
   }
 }
