@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T17:01:09.567167+00:00",
+  "generated_at": "2026-11-11T18:01:12.208649+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -6388,6 +6388,51 @@
       "p_over25": 0.4727,
       "pred_home_goals": 0,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-11-21T17:30:00Z",
+      "competition": "PL",
+      "home_team": "Newcastle",
+      "away_team": "Arsenal",
+      "home_crest": "https://crests.football-data.org/67.png",
+      "away_crest": "https://crests.football-data.org/57.png",
+      "p_home": 0.1367,
+      "p_draw": 0.2446,
+      "p_away": 0.6187,
+      "pick_1x2": "A",
+      "p_over25": 0.4334,
+      "pred_home_goals": 0,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-11-21T17:30:00Z",
+      "competition": "PD",
+      "home_team": "Sevilla FC",
+      "away_team": "Real Betis",
+      "home_crest": "https://crests.football-data.org/559.png",
+      "away_crest": "https://crests.football-data.org/90.png",
+      "p_home": 0.3263,
+      "p_draw": 0.2669,
+      "p_away": 0.4068,
+      "pick_1x2": "A",
+      "p_over25": 0.5588,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-11-21T17:30:00Z",
+      "competition": "BL1",
+      "home_team": "Schalke",
+      "away_team": "Stuttgart",
+      "home_crest": "https://crests.football-data.org/6.png",
+      "away_crest": "https://crests.football-data.org/10.png",
+      "p_home": 0.1883,
+      "p_draw": 0.3202,
+      "p_away": 0.4915,
+      "pick_1x2": "A",
+      "p_over25": 0.2383,
+      "pred_home_goals": 0,
+      "pred_away_goals": 1
     }
   ],
   "recent": [
@@ -7343,8 +7388,8 @@
     }
   ],
   "counts": {
-    "predictions": 518,
+    "predictions": 521,
     "evaluated": 497,
-    "pending": 21
+    "pending": 24
   }
 }
