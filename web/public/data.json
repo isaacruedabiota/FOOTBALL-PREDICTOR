@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T12:01:08.083124+00:00",
+  "generated_at": "2026-11-11T13:01:07.817436+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -6133,6 +6133,36 @@
       "p_over25": 0.3847,
       "pred_home_goals": 1,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-11-21T12:30:00Z",
+      "competition": "PL",
+      "home_team": "Man City",
+      "away_team": "Fulham",
+      "home_crest": "https://crests.football-data.org/65.png",
+      "away_crest": "https://crests.football-data.org/63.png",
+      "p_home": 0.6498,
+      "p_draw": 0.2226,
+      "p_away": 0.1277,
+      "pick_1x2": "H",
+      "p_over25": 0.4941,
+      "pred_home_goals": 2,
+      "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-11-21T13:00:00Z",
+      "competition": "PD",
+      "home_team": "Alavés",
+      "away_team": "Deportivo",
+      "home_crest": "https://crests.football-data.org/263.png",
+      "away_crest": "https://crests.football-data.org/560.png",
+      "p_home": 0.4037,
+      "p_draw": 0.3051,
+      "p_away": 0.2912,
+      "pick_1x2": "H",
+      "p_over25": 0.4059,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
     }
   ],
   "recent": [
@@ -7088,8 +7118,8 @@
     }
   ],
   "counts": {
-    "predictions": 501,
+    "predictions": 503,
     "evaluated": 497,
-    "pending": 4
+    "pending": 6
   }
 }
