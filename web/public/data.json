@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T19:01:08.991121+00:00",
+  "generated_at": "2026-11-11T20:01:09.491416+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -6433,6 +6433,96 @@
       "p_over25": 0.2383,
       "pred_home_goals": 0,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-11-21T19:45:00Z",
+      "competition": "SA",
+      "home_team": "Napoli",
+      "away_team": "Torino",
+      "home_crest": "https://crests.football-data.org/113.png",
+      "away_crest": "https://crests.football-data.org/586.png",
+      "p_home": 0.6171,
+      "p_draw": 0.2042,
+      "p_away": 0.1787,
+      "pick_1x2": "H",
+      "p_over25": 0.5468,
+      "pred_home_goals": 1,
+      "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-11-21T19:45:00Z",
+      "competition": "FL1",
+      "home_team": "Monaco",
+      "away_team": "Auxerre",
+      "home_crest": "https://crests.football-data.org/548.png",
+      "away_crest": "https://crests.football-data.org/519.png",
+      "p_home": 0.6373,
+      "p_draw": 0.2097,
+      "p_away": 0.153,
+      "pick_1x2": "H",
+      "p_over25": 0.6022,
+      "pred_home_goals": 2,
+      "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-11-21T19:45:00Z",
+      "competition": "FL1",
+      "home_team": "RC Lens",
+      "away_team": "Toulouse",
+      "home_crest": "https://crests.football-data.org/546.png",
+      "away_crest": "https://crests.football-data.org/511.png",
+      "p_home": 0.5674,
+      "p_draw": 0.2276,
+      "p_away": 0.2051,
+      "pick_1x2": "H",
+      "p_over25": 0.6095,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-11-21T19:45:00Z",
+      "competition": "FL1",
+      "home_team": "Lille",
+      "away_team": "Olympique Lyon",
+      "home_crest": "https://crests.football-data.org/521.png",
+      "away_crest": "https://crests.football-data.org/523.png",
+      "p_home": 0.4378,
+      "p_draw": 0.3238,
+      "p_away": 0.2384,
+      "pick_1x2": "H",
+      "p_over25": 0.3083,
+      "pred_home_goals": 1,
+      "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-11-21T19:45:00Z",
+      "competition": "FL1",
+      "home_team": "Strasbourg",
+      "away_team": "Brest",
+      "home_crest": "https://crests.football-data.org/576.png",
+      "away_crest": "https://crests.football-data.org/512.png",
+      "p_home": 0.484,
+      "p_draw": 0.2217,
+      "p_away": 0.2943,
+      "pick_1x2": "H",
+      "p_over25": 0.7151,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-11-21T20:00:00Z",
+      "competition": "PD",
+      "home_team": "Real Madrid",
+      "away_team": "Celta",
+      "home_crest": "https://crests.football-data.org/86.png",
+      "away_crest": "https://crests.football-data.org/558.png",
+      "p_home": 0.7282,
+      "p_draw": 0.1942,
+      "p_away": 0.0776,
+      "pick_1x2": "H",
+      "p_over25": 0.4964,
+      "pred_home_goals": 2,
+      "pred_away_goals": 0
     }
   ],
   "recent": [
@@ -7388,8 +7478,8 @@
     }
   ],
   "counts": {
-    "predictions": 521,
+    "predictions": 527,
     "evaluated": 497,
-    "pending": 24
+    "pending": 30
   }
 }
