@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T13:01:07.817436+00:00",
+  "generated_at": "2026-11-11T14:01:08.640739+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -6163,6 +6163,36 @@
       "p_over25": 0.4059,
       "pred_home_goals": 1,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-11-21T14:00:00Z",
+      "competition": "SA",
+      "home_team": "Como 1907",
+      "away_team": "Cagliari",
+      "home_crest": "https://crests.football-data.org/7397.png",
+      "away_crest": "https://crests.football-data.org/104.png",
+      "p_home": 0.6577,
+      "p_draw": 0.2188,
+      "p_away": 0.1236,
+      "pick_1x2": "H",
+      "p_over25": 0.3965,
+      "pred_home_goals": 1,
+      "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-11-21T14:00:00Z",
+      "competition": "SA",
+      "home_team": "Lazio",
+      "away_team": "Lecce",
+      "home_crest": "https://crests.football-data.org/110.png",
+      "away_crest": "https://crests.football-data.org/5890.png",
+      "p_home": 0.6751,
+      "p_draw": 0.1975,
+      "p_away": 0.1274,
+      "pick_1x2": "H",
+      "p_over25": 0.4787,
+      "pred_home_goals": 1,
+      "pred_away_goals": 0
     }
   ],
   "recent": [
@@ -7118,8 +7148,8 @@
     }
   ],
   "counts": {
-    "predictions": 503,
+    "predictions": 505,
     "evaluated": 497,
-    "pending": 6
+    "pending": 8
   }
 }
