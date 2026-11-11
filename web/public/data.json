@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T16:01:08.369493+00:00",
+  "generated_at": "2026-11-11T17:01:09.567167+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -6358,6 +6358,36 @@
       "p_over25": 0.4059,
       "pred_home_goals": 1,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-11-21T16:15:00Z",
+      "competition": "FL1",
+      "home_team": "Nice",
+      "away_team": "PSG",
+      "home_crest": "https://crests.football-data.org/522.png",
+      "away_crest": "https://crests.football-data.org/524.png",
+      "p_home": 0.1512,
+      "p_draw": 0.223,
+      "p_away": 0.6257,
+      "pick_1x2": "A",
+      "p_over25": 0.5446,
+      "pred_home_goals": 0,
+      "pred_away_goals": 2
+    },
+    {
+      "utc_date": "2026-11-21T17:00:00Z",
+      "competition": "SA",
+      "home_team": "Parma",
+      "away_team": "Roma",
+      "home_crest": "https://crests.football-data.org/112.png",
+      "away_crest": "https://crests.football-data.org/100.png",
+      "p_home": 0.1004,
+      "p_draw": 0.1835,
+      "p_away": 0.7161,
+      "pick_1x2": "A",
+      "p_over25": 0.4727,
+      "pred_home_goals": 0,
+      "pred_away_goals": 1
     }
   ],
   "recent": [
@@ -7313,8 +7343,8 @@
     }
   ],
   "counts": {
-    "predictions": 516,
+    "predictions": 518,
     "evaluated": 497,
-    "pending": 19
+    "pending": 21
   }
 }
