@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T12:01:09.343118+00:00",
+  "generated_at": "2026-11-12T13:01:12.080561+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -6538,6 +6538,21 @@
       "p_over25": 0.4315,
       "pred_home_goals": 1,
       "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-11-22T13:00:00Z",
+      "competition": "PD",
+      "home_team": "Barça",
+      "away_team": "Villarreal",
+      "home_crest": "https://crests.football-data.org/81.png",
+      "away_crest": "https://crests.football-data.org/94.png",
+      "p_home": 0.8007,
+      "p_draw": 0.1222,
+      "p_away": 0.0771,
+      "pick_1x2": "H",
+      "p_over25": 0.8104,
+      "pred_home_goals": 3,
+      "pred_away_goals": 1
     }
   ],
   "recent": [
@@ -7493,8 +7508,8 @@
     }
   ],
   "counts": {
-    "predictions": 528,
+    "predictions": 529,
     "evaluated": 497,
-    "pending": 31
+    "pending": 32
   }
 }
