@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T15:01:08.999088+00:00",
+  "generated_at": "2026-11-12T16:01:09.379181+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -6628,6 +6628,21 @@
       "p_over25": 0.7245,
       "pred_home_goals": 2,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-11-22T15:15:00Z",
+      "competition": "PD",
+      "home_team": "Santander",
+      "away_team": "Real Sociedad",
+      "home_crest": "https://crests.football-data.org/5335.png",
+      "away_crest": "https://crests.football-data.org/92.png",
+      "p_home": 0.2922,
+      "p_draw": 0.1906,
+      "p_away": 0.5172,
+      "pick_1x2": "A",
+      "p_over25": 0.8521,
+      "pred_home_goals": 2,
+      "pred_away_goals": 2
     }
   ],
   "recent": [
@@ -7583,8 +7598,8 @@
     }
   ],
   "counts": {
-    "predictions": 534,
+    "predictions": 535,
     "evaluated": 497,
-    "pending": 37
+    "pending": 38
   }
 }
