@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T19:01:09.466945+00:00",
+  "generated_at": "2026-11-12T20:01:09.543387+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -6718,6 +6718,51 @@
       "p_over25": 0.4624,
       "pred_home_goals": 1,
       "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-11-22T19:45:00Z",
+      "competition": "SA",
+      "home_team": "Atalanta",
+      "away_team": "Inter",
+      "home_crest": "https://crests.football-data.org/102.png",
+      "away_crest": "https://crests.football-data.org/108.png",
+      "p_home": 0.1868,
+      "p_draw": 0.1823,
+      "p_away": 0.6309,
+      "pick_1x2": "A",
+      "p_over25": 0.6743,
+      "pred_home_goals": 1,
+      "pred_away_goals": 2
+    },
+    {
+      "utc_date": "2026-11-22T19:45:00Z",
+      "competition": "FL1",
+      "home_team": "Marseille",
+      "away_team": "Le Mans",
+      "home_crest": "https://crests.football-data.org/516.png",
+      "away_crest": "https://crests.football-data.org/535.png",
+      "p_home": 0.7319,
+      "p_draw": 0.1592,
+      "p_away": 0.1089,
+      "pick_1x2": "H",
+      "p_over25": 0.7227,
+      "pred_home_goals": 2,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-11-22T20:00:00Z",
+      "competition": "PD",
+      "home_team": "Getafe",
+      "away_team": "Atleti",
+      "home_crest": "https://crests.football-data.org/82.png",
+      "away_crest": "https://crests.football-data.org/78.png",
+      "p_home": 0.1812,
+      "p_draw": 0.3284,
+      "p_away": 0.4904,
+      "pick_1x2": "A",
+      "p_over25": 0.2774,
+      "pred_home_goals": 0,
+      "pred_away_goals": 1
     }
   ],
   "recent": [
@@ -7673,8 +7718,8 @@
     }
   ],
   "counts": {
-    "predictions": 540,
+    "predictions": 543,
     "evaluated": 497,
-    "pending": 43
+    "pending": 46
   }
 }
