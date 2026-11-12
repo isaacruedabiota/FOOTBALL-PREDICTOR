@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T17:01:10.072332+00:00",
+  "generated_at": "2026-11-12T18:01:08.171474+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -6703,6 +6703,21 @@
       "p_over25": 0.7065,
       "pred_home_goals": 2,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-11-22T17:30:00Z",
+      "competition": "PD",
+      "home_team": "Osasuna",
+      "away_team": "Málaga",
+      "home_crest": "https://crests.football-data.org/79.png",
+      "away_crest": "https://crests.football-data.org/84.png",
+      "p_home": 0.5967,
+      "p_draw": 0.2516,
+      "p_away": 0.1518,
+      "pick_1x2": "H",
+      "p_over25": 0.4624,
+      "pred_home_goals": 1,
+      "pred_away_goals": 0
     }
   ],
   "recent": [
@@ -7658,8 +7673,8 @@
     }
   ],
   "counts": {
-    "predictions": 539,
+    "predictions": 540,
     "evaluated": 497,
-    "pending": 42
+    "pending": 43
   }
 }
