@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T11:01:08.956935+00:00",
+  "generated_at": "2026-11-12T12:01:09.343118+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -6523,6 +6523,21 @@
       "p_over25": 0.4964,
       "pred_home_goals": 2,
       "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-11-22T11:30:00Z",
+      "competition": "SA",
+      "home_team": "Juventus",
+      "away_team": "Venezia FC",
+      "home_crest": "https://crests.football-data.org/109.png",
+      "away_crest": "https://crests.football-data.org/454.png",
+      "p_home": 0.6901,
+      "p_draw": 0.2003,
+      "p_away": 0.1095,
+      "pick_1x2": "H",
+      "p_over25": 0.4315,
+      "pred_home_goals": 1,
+      "pred_away_goals": 0
     }
   ],
   "recent": [
@@ -7478,8 +7493,8 @@
     }
   ],
   "counts": {
-    "predictions": 527,
+    "predictions": 528,
     "evaluated": 497,
-    "pending": 30
+    "pending": 31
   }
 }
