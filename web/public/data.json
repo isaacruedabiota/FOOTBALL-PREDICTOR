@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T19:01:08.398189+00:00",
+  "generated_at": "2026-11-13T20:01:08.246491+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -6763,6 +6763,51 @@
       "p_over25": 0.2774,
       "pred_home_goals": 0,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-11-23T19:45:00Z",
+      "competition": "SA",
+      "home_team": "Monza",
+      "away_team": "Fiorentina",
+      "home_crest": "https://crests.football-data.org/5911.png",
+      "away_crest": "https://crests.football-data.org/99.png",
+      "p_home": 0.3489,
+      "p_draw": 0.1974,
+      "p_away": 0.4537,
+      "pick_1x2": "A",
+      "p_over25": 0.7634,
+      "pred_home_goals": 1,
+      "pred_away_goals": 2
+    },
+    {
+      "utc_date": "2026-11-23T20:00:00Z",
+      "competition": "PL",
+      "home_team": "Brentford",
+      "away_team": "Everton",
+      "home_crest": "https://crests.football-data.org/402.png",
+      "away_crest": "https://crests.football-data.org/62.png",
+      "p_home": 0.4957,
+      "p_draw": 0.2726,
+      "p_away": 0.2317,
+      "pick_1x2": "H",
+      "p_over25": 0.4564,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-11-23T20:00:00Z",
+      "competition": "PD",
+      "home_team": "Levante",
+      "away_team": "Elche",
+      "home_crest": "https://crests.football-data.org/88.png",
+      "away_crest": "https://crests.football-data.org/285.png",
+      "p_home": 0.4753,
+      "p_draw": 0.2575,
+      "p_away": 0.2672,
+      "pick_1x2": "H",
+      "p_over25": 0.5697,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
     }
   ],
   "recent": [
@@ -7718,8 +7763,8 @@
     }
   ],
   "counts": {
-    "predictions": 543,
+    "predictions": 546,
     "evaluated": 497,
-    "pending": 46
+    "pending": 49
   }
 }
