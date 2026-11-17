@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T19:01:08.667346+00:00",
+  "generated_at": "2026-11-17T20:01:09.743150+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -6808,6 +6808,81 @@
       "p_over25": 0.5697,
       "pred_home_goals": 1,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-11-27T19:30:00Z",
+      "competition": "BL1",
+      "home_team": "Bremen",
+      "away_team": "M'gladbach",
+      "home_crest": "https://crests.football-data.org/12.png",
+      "away_crest": "https://crests.football-data.org/18.png",
+      "p_home": 0.5723,
+      "p_draw": 0.2172,
+      "p_away": 0.2105,
+      "pick_1x2": "H",
+      "p_over25": 0.5786,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-11-27T19:45:00Z",
+      "competition": "SA",
+      "home_team": "Venezia FC",
+      "away_team": "Bologna",
+      "home_crest": "https://crests.football-data.org/454.png",
+      "away_crest": "https://crests.football-data.org/103.png",
+      "p_home": 0.1839,
+      "p_draw": 0.2403,
+      "p_away": 0.5758,
+      "pick_1x2": "A",
+      "p_over25": 0.4101,
+      "pred_home_goals": 0,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-11-27T19:45:00Z",
+      "competition": "FL1",
+      "home_team": "Brest",
+      "away_team": "Paris FC",
+      "home_crest": "https://crests.football-data.org/512.png",
+      "away_crest": "https://crests.football-data.org/1045.png",
+      "p_home": 0.3563,
+      "p_draw": 0.2685,
+      "p_away": 0.3753,
+      "pick_1x2": "A",
+      "p_over25": 0.5333,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-11-27T20:00:00Z",
+      "competition": "PL",
+      "home_team": "Nottingham",
+      "away_team": "Chelsea",
+      "home_crest": "https://crests.football-data.org/351.png",
+      "away_crest": "https://crests.football-data.org/61.png",
+      "p_home": 0.3919,
+      "p_draw": 0.2656,
+      "p_away": 0.3425,
+      "pick_1x2": "H",
+      "p_over25": 0.5382,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-11-27T20:00:00Z",
+      "competition": "PD",
+      "home_team": "Levante",
+      "away_team": "Santander",
+      "home_crest": "https://crests.football-data.org/88.png",
+      "away_crest": "https://crests.football-data.org/5335.png",
+      "p_home": 0.6694,
+      "p_draw": 0.1706,
+      "p_away": 0.16,
+      "pick_1x2": "H",
+      "p_over25": 0.7995,
+      "pred_home_goals": 2,
+      "pred_away_goals": 1
     }
   ],
   "recent": [
@@ -7763,8 +7838,8 @@
     }
   ],
   "counts": {
-    "predictions": 546,
+    "predictions": 551,
     "evaluated": 497,
-    "pending": 49
+    "pending": 54
   }
 }
