@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T15:01:08.946799+00:00",
+  "generated_at": "2026-11-18T16:01:09.290744+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -7003,6 +7003,21 @@
       "p_over25": 0.6279,
       "pred_home_goals": 1,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-11-28T15:15:00Z",
+      "competition": "PD",
+      "home_team": "Málaga",
+      "away_team": "Athletic",
+      "home_crest": "https://crests.football-data.org/84.png",
+      "away_crest": "https://crests.football-data.org/77.png",
+      "p_home": 0.2014,
+      "p_draw": 0.2862,
+      "p_away": 0.5124,
+      "pick_1x2": "A",
+      "p_over25": 0.4106,
+      "pred_home_goals": 0,
+      "pred_away_goals": 1
     }
   ],
   "recent": [
@@ -7958,8 +7973,8 @@
     }
   ],
   "counts": {
-    "predictions": 559,
+    "predictions": 560,
     "evaluated": 497,
-    "pending": 62
+    "pending": 63
   }
 }
