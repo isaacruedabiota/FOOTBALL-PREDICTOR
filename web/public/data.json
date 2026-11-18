@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T13:01:08.932633+00:00",
+  "generated_at": "2026-11-18T14:01:09.379186+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -6898,6 +6898,21 @@
       "p_over25": 0.5347,
       "pred_home_goals": 1,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-11-28T14:00:00Z",
+      "competition": "SA",
+      "home_team": "Frosinone",
+      "away_team": "Parma",
+      "home_crest": "https://crests.football-data.org/470.png",
+      "away_crest": "https://crests.football-data.org/112.png",
+      "p_home": 0.6841,
+      "p_draw": 0.1786,
+      "p_away": 0.1373,
+      "pick_1x2": "H",
+      "p_over25": 0.5855,
+      "pred_home_goals": 2,
+      "pred_away_goals": 0
     }
   ],
   "recent": [
@@ -7853,8 +7868,8 @@
     }
   ],
   "counts": {
-    "predictions": 552,
+    "predictions": 553,
     "evaluated": 497,
-    "pending": 55
+    "pending": 56
   }
 }
