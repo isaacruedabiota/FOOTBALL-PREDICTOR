@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T14:01:09.379186+00:00",
+  "generated_at": "2026-11-18T15:01:08.946799+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -6913,6 +6913,96 @@
       "p_over25": 0.5855,
       "pred_home_goals": 2,
       "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-11-28T14:30:00Z",
+      "competition": "BL1",
+      "home_team": "1. FC Köln",
+      "away_team": "Elversberg",
+      "home_crest": "https://crests.football-data.org/1.png",
+      "away_crest": "https://crests.football-data.org/719.png",
+      "p_home": 0.3328,
+      "p_draw": 0.2146,
+      "p_away": 0.4526,
+      "pick_1x2": "A",
+      "p_over25": 0.6975,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-11-28T14:30:00Z",
+      "competition": "BL1",
+      "home_team": "Mainz",
+      "away_team": "Union Berlin",
+      "home_crest": "https://crests.football-data.org/15.png",
+      "away_crest": "https://crests.football-data.org/28.png",
+      "p_home": 0.6125,
+      "p_draw": 0.205,
+      "p_away": 0.1825,
+      "pick_1x2": "H",
+      "p_over25": 0.5933,
+      "pred_home_goals": 2,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-11-28T14:30:00Z",
+      "competition": "BL1",
+      "home_team": "SC Paderborn",
+      "away_team": "Schalke",
+      "home_crest": "https://crests.football-data.org/29.png",
+      "away_crest": "https://crests.football-data.org/6.png",
+      "p_home": 0.3801,
+      "p_draw": 0.4478,
+      "p_away": 0.1721,
+      "pick_1x2": "D",
+      "p_over25": 0.0845,
+      "pred_home_goals": 0,
+      "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-11-28T14:30:00Z",
+      "competition": "BL1",
+      "home_team": "HSV",
+      "away_team": "Bayern",
+      "home_crest": "https://crests.football-data.org/7.png",
+      "away_crest": "https://crests.football-data.org/5.png",
+      "p_home": 0.0786,
+      "p_draw": 0.1159,
+      "p_away": 0.8055,
+      "pick_1x2": "A",
+      "p_over25": 0.7784,
+      "pred_home_goals": 0,
+      "pred_away_goals": 3
+    },
+    {
+      "utc_date": "2026-11-28T15:00:00Z",
+      "competition": "PL",
+      "home_team": "Leeds United",
+      "away_team": "Coventry City",
+      "home_crest": "https://crests.football-data.org/341.png",
+      "away_crest": "https://crests.football-data.org/1076.png",
+      "p_home": 0.5997,
+      "p_draw": 0.235,
+      "p_away": 0.1652,
+      "pick_1x2": "H",
+      "p_over25": 0.516,
+      "pred_home_goals": 1,
+      "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-11-28T15:00:00Z",
+      "competition": "PL",
+      "home_team": "Man United",
+      "away_team": "Brentford",
+      "home_crest": "https://crests.football-data.org/66.png",
+      "away_crest": "https://crests.football-data.org/402.png",
+      "p_home": 0.4189,
+      "p_draw": 0.2445,
+      "p_away": 0.3366,
+      "pick_1x2": "H",
+      "p_over25": 0.6279,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
     }
   ],
   "recent": [
@@ -7868,8 +7958,8 @@
     }
   ],
   "counts": {
-    "predictions": 553,
+    "predictions": 559,
     "evaluated": 497,
-    "pending": 56
+    "pending": 62
   }
 }
