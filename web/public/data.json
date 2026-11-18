@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T17:01:11.214313+00:00",
+  "generated_at": "2026-11-18T18:01:12.530015+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -7048,6 +7048,51 @@
       "p_over25": 0.525,
       "pred_home_goals": 0,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-11-28T17:30:00Z",
+      "competition": "PL",
+      "home_team": "Ipswich Town",
+      "away_team": "Aston Villa",
+      "home_crest": "https://crests.football-data.org/349.png",
+      "away_crest": "https://crests.football-data.org/58.png",
+      "p_home": 0.353,
+      "p_draw": 0.2153,
+      "p_away": 0.4318,
+      "pick_1x2": "A",
+      "p_over25": 0.762,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-11-28T17:30:00Z",
+      "competition": "PD",
+      "home_team": "Elche",
+      "away_team": "Atleti",
+      "home_crest": "https://crests.football-data.org/285.png",
+      "away_crest": "https://crests.football-data.org/78.png",
+      "p_home": 0.2439,
+      "p_draw": 0.2708,
+      "p_away": 0.4853,
+      "pick_1x2": "A",
+      "p_over25": 0.5016,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-11-28T17:30:00Z",
+      "competition": "BL1",
+      "home_team": "Stuttgart",
+      "away_team": "Frankfurt",
+      "home_crest": "https://crests.football-data.org/10.png",
+      "away_crest": "https://crests.football-data.org/19.png",
+      "p_home": 0.6964,
+      "p_draw": 0.1546,
+      "p_away": 0.149,
+      "pick_1x2": "H",
+      "p_over25": 0.784,
+      "pred_home_goals": 2,
+      "pred_away_goals": 1
     }
   ],
   "recent": [
@@ -8003,8 +8048,8 @@
     }
   ],
   "counts": {
-    "predictions": 562,
+    "predictions": 565,
     "evaluated": 497,
-    "pending": 65
+    "pending": 68
   }
 }
