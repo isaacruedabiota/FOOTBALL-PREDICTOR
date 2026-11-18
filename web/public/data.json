@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T19:01:08.422012+00:00",
+  "generated_at": "2026-11-18T20:01:10.118539+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -7093,6 +7093,96 @@
       "p_over25": 0.784,
       "pred_home_goals": 2,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-11-28T19:45:00Z",
+      "competition": "SA",
+      "home_team": "Inter",
+      "away_team": "Genoa",
+      "home_crest": "https://crests.football-data.org/108.png",
+      "away_crest": "https://crests.football-data.org/107.png",
+      "p_home": 0.7358,
+      "p_draw": 0.1538,
+      "p_away": 0.1104,
+      "pick_1x2": "H",
+      "p_over25": 0.6399,
+      "pred_home_goals": 2,
+      "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-11-28T19:45:00Z",
+      "competition": "FL1",
+      "home_team": "Le Havre",
+      "away_team": "Strasbourg",
+      "home_crest": "https://crests.football-data.org/533.png",
+      "away_crest": "https://crests.football-data.org/576.png",
+      "p_home": 0.2533,
+      "p_draw": 0.2343,
+      "p_away": 0.5124,
+      "pick_1x2": "A",
+      "p_over25": 0.6324,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-11-28T19:45:00Z",
+      "competition": "FL1",
+      "home_team": "PSG",
+      "away_team": "Lorient",
+      "home_crest": "https://crests.football-data.org/524.png",
+      "away_crest": "https://crests.football-data.org/525.png",
+      "p_home": 0.6715,
+      "p_draw": 0.2175,
+      "p_away": 0.1109,
+      "pick_1x2": "H",
+      "p_over25": 0.4811,
+      "pred_home_goals": 2,
+      "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-11-28T19:45:00Z",
+      "competition": "FL1",
+      "home_team": "Le Mans",
+      "away_team": "Lille",
+      "home_crest": "https://crests.football-data.org/535.png",
+      "away_crest": "https://crests.football-data.org/521.png",
+      "p_home": 0.1748,
+      "p_draw": 0.2705,
+      "p_away": 0.5547,
+      "pick_1x2": "A",
+      "p_over25": 0.4103,
+      "pred_home_goals": 0,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-11-28T19:45:00Z",
+      "competition": "FL1",
+      "home_team": "Nice",
+      "away_team": "Troyes",
+      "home_crest": "https://crests.football-data.org/522.png",
+      "away_crest": "https://crests.football-data.org/531.png",
+      "p_home": 0.5668,
+      "p_draw": 0.2744,
+      "p_away": 0.1588,
+      "pick_1x2": "H",
+      "p_over25": 0.3778,
+      "pred_home_goals": 1,
+      "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-11-28T20:00:00Z",
+      "competition": "PD",
+      "home_team": "Real Madrid",
+      "away_team": "Alavés",
+      "home_crest": "https://crests.football-data.org/86.png",
+      "away_crest": "https://crests.football-data.org/263.png",
+      "p_home": 0.8074,
+      "p_draw": 0.1374,
+      "p_away": 0.0553,
+      "pick_1x2": "H",
+      "p_over25": 0.6472,
+      "pred_home_goals": 2,
+      "pred_away_goals": 0
     }
   ],
   "recent": [
@@ -8048,8 +8138,8 @@
     }
   ],
   "counts": {
-    "predictions": 565,
+    "predictions": 571,
     "evaluated": 497,
-    "pending": 68
+    "pending": 74
   }
 }
