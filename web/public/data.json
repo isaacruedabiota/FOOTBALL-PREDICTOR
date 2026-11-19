@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T19:01:08.855369+00:00",
+  "generated_at": "2026-11-19T20:01:11.084363+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -7438,6 +7438,51 @@
       "p_over25": 0.5707,
       "pred_home_goals": 2,
       "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-11-29T19:45:00Z",
+      "competition": "SA",
+      "home_team": "Como 1907",
+      "away_team": "Juventus",
+      "home_crest": "https://crests.football-data.org/7397.png",
+      "away_crest": "https://crests.football-data.org/109.png",
+      "p_home": 0.4797,
+      "p_draw": 0.2724,
+      "p_away": 0.2479,
+      "pick_1x2": "H",
+      "p_over25": 0.3603,
+      "pred_home_goals": 1,
+      "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-11-29T19:45:00Z",
+      "competition": "FL1",
+      "home_team": "Olympique Lyon",
+      "away_team": "Monaco",
+      "home_crest": "https://crests.football-data.org/523.png",
+      "away_crest": "https://crests.football-data.org/548.png",
+      "p_home": 0.4698,
+      "p_draw": 0.2687,
+      "p_away": 0.2615,
+      "pick_1x2": "H",
+      "p_over25": 0.4986,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-11-29T20:00:00Z",
+      "competition": "PD",
+      "home_team": "Real Sociedad",
+      "away_team": "Sevilla FC",
+      "home_crest": "https://crests.football-data.org/92.png",
+      "away_crest": "https://crests.football-data.org/559.png",
+      "p_home": 0.5606,
+      "p_draw": 0.2157,
+      "p_away": 0.2237,
+      "pick_1x2": "H",
+      "p_over25": 0.702,
+      "pred_home_goals": 2,
+      "pred_away_goals": 1
     }
   ],
   "recent": [
@@ -8393,8 +8438,8 @@
     }
   ],
   "counts": {
-    "predictions": 588,
+    "predictions": 591,
     "evaluated": 497,
-    "pending": 91
+    "pending": 94
   }
 }
