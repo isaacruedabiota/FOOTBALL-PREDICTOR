@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T17:01:11.073103+00:00",
+  "generated_at": "2026-11-19T18:01:09.394005+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -7408,6 +7408,21 @@
       "p_over25": 0.8539,
       "pred_home_goals": 3,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-11-29T17:30:00Z",
+      "competition": "PD",
+      "home_team": "Celta",
+      "away_team": "Villarreal",
+      "home_crest": "https://crests.football-data.org/558.png",
+      "away_crest": "https://crests.football-data.org/94.png",
+      "p_home": 0.3487,
+      "p_draw": 0.3056,
+      "p_away": 0.3457,
+      "pick_1x2": "H",
+      "p_over25": 0.4136,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
     }
   ],
   "recent": [
@@ -8363,8 +8378,8 @@
     }
   ],
   "counts": {
-    "predictions": 586,
+    "predictions": 587,
     "evaluated": 497,
-    "pending": 89
+    "pending": 90
   }
 }
