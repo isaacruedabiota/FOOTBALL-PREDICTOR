@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T14:01:10.003773+00:00",
+  "generated_at": "2026-11-19T15:01:10.326507+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -7258,6 +7258,81 @@
       "p_over25": 0.6377,
       "pred_home_goals": 1,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-11-29T14:05:00Z",
+      "competition": "PL",
+      "home_team": "Fulham",
+      "away_team": "Bournemouth",
+      "home_crest": "https://crests.football-data.org/63.png",
+      "away_crest": "https://crests.football-data.org/bournemouth.png",
+      "p_home": 0.3202,
+      "p_draw": 0.2971,
+      "p_away": 0.3826,
+      "pick_1x2": "A",
+      "p_over25": 0.413,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-11-29T14:05:00Z",
+      "competition": "PL",
+      "home_team": "Brighton Hove",
+      "away_team": "Newcastle",
+      "home_crest": "https://crests.football-data.org/397.png",
+      "away_crest": "https://crests.football-data.org/67.png",
+      "p_home": 0.7127,
+      "p_draw": 0.1795,
+      "p_away": 0.1078,
+      "pick_1x2": "H",
+      "p_over25": 0.6219,
+      "pred_home_goals": 2,
+      "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-11-29T14:05:00Z",
+      "competition": "PL",
+      "home_team": "Sunderland",
+      "away_team": "Tottenham",
+      "home_crest": "https://crests.football-data.org/71.png",
+      "away_crest": "https://crests.football-data.org/73.png",
+      "p_home": 0.3708,
+      "p_draw": 0.3156,
+      "p_away": 0.3137,
+      "pick_1x2": "H",
+      "p_over25": 0.3515,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-11-29T14:05:00Z",
+      "competition": "PL",
+      "home_team": "Crystal Palace",
+      "away_team": "Hull City",
+      "home_crest": "https://crests.football-data.org/354.png",
+      "away_crest": "https://crests.football-data.org/322.png",
+      "p_home": 0.2754,
+      "p_draw": 0.3069,
+      "p_away": 0.4177,
+      "pick_1x2": "A",
+      "p_over25": 0.368,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-11-29T14:30:00Z",
+      "competition": "BL1",
+      "home_team": "Freiburg",
+      "away_team": "RB Leipzig",
+      "home_crest": "https://crests.football-data.org/17.png",
+      "away_crest": "https://crests.football-data.org/721.png",
+      "p_home": 0.3978,
+      "p_draw": 0.2186,
+      "p_away": 0.3837,
+      "pick_1x2": "H",
+      "p_over25": 0.6882,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
     }
   ],
   "recent": [
@@ -8213,8 +8288,8 @@
     }
   ],
   "counts": {
-    "predictions": 576,
+    "predictions": 581,
     "evaluated": 497,
-    "pending": 79
+    "pending": 84
   }
 }
