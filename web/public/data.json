@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T18:01:09.394005+00:00",
+  "generated_at": "2026-11-19T19:01:08.855369+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -7423,6 +7423,21 @@
       "p_over25": 0.4136,
       "pred_home_goals": 1,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-11-29T18:30:00Z",
+      "competition": "BL1",
+      "home_team": "Dortmund",
+      "away_team": "Leverkusen",
+      "home_crest": "https://crests.football-data.org/4.png",
+      "away_crest": "https://crests.football-data.org/3.png",
+      "p_home": 0.6313,
+      "p_draw": 0.2033,
+      "p_away": 0.1654,
+      "pick_1x2": "H",
+      "p_over25": 0.5707,
+      "pred_home_goals": 2,
+      "pred_away_goals": 0
     }
   ],
   "recent": [
@@ -8378,8 +8393,8 @@
     }
   ],
   "counts": {
-    "predictions": 587,
+    "predictions": 588,
     "evaluated": 497,
-    "pending": 90
+    "pending": 91
   }
 }
