@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T15:01:10.326507+00:00",
+  "generated_at": "2026-11-19T16:01:08.595159+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -7333,6 +7333,21 @@
       "p_over25": 0.6882,
       "pred_home_goals": 1,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-11-29T15:15:00Z",
+      "competition": "PD",
+      "home_team": "Deportivo",
+      "away_team": "Barça",
+      "home_crest": "https://crests.football-data.org/560.png",
+      "away_crest": "https://crests.football-data.org/81.png",
+      "p_home": 0.1347,
+      "p_draw": 0.1947,
+      "p_away": 0.6705,
+      "pick_1x2": "A",
+      "p_over25": 0.6499,
+      "pred_home_goals": 0,
+      "pred_away_goals": 2
     }
   ],
   "recent": [
@@ -8288,8 +8303,8 @@
     }
   ],
   "counts": {
-    "predictions": 581,
+    "predictions": 582,
     "evaluated": 497,
-    "pending": 84
+    "pending": 85
   }
 }
