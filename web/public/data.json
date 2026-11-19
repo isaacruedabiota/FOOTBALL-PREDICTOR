@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T13:01:08.498228+00:00",
+  "generated_at": "2026-11-19T14:01:10.003773+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -7228,6 +7228,36 @@
       "p_over25": 0.4269,
       "pred_home_goals": 1,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-11-29T14:00:00Z",
+      "competition": "SA",
+      "home_team": "Sassuolo",
+      "away_team": "Napoli",
+      "home_crest": "https://crests.football-data.org/471.png",
+      "away_crest": "https://crests.football-data.org/113.png",
+      "p_home": 0.1999,
+      "p_draw": 0.1995,
+      "p_away": 0.6006,
+      "pick_1x2": "A",
+      "p_over25": 0.6047,
+      "pred_home_goals": 1,
+      "pred_away_goals": 2
+    },
+    {
+      "utc_date": "2026-11-29T14:00:00Z",
+      "competition": "FL1",
+      "home_team": "Auxerre",
+      "away_team": "Marseille",
+      "home_crest": "https://crests.football-data.org/519.png",
+      "away_crest": "https://crests.football-data.org/516.png",
+      "p_home": 0.2219,
+      "p_draw": 0.2257,
+      "p_away": 0.5524,
+      "pick_1x2": "A",
+      "p_over25": 0.6377,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
     }
   ],
   "recent": [
@@ -8183,8 +8213,8 @@
     }
   ],
   "counts": {
-    "predictions": 574,
+    "predictions": 576,
     "evaluated": 497,
-    "pending": 77
+    "pending": 79
   }
 }
