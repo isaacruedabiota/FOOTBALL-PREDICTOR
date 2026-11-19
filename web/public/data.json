@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T12:01:09.005562+00:00",
+  "generated_at": "2026-11-19T13:01:08.498228+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -7213,6 +7213,21 @@
       "p_over25": 0.4429,
       "pred_home_goals": 1,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-11-29T13:00:00Z",
+      "competition": "PD",
+      "home_team": "Valencia",
+      "away_team": "Osasuna",
+      "home_crest": "https://crests.football-data.org/95.png",
+      "away_crest": "https://crests.football-data.org/79.png",
+      "p_home": 0.4654,
+      "p_draw": 0.2917,
+      "p_away": 0.2429,
+      "pick_1x2": "H",
+      "p_over25": 0.4269,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
     }
   ],
   "recent": [
@@ -8168,8 +8183,8 @@
     }
   ],
   "counts": {
-    "predictions": 573,
+    "predictions": 574,
     "evaluated": 497,
-    "pending": 76
+    "pending": 77
   }
 }
