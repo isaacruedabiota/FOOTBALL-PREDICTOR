@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T17:01:12.715179+00:00",
+  "generated_at": "2026-11-20T18:01:10.668284+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -7483,6 +7483,21 @@
       "p_over25": 0.702,
       "pred_home_goals": 2,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-11-30T17:30:00Z",
+      "competition": "SA",
+      "home_team": "Lecce",
+      "away_team": "Atalanta",
+      "home_crest": "https://crests.football-data.org/5890.png",
+      "away_crest": "https://crests.football-data.org/102.png",
+      "p_home": 0.2291,
+      "p_draw": 0.2409,
+      "p_away": 0.53,
+      "pick_1x2": "A",
+      "p_over25": 0.4551,
+      "pred_home_goals": 0,
+      "pred_away_goals": 1
     }
   ],
   "recent": [
@@ -8438,8 +8453,8 @@
     }
   ],
   "counts": {
-    "predictions": 591,
+    "predictions": 592,
     "evaluated": 497,
-    "pending": 94
+    "pending": 95
   }
 }
