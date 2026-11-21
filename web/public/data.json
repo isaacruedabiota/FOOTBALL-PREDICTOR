@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T21:01:13.410970+00:00",
+  "generated_at": "2026-11-21T22:01:10.468962+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -8,22 +8,22 @@
   },
   "summary": {
     "dc-v1": {
-      "n": 520,
-      "acc_1x2": 51.7308,
-      "acc_ou": 58.4615,
-      "acc_score": 10.1923,
-      "brier": 0.5949,
-      "logloss": 1.0104,
-      "rps": 0.2087
+      "n": 524,
+      "acc_1x2": 51.3359,
+      "acc_ou": 58.2061,
+      "acc_score": 10.3053,
+      "brier": 0.5974,
+      "logloss": 1.0136,
+      "rps": 0.2093
     },
     "elo-v1": {
-      "n": 521,
-      "acc_1x2": 52.5912,
-      "acc_ou": 51.8234,
-      "acc_score": 9.0211,
-      "brier": 0.585,
-      "logloss": 0.9866,
-      "rps": 0.2057
+      "n": 525,
+      "acc_1x2": 52.1905,
+      "acc_ou": 51.4286,
+      "acc_score": 8.9524,
+      "brier": 0.5882,
+      "logloss": 0.9913,
+      "rps": 0.2066
     }
   },
   "by_competition": {
@@ -38,11 +38,11 @@
       },
       {
         "competition": "FL1",
-        "n": 92,
-        "acc_1x2": 52.1739,
-        "acc_ou": 59.7826,
-        "acc_score": 9.7826,
-        "rps": 0.2178
+        "n": 96,
+        "acc_1x2": 50.0,
+        "acc_ou": 58.3333,
+        "acc_score": 10.4167,
+        "rps": 0.2207
       },
       {
         "competition": "PD",
@@ -80,11 +80,11 @@
       },
       {
         "competition": "FL1",
-        "n": 92,
-        "acc_1x2": 54.3478,
-        "acc_ou": 58.6957,
-        "acc_score": 7.6087,
-        "rps": 0.2117
+        "n": 96,
+        "acc_1x2": 52.0833,
+        "acc_ou": 56.25,
+        "acc_score": 7.2917,
+        "rps": 0.2161
       },
       {
         "competition": "PD",
@@ -3233,6 +3233,30 @@
         "n": 520,
         "acc_1x2": 51.7308,
         "rps": 0.2087
+      },
+      {
+        "date": "2026-11-21",
+        "n": 521,
+        "acc_1x2": 51.6315,
+        "rps": 0.2087
+      },
+      {
+        "date": "2026-11-21",
+        "n": 522,
+        "acc_1x2": 51.5326,
+        "rps": 0.2086
+      },
+      {
+        "date": "2026-11-21",
+        "n": 523,
+        "acc_1x2": 51.434,
+        "rps": 0.209
+      },
+      {
+        "date": "2026-11-21",
+        "n": 524,
+        "acc_1x2": 51.3359,
+        "rps": 0.2093
       }
     ],
     "elo-v1": [
@@ -6361,114 +6385,93 @@
         "n": 521,
         "acc_1x2": 52.5912,
         "rps": 0.2057
+      },
+      {
+        "date": "2026-11-21",
+        "n": 522,
+        "acc_1x2": 52.4904,
+        "rps": 0.2058
+      },
+      {
+        "date": "2026-11-21",
+        "n": 523,
+        "acc_1x2": 52.3901,
+        "rps": 0.2058
+      },
+      {
+        "date": "2026-11-21",
+        "n": 524,
+        "acc_1x2": 52.2901,
+        "rps": 0.2062
+      },
+      {
+        "date": "2026-11-21",
+        "n": 525,
+        "acc_1x2": 52.1905,
+        "rps": 0.2066
       }
     ]
   },
   "upcoming": [
     {
-      "utc_date": "2026-11-21T12:30:00Z",
-      "competition": "PL",
-      "home_team": "Man City",
-      "away_team": "Fulham",
-      "home_crest": "https://crests.football-data.org/65.png",
-      "away_crest": "https://crests.football-data.org/63.png",
-      "p_home": 0.6498,
-      "p_draw": 0.2226,
-      "p_away": 0.1277,
+      "utc_date": "2026-11-21T14:00:00Z",
+      "competition": "SA",
+      "home_team": "Como 1907",
+      "away_team": "Cagliari",
+      "home_crest": "https://crests.football-data.org/7397.png",
+      "away_crest": "https://crests.football-data.org/104.png",
+      "p_home": 0.6577,
+      "p_draw": 0.2188,
+      "p_away": 0.1236,
       "pick_1x2": "H",
-      "p_over25": 0.4941,
-      "pred_home_goals": 2,
+      "p_over25": 0.3965,
+      "pred_home_goals": 1,
       "pred_away_goals": 0
     },
     {
-      "utc_date": "2026-11-21T15:00:00Z",
-      "competition": "PL",
-      "home_team": "Chelsea",
-      "away_team": "Leeds United",
-      "home_crest": "https://crests.football-data.org/61.png",
-      "away_crest": "https://crests.football-data.org/341.png",
-      "p_home": 0.4587,
-      "p_draw": 0.2668,
-      "p_away": 0.2745,
+      "utc_date": "2026-11-21T14:00:00Z",
+      "competition": "SA",
+      "home_team": "Lazio",
+      "away_team": "Lecce",
+      "home_crest": "https://crests.football-data.org/110.png",
+      "away_crest": "https://crests.football-data.org/5890.png",
+      "p_home": 0.6751,
+      "p_draw": 0.1975,
+      "p_away": 0.1274,
       "pick_1x2": "H",
-      "p_over25": 0.5083,
+      "p_over25": 0.4787,
       "pred_home_goals": 1,
-      "pred_away_goals": 1
+      "pred_away_goals": 0
     },
     {
-      "utc_date": "2026-11-21T15:00:00Z",
-      "competition": "PL",
-      "home_team": "Aston Villa",
-      "away_team": "Sunderland",
-      "home_crest": "https://crests.football-data.org/58.png",
-      "away_crest": "https://crests.football-data.org/71.png",
-      "p_home": 0.5697,
-      "p_draw": 0.2397,
-      "p_away": 0.1906,
-      "pick_1x2": "H",
-      "p_over25": 0.5356,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
-    {
-      "utc_date": "2026-11-21T15:00:00Z",
-      "competition": "PL",
-      "home_team": "Bournemouth",
-      "away_team": "Nottingham",
-      "home_crest": "https://crests.football-data.org/bournemouth.png",
-      "away_crest": "https://crests.football-data.org/351.png",
-      "p_home": 0.5057,
-      "p_draw": 0.2652,
-      "p_away": 0.229,
-      "pick_1x2": "H",
-      "p_over25": 0.4807,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
-    {
-      "utc_date": "2026-11-21T15:00:00Z",
-      "competition": "PL",
-      "home_team": "Tottenham",
-      "away_team": "Ipswich Town",
-      "home_crest": "https://crests.football-data.org/73.png",
-      "away_crest": "https://crests.football-data.org/349.png",
-      "p_home": 0.4769,
-      "p_draw": 0.2426,
-      "p_away": 0.2805,
-      "pick_1x2": "H",
-      "p_over25": 0.6117,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
-    {
-      "utc_date": "2026-11-21T15:00:00Z",
-      "competition": "PL",
-      "home_team": "Coventry City",
-      "away_team": "Crystal Palace",
-      "home_crest": "https://crests.football-data.org/1076.png",
-      "away_crest": "https://crests.football-data.org/354.png",
-      "p_home": 0.4739,
-      "p_draw": 0.2443,
-      "p_away": 0.2818,
-      "pick_1x2": "H",
-      "p_over25": 0.6049,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
-    {
-      "utc_date": "2026-11-21T17:30:00Z",
-      "competition": "PL",
-      "home_team": "Newcastle",
-      "away_team": "Arsenal",
-      "home_crest": "https://crests.football-data.org/67.png",
-      "away_crest": "https://crests.football-data.org/57.png",
-      "p_home": 0.1367,
-      "p_draw": 0.2446,
-      "p_away": 0.6187,
+      "utc_date": "2026-11-21T17:00:00Z",
+      "competition": "SA",
+      "home_team": "Parma",
+      "away_team": "Roma",
+      "home_crest": "https://crests.football-data.org/112.png",
+      "away_crest": "https://crests.football-data.org/100.png",
+      "p_home": 0.1004,
+      "p_draw": 0.1835,
+      "p_away": 0.7161,
       "pick_1x2": "A",
-      "p_over25": 0.4334,
+      "p_over25": 0.4727,
       "pred_home_goals": 0,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-11-21T19:45:00Z",
+      "competition": "SA",
+      "home_team": "Napoli",
+      "away_team": "Torino",
+      "home_crest": "https://crests.football-data.org/113.png",
+      "away_crest": "https://crests.football-data.org/586.png",
+      "p_home": 0.6171,
+      "p_draw": 0.2042,
+      "p_away": 0.1787,
+      "pick_1x2": "H",
+      "p_over25": 0.5468,
+      "pred_home_goals": 1,
+      "pred_away_goals": 0
     },
     {
       "utc_date": "2026-11-22T11:30:00Z",
@@ -7493,6 +7496,82 @@
   ],
   "recent": [
     {
+      "utc_date": "2026-11-21T19:45:00Z",
+      "competition": "FL1",
+      "home_team": "Monaco",
+      "away_team": "Auxerre",
+      "home_crest": "https://crests.football-data.org/548.png",
+      "away_crest": "https://crests.football-data.org/519.png",
+      "p_home": 0.6373,
+      "p_draw": 0.2097,
+      "p_away": 0.153,
+      "pick_1x2": "H",
+      "actual_1x2": "D",
+      "correct_1x2": 0,
+      "correct_ou": 0,
+      "correct_score": 0,
+      "home_goals": 1,
+      "away_goals": 1,
+      "rps_1x2": 0.2148
+    },
+    {
+      "utc_date": "2026-11-21T19:45:00Z",
+      "competition": "FL1",
+      "home_team": "RC Lens",
+      "away_team": "Toulouse",
+      "home_crest": "https://crests.football-data.org/546.png",
+      "away_crest": "https://crests.football-data.org/511.png",
+      "p_home": 0.5674,
+      "p_draw": 0.2276,
+      "p_away": 0.2051,
+      "pick_1x2": "H",
+      "actual_1x2": "D",
+      "correct_1x2": 0,
+      "correct_ou": 0,
+      "correct_score": 1,
+      "home_goals": 1,
+      "away_goals": 1,
+      "rps_1x2": 0.182
+    },
+    {
+      "utc_date": "2026-11-21T19:45:00Z",
+      "competition": "FL1",
+      "home_team": "Lille",
+      "away_team": "Olympique Lyon",
+      "home_crest": "https://crests.football-data.org/521.png",
+      "away_crest": "https://crests.football-data.org/523.png",
+      "p_home": 0.4378,
+      "p_draw": 0.3238,
+      "p_away": 0.2384,
+      "pick_1x2": "H",
+      "actual_1x2": "A",
+      "correct_1x2": 0,
+      "correct_ou": 1,
+      "correct_score": 0,
+      "home_goals": 0,
+      "away_goals": 1,
+      "rps_1x2": 0.3859
+    },
+    {
+      "utc_date": "2026-11-21T19:45:00Z",
+      "competition": "FL1",
+      "home_team": "Strasbourg",
+      "away_team": "Brest",
+      "home_crest": "https://crests.football-data.org/576.png",
+      "away_crest": "https://crests.football-data.org/512.png",
+      "p_home": 0.484,
+      "p_draw": 0.2217,
+      "p_away": 0.2943,
+      "pick_1x2": "H",
+      "actual_1x2": "A",
+      "correct_1x2": 0,
+      "correct_ou": 0,
+      "correct_score": 0,
+      "home_goals": 0,
+      "away_goals": 1,
+      "rps_1x2": 0.3661
+    },
+    {
       "utc_date": "2026-11-21T17:30:00Z",
       "competition": "PD",
       "home_team": "Sevilla FC",
@@ -7526,8 +7605,8 @@
       "correct_1x2": 0,
       "correct_ou": 0,
       "correct_score": 0,
-      "home_goals": null,
-      "away_goals": null,
+      "home_goals": 2,
+      "away_goals": 2,
       "rps_1x2": 0.2007
     },
     {
@@ -7564,8 +7643,8 @@
       "correct_1x2": 1,
       "correct_ou": 0,
       "correct_score": 0,
-      "home_goals": 1,
-      "away_goals": 5,
+      "home_goals": null,
+      "away_goals": null,
       "rps_1x2": 0.0453
     },
     {
@@ -7621,8 +7700,8 @@
       "correct_1x2": 0,
       "correct_ou": 1,
       "correct_score": 0,
-      "home_goals": null,
-      "away_goals": null,
+      "home_goals": 1,
+      "away_goals": 4,
       "rps_1x2": 0.3683
     },
     {
@@ -7640,8 +7719,8 @@
       "correct_1x2": 0,
       "correct_ou": 0,
       "correct_score": 0,
-      "home_goals": null,
-      "away_goals": null,
+      "home_goals": 0,
+      "away_goals": 0,
       "rps_1x2": 0.1805
     },
     {
@@ -7659,8 +7738,8 @@
       "correct_1x2": 1,
       "correct_ou": 1,
       "correct_score": 0,
-      "home_goals": null,
-      "away_goals": null,
+      "home_goals": 2,
+      "away_goals": 0,
       "rps_1x2": 0.1484
     },
     {
@@ -7678,8 +7757,8 @@
       "correct_1x2": 1,
       "correct_ou": 0,
       "correct_score": 0,
-      "home_goals": null,
-      "away_goals": null,
+      "home_goals": 2,
+      "away_goals": 0,
       "rps_1x2": 0.1762
     },
     {
@@ -7697,8 +7776,8 @@
       "correct_1x2": 1,
       "correct_ou": 1,
       "correct_score": 0,
-      "home_goals": null,
-      "away_goals": null,
+      "home_goals": 3,
+      "away_goals": 2,
       "rps_1x2": 0.1781
     },
     {
@@ -7811,8 +7890,8 @@
       "correct_1x2": 1,
       "correct_ou": 1,
       "correct_score": 0,
-      "home_goals": 2,
-      "away_goals": 0,
+      "home_goals": null,
+      "away_goals": null,
       "rps_1x2": 0.0662
     },
     {
@@ -7830,8 +7909,8 @@
       "correct_1x2": 1,
       "correct_ou": 0,
       "correct_score": 0,
-      "home_goals": 3,
-      "away_goals": 0,
+      "home_goals": null,
+      "away_goals": null,
       "rps_1x2": 0.0609
     },
     {
@@ -7868,8 +7947,8 @@
       "correct_1x2": 0,
       "correct_ou": 1,
       "correct_score": 0,
-      "home_goals": null,
-      "away_goals": null,
+      "home_goals": 1,
+      "away_goals": 1,
       "rps_1x2": 0.2192
     },
     {
@@ -8365,87 +8444,11 @@
       "home_goals": 0,
       "away_goals": 2,
       "rps_1x2": 0.2695
-    },
-    {
-      "utc_date": "2026-11-08T11:30:00Z",
-      "competition": "SA",
-      "home_team": "Napoli",
-      "away_team": "Lazio",
-      "home_crest": "https://crests.football-data.org/113.png",
-      "away_crest": "https://crests.football-data.org/110.png",
-      "p_home": 0.4187,
-      "p_draw": 0.2586,
-      "p_away": 0.3227,
-      "pick_1x2": "H",
-      "actual_1x2": "D",
-      "correct_1x2": 0,
-      "correct_ou": 1,
-      "correct_score": 1,
-      "home_goals": 1,
-      "away_goals": 1,
-      "rps_1x2": 0.1397
-    },
-    {
-      "utc_date": "2026-11-07T20:05:00Z",
-      "competition": "FL1",
-      "home_team": "PSG",
-      "away_team": "Troyes",
-      "home_crest": "https://crests.football-data.org/524.png",
-      "away_crest": "https://crests.football-data.org/531.png",
-      "p_home": 0.8968,
-      "p_draw": 0.0839,
-      "p_away": 0.0192,
-      "pick_1x2": "H",
-      "actual_1x2": "H",
-      "correct_1x2": 1,
-      "correct_ou": 0,
-      "correct_score": 0,
-      "home_goals": 1,
-      "away_goals": 0,
-      "rps_1x2": 0.0055
-    },
-    {
-      "utc_date": "2026-11-07T20:00:00Z",
-      "competition": "PD",
-      "home_team": "Valencia",
-      "away_team": "Real Madrid",
-      "home_crest": "https://crests.football-data.org/95.png",
-      "away_crest": "https://crests.football-data.org/86.png",
-      "p_home": 0.1405,
-      "p_draw": 0.2394,
-      "p_away": 0.6201,
-      "pick_1x2": "A",
-      "actual_1x2": "A",
-      "correct_1x2": 1,
-      "correct_ou": 0,
-      "correct_score": 0,
-      "home_goals": 0,
-      "away_goals": 3,
-      "rps_1x2": 0.082
-    },
-    {
-      "utc_date": "2026-11-07T19:45:00Z",
-      "competition": "SA",
-      "home_team": "Roma",
-      "away_team": "Sassuolo",
-      "home_crest": "https://crests.football-data.org/100.png",
-      "away_crest": "https://crests.football-data.org/471.png",
-      "p_home": 0.7486,
-      "p_draw": 0.1455,
-      "p_away": 0.1059,
-      "pick_1x2": "H",
-      "actual_1x2": "H",
-      "correct_1x2": 1,
-      "correct_ou": 1,
-      "correct_score": 0,
-      "home_goals": 3,
-      "away_goals": 0,
-      "rps_1x2": 0.0372
     }
   ],
   "counts": {
     "predictions": 595,
-    "evaluated": 520,
-    "pending": 75
+    "evaluated": 524,
+    "pending": 71
   }
 }
