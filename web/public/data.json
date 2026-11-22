@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T14:01:11.962453+00:00",
+  "generated_at": "2026-11-22T15:01:10.120021+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -6450,6 +6450,21 @@
   },
   "upcoming": [
     {
+      "utc_date": "2026-11-22T11:30:00Z",
+      "competition": "SA",
+      "home_team": "Juventus",
+      "away_team": "Venezia FC",
+      "home_crest": "https://crests.football-data.org/109.png",
+      "away_crest": "https://crests.football-data.org/454.png",
+      "p_home": 0.6901,
+      "p_draw": 0.2003,
+      "p_away": 0.1095,
+      "pick_1x2": "H",
+      "p_over25": 0.4315,
+      "pred_home_goals": 1,
+      "pred_away_goals": 0
+    },
+    {
       "utc_date": "2026-11-22T14:00:00Z",
       "competition": "SA",
       "home_team": "Bologna",
@@ -6493,36 +6508,6 @@
       "p_over25": 0.504,
       "pred_home_goals": 2,
       "pred_away_goals": 0
-    },
-    {
-      "utc_date": "2026-11-22T14:00:00Z",
-      "competition": "PL",
-      "home_team": "Hull City",
-      "away_team": "Brighton Hove",
-      "home_crest": "https://crests.football-data.org/322.png",
-      "away_crest": "https://crests.football-data.org/397.png",
-      "p_home": 0.2252,
-      "p_draw": 0.3054,
-      "p_away": 0.4694,
-      "pick_1x2": "A",
-      "p_over25": 0.3462,
-      "pred_home_goals": 0,
-      "pred_away_goals": 1
-    },
-    {
-      "utc_date": "2026-11-22T14:30:00Z",
-      "competition": "BL1",
-      "home_team": "Augsburg",
-      "away_team": "Mainz",
-      "home_crest": "https://crests.football-data.org/16.png",
-      "away_crest": "https://crests.football-data.org/15.png",
-      "p_home": 0.5135,
-      "p_draw": 0.2037,
-      "p_away": 0.2828,
-      "pick_1x2": "H",
-      "p_over25": 0.7245,
-      "pred_home_goals": 2,
-      "pred_away_goals": 1
     },
     {
       "utc_date": "2026-11-22T15:15:00Z",
@@ -7456,8 +7441,8 @@
       "correct_1x2": 1,
       "correct_ou": 0,
       "correct_score": 0,
-      "home_goals": 4,
-      "away_goals": 0,
+      "home_goals": null,
+      "away_goals": null,
       "rps_1x2": 0.054
     },
     {
