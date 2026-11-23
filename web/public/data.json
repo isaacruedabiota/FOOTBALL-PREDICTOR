@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T19:01:09.035986+00:00",
+  "generated_at": "2026-11-23T20:01:09.321120+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -6630,21 +6630,6 @@
   },
   "upcoming": [
     {
-      "utc_date": "2026-11-23T19:45:00Z",
-      "competition": "SA",
-      "home_team": "Monza",
-      "away_team": "Fiorentina",
-      "home_crest": "https://crests.football-data.org/5911.png",
-      "away_crest": "https://crests.football-data.org/99.png",
-      "p_home": 0.3489,
-      "p_draw": 0.1974,
-      "p_away": 0.4537,
-      "pick_1x2": "A",
-      "p_over25": 0.7634,
-      "pred_home_goals": 1,
-      "pred_away_goals": 2
-    },
-    {
       "utc_date": "2026-11-23T20:00:00Z",
       "competition": "PL",
       "home_team": "Brentford",
@@ -7558,6 +7543,21 @@
       "p_over25": 0.7285,
       "pred_home_goals": 2,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-12-03T20:00:00Z",
+      "competition": "PL",
+      "home_team": "Tottenham",
+      "away_team": "Fulham",
+      "home_crest": "https://crests.football-data.org/73.png",
+      "away_crest": "https://crests.football-data.org/63.png",
+      "p_home": 0.3828,
+      "p_draw": 0.3377,
+      "p_away": 0.2795,
+      "pick_1x2": "H",
+      "p_over25": 0.2977,
+      "pred_home_goals": 0,
+      "pred_away_goals": 0
     }
   ],
   "recent": [
@@ -8513,8 +8513,8 @@
     }
   ],
   "counts": {
-    "predictions": 605,
+    "predictions": 606,
     "evaluated": 542,
-    "pending": 63
+    "pending": 64
   }
 }
