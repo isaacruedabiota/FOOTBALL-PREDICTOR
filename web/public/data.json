@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T14:01:08.980303+00:00",
+  "generated_at": "2026-11-25T15:01:09.220770+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -7669,6 +7669,141 @@
       "p_over25": 0.6491,
       "pred_home_goals": 0,
       "pred_away_goals": 2
+    },
+    {
+      "utc_date": "2026-12-05T14:30:00Z",
+      "competition": "BL1",
+      "home_team": "Union Berlin",
+      "away_team": "HSV",
+      "home_crest": "https://crests.football-data.org/28.png",
+      "away_crest": "https://crests.football-data.org/7.png",
+      "p_home": 0.4526,
+      "p_draw": 0.2445,
+      "p_away": 0.303,
+      "pick_1x2": "H",
+      "p_over25": 0.495,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-12-05T14:30:00Z",
+      "competition": "BL1",
+      "home_team": "Leverkusen",
+      "away_team": "M'gladbach",
+      "home_crest": "https://crests.football-data.org/3.png",
+      "away_crest": "https://crests.football-data.org/18.png",
+      "p_home": 0.7656,
+      "p_draw": 0.1321,
+      "p_away": 0.1023,
+      "pick_1x2": "H",
+      "p_over25": 0.7423,
+      "pred_home_goals": 2,
+      "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-12-05T14:30:00Z",
+      "competition": "BL1",
+      "home_team": "RB Leipzig",
+      "away_team": "Mainz",
+      "home_crest": "https://crests.football-data.org/721.png",
+      "away_crest": "https://crests.football-data.org/15.png",
+      "p_home": 0.7756,
+      "p_draw": 0.1206,
+      "p_away": 0.1037,
+      "pick_1x2": "H",
+      "p_over25": 0.8211,
+      "pred_home_goals": 3,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-12-05T14:30:00Z",
+      "competition": "BL1",
+      "home_team": "Freiburg",
+      "away_team": "Hoffenheim",
+      "home_crest": "https://crests.football-data.org/17.png",
+      "away_crest": "https://crests.football-data.org/2.png",
+      "p_home": 0.5844,
+      "p_draw": 0.1944,
+      "p_away": 0.2212,
+      "pick_1x2": "H",
+      "p_over25": 0.6682,
+      "pred_home_goals": 2,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-12-05T14:30:00Z",
+      "competition": "BL1",
+      "home_team": "Augsburg",
+      "away_team": "1. FC Köln",
+      "home_crest": "https://crests.football-data.org/16.png",
+      "away_crest": "https://crests.football-data.org/1.png",
+      "p_home": 0.5758,
+      "p_draw": 0.2002,
+      "p_away": 0.224,
+      "pick_1x2": "H",
+      "p_over25": 0.6405,
+      "pred_home_goals": 2,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-12-05T15:00:00Z",
+      "competition": "PL",
+      "home_team": "Man United",
+      "away_team": "Coventry City",
+      "home_crest": "https://crests.football-data.org/66.png",
+      "away_crest": "https://crests.football-data.org/1076.png",
+      "p_home": 0.651,
+      "p_draw": 0.1789,
+      "p_away": 0.1702,
+      "pick_1x2": "H",
+      "p_over25": 0.7748,
+      "pred_home_goals": 2,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-12-05T15:00:00Z",
+      "competition": "PL",
+      "home_team": "Leeds United",
+      "away_team": "Ipswich Town",
+      "home_crest": "https://crests.football-data.org/341.png",
+      "away_crest": "https://crests.football-data.org/349.png",
+      "p_home": 0.6355,
+      "p_draw": 0.2083,
+      "p_away": 0.1562,
+      "pick_1x2": "H",
+      "p_over25": 0.6253,
+      "pred_home_goals": 2,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-12-05T15:00:00Z",
+      "competition": "PL",
+      "home_team": "Bournemouth",
+      "away_team": "Hull City",
+      "home_crest": "https://crests.football-data.org/bournemouth.png",
+      "away_crest": "https://crests.football-data.org/322.png",
+      "p_home": 0.4289,
+      "p_draw": 0.3118,
+      "p_away": 0.2593,
+      "pick_1x2": "H",
+      "p_over25": 0.3612,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-12-05T15:00:00Z",
+      "competition": "PL",
+      "home_team": "Aston Villa",
+      "away_team": "Crystal Palace",
+      "home_crest": "https://crests.football-data.org/58.png",
+      "away_crest": "https://crests.football-data.org/354.png",
+      "p_home": 0.6684,
+      "p_draw": 0.1928,
+      "p_away": 0.1388,
+      "pick_1x2": "H",
+      "p_over25": 0.6564,
+      "pred_home_goals": 2,
+      "pred_away_goals": 1
     }
   ],
   "recent": [
@@ -8624,8 +8759,8 @@
     }
   ],
   "counts": {
-    "predictions": 613,
+    "predictions": 622,
     "evaluated": 545,
-    "pending": 68
+    "pending": 77
   }
 }
