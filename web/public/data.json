@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T13:01:09.267329+00:00",
+  "generated_at": "2026-11-25T14:01:08.980303+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -7654,6 +7654,21 @@
       "p_over25": 0.6919,
       "pred_home_goals": 1,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-12-05T14:00:00Z",
+      "competition": "SA",
+      "home_team": "Monza",
+      "away_team": "Como 1907",
+      "home_crest": "https://crests.football-data.org/5911.png",
+      "away_crest": "https://crests.football-data.org/7397.png",
+      "p_home": 0.1465,
+      "p_draw": 0.1702,
+      "p_away": 0.6833,
+      "pick_1x2": "A",
+      "p_over25": 0.6491,
+      "pred_home_goals": 0,
+      "pred_away_goals": 2
     }
   ],
   "recent": [
@@ -8609,8 +8624,8 @@
     }
   ],
   "counts": {
-    "predictions": 612,
+    "predictions": 613,
     "evaluated": 545,
-    "pending": 67
+    "pending": 68
   }
 }
