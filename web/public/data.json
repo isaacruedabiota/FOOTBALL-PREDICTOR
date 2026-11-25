@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T16:01:09.669632+00:00",
+  "generated_at": "2026-11-25T17:01:08.413723+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -7819,6 +7819,36 @@
       "p_over25": 0.4962,
       "pred_home_goals": 1,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-12-05T16:15:00Z",
+      "competition": "FL1",
+      "home_team": "Lille",
+      "away_team": "Auxerre",
+      "home_crest": "https://crests.football-data.org/521.png",
+      "away_crest": "https://crests.football-data.org/519.png",
+      "p_home": 0.621,
+      "p_draw": 0.2511,
+      "p_away": 0.1279,
+      "pick_1x2": "H",
+      "p_over25": 0.3993,
+      "pred_home_goals": 1,
+      "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-12-05T17:00:00Z",
+      "competition": "SA",
+      "home_team": "Frosinone",
+      "away_team": "Inter",
+      "home_crest": "https://crests.football-data.org/470.png",
+      "away_crest": "https://crests.football-data.org/108.png",
+      "p_home": 0.22,
+      "p_draw": 0.153,
+      "p_away": 0.627,
+      "pick_1x2": "A",
+      "p_over25": 0.892,
+      "pred_home_goals": 1,
+      "pred_away_goals": 3
     }
   ],
   "recent": [
@@ -8774,8 +8804,8 @@
     }
   ],
   "counts": {
-    "predictions": 623,
+    "predictions": 625,
     "evaluated": 545,
-    "pending": 78
+    "pending": 80
   }
 }
