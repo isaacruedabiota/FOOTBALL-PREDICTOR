@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T17:01:08.413723+00:00",
+  "generated_at": "2026-11-25T18:01:09.649704+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -7849,6 +7849,51 @@
       "p_over25": 0.892,
       "pred_home_goals": 1,
       "pred_away_goals": 3
+    },
+    {
+      "utc_date": "2026-12-05T17:30:00Z",
+      "competition": "PL",
+      "home_team": "Nottingham",
+      "away_team": "Brighton Hove",
+      "home_crest": "https://crests.football-data.org/351.png",
+      "away_crest": "https://crests.football-data.org/397.png",
+      "p_home": 0.2364,
+      "p_draw": 0.2888,
+      "p_away": 0.4748,
+      "pick_1x2": "A",
+      "p_over25": 0.4203,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-12-05T17:30:00Z",
+      "competition": "PD",
+      "home_team": "Villarreal",
+      "away_team": "Real Sociedad",
+      "home_crest": "https://crests.football-data.org/94.png",
+      "away_crest": "https://crests.football-data.org/92.png",
+      "p_home": 0.6199,
+      "p_draw": 0.1929,
+      "p_away": 0.1872,
+      "pick_1x2": "H",
+      "p_over25": 0.7388,
+      "pred_home_goals": 2,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-12-05T17:30:00Z",
+      "competition": "BL1",
+      "home_team": "Frankfurt",
+      "away_team": "Bremen",
+      "home_crest": "https://crests.football-data.org/19.png",
+      "away_crest": "https://crests.football-data.org/12.png",
+      "p_home": 0.4546,
+      "p_draw": 0.2159,
+      "p_away": 0.3295,
+      "pick_1x2": "H",
+      "p_over25": 0.6505,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
     }
   ],
   "recent": [
@@ -8804,8 +8849,8 @@
     }
   ],
   "counts": {
-    "predictions": 625,
+    "predictions": 628,
     "evaluated": 545,
-    "pending": 80
+    "pending": 83
   }
 }
