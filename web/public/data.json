@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T15:01:09.220770+00:00",
+  "generated_at": "2026-11-25T16:01:09.669632+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -7804,6 +7804,21 @@
       "p_over25": 0.6564,
       "pred_home_goals": 2,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-12-05T15:15:00Z",
+      "competition": "PD",
+      "home_team": "Rayo Vallecano",
+      "away_team": "Levante",
+      "home_crest": "https://crests.football-data.org/87.png",
+      "away_crest": "https://crests.football-data.org/88.png",
+      "p_home": 0.4546,
+      "p_draw": 0.273,
+      "p_away": 0.2724,
+      "pick_1x2": "H",
+      "p_over25": 0.4962,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
     }
   ],
   "recent": [
@@ -8759,8 +8774,8 @@
     }
   ],
   "counts": {
-    "predictions": 622,
+    "predictions": 623,
     "evaluated": 545,
-    "pending": 77
+    "pending": 78
   }
 }
