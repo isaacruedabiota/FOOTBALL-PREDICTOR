@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T19:01:09.403800+00:00",
+  "generated_at": "2026-11-25T20:01:09.693357+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -7894,6 +7894,126 @@
       "p_over25": 0.6505,
       "pred_home_goals": 1,
       "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-12-05T19:45:00Z",
+      "competition": "SA",
+      "home_team": "Napoli",
+      "away_team": "Lecce",
+      "home_crest": "https://crests.football-data.org/113.png",
+      "away_crest": "https://crests.football-data.org/5890.png",
+      "p_home": 0.6941,
+      "p_draw": 0.1922,
+      "p_away": 0.1137,
+      "pick_1x2": "H",
+      "p_over25": 0.4674,
+      "pred_home_goals": 1,
+      "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-12-05T19:45:00Z",
+      "competition": "FL1",
+      "home_team": "Monaco",
+      "away_team": "Angers SCO",
+      "home_crest": "https://crests.football-data.org/548.png",
+      "away_crest": "https://crests.football-data.org/532.png",
+      "p_home": 0.7126,
+      "p_draw": 0.1902,
+      "p_away": 0.0972,
+      "pick_1x2": "H",
+      "p_over25": 0.5481,
+      "pred_home_goals": 2,
+      "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-12-05T19:45:00Z",
+      "competition": "FL1",
+      "home_team": "RC Lens",
+      "away_team": "Le Havre",
+      "home_crest": "https://crests.football-data.org/546.png",
+      "away_crest": "https://crests.football-data.org/533.png",
+      "p_home": 0.7527,
+      "p_draw": 0.1594,
+      "p_away": 0.0878,
+      "pick_1x2": "H",
+      "p_over25": 0.6529,
+      "pred_home_goals": 2,
+      "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-12-05T19:45:00Z",
+      "competition": "FL1",
+      "home_team": "Strasbourg",
+      "away_team": "Lorient",
+      "home_crest": "https://crests.football-data.org/576.png",
+      "away_crest": "https://crests.football-data.org/525.png",
+      "p_home": 0.431,
+      "p_draw": 0.2699,
+      "p_away": 0.2991,
+      "pick_1x2": "H",
+      "p_over25": 0.5109,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-12-05T19:45:00Z",
+      "competition": "FL1",
+      "home_team": "Paris FC",
+      "away_team": "Le Mans",
+      "home_crest": "https://crests.football-data.org/1045.png",
+      "away_crest": "https://crests.football-data.org/535.png",
+      "p_home": 0.6372,
+      "p_draw": 0.205,
+      "p_away": 0.1578,
+      "pick_1x2": "H",
+      "p_over25": 0.6283,
+      "pred_home_goals": 2,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-12-05T20:00:00Z",
+      "competition": "PL",
+      "home_team": "Brentford",
+      "away_team": "Man City",
+      "home_crest": "https://crests.football-data.org/402.png",
+      "away_crest": "https://crests.football-data.org/65.png",
+      "p_home": 0.3768,
+      "p_draw": 0.2636,
+      "p_away": 0.3597,
+      "pick_1x2": "H",
+      "p_over25": 0.5657,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-12-05T20:00:00Z",
+      "competition": "PD",
+      "home_team": "Barça",
+      "away_team": "Celta",
+      "home_crest": "https://crests.football-data.org/81.png",
+      "away_crest": "https://crests.football-data.org/558.png",
+      "p_home": 0.8137,
+      "p_draw": 0.1261,
+      "p_away": 0.0602,
+      "pick_1x2": "H",
+      "p_over25": 0.712,
+      "pred_home_goals": 2,
+      "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-12-09T19:00:00Z",
+      "competition": "PD",
+      "home_team": "Rayo Vallecano",
+      "away_team": "Athletic",
+      "home_crest": "https://crests.football-data.org/87.png",
+      "away_crest": "https://crests.football-data.org/77.png",
+      "p_home": 0.4661,
+      "p_draw": 0.2802,
+      "p_away": 0.2536,
+      "pick_1x2": "H",
+      "p_over25": 0.4316,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
     }
   ],
   "recent": [
@@ -8849,8 +8969,8 @@
     }
   ],
   "counts": {
-    "predictions": 628,
+    "predictions": 635,
     "evaluated": 545,
-    "pending": 83
+    "pending": 90
   }
 }
