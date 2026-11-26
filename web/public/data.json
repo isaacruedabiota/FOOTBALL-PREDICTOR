@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T19:01:08.763722+00:00",
+  "generated_at": "2026-11-26T20:01:09.000659+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -8196,6 +8196,51 @@
       "pred_away_goals": 0
     },
     {
+      "utc_date": "2026-12-06T19:45:00Z",
+      "competition": "SA",
+      "home_team": "Milan",
+      "away_team": "Parma",
+      "home_crest": "https://crests.football-data.org/98.png",
+      "away_crest": "https://crests.football-data.org/112.png",
+      "p_home": 0.6889,
+      "p_draw": 0.1939,
+      "p_away": 0.1172,
+      "pick_1x2": "H",
+      "p_over25": 0.4684,
+      "pred_home_goals": 1,
+      "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-12-06T19:45:00Z",
+      "competition": "FL1",
+      "home_team": "Marseille",
+      "away_team": "Nice",
+      "home_crest": "https://crests.football-data.org/516.png",
+      "away_crest": "https://crests.football-data.org/522.png",
+      "p_home": 0.6012,
+      "p_draw": 0.207,
+      "p_away": 0.1918,
+      "pick_1x2": "H",
+      "p_over25": 0.6763,
+      "pred_home_goals": 2,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-12-06T20:00:00Z",
+      "competition": "PD",
+      "home_team": "Atleti",
+      "away_team": "Real Betis",
+      "home_crest": "https://crests.football-data.org/78.png",
+      "away_crest": "https://crests.football-data.org/90.png",
+      "p_home": 0.5648,
+      "p_draw": 0.2423,
+      "p_away": 0.1929,
+      "pick_1x2": "H",
+      "p_over25": 0.5412,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
       "utc_date": "2026-12-09T19:00:00Z",
       "competition": "PD",
       "home_team": "Rayo Vallecano",
@@ -9164,8 +9209,8 @@
     }
   ],
   "counts": {
-    "predictions": 648,
+    "predictions": 651,
     "evaluated": 545,
-    "pending": 103
+    "pending": 106
   }
 }
