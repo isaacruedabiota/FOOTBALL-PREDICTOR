@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T11:01:09.179787+00:00",
+  "generated_at": "2026-11-26T12:01:08.122775+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -8001,6 +8001,21 @@
       "pred_away_goals": 0
     },
     {
+      "utc_date": "2026-12-06T11:30:00Z",
+      "competition": "SA",
+      "home_team": "Genoa",
+      "away_team": "Torino",
+      "home_crest": "https://crests.football-data.org/107.png",
+      "away_crest": "https://crests.football-data.org/586.png",
+      "p_home": 0.4297,
+      "p_draw": 0.2621,
+      "p_away": 0.3082,
+      "pick_1x2": "H",
+      "p_over25": 0.4194,
+      "pred_home_goals": 1,
+      "pred_away_goals": 0
+    },
+    {
       "utc_date": "2026-12-09T19:00:00Z",
       "competition": "PD",
       "home_team": "Rayo Vallecano",
@@ -8969,8 +8984,8 @@
     }
   ],
   "counts": {
-    "predictions": 635,
+    "predictions": 636,
     "evaluated": 545,
-    "pending": 90
+    "pending": 91
   }
 }
