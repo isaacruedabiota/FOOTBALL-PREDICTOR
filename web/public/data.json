@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T17:01:09.420060+00:00",
+  "generated_at": "2026-11-26T18:01:09.766704+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -8181,6 +8181,21 @@
       "pred_away_goals": 0
     },
     {
+      "utc_date": "2026-12-06T17:30:00Z",
+      "competition": "PD",
+      "home_team": "Getafe",
+      "away_team": "Valencia",
+      "home_crest": "https://crests.football-data.org/82.png",
+      "away_crest": "https://crests.football-data.org/95.png",
+      "p_home": 0.3216,
+      "p_draw": 0.3762,
+      "p_away": 0.3022,
+      "pick_1x2": "D",
+      "p_over25": 0.2101,
+      "pred_home_goals": 0,
+      "pred_away_goals": 0
+    },
+    {
       "utc_date": "2026-12-09T19:00:00Z",
       "competition": "PD",
       "home_team": "Rayo Vallecano",
@@ -9149,8 +9164,8 @@
     }
   ],
   "counts": {
-    "predictions": 647,
+    "predictions": 648,
     "evaluated": 545,
-    "pending": 102
+    "pending": 103
   }
 }
