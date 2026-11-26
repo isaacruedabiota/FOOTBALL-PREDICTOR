@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T14:01:09.190770+00:00",
+  "generated_at": "2026-11-26T15:01:08.765967+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -8091,6 +8091,21 @@
       "pred_away_goals": 0
     },
     {
+      "utc_date": "2026-12-06T14:30:00Z",
+      "competition": "BL1",
+      "home_team": "Schalke",
+      "away_team": "Dortmund",
+      "home_crest": "https://crests.football-data.org/6.png",
+      "away_crest": "https://crests.football-data.org/4.png",
+      "p_home": 0.1188,
+      "p_draw": 0.378,
+      "p_away": 0.5032,
+      "pick_1x2": "A",
+      "p_over25": 0.1206,
+      "pred_home_goals": 0,
+      "pred_away_goals": 0
+    },
+    {
       "utc_date": "2026-12-09T19:00:00Z",
       "competition": "PD",
       "home_team": "Rayo Vallecano",
@@ -9059,8 +9074,8 @@
     }
   ],
   "counts": {
-    "predictions": 641,
+    "predictions": 642,
     "evaluated": 545,
-    "pending": 96
+    "pending": 97
   }
 }
