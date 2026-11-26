@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T12:01:08.122775+00:00",
+  "generated_at": "2026-11-26T13:01:08.494186+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -8016,6 +8016,21 @@
       "pred_away_goals": 0
     },
     {
+      "utc_date": "2026-12-06T13:00:00Z",
+      "competition": "PD",
+      "home_team": "Osasuna",
+      "away_team": "Elche",
+      "home_crest": "https://crests.football-data.org/79.png",
+      "away_crest": "https://crests.football-data.org/285.png",
+      "p_home": 0.373,
+      "p_draw": 0.2842,
+      "p_away": 0.3428,
+      "pick_1x2": "H",
+      "p_over25": 0.4764,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
       "utc_date": "2026-12-09T19:00:00Z",
       "competition": "PD",
       "home_team": "Rayo Vallecano",
@@ -8984,8 +8999,8 @@
     }
   ],
   "counts": {
-    "predictions": 636,
+    "predictions": 637,
     "evaluated": 545,
-    "pending": 91
+    "pending": 92
   }
 }
