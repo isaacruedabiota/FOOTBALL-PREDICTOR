@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T16:01:09.619320+00:00",
+  "generated_at": "2026-11-26T17:01:09.420060+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -8121,6 +8121,66 @@
       "pred_away_goals": 1
     },
     {
+      "utc_date": "2026-12-06T16:15:00Z",
+      "competition": "FL1",
+      "home_team": "Stade Rennais",
+      "away_team": "Brest",
+      "home_crest": "https://crests.football-data.org/529.png",
+      "away_crest": "https://crests.football-data.org/512.png",
+      "p_home": 0.4831,
+      "p_draw": 0.2235,
+      "p_away": 0.2934,
+      "pick_1x2": "H",
+      "p_over25": 0.7048,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-12-06T16:30:00Z",
+      "competition": "PL",
+      "home_team": "Tottenham",
+      "away_team": "Arsenal",
+      "home_crest": "https://crests.football-data.org/73.png",
+      "away_crest": "https://crests.football-data.org/57.png",
+      "p_home": 0.1565,
+      "p_draw": 0.2991,
+      "p_away": 0.5443,
+      "pick_1x2": "A",
+      "p_over25": 0.3163,
+      "pred_home_goals": 0,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-12-06T16:30:00Z",
+      "competition": "BL1",
+      "home_team": "Elversberg",
+      "away_team": "Stuttgart",
+      "home_crest": "https://crests.football-data.org/719.png",
+      "away_crest": "https://crests.football-data.org/10.png",
+      "p_home": 0.4071,
+      "p_draw": 0.2078,
+      "p_away": 0.3852,
+      "pick_1x2": "H",
+      "p_over25": 0.7125,
+      "pred_home_goals": 1,
+      "pred_away_goals": 1
+    },
+    {
+      "utc_date": "2026-12-06T17:00:00Z",
+      "competition": "SA",
+      "home_team": "Juventus",
+      "away_team": "Udinese",
+      "home_crest": "https://crests.football-data.org/109.png",
+      "away_crest": "https://crests.football-data.org/115.png",
+      "p_home": 0.6433,
+      "p_draw": 0.201,
+      "p_away": 0.1557,
+      "pick_1x2": "H",
+      "p_over25": 0.5169,
+      "pred_home_goals": 1,
+      "pred_away_goals": 0
+    },
+    {
       "utc_date": "2026-12-09T19:00:00Z",
       "competition": "PD",
       "home_team": "Rayo Vallecano",
@@ -9089,8 +9149,8 @@
     }
   ],
   "counts": {
-    "predictions": 643,
+    "predictions": 647,
     "evaluated": 545,
-    "pending": 98
+    "pending": 102
   }
 }
