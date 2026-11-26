@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T15:01:08.765967+00:00",
+  "generated_at": "2026-11-26T16:01:09.619320+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -8106,6 +8106,21 @@
       "pred_away_goals": 0
     },
     {
+      "utc_date": "2026-12-06T15:15:00Z",
+      "competition": "PD",
+      "home_team": "Athletic",
+      "away_team": "Real Madrid",
+      "home_crest": "https://crests.football-data.org/77.png",
+      "away_crest": "https://crests.football-data.org/86.png",
+      "p_home": 0.1638,
+      "p_draw": 0.2421,
+      "p_away": 0.5941,
+      "pick_1x2": "A",
+      "p_over25": 0.4999,
+      "pred_home_goals": 0,
+      "pred_away_goals": 1
+    },
+    {
       "utc_date": "2026-12-09T19:00:00Z",
       "competition": "PD",
       "home_team": "Rayo Vallecano",
@@ -9074,8 +9089,8 @@
     }
   ],
   "counts": {
-    "predictions": 642,
+    "predictions": 643,
     "evaluated": 545,
-    "pending": 97
+    "pending": 98
   }
 }
