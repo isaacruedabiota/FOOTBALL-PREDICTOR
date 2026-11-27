@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T21:01:13.054981+00:00",
+  "generated_at": "2026-11-27T22:01:10.157848+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -8,41 +8,41 @@
   },
   "summary": {
     "dc-v1": {
-      "n": 545,
-      "acc_1x2": 51.7431,
-      "acc_ou": 58.1651,
-      "acc_score": 10.6422,
-      "brier": 0.595,
-      "logloss": 1.0099,
-      "rps": 0.2086
+      "n": 549,
+      "acc_1x2": 51.5483,
+      "acc_ou": 58.2878,
+      "acc_score": 10.5647,
+      "brier": 0.5963,
+      "logloss": 1.0115,
+      "rps": 0.2087
     },
     "elo-v1": {
-      "n": 546,
-      "acc_1x2": 52.9304,
-      "acc_ou": 51.8315,
-      "acc_score": 8.9744,
-      "brier": 0.5852,
-      "logloss": 0.9872,
-      "rps": 0.2054
+      "n": 550,
+      "acc_1x2": 52.7273,
+      "acc_ou": 52.0,
+      "acc_score": 9.0909,
+      "brier": 0.5865,
+      "logloss": 0.9893,
+      "rps": 0.2055
     }
   },
   "by_competition": {
     "dc-v1": [
       {
         "competition": "BL1",
-        "n": 90,
-        "acc_1x2": 53.3333,
-        "acc_ou": 66.6667,
-        "acc_score": 8.8889,
-        "rps": 0.2201
+        "n": 91,
+        "acc_1x2": 52.7473,
+        "acc_ou": 67.033,
+        "acc_score": 8.7912,
+        "rps": 0.2197
       },
       {
         "competition": "FL1",
-        "n": 99,
-        "acc_1x2": 49.4949,
-        "acc_ou": 58.5859,
-        "acc_score": 11.1111,
-        "rps": 0.2226
+        "n": 100,
+        "acc_1x2": 49.0,
+        "acc_ou": 58.0,
+        "acc_score": 11.0,
+        "rps": 0.2232
       },
       {
         "competition": "PD",
@@ -54,37 +54,37 @@
       },
       {
         "competition": "PL",
-        "n": 110,
-        "acc_1x2": 42.7273,
-        "acc_ou": 53.6364,
-        "acc_score": 10.9091,
-        "rps": 0.2229
+        "n": 111,
+        "acc_1x2": 43.2432,
+        "acc_ou": 54.0541,
+        "acc_score": 10.8108,
+        "rps": 0.223
       },
       {
         "competition": "SA",
-        "n": 120,
-        "acc_1x2": 58.3333,
-        "acc_ou": 50.0,
-        "acc_score": 11.6667,
-        "rps": 0.1952
+        "n": 121,
+        "acc_1x2": 57.8512,
+        "acc_ou": 50.4132,
+        "acc_score": 11.5702,
+        "rps": 0.1951
       }
     ],
     "elo-v1": [
       {
         "competition": "BL1",
-        "n": 90,
-        "acc_1x2": 52.2222,
-        "acc_ou": 67.7778,
-        "acc_score": 4.4444,
-        "rps": 0.2029
+        "n": 91,
+        "acc_1x2": 51.6484,
+        "acc_ou": 68.1319,
+        "acc_score": 4.3956,
+        "rps": 0.2028
       },
       {
         "competition": "FL1",
-        "n": 99,
-        "acc_1x2": 51.5152,
-        "acc_ou": 56.5657,
-        "acc_score": 7.0707,
-        "rps": 0.2166
+        "n": 100,
+        "acc_1x2": 51.0,
+        "acc_ou": 56.0,
+        "acc_score": 8.0,
+        "rps": 0.2171
       },
       {
         "competition": "PD",
@@ -96,19 +96,19 @@
       },
       {
         "competition": "PL",
-        "n": 110,
-        "acc_1x2": 47.2727,
-        "acc_ou": 47.2727,
-        "acc_score": 10.9091,
+        "n": 111,
+        "acc_1x2": 47.7477,
+        "acc_ou": 47.7477,
+        "acc_score": 10.8108,
         "rps": 0.2188
       },
       {
         "competition": "SA",
-        "n": 120,
-        "acc_1x2": 59.1667,
-        "acc_ou": 40.0,
-        "acc_score": 7.5,
-        "rps": 0.1966
+        "n": 121,
+        "acc_1x2": 58.6777,
+        "acc_ou": 40.4959,
+        "acc_score": 7.438,
+        "rps": 0.1962
       }
     ]
   },
@@ -3383,6 +3383,30 @@
         "n": 545,
         "acc_1x2": 51.7431,
         "rps": 0.2086
+      },
+      {
+        "date": "2026-11-27",
+        "n": 546,
+        "acc_1x2": 51.6484,
+        "rps": 0.2085
+      },
+      {
+        "date": "2026-11-27",
+        "n": 547,
+        "acc_1x2": 51.5539,
+        "rps": 0.2085
+      },
+      {
+        "date": "2026-11-27",
+        "n": 548,
+        "acc_1x2": 51.4599,
+        "rps": 0.2086
+      },
+      {
+        "date": "2026-11-27",
+        "n": 549,
+        "acc_1x2": 51.5483,
+        "rps": 0.2087
       }
     ],
     "elo-v1": [
@@ -6661,6 +6685,30 @@
         "n": 546,
         "acc_1x2": 52.9304,
         "rps": 0.2054
+      },
+      {
+        "date": "2026-11-27",
+        "n": 547,
+        "acc_1x2": 52.8336,
+        "rps": 0.2054
+      },
+      {
+        "date": "2026-11-27",
+        "n": 548,
+        "acc_1x2": 52.7372,
+        "rps": 0.2053
+      },
+      {
+        "date": "2026-11-27",
+        "n": 549,
+        "acc_1x2": 52.6412,
+        "rps": 0.2054
+      },
+      {
+        "date": "2026-11-27",
+        "n": 550,
+        "acc_1x2": 52.7273,
+        "rps": 0.2055
       }
     ]
   },
@@ -8228,6 +8276,82 @@
   ],
   "recent": [
     {
+      "utc_date": "2026-11-27T20:00:00Z",
+      "competition": "PL",
+      "home_team": "Nottingham",
+      "away_team": "Chelsea",
+      "home_crest": "https://crests.football-data.org/351.png",
+      "away_crest": "https://crests.football-data.org/61.png",
+      "p_home": 0.3919,
+      "p_draw": 0.2656,
+      "p_away": 0.3425,
+      "pick_1x2": "H",
+      "actual_1x2": "H",
+      "correct_1x2": 1,
+      "correct_ou": 1,
+      "correct_score": 0,
+      "home_goals": 3,
+      "away_goals": 2,
+      "rps_1x2": 0.2435
+    },
+    {
+      "utc_date": "2026-11-27T19:45:00Z",
+      "competition": "SA",
+      "home_team": "Venezia FC",
+      "away_team": "Bologna",
+      "home_crest": "https://crests.football-data.org/454.png",
+      "away_crest": "https://crests.football-data.org/103.png",
+      "p_home": 0.1839,
+      "p_draw": 0.2403,
+      "p_away": 0.5758,
+      "pick_1x2": "A",
+      "actual_1x2": "D",
+      "correct_1x2": 0,
+      "correct_ou": 1,
+      "correct_score": 0,
+      "home_goals": 0,
+      "away_goals": 0,
+      "rps_1x2": 0.1827
+    },
+    {
+      "utc_date": "2026-11-27T19:45:00Z",
+      "competition": "FL1",
+      "home_team": "Brest",
+      "away_team": "Paris FC",
+      "home_crest": "https://crests.football-data.org/512.png",
+      "away_crest": "https://crests.football-data.org/1045.png",
+      "p_home": 0.3563,
+      "p_draw": 0.2685,
+      "p_away": 0.3753,
+      "pick_1x2": "A",
+      "actual_1x2": "H",
+      "correct_1x2": 0,
+      "correct_ou": 0,
+      "correct_score": 0,
+      "home_goals": 1,
+      "away_goals": 0,
+      "rps_1x2": 0.2776
+    },
+    {
+      "utc_date": "2026-11-27T19:30:00Z",
+      "competition": "BL1",
+      "home_team": "Bremen",
+      "away_team": "M'gladbach",
+      "home_crest": "https://crests.football-data.org/12.png",
+      "away_crest": "https://crests.football-data.org/18.png",
+      "p_home": 0.5723,
+      "p_draw": 0.2172,
+      "p_away": 0.2105,
+      "pick_1x2": "H",
+      "actual_1x2": "D",
+      "correct_1x2": 0,
+      "correct_ou": 1,
+      "correct_score": 0,
+      "home_goals": 3,
+      "away_goals": 3,
+      "rps_1x2": 0.1859
+    },
+    {
       "utc_date": "2026-11-23T20:00:00Z",
       "competition": "PD",
       "home_team": "Levante",
@@ -9100,87 +9224,11 @@
       "home_goals": 0,
       "away_goals": 1,
       "rps_1x2": 0.42
-    },
-    {
-      "utc_date": "2026-11-20T19:45:00Z",
-      "competition": "FL1",
-      "home_team": "Troyes",
-      "away_team": "Le Havre",
-      "home_crest": "https://crests.football-data.org/531.png",
-      "away_crest": "https://crests.football-data.org/533.png",
-      "p_home": 0.3387,
-      "p_draw": 0.3337,
-      "p_away": 0.3276,
-      "pick_1x2": "H",
-      "actual_1x2": "H",
-      "correct_1x2": 1,
-      "correct_ou": 0,
-      "correct_score": 0,
-      "home_goals": 3,
-      "away_goals": 1,
-      "rps_1x2": 0.2723
-    },
-    {
-      "utc_date": "2026-11-20T19:30:00Z",
-      "competition": "BL1",
-      "home_team": "Bayern",
-      "away_team": "1. FC Köln",
-      "home_crest": "https://crests.football-data.org/5.png",
-      "away_crest": "https://crests.football-data.org/1.png",
-      "p_home": 0.9338,
-      "p_draw": 0.0454,
-      "p_away": 0.0208,
-      "pick_1x2": "H",
-      "actual_1x2": "D",
-      "correct_1x2": 0,
-      "correct_ou": 0,
-      "correct_score": 0,
-      "home_goals": 1,
-      "away_goals": 1,
-      "rps_1x2": 0.4362
-    },
-    {
-      "utc_date": "2026-11-08T20:00:00Z",
-      "competition": "PD",
-      "home_team": "Atleti",
-      "away_team": "Barça",
-      "home_crest": "https://crests.football-data.org/78.png",
-      "away_crest": "https://crests.football-data.org/81.png",
-      "p_home": 0.2928,
-      "p_draw": 0.2421,
-      "p_away": 0.4651,
-      "pick_1x2": "A",
-      "actual_1x2": "A",
-      "correct_1x2": 1,
-      "correct_ou": 1,
-      "correct_score": 0,
-      "home_goals": 1,
-      "away_goals": 2,
-      "rps_1x2": 0.1859
-    },
-    {
-      "utc_date": "2026-11-08T19:45:00Z",
-      "competition": "SA",
-      "home_team": "Fiorentina",
-      "away_team": "Juventus",
-      "home_crest": "https://crests.football-data.org/99.png",
-      "away_crest": "https://crests.football-data.org/109.png",
-      "p_home": 0.2257,
-      "p_draw": 0.2475,
-      "p_away": 0.5267,
-      "pick_1x2": "A",
-      "actual_1x2": "D",
-      "correct_1x2": 0,
-      "correct_ou": 0,
-      "correct_score": 0,
-      "home_goals": 2,
-      "away_goals": 2,
-      "rps_1x2": 0.1642
     }
   ],
   "counts": {
     "predictions": 654,
-    "evaluated": 545,
-    "pending": 109
+    "evaluated": 549,
+    "pending": 105
   }
 }
