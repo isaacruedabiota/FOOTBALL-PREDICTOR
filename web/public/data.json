@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T19:01:13.008981+00:00",
+  "generated_at": "2026-11-27T20:01:16.842043+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -6666,51 +6666,6 @@
   },
   "upcoming": [
     {
-      "utc_date": "2026-11-27T19:30:00Z",
-      "competition": "BL1",
-      "home_team": "Bremen",
-      "away_team": "M'gladbach",
-      "home_crest": "https://crests.football-data.org/12.png",
-      "away_crest": "https://crests.football-data.org/18.png",
-      "p_home": 0.5723,
-      "p_draw": 0.2172,
-      "p_away": 0.2105,
-      "pick_1x2": "H",
-      "p_over25": 0.5786,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
-    {
-      "utc_date": "2026-11-27T19:45:00Z",
-      "competition": "SA",
-      "home_team": "Venezia FC",
-      "away_team": "Bologna",
-      "home_crest": "https://crests.football-data.org/454.png",
-      "away_crest": "https://crests.football-data.org/103.png",
-      "p_home": 0.1839,
-      "p_draw": 0.2403,
-      "p_away": 0.5758,
-      "pick_1x2": "A",
-      "p_over25": 0.4101,
-      "pred_home_goals": 0,
-      "pred_away_goals": 1
-    },
-    {
-      "utc_date": "2026-11-27T19:45:00Z",
-      "competition": "FL1",
-      "home_team": "Brest",
-      "away_team": "Paris FC",
-      "home_crest": "https://crests.football-data.org/512.png",
-      "away_crest": "https://crests.football-data.org/1045.png",
-      "p_home": 0.3563,
-      "p_draw": 0.2685,
-      "p_away": 0.3753,
-      "pick_1x2": "A",
-      "p_over25": 0.5333,
-      "pred_home_goals": 1,
-      "pred_away_goals": 1
-    },
-    {
       "utc_date": "2026-11-27T20:00:00Z",
       "competition": "PL",
       "home_team": "Nottingham",
@@ -8256,6 +8211,36 @@
       "pred_away_goals": 1
     },
     {
+      "utc_date": "2026-12-07T19:45:00Z",
+      "competition": "SA",
+      "home_team": "Fiorentina",
+      "away_team": "Cagliari",
+      "home_crest": "https://crests.football-data.org/99.png",
+      "away_crest": "https://crests.football-data.org/104.png",
+      "p_home": 0.4172,
+      "p_draw": 0.2627,
+      "p_away": 0.3201,
+      "pick_1x2": "H",
+      "p_over25": 0.4207,
+      "pred_home_goals": 1,
+      "pred_away_goals": 0
+    },
+    {
+      "utc_date": "2026-12-07T20:00:00Z",
+      "competition": "PD",
+      "home_team": "Sevilla FC",
+      "away_team": "Málaga",
+      "home_crest": "https://crests.football-data.org/559.png",
+      "away_crest": "https://crests.football-data.org/84.png",
+      "p_home": 0.6792,
+      "p_draw": 0.2159,
+      "p_away": 0.1049,
+      "pick_1x2": "H",
+      "p_over25": 0.479,
+      "pred_home_goals": 2,
+      "pred_away_goals": 0
+    },
+    {
       "utc_date": "2026-12-09T19:00:00Z",
       "competition": "PD",
       "home_team": "Rayo Vallecano",
@@ -9224,8 +9209,8 @@
     }
   ],
   "counts": {
-    "predictions": 652,
+    "predictions": 654,
     "evaluated": 545,
-    "pending": 107
+    "pending": 109
   }
 }
