@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T17:01:16.101303+00:00",
+  "generated_at": "2026-11-27T18:01:15.754976+00:00",
   "main_model": "dc-v1",
   "baseline_model": "elo-v1",
   "labels": {
@@ -8241,6 +8241,21 @@
       "pred_away_goals": 1
     },
     {
+      "utc_date": "2026-12-07T17:30:00Z",
+      "competition": "SA",
+      "home_team": "Venezia FC",
+      "away_team": "Sassuolo",
+      "home_crest": "https://crests.football-data.org/454.png",
+      "away_crest": "https://crests.football-data.org/471.png",
+      "p_home": 0.2388,
+      "p_draw": 0.2357,
+      "p_away": 0.5255,
+      "pick_1x2": "A",
+      "p_over25": 0.4817,
+      "pred_home_goals": 0,
+      "pred_away_goals": 1
+    },
+    {
       "utc_date": "2026-12-09T19:00:00Z",
       "competition": "PD",
       "home_team": "Rayo Vallecano",
@@ -9209,8 +9224,8 @@
     }
   ],
   "counts": {
-    "predictions": 651,
+    "predictions": 652,
     "evaluated": 545,
-    "pending": 106
+    "pending": 107
   }
 }
